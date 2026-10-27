@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "amazon-ads",
+  "version": 1,
+  "name": "Amazon Ads",
+  "provider": "Amazon Europe Core S.à r.l.",
+  "category": "marketing",
+  "purpose": "Shows Amazon ads and measures them.",
+  "privacyUrl": "https://advertising.amazon.com/legal/privacy-notice",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "amazon-adsystem.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ad-id",
+      "lifetime": "190 days",
+      "purpose": "Ad delivery."
+    },
+    {
+      "name": "ad-privacy",
+      "lifetime": "5 years",
+      "purpose": "Stores the ad opt-out."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://advertising.amazon.com/en-gb/resources/ad-policy/sponsored-ads-additional-policies",
+    "https://advertising.amazon.com/resources/ad-policy/eu-data-protection-and-privacy",
+    "https://advertising.amazon.com/legal/privacy-notice",
+    "https://www.dataprivacyframework.gov/participant/5776",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

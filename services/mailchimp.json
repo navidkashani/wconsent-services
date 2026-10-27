@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "mailchimp",
+  "version": 2,
+  "name": "Mailchimp",
+  "provider": "The Rocket Science Group LLC",
+  "category": "marketing",
+  "purpose": "Tracks visits for email marketing.",
+  "privacyUrl": "https://www.intuit.com/privacy/statement/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "chimpstatic.com/mcjs-connected"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "mailchimp_user_email",
+      "lifetime": "30 days",
+      "purpose": "Remembers the shopper's email for cart reminders."
+    },
+    {
+      "name": "mailchimp.cart.previous_email",
+      "lifetime": "30 days",
+      "purpose": "Clears old cart data after an email change."
+    },
+    {
+      "name": "mailchimp.cart.current_email",
+      "lifetime": "30 days",
+      "purpose": "Holds the shopper's email for the current cart."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "mailchimp-for-woocommerce/mailchimp-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.intuit.com/privacy/statement/",
+    "https://mailchimp.com/legal/cookies/",
+    "https://github.com/mailchimp/mc-woocommerce/wiki/Enable-or-Disable-Cookie-Filter",
+    "https://wordpress.org/plugins/mailchimp-for-woocommerce/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

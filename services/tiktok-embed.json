@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "tiktok-embed",
+  "version": 2,
+  "name": "TikTok embeds",
+  "provider": "TikTok Technology Limited",
+  "category": "media",
+  "purpose": "Shows embedded videos.",
+  "privacyUrl": "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
+  "dataCountry": "USA, Malaysia and Singapore",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "tiktok.com/embed",
+      "tiktok.com/embed.js",
+      "tiktok.com/player"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ttwid",
+      "lifetime": "1 year",
+      "purpose": "Security and statistics for embedded videos."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
+    "https://www.tiktok.com/legal/page/global/cookie-policy/en",
+    "https://developers.tiktok.com/doc/embed-videos"
+  ],
+  "checked": "2026-10-27"
+}

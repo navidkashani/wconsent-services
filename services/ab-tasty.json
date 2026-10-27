@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "ab-tasty",
+  "version": 2,
+  "name": "AB Tasty",
+  "provider": "",
+  "category": "statistics",
+  "purpose": "Runs A/B tests and measures their results.",
+  "privacyUrl": "https://wingify.com/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "abtasty.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ABTasty",
+      "lifetime": "13 months",
+      "purpose": "Remembers the visitor and the test version shown."
+    },
+    {
+      "name": "ABTastySession",
+      "lifetime": "30 minutes of inactivity",
+      "purpose": "Tells whether a new visit has started."
+    }
+  ],
+  "storage": [
+    "ABTastyData",
+    "ABTastyUA",
+    "ABTastyGeoloc",
+    "ABTastyWidgets",
+    "ABTastyWidgetsTemporary",
+    "ABTastyEngagementLevel",
+    "ABTIsDatalayerChecked"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.abtasty.com/client-side/tag/tag-cookies",
+    "https://docs.abtasty.com/account/performance-and-security/consent-policy---cookies-storage-and-privacy",
+    "https://wingify.com/privacy-policy/",
+    "https://github.com/jkwakman/Open-Cookie-Database"
+  ],
+  "checked": "2026-10-27"
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "criteo",
+  "version": 2,
+  "name": "Criteo",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Shows ads to past visitors.",
+  "privacyUrl": "https://www.criteo.com/privacy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "criteo.com",
+      "criteo.net"
+    ],
+    "inline": [
+      "criteo_q"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.criteo.com/privacy/"
+  ],
+  "checked": "2026-10-27"
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "reddit-pixel",
+  "version": 2,
+  "name": "Reddit Pixel",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Measures Reddit ads.",
+  "privacyUrl": "https://www.reddit.com/policies/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "redditstatic.com/ads",
+      "alb.reddit.com"
+    ],
+    "inline": [
+      "rdt('init'",
+      "rdt(\"init\""
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_rdt_uuid",
+      "lifetime": "3 months",
+      "purpose": "Ad measurement."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.redditinc.com/policies/privacy-policy",
+    "https://www.dataprivacyframework.gov/participant/Reddit-Inc-5735",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

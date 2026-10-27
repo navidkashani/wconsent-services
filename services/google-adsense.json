@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "google-adsense",
+  "version": 1,
+  "name": "Google AdSense",
+  "provider": "Google Ireland Limited",
+  "category": "marketing",
+  "purpose": "Shows ads on this site.",
+  "privacyUrl": "https://policies.google.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "pagead2.googlesyndication.com",
+      "googlesyndication.com",
+      "adservice.google.com",
+      "fundingchoicesmessages.google.com"
+    ],
+    "inline": [
+      "adsbygoogle"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "__gads",
+      "lifetime": "13 months",
+      "purpose": "Ad delivery and measurement."
+    },
+    {
+      "name": "__gpi",
+      "lifetime": "13 months",
+      "purpose": "Ad delivery and measurement."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": true,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://business.safety.google/adscookies/",
+    "https://policies.google.com/technologies/cookies",
+    "https://policies.google.com/privacy/frameworks",
+    "https://policies.google.com/privacy",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

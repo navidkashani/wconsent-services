@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "pinterest-tag",
+  "version": 1,
+  "name": "Pinterest Tag",
+  "provider": "Pinterest Europe Limited",
+  "category": "marketing",
+  "purpose": "Measures Pinterest ads.",
+  "privacyUrl": "https://policy.pinterest.com/en/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "s.pinimg.com/ct",
+      "ct.pinterest.com"
+    ],
+    "inline": [
+      "pintrk('load'",
+      "pintrk(\"load\"",
+      "s.pinimg.com/ct/core.js"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_pin_unauth",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_epik",
+      "lifetime": "1 year",
+      "purpose": "Stores the ad click."
+    },
+    {
+      "name": "_derived_epik",
+      "lifetime": "1 year",
+      "purpose": "Ad measurement."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://policy.pinterest.com/en/privacy-policy",
+    "https://help.pinterest.com/en/business/article/pinterest-tag-parameters-and-cookies",
+    "https://help.pinterest.com/en/business/article/install-the-base-code",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

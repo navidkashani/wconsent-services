@@ -1,0 +1,108 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "vwo",
+  "version": 2,
+  "name": "VWO",
+  "provider": "Wingify Software Pvt. Ltd.",
+  "category": "statistics",
+  "purpose": "Runs A/B tests and measures their results.",
+  "privacyUrl": "https://wingify.com/privacy-policy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "visualwebsiteoptimizer.com"
+    ],
+    "inline": [
+      "_vwo_code",
+      "_vwo_settings_timer"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_vwo_uuid_v2",
+      "lifetime": "366 days",
+      "purpose": "Counts unique visitors."
+    },
+    {
+      "name": "_vwo_uuid",
+      "lifetime": "365 days",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_vwo_ds",
+      "lifetime": "Set by the site's account",
+      "purpose": "Keeps visitor data for behaviour reports."
+    },
+    {
+      "name": "_vwo_sn",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps the current session."
+    },
+    {
+      "name": "_vis_opt_s",
+      "lifetime": "100 days",
+      "purpose": "Counts the visitor's browser sessions."
+    },
+    {
+      "name": "_vis_opt_exp_*",
+      "lifetime": "100 days",
+      "purpose": "Remembers the test version shown."
+    },
+    {
+      "name": "_wingify_uuid_v2",
+      "lifetime": "366 days",
+      "purpose": "Counts unique visitors."
+    },
+    {
+      "name": "_wingify_uuid",
+      "lifetime": "365 days",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_wingify_ds",
+      "lifetime": "Set by the site's account",
+      "purpose": "Keeps visitor data for behaviour reports."
+    },
+    {
+      "name": "_wingify_sn",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps the current session."
+    },
+    {
+      "name": "_wingify_s",
+      "lifetime": "100 days",
+      "purpose": "Counts the visitor's browser sessions."
+    },
+    {
+      "name": "_wingify_exp_*",
+      "lifetime": "100 days",
+      "purpose": "Remembers the test version shown."
+    }
+  ],
+  "storage": [
+    "_vwo_nlsCache",
+    "vwoSn",
+    "_vwo_eventHist",
+    "_vwo_visProps",
+    "_wingify_nlsCache",
+    "wingifySn",
+    "_wingify_eventHist"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://help.wingify.com/hc/en-us/articles/58793798517785-Cookies-Stored-by-Wingify",
+    "https://help.wingify.com/hc/en-us/articles/58762181710361-Wingify-Local-Storage-Keys",
+    "https://wingify.com/privacy-policy/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

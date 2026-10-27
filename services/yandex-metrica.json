@@ -1,0 +1,77 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "yandex-metrica",
+  "version": 2,
+  "name": "Yandex Metrica",
+  "provider": "Air Smart Advertising Solutions FZ-LLC",
+  "category": "statistics",
+  "purpose": "Measures visits, with heatmaps and session recordings.",
+  "privacyUrl": "https://yandex.com/legal/confidential/en/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "mc.yandex.ru",
+      "mc.yandex.com",
+      "mc.webvisor.org"
+    ],
+    "inline": [
+      "mc.yandex.ru/metrika",
+      "accurateTrackBounce"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_ym_uid",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_ym_d",
+      "lifetime": "1 year",
+      "purpose": "Stores the first visit date."
+    },
+    {
+      "name": "_ym_isad",
+      "lifetime": "20 hours",
+      "purpose": "Detects ad blockers."
+    },
+    {
+      "name": "_ym_visorc*",
+      "lifetime": "30 minutes",
+      "purpose": "Joins page views into one recording."
+    },
+    {
+      "name": "_ym_metrika_enabled",
+      "lifetime": "60 minutes",
+      "purpose": "Checks that cookies work."
+    },
+    {
+      "name": "_ym_hostIndex",
+      "lifetime": "1 day",
+      "purpose": "Limits the number of requests."
+    }
+  ],
+  "storage": [
+    "_ym_uid",
+    "_ym_retryReqs",
+    "_ym_hide_phones"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://yandex.com/legal/confidential/en/",
+    "https://yandex.com/legal/metrica_termsofuse/en/",
+    "https://yandex.com/legal/metrica_agreement/en/",
+    "https://yandex.com/support/metrica/en/general/cookie-usage",
+    "https://yandex.com/support/metrica/en/code/counter-initialize"
+  ],
+  "checked": "2026-10-27"
+}

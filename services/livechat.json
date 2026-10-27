@@ -1,0 +1,64 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "livechat",
+  "version": 2,
+  "name": "LiveChat",
+  "provider": "Text, Inc.",
+  "category": "functional",
+  "purpose": "Live chat.",
+  "privacyUrl": "https://www.livechat.com/legal/privacy-policy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework) or EU, chosen by the site",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "livechatinc.com"
+    ],
+    "inline": [
+      "__lc.license"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "__lc_cid",
+      "lifetime": "2 years",
+      "purpose": "Tells chat visitors apart."
+    },
+    {
+      "name": "__lc_cst",
+      "lifetime": "2 years",
+      "purpose": "Verifies the chat visitor."
+    },
+    {
+      "name": "__lc2_cid",
+      "lifetime": "3 years",
+      "purpose": "Tells chat visitors apart."
+    },
+    {
+      "name": "__lc2_cst",
+      "lifetime": "3 years",
+      "purpose": "Tells chat visitors apart."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "livechat-woocommerce/livechat.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.livechat.com/legal/privacy-policy/",
+    "https://platform.text.com/docs/authorization/customer-authorization",
+    "https://www.text.com/legal/service-cookies-notice/",
+    "https://www.livechat.com/features/data-center-in-europe/",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/livechat-woocommerce/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

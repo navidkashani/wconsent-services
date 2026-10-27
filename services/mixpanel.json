@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "mixpanel",
+  "version": 1,
+  "name": "Mixpanel",
+  "provider": "Mixpanel, Inc.",
+  "category": "statistics",
+  "purpose": "Measures how visitors use the site.",
+  "privacyUrl": "https://mixpanel.com/legal/privacy-policy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "mixpanel.com",
+      "mxpnl.com"
+    ],
+    "inline": [
+      "mixpanel.init(",
+      "cdn.mxpnl.com/libs/mixpanel"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "mp_*",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://mixpanel.com/legal/privacy-policy/",
+    "https://docs.mixpanel.com/docs/tracking-methods/sdks/javascript",
+    "https://dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

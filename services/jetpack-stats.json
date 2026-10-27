@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "jetpack-stats",
+  "version": 2,
+  "name": "Jetpack Stats",
+  "provider": "Aut O'Mattic A8C Ireland Ltd.",
+  "category": "statistics",
+  "purpose": "Counts visits.",
+  "privacyUrl": "https://automattic.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "stats.wp.com",
+      "pixel.wp.com"
+    ],
+    "inline": [
+      "_stq.push("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "jetpack/jetpack.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://automattic.com/privacy/",
+    "https://jetpack.com/support/cookies/",
+    "https://jetpack.com/support/jetpack-stats/",
+    "https://wordpress.org/plugins/jetpack/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

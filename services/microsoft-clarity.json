@@ -1,0 +1,81 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "microsoft-clarity",
+  "version": 2,
+  "name": "Microsoft Clarity",
+  "provider": "Microsoft Ireland Operations Limited",
+  "category": "statistics",
+  "purpose": "Heatmaps and session recordings.",
+  "privacyUrl": "https://www.microsoft.com/en-us/privacy/privacystatement",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "clarity.ms",
+      "www.clarity.ms"
+    ],
+    "inline": [
+      "clarity.ms/tag/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_clck",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_clsk",
+      "lifetime": "Session",
+      "purpose": "Joins page views into one recording."
+    },
+    {
+      "name": "CLID",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart.",
+      "httpOnly": true
+    },
+    {
+      "name": "MUID",
+      "lifetime": "1 year",
+      "purpose": "Tells browsers apart."
+    },
+    {
+      "name": "SM",
+      "lifetime": "Session",
+      "purpose": "Syncs the Microsoft browser ID."
+    },
+    {
+      "name": "MR",
+      "lifetime": "6 months",
+      "purpose": "Flags when the Microsoft browser ID is refreshed."
+    },
+    {
+      "name": "ANONCHK",
+      "lifetime": "10 minutes",
+      "purpose": "Checks if the Microsoft ID is used for ads."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "microsoft-clarity/clarity.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-cookies",
+    "https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup",
+    "https://learn.microsoft.com/en-us/clarity/faq",
+    "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://wordpress.org/plugins/microsoft-clarity/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

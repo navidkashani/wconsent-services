@@ -1,0 +1,37 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "fathom",
+  "version": 2,
+  "name": "Fathom Analytics",
+  "provider": "Conva Ventures Inc.",
+  "category": "statistics",
+  "purpose": "Measures visits without cookies.",
+  "privacyUrl": "https://usefathom.com/legal/privacy",
+  "dataCountry": "EU and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.usefathom.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "fathom-analytics/fathom-analytics.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://usefathom.com/legal/privacy",
+    "https://usefathom.com/features/data-isolation",
+    "https://usefathom.com/legal/security",
+    "https://wordpress.org/plugins/fathom-analytics/"
+  ],
+  "checked": "2026-10-27"
+}

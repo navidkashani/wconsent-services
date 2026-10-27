@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "typeform",
+  "version": 2,
+  "name": "Typeform",
+  "provider": "Typeform SL",
+  "category": "functional",
+  "purpose": "Shows embedded forms and surveys.",
+  "privacyUrl": "https://www.typeform.com/legal/privacy-policy",
+  "dataCountry": "EU",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "typeform.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "tf_respondent_cc",
+      "lifetime": "6 months",
+      "purpose": "Keeps the form working."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "typeform/index.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.typeform.com/legal/privacy-policy",
+    "https://www.typeform.com/legal/cookie-policy",
+    "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
+    "https://wordpress.org/plugins/typeform/"
+  ],
+  "checked": "2026-10-27"
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "cloudflare-web-analytics",
+  "version": 1,
+  "name": "Cloudflare Web Analytics",
+  "provider": "Cloudflare, Inc.",
+  "category": "statistics",
+  "purpose": "Measures visits without cookies.",
+  "privacyUrl": "https://www.cloudflare.com/privacypolicy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cloudflareinsights.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.cloudflare.com/privacypolicy/",
+    "https://developers.cloudflare.com/speed/observatory/rum-beacon/",
+    "https://developers.cloudflare.com/web-analytics/data-metrics/data-origin-and-collection/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

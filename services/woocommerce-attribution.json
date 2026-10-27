@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "woocommerce-attribution",
+  "version": 2,
+  "name": "WooCommerce order attribution",
+  "provider": "This website",
+  "category": "marketing",
+  "purpose": "Records which campaign or website brought you here, saved with your order.",
+  "privacyUrl": "https://woocommerce.com/document/order-attribution-tracking/",
+  "dataCountry": "Stays on this website",
+  "legalBasis": "consent",
+  "match": {},
+  "cookies": [
+    {
+      "name": "sbjs_session",
+      "lifetime": "30 minutes",
+      "purpose": "Counts page views in this visit."
+    },
+    {
+      "name": "sbjs_*",
+      "lifetime": "Session",
+      "purpose": "Where your visit came from (source, campaign, first and current visit)."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "woocommerce/woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://woocommerce.com/document/order-attribution-tracking/",
+    "https://wordpress.org/plugins/woocommerce/",
+    "https://github.com/jkwakman/Open-Cookie-Database"
+  ],
+  "checked": "2026-10-27"
+}

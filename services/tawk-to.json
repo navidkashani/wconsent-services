@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "tawk-to",
+  "version": 2,
+  "name": "tawk.to",
+  "provider": "tawk.to, Inc.",
+  "category": "functional",
+  "purpose": "Live chat.",
+  "privacyUrl": "https://www.tawk.to/privacy-policy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "tawk.to"
+    ],
+    "inline": [
+      "Tawk_API"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "tawk_uuid_*",
+      "lifetime": "6 months",
+      "purpose": "Recognises returning chat visitors."
+    },
+    {
+      "name": "twk_idm_key",
+      "lifetime": "Session",
+      "purpose": "Limits repeated chat connection requests."
+    },
+    {
+      "name": "TawkConnectionTime",
+      "lifetime": "Session",
+      "purpose": "Manages the chat connection across tabs."
+    }
+  ],
+  "storage": [
+    "twk_token_*",
+    "PreviousNav"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "tawkto-live-chat/tawkto.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.tawk.to/privacy-policy/",
+    "https://help.tawk.to/article/what-are-tawkto-cookies-and-what-do-they-do",
+    "https://help.tawk.to/article/enabling-and-managing-your-consent-form",
+    "https://wordpress.org/plugins/tawkto-live-chat/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

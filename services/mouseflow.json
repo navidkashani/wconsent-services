@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "mouseflow",
+  "version": 2,
+  "name": "Mouseflow",
+  "provider": "Mouseflow ApS",
+  "category": "statistics",
+  "purpose": "Heatmaps and session recordings.",
+  "privacyUrl": "https://mouseflow.com/legal/privacy-policy/",
+  "dataCountry": "EU",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "mouseflow.com"
+    ],
+    "inline": [
+      "window._mfq"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "mf_user",
+      "lifetime": "90 days",
+      "purpose": "Tells new from returning visitors."
+    },
+    {
+      "name": "mf_*",
+      "lifetime": "Session",
+      "purpose": "Identifies the current session."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "mouseflow-for-wordpress/mouseflow-for-wordpress.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://mouseflow.com/legal/privacy-policy/",
+    "https://help.mouseflow.com/en/articles/4282966-what-is-your-cookie-policy",
+    "https://mouseflow.com/legal/cookie-policy/",
+    "https://wordpress.org/plugins/mouseflow-for-wordpress/"
+  ],
+  "checked": "2026-10-27"
+}

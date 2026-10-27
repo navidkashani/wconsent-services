@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "disqus",
+  "version": 2,
+  "name": "Disqus",
+  "provider": "",
+  "category": "media",
+  "purpose": "Shows the comments section.",
+  "privacyUrl": "https://help.disqus.com/en/articles/1717103-disqus-privacy-policy",
+  "dataCountry": "USA, India and the Philippines",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "disqus.com",
+      "disquscdn.com"
+    ],
+    "inline": [
+      "disqus_config",
+      "disqus_shortname"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [
+      "disqus-comment-system/disqus.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://help.disqus.com/en/articles/1717103-disqus-privacy-policy",
+    "https://help.disqus.com/en/articles/1717155-use-of-cookies",
+    "https://wordpress.org/plugins/disqus-comment-system/"
+  ],
+  "checked": "2026-10-27"
+}

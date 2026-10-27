@@ -1,0 +1,86 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "lucky-orange",
+  "version": 2,
+  "name": "Lucky Orange",
+  "provider": "Lucky Orange LLC",
+  "category": "statistics",
+  "purpose": "Heatmaps and session recordings.",
+  "privacyUrl": "https://www.luckyorange.com/legal/privacy-policy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "luckyorange.com",
+      "luckyorange.net"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "lo-uid",
+      "lifetime": "2 years",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "lo-visits",
+      "lifetime": "2 years",
+      "purpose": "Counts visits."
+    },
+    {
+      "name": "lo-opt-out",
+      "lifetime": "2 years",
+      "purpose": "Remembers that a visitor opted out of tracking."
+    },
+    {
+      "name": "_lo_uid",
+      "lifetime": "2 years",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_lo_v",
+      "lifetime": "1 year",
+      "purpose": "Counts visits."
+    },
+    {
+      "name": "_lo_rid",
+      "lifetime": "30 minutes",
+      "purpose": "Joins page views into one recording."
+    },
+    {
+      "name": "__lotl",
+      "lifetime": "180 days",
+      "purpose": "Stores the first landing page."
+    },
+    {
+      "name": "__lotr",
+      "lifetime": "180 days",
+      "purpose": "Stores where the visitor came from."
+    }
+  ],
+  "storage": [
+    "lo-session",
+    "lo-visitor",
+    "lo-messenger"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "lucky-orange/lucky_wordpress.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.luckyorange.com/legal/privacy-policy",
+    "https://developers.luckyorange.com/libraries/browser/cookies-storage",
+    "https://www.luckyorange.com/legal/subprocessors",
+    "https://www.luckyorange.com/legal/data-processing-agreement",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/lucky-orange/",
+    "https://github.com/jkwakman/Open-Cookie-Database"
+  ],
+  "checked": "2026-10-27"
+}

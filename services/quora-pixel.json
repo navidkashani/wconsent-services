@@ -1,0 +1,37 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "quora-pixel",
+  "version": 2,
+  "name": "Quora Pixel",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Measures Quora ads.",
+  "privacyUrl": "",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "a.quora.com/qevents.js",
+      "q.quora.com"
+    ],
+    "inline": [
+      "qp('init'",
+      "qp(\"init\""
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://business.quora.com/"
+  ],
+  "checked": "2026-10-27"
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "youtube",
+  "version": 2,
+  "name": "YouTube",
+  "provider": "Google Ireland Limited",
+  "category": "media",
+  "purpose": "Shows embedded videos.",
+  "privacyUrl": "https://policies.google.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "youtube.com/embed",
+      "youtube-nocookie.com/embed",
+      "youtube.com/iframe_api",
+      "youtube.com/s/player"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "YSC",
+      "lifetime": "Session",
+      "purpose": "Checks that requests come from the visitor."
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "lifetime": "6 months",
+      "purpose": "Video recommendations and statistics."
+    },
+    {
+      "name": "__Secure-YNID",
+      "lifetime": "6 months",
+      "purpose": "Video preferences and statistics."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://policies.google.com/technologies/cookies",
+    "https://business.safety.google/adscookies/",
+    "https://policies.google.com/privacy/frameworks",
+    "https://policies.google.com/privacy",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

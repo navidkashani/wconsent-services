@@ -1,0 +1,35 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "plausible",
+  "version": 1,
+  "name": "Plausible Analytics",
+  "provider": "Plausible Insights OÜ",
+  "category": "statistics",
+  "purpose": "Measures visits without cookies.",
+  "privacyUrl": "https://plausible.io/privacy",
+  "dataCountry": "EU (Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "plausible.io"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "plausible-analytics/plausible-analytics.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://plausible.io/privacy",
+    "https://wordpress.org/plugins/plausible-analytics/"
+  ],
+  "checked": "2026-10-27"
+}

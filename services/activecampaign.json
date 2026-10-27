@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "activecampaign",
+  "version": 2,
+  "name": "ActiveCampaign",
+  "provider": "ActiveCampaign, LLC",
+  "category": "marketing",
+  "purpose": "Tracks visits for email marketing.",
+  "privacyUrl": "https://www.activecampaign.com/legal/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "diffuser-cdn.app-us1.com",
+      "prism.app-us1.com",
+      "trackcmp.net"
+    ],
+    "inline": [
+      "vgo('setAccount'",
+      "vgo(\"setAccount\""
+    ]
+  },
+  "cookies": [
+    {
+      "name": "prism_*",
+      "lifetime": "30 days",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "ac_enable_tracking",
+      "lifetime": "30 days",
+      "purpose": "Records that tracking is on."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "activecampaign-for-woocommerce/activecampaign-for-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.activecampaign.com/legal/privacy-policy",
+    "https://wordpress.org/plugins/activecampaign-for-woocommerce/",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

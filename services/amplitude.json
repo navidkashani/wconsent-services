@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "amplitude",
+  "version": 2,
+  "name": "Amplitude",
+  "provider": "Amplitude, Inc.",
+  "category": "statistics",
+  "purpose": "Measures how visitors use the site.",
+  "privacyUrl": "https://amplitude.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "amplitude.com"
+    ],
+    "inline": [
+      "amplitude.init(",
+      "amplitude.getInstance().init("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "AMP_*",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "AMP_MKTG_*",
+      "lifetime": "1 year",
+      "purpose": "Stores where the visitor came from."
+    }
+  ],
+  "storage": [
+    "AMP_unsent_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://amplitude.com/privacy",
+    "https://amplitude.com/docs/sdks/analytics/browser/cookies-and-consent-management",
+    "https://amplitude.com/docs/sdks/analytics/browser/browser-sdk-2",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

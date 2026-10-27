@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "paypal",
+  "version": 2,
+  "name": "PayPal",
+  "provider": "PayPal (Europe) S.à r.l. et Cie, S.C.A.",
+  "category": "essential",
+  "purpose": "Processes PayPal payments and prevents fraud.",
+  "privacyUrl": "https://www.paypal.com/ie/legalhub/paypal/privacy-full",
+  "dataCountry": "",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "paypal.com/sdk/js",
+      "paypalobjects.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ts_c",
+      "lifetime": "3 years",
+      "purpose": "Fraud prevention."
+    },
+    {
+      "name": "tsrce",
+      "lifetime": "Session",
+      "purpose": "Payment processing."
+    },
+    {
+      "name": "x-pp-s",
+      "lifetime": "Session",
+      "purpose": "Payment processing."
+    },
+    {
+      "name": "nsid",
+      "lifetime": "Session",
+      "purpose": "Fraud prevention."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "woocommerce-paypal-payments/woocommerce-paypal-payments.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.paypal.com/ie/legalhub/paypal/privacy-full",
+    "https://www.paypal.com/uk/legalhub/paypal/cookie-full",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://wordpress.org/plugins/woocommerce-paypal-payments/"
+  ],
+  "checked": "2026-10-27"
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "posthog",
+  "version": 2,
+  "name": "PostHog",
+  "provider": "PostHog Inc.",
+  "category": "statistics",
+  "purpose": "Measures how visitors use the site.",
+  "privacyUrl": "https://posthog.com/privacy",
+  "dataCountry": "EU (Germany) or USA (chosen by the site; EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "posthog.com"
+    ],
+    "inline": [
+      "posthog.init("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ph_phc_*",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://posthog.com/privacy",
+    "https://posthog.com/docs/privacy/gdpr-compliance",
+    "https://posthog.com/docs/libraries/js/persistence",
+    "https://posthog.com/docs/libraries/js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

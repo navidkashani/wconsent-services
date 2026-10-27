@@ -1,0 +1,77 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "linkedin-insight",
+  "version": 2,
+  "name": "LinkedIn Insight Tag",
+  "provider": "LinkedIn Ireland Unlimited Company",
+  "category": "marketing",
+  "purpose": "Measures LinkedIn ads.",
+  "privacyUrl": "https://www.linkedin.com/legal/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "snap.licdn.com",
+      "px.ads.linkedin.com"
+    ],
+    "inline": [
+      "snap.licdn.com/li.lms-analytics",
+      "_linkedin_partner_id"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "li_fat_id",
+      "lifetime": "30 days",
+      "purpose": "Stores the ad click."
+    },
+    {
+      "name": "bcookie",
+      "lifetime": "1 year",
+      "purpose": "Tells browsers apart.",
+      "httpOnly": true
+    },
+    {
+      "name": "UserMatchHistory",
+      "lifetime": "30 days",
+      "purpose": "Matches the visitor to LinkedIn for ads."
+    },
+    {
+      "name": "AnalyticsSyncHistory",
+      "lifetime": "30 days",
+      "purpose": "Stores the time of the last ID sync."
+    },
+    {
+      "name": "lms_analytics",
+      "lifetime": "30 days",
+      "purpose": "Recognises LinkedIn members, for statistics."
+    },
+    {
+      "name": "lms_ads",
+      "lifetime": "30 days",
+      "purpose": "Recognises LinkedIn members, for ads."
+    },
+    {
+      "name": "li_sugr",
+      "lifetime": "90 days",
+      "purpose": "Matches the visitor to a LinkedIn member."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.linkedin.com/legal/l/cookie-table",
+    "https://www.linkedin.com/legal/privacy-policy",
+    "https://www.linkedin.com/help/linkedin/answer/a1343190/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

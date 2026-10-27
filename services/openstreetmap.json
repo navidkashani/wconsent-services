@@ -1,0 +1,32 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "openstreetmap",
+  "version": 2,
+  "name": "OpenStreetMap",
+  "provider": "OpenStreetMap Foundation",
+  "category": "media",
+  "purpose": "Shows embedded maps.",
+  "privacyUrl": "https://osmfoundation.org/wiki/Privacy_Policy",
+  "dataCountry": "UK and EU (Netherlands)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "openstreetmap.org/export/embed.html"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "map",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://osmfoundation.org/wiki/Privacy_Policy"
+  ],
+  "checked": "2026-10-27"
+}

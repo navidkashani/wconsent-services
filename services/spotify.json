@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "spotify",
+  "version": 2,
+  "name": "Spotify",
+  "provider": "Spotify AB",
+  "category": "media",
+  "purpose": "Plays embedded music and podcasts.",
+  "privacyUrl": "https://www.spotify.com/legal/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "open.spotify.com/embed",
+      "open.spotify.com/embed-podcast"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "sp_t",
+      "lifetime": "2 months",
+      "purpose": "Needed for the Spotify embed to work."
+    },
+    {
+      "name": "sp_landing",
+      "lifetime": "1 day",
+      "purpose": "Needed for the Spotify embed to work."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.spotify.com/legal/privacy-policy/",
+    "https://www.spotify.com/us/legal/cookies-policy/",
+    "https://developer.spotify.com/documentation/embeds/tutorials/using-the-iframe-api",
+    "https://github.com/jkwakman/Open-Cookie-Database"
+  ],
+  "checked": "2026-10-27"
+}

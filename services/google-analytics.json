@@ -1,0 +1,72 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "google-analytics",
+  "version": 2,
+  "name": "Google Analytics",
+  "provider": "Google Ireland Limited",
+  "category": "statistics",
+  "purpose": "Measures visits and conversions.",
+  "privacyUrl": "https://policies.google.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "googletagmanager.com/gtag/js",
+      "googletagmanager.com/gtag/js?id=G-",
+      "googletagmanager.com/gtag/js?id=UA-",
+      "google-analytics.com",
+      "analytics.google.com"
+    ],
+    "inline": [
+      "google-analytics.com/analytics.js",
+      "gtag('config', 'G-",
+      "gtag(\"config\", \"G-",
+      "gtag('config','G-",
+      "gtag(\"config\",\"G-"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_ga",
+      "lifetime": "2 years",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_ga_*",
+      "lifetime": "2 years",
+      "purpose": "Keeps the session state."
+    },
+    {
+      "name": "_gid",
+      "lifetime": "24 hours",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_gat*",
+      "lifetime": "1 minute",
+      "purpose": "Limits the request rate."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": true,
+    "advanced": true
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "google-site-kit/google-site-kit.php",
+      "google-analytics-for-wordpress/googleanalytics.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://business.safety.google/adscookies/",
+    "https://policies.google.com/technologies/cookies",
+    "https://policies.google.com/privacy/frameworks",
+    "https://policies.google.com/privacy",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

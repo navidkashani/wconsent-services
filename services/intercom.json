@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "intercom",
+  "version": 2,
+  "name": "Intercom",
+  "provider": "Intercom R&D Unlimited Company",
+  "category": "functional",
+  "purpose": "Live chat and support messages.",
+  "privacyUrl": "https://www.intercom.com/legal/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "intercom.io",
+      "intercomcdn.com"
+    ],
+    "inline": [
+      "intercomSettings",
+      "Intercom('boot'",
+      "Intercom(\"boot\""
+    ]
+  },
+  "cookies": [
+    {
+      "name": "intercom-id-*",
+      "lifetime": "No expiry",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "intercom-session-*",
+      "lifetime": "1 week",
+      "purpose": "Keeps the chat session."
+    },
+    {
+      "name": "intercom-device-id-*",
+      "lifetime": "270 days",
+      "purpose": "Tells devices apart."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "intercom/bootstrap.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.intercom.com/legal/privacy",
+    "https://www.intercom.com/help/en/articles/2361922-intercom-messenger-cookies",
+    "https://www.intercom.com/help/en/articles/170-integrate-intercom-in-a-web-product",
+    "https://wordpress.org/plugins/intercom/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

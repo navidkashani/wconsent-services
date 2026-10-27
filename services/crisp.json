@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "crisp",
+  "version": 3,
+  "name": "Crisp",
+  "provider": "Crisp IM SAS",
+  "category": "functional",
+  "purpose": "Live chat.",
+  "privacyUrl": "https://crisp.chat/en/privacy/",
+  "dataCountry": "EU (Netherlands and Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "crisp.chat"
+    ],
+    "inline": [
+      "CRISP_WEBSITE_ID"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "crisp-client/*",
+      "lifetime": "6 months",
+      "purpose": "Keeps the chat history across pages and visits."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "crisp/crisp.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://crisp.chat/en/privacy/",
+    "https://crisp.chat/en/cookies/",
+    "https://help.crisp.chat/en/article/crisp-chatbox-cookie-ip-policy-1147xor/",
+    "https://help.crisp.chat/en/article/crisp-eu-gdpr-compliance-status-nhv54c/",
+    "https://wordpress.org/plugins/crisp/"
+  ],
+  "checked": "2026-10-27"
+}

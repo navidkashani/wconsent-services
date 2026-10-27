@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "facebook-embed",
+  "version": 1,
+  "name": "Facebook embeds",
+  "provider": "Meta Platforms Ireland Limited",
+  "category": "media",
+  "purpose": "Shows embedded posts, videos and page boxes.",
+  "privacyUrl": "https://www.facebook.com/privacy/policy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "facebook.com/plugins",
+      "connect.facebook.net/en_US/sdk.js",
+      "connect.facebook.net/en_GB/sdk.js",
+      "connect.facebook.net/de_DE/sdk.js",
+      "connect.facebook.net/fr_FR/sdk.js",
+      "connect.facebook.net/es_ES/sdk.js",
+      "connect.facebook.net/es_LA/sdk.js",
+      "connect.facebook.net/it_IT/sdk.js",
+      "connect.facebook.net/nl_NL/sdk.js",
+      "connect.facebook.net/pt_BR/sdk.js",
+      "connect.facebook.net/pl_PL/sdk.js"
+    ],
+    "inline": [
+      "connect.facebook.net/en_US/sdk.js",
+      "connect.facebook.net/en_GB/sdk.js",
+      "connect.facebook.net/de_DE/sdk.js",
+      "connect.facebook.net/fr_FR/sdk.js",
+      "connect.facebook.net/es_ES/sdk.js",
+      "connect.facebook.net/es_LA/sdk.js",
+      "connect.facebook.net/it_IT/sdk.js",
+      "connect.facebook.net/nl_NL/sdk.js",
+      "connect.facebook.net/pt_BR/sdk.js",
+      "connect.facebook.net/pl_PL/sdk.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.facebook.com/privacy/policy/",
+    "https://www.facebook.com/privacy/policies/data_privacy_framework/",
+    "https://www.facebook.com/privacy/policies/cookies/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

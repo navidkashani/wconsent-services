@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "zendesk-chat",
+  "version": 2,
+  "name": "Zendesk Chat",
+  "provider": "Zendesk, Inc.",
+  "category": "functional",
+  "purpose": "Live chat and support messages.",
+  "privacyUrl": "https://www.zendesk.com/company/agreements-and-terms/privacy-notice/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.zdassets.com",
+      "ekr.zdassets.com",
+      "zopim.com"
+    ],
+    "inline": [
+      "zESettings",
+      "$zopim"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "__zlcmid",
+      "lifetime": "1 year",
+      "purpose": "Identifies the chat visitor."
+    },
+    {
+      "name": "__zlcprivacy",
+      "lifetime": "1 year",
+      "purpose": "Remembers the visitor's cookie choice for chat."
+    },
+    {
+      "name": "zte2095",
+      "lifetime": "Session",
+      "purpose": "Identifies the site that hosts the chat widget."
+    }
+  ],
+  "storage": [
+    "ZD-*",
+    "__zlcstore"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.zendesk.com/company/agreements-and-terms/privacy-notice/",
+    "https://support.zendesk.com/hc/en-us/articles/4408824378650-Zendesk-In-Product-Cookie-Policy",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

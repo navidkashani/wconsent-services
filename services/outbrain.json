@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "outbrain",
+  "version": 2,
+  "name": "Outbrain",
+  "provider": "Outbrain UK Limited",
+  "category": "marketing",
+  "purpose": "Shows sponsored content and measures it.",
+  "privacyUrl": "https://www.outbrain.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework), Netherlands and Singapore",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "outbrain.com",
+      "outbrainimg.com"
+    ],
+    "inline": [
+      "obApi('track'",
+      "obApi(\"track\""
+    ]
+  },
+  "cookies": [
+    {
+      "name": "obuid",
+      "lifetime": "90 days",
+      "purpose": "Tells visitors apart and measures clicks."
+    },
+    {
+      "name": "auid",
+      "lifetime": "90 days",
+      "purpose": "Holds the advertising ID on mobile devices."
+    },
+    {
+      "name": "dicbo_id",
+      "lifetime": "7 days",
+      "purpose": "Supports conversion attribution."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.outbrain.com/privacy/",
+    "https://www.outbrain.com/privacy/cookies/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

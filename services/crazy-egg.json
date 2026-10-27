@@ -1,0 +1,65 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "crazy-egg",
+  "version": 2,
+  "name": "Crazy Egg",
+  "provider": "Crazy Egg, Inc.",
+  "category": "statistics",
+  "purpose": "Heatmaps and session recordings.",
+  "privacyUrl": "https://www.crazyegg.com/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "crazyegg.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_ce.s",
+      "lifetime": "1 year",
+      "purpose": "Stores the visitor session ID."
+    },
+    {
+      "name": "_ce.clock_data",
+      "lifetime": "1 day",
+      "purpose": "Syncs the clock."
+    },
+    {
+      "name": "_ce.clock_event",
+      "lifetime": "1 day",
+      "purpose": "Limits clock requests."
+    },
+    {
+      "name": "cebs",
+      "lifetime": "Session",
+      "purpose": "Keeps the current session."
+    },
+    {
+      "name": "cebsp_",
+      "lifetime": "Session",
+      "purpose": "Keeps the current session."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "crazyegg-heatmap-tracking/crazyegg-heatmap-tracking.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.crazyegg.com/privacy",
+    "https://www.crazyegg.com/cookies",
+    "https://support.crazyegg.com/knowledge-base/crazy-egg-privacy-data-practices/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/crazyegg-heatmap-tracking/",
+    "https://github.com/jkwakman/Open-Cookie-Database"
+  ],
+  "checked": "2026-10-27"
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "instagram-embed",
+  "version": 1,
+  "name": "Instagram embeds",
+  "provider": "Meta Platforms Ireland Limited",
+  "category": "media",
+  "purpose": "Shows embedded posts.",
+  "privacyUrl": "https://privacycenter.instagram.com/policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "instagram.com/embed.js",
+      "instagram.com/p",
+      "instagram.com/reel",
+      "instagram.com/tv"
+    ],
+    "inline": [
+      "instagram.com/embed.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://privacycenter.instagram.com/policy",
+    "https://www.facebook.com/privacy/policies/data_privacy_framework/",
+    "https://www.facebook.com/privacy/policies/cookies/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

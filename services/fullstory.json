@@ -1,0 +1,40 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "fullstory",
+  "version": 2,
+  "name": "FullStory",
+  "provider": "FullStory, Inc.",
+  "category": "statistics",
+  "purpose": "Session recordings and usage analytics.",
+  "privacyUrl": "https://www.fullstory.com/legal/privacy-policy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "fullstory.com"
+    ],
+    "inline": [
+      "_fs_org",
+      "_fs_namespace"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.fullstory.com/legal/privacy-policy/",
+    "https://help.fullstory.com/hc/en-us/articles/360020623514-Installing-the-Fullstory-Script",
+    "https://help.fullstory.com/hc/en-us/articles/360020828113-Identifying-users",
+    "https://dataprivacyframework.gov/list",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

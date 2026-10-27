@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "google-recaptcha",
+  "version": 2,
+  "name": "Google reCAPTCHA",
+  "provider": "Google Ireland Limited",
+  "category": "functional",
+  "purpose": "Keeps spam out of forms.",
+  "privacyUrl": "https://policies.google.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "google.com/recaptcha",
+      "recaptcha.net",
+      "gstatic.com/recaptcha"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "lifetime": "6 months",
+      "purpose": "Spam protection."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "contact-form-7/wp-contact-form-7.php"
+    ],
+    "handles": [
+      "wpcf7-recaptcha"
+    ]
+  },
+  "sources": [
+    "https://developers.google.com/recaptcha/docs/faq",
+    "https://policies.google.com/privacy/frameworks",
+    "https://policies.google.com/privacy",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

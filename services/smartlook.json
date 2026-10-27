@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "smartlook",
+  "version": 2,
+  "name": "Smartlook",
+  "provider": "Smartlook.com, s.r.o.",
+  "category": "statistics",
+  "purpose": "Session recordings and usage analytics.",
+  "privacyUrl": "https://help.smartlook.com/docs/privacy-policy",
+  "dataCountry": "EU or USA (set per project)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "smartlook.com",
+      "smartlook.cloud"
+    ],
+    "inline": [
+      "smartlook('init'",
+      "smartlook(\"init\""
+    ]
+  },
+  "cookies": [
+    {
+      "name": "SL_C_*",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart and keeps the session."
+    }
+  ],
+  "storage": [
+    "SL_L_*",
+    "SMARTLOOK_LS_QUEUED_CHUNKS"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://help.smartlook.com/docs/privacy-policy",
+    "https://help.smartlook.com/docs/cookies-smartlook",
+    "https://help.smartlook.com/docs/relay-proxy",
+    "https://web.developer.smartlook.com/reference/smartlookinit",
+    "https://help.smartlook.com/docs/privacy-statement-full"
+  ],
+  "checked": "2026-10-27"
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "klaviyo",
+  "version": 2,
+  "name": "Klaviyo",
+  "provider": "Klaviyo, Inc.",
+  "category": "marketing",
+  "purpose": "Tracks visits for email marketing.",
+  "privacyUrl": "https://privacy.klaviyo.com/policies/?name=klaviyo-privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "klaviyo.com"
+    ],
+    "inline": [
+      "_learnq",
+      "klaviyo.push("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "__kla_id",
+      "lifetime": "2 years",
+      "purpose": "Tells visitors apart."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "klaviyo/klaviyo.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://privacy.klaviyo.com/policies/?name=klaviyo-privacy-policy",
+    "https://www.klaviyo.com/gdpr",
+    "https://help.klaviyo.com/hc/en-us/articles/360034666712",
+    "https://wordpress.org/plugins/klaviyo/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

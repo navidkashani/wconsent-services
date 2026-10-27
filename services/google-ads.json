@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "google-ads",
+  "version": 2,
+  "name": "Google Ads",
+  "provider": "Google Ireland Limited",
+  "category": "marketing",
+  "purpose": "Measures ad conversions and shows ads to past visitors.",
+  "privacyUrl": "https://policies.google.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "googletagmanager.com/gtag/js?id=AW-",
+      "googleadservices.com",
+      "googleads.g.doubleclick.net",
+      "doubleclick.net",
+      "google.com/pagead"
+    ],
+    "inline": [
+      "gtag('config', 'AW-",
+      "gtag(\"config\", \"AW-",
+      "gtag('config','AW-",
+      "gtag(\"config\",\"AW-"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_gcl_au",
+      "lifetime": "90 days",
+      "purpose": "Links ad clicks to conversions."
+    },
+    {
+      "name": "_gcl_aw",
+      "lifetime": "90 days",
+      "purpose": "Stores the ad click."
+    },
+    {
+      "name": "IDE",
+      "lifetime": "13 months",
+      "purpose": "Ad delivery and measurement.",
+      "httpOnly": true
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": true,
+    "advanced": true
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://business.safety.google/adscookies/",
+    "https://policies.google.com/technologies/cookies",
+    "https://policies.google.com/privacy/frameworks",
+    "https://policies.google.com/privacy",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

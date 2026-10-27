@@ -1,0 +1,39 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "google-tag-manager",
+  "version": 1,
+  "name": "Google Tag Manager",
+  "provider": "Google Ireland Limited",
+  "category": "essential",
+  "purpose": "Loads the site's other tags. It sets no cookies itself; each tag it loads waits for its own consent.",
+  "privacyUrl": "https://policies.google.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "googletagmanager.com/gtm.js",
+      "googletagmanager.com/ns.html"
+    ],
+    "inline": [
+      "googletagmanager.com/gtm.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": true,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://policies.google.com/privacy",
+    "https://policies.google.com/privacy/frameworks",
+    "https://developers.google.com/tag-platform/security/guides/privacy",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

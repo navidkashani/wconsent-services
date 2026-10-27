@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "optimizely",
+  "version": 2,
+  "name": "Optimizely",
+  "provider": "Optimizely North America Inc.",
+  "category": "statistics",
+  "purpose": "Runs A/B tests and measures their results.",
+  "privacyUrl": "https://www.optimizely.com/legal/privacy-notice/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "optimizely.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "optimizelyEndUserId",
+      "lifetime": "6 months",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "optimizelySession",
+      "lifetime": "6 months",
+      "purpose": "Tells new and returning visits apart."
+    },
+    {
+      "name": "optimizelyRedirectData",
+      "lifetime": "5 seconds",
+      "purpose": "Carries data across a test redirect."
+    },
+    {
+      "name": "optimizelyOptOut",
+      "lifetime": "10 years",
+      "purpose": "Remembers that the visitor opted out of tests."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.optimizely.com/legal/privacy-notice/",
+    "https://docs.optimizely.com/web-experimentation/docs/cookies-and-localstorage-in-snippets",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

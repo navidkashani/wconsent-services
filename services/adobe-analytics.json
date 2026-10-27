@@ -1,0 +1,74 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "adobe-analytics",
+  "version": 2,
+  "name": "Adobe Analytics",
+  "provider": "Adobe Systems Software Ireland Limited",
+  "category": "statistics",
+  "purpose": "Measures visits and conversions.",
+  "privacyUrl": "https://www.adobe.com/privacy/policy.html",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "omtrdc.net",
+      "2o7.net",
+      "adobedc.net"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "AMCV_*",
+      "lifetime": "2 years",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "AMCVS_*",
+      "lifetime": "Session",
+      "purpose": "Keeps the current session."
+    },
+    {
+      "name": "s_cc",
+      "lifetime": "Session",
+      "purpose": "Checks that cookies work."
+    },
+    {
+      "name": "s_sq",
+      "lifetime": "Session",
+      "purpose": "Stores the last link clicked."
+    },
+    {
+      "name": "s_fid",
+      "lifetime": "2 years",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "s_vi*",
+      "lifetime": "2 years",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "s_ecid",
+      "lifetime": "13 months",
+      "purpose": "Keeps the visitor ID."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.adobe.com/privacy/policy.html",
+    "https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics",
+    "https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies",
+    "https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/configurations/cookielifetime",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

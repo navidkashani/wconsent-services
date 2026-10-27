@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "matomo-cloud",
+  "version": 2,
+  "name": "Matomo Cloud",
+  "provider": "InnoCraft Limited",
+  "category": "statistics",
+  "purpose": "Measures visits and conversions.",
+  "privacyUrl": "https://matomo.org/matomo-cloud-privacy-policy/",
+  "dataCountry": "EU (Germany, backups in Ireland)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "matomo.cloud"
+    ],
+    "inline": [
+      "matomo.cloud"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_pk_id.*",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_pk_ses.*",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps the current visit."
+    },
+    {
+      "name": "_pk_ref.*",
+      "lifetime": "6 months",
+      "purpose": "Stores where the visitor came from."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://matomo.org/matomo-cloud-privacy-policy/",
+    "https://matomo.org/matomo-cloud-dpa/subprocessors",
+    "https://matomo.org/faq/general/faq_146/"
+  ],
+  "checked": "2026-10-27"
+}

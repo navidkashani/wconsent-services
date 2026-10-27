@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "freshchat",
+  "version": 2,
+  "name": "Freshchat",
+  "provider": "Freshworks Inc.",
+  "category": "functional",
+  "purpose": "Live chat and support messages.",
+  "privacyUrl": "https://www.freshworks.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "freshchat.com"
+    ],
+    "inline": [
+      "fcWidget.init("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "freshchat/freshchat.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.freshworks.com/privacy/",
+    "https://www.freshworks.com/list-of-cookies/",
+    "https://developers.freshchat.com/web-sdk/",
+    "https://wordpress.org/plugins/freshchat/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

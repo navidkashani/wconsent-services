@@ -1,0 +1,37 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "tidio",
+  "version": 2,
+  "name": "Tidio",
+  "provider": "Tidio LLC",
+  "category": "functional",
+  "purpose": "Live chat.",
+  "privacyUrl": "https://www.tidio.com/privacy-policy/",
+  "dataCountry": "EU and USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "tidio.co",
+      "tidiochat.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "tidio-live-chat/tidio-elements.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.tidio.com/privacy-policy/",
+    "https://wordpress.org/plugins/tidio-live-chat/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

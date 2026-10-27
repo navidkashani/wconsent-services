@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "stripe",
+  "version": 2,
+  "name": "Stripe",
+  "provider": "Stripe Payments Europe, Limited",
+  "category": "essential",
+  "purpose": "Processes card payments and prevents fraud.",
+  "privacyUrl": "https://stripe.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "js.stripe.com",
+      "m.stripe.network",
+      "m.stripe.com",
+      "q.stripe.com",
+      "b.stripecdn.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "__stripe_mid",
+      "lifetime": "1 year",
+      "purpose": "Fraud prevention."
+    },
+    {
+      "name": "__stripe_sid",
+      "lifetime": "30 minutes",
+      "purpose": "Fraud prevention."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "woocommerce-gateway-stripe/woocommerce-gateway-stripe.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://stripe.com/privacy",
+    "https://stripe.com/se/legal/privacy-center",
+    "https://stripe.com/se/legal/cookies-policy",
+    "https://docs.stripe.com/security/guide",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://wordpress.org/plugins/woocommerce-gateway-stripe/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "heap",
+  "version": 2,
+  "name": "Heap",
+  "provider": "Heap Inc.",
+  "category": "statistics",
+  "purpose": "Measures how visitors use the site.",
+  "privacyUrl": "https://contentsquare.com/privacy-center/services-privacy-policy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "heapanalytics.com",
+      "heap-api.com"
+    ],
+    "inline": [
+      "heap.load("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_hp2_id.*",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_hp2_ses_props.*",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps the current session."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://developers.heap.io/docs/web",
+    "https://heap.io/privacy",
+    "https://contentsquare.com/privacy-center/services-privacy-policy/",
+    "https://contentsquare.com/privacy-center/dpf-certification/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

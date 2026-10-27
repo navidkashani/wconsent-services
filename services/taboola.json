@@ -1,0 +1,64 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "taboola",
+  "version": 2,
+  "name": "Taboola",
+  "provider": "Taboola.com Ltd.",
+  "category": "marketing",
+  "purpose": "Shows sponsored content and measures it.",
+  "privacyUrl": "https://policies.taboola.com/privacy-policy/",
+  "dataCountry": "Israel and USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "taboola.com"
+    ],
+    "inline": [
+      "_tfa.push(",
+      "window._taboola"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "t_gid",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "t_pt_gid",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart on the publisher's site."
+    },
+    {
+      "name": "t_pid",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "trc_cookie_storage",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart for reporting."
+    },
+    {
+      "name": "taboola_session_id",
+      "lifetime": "Session",
+      "purpose": "Avoids showing the same content twice."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://policies.taboola.com/privacy-policy/",
+    "https://policies.taboola.com/cookie-policy/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

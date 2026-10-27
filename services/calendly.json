@@ -1,0 +1,38 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "calendly",
+  "version": 1,
+  "name": "Calendly",
+  "provider": "Calendly LLC",
+  "category": "functional",
+  "purpose": "Shows an embedded booking calendar.",
+  "privacyUrl": "https://calendly.com/legal/privacy-notice",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "calendly.com"
+    ],
+    "inline": [
+      "Calendly.initInlineWidget",
+      "Calendly.initBadgeWidget"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://calendly.com/legal/privacy-notice",
+    "https://calendly.com/help/cookies-and-your-calendly-experience",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

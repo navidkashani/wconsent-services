@@ -1,0 +1,38 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "cloudflare-turnstile",
+  "version": 1,
+  "name": "Cloudflare Turnstile",
+  "provider": "Cloudflare, Inc.",
+  "category": "essential",
+  "purpose": "Keeps spam out of forms. It sets no tracking cookies and is used only for security.",
+  "privacyUrl": "https://www.cloudflare.com/privacypolicy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "challenges.cloudflare.com/turnstile"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "simple-cloudflare-turnstile/simple-cloudflare-turnstile.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.cloudflare.com/privacypolicy/",
+    "https://developers.cloudflare.com/turnstile/",
+    "https://developers.cloudflare.com/turnstile/get-started/client-side-rendering/",
+    "https://wordpress.org/plugins/simple-cloudflare-turnstile/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

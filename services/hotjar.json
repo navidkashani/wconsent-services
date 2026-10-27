@@ -1,0 +1,85 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "hotjar",
+  "version": 2,
+  "name": "Hotjar",
+  "provider": "Hotjar Ltd.",
+  "category": "statistics",
+  "purpose": "Heatmaps and session recordings.",
+  "privacyUrl": "https://www.hotjar.com/legal/policies/privacy/",
+  "dataCountry": "EU (Ireland)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.hotjar.com",
+      "script.hotjar.com",
+      "hotjar.com",
+      "hotjar.io"
+    ],
+    "inline": [
+      "static.hotjar.com",
+      "_hjSettings"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_hjSessionUser_*",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_hjSession_*",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps the current session."
+    },
+    {
+      "name": "_hjClosedSurveyInvites",
+      "lifetime": "365 days",
+      "purpose": "Stops a closed survey invitation showing again."
+    },
+    {
+      "name": "_hjDonePolls",
+      "lifetime": "365 days",
+      "purpose": "Stops a completed survey showing again."
+    },
+    {
+      "name": "_hjMinimizedPolls",
+      "lifetime": "365 days",
+      "purpose": "Keeps a minimized survey minimized."
+    },
+    {
+      "name": "_hjHasCachedUserAttributes",
+      "lifetime": "Session",
+      "purpose": "Shows whether stored user attributes are current."
+    },
+    {
+      "name": "_hjUserAttributesHash",
+      "lifetime": "2 minutes",
+      "purpose": "Flags a change in user attributes."
+    }
+  ],
+  "storage": [
+    "_hjUserAttributes"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "hotjar/hotjar.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://help.hotjar.com/hc/en-us/articles/36820023091089-Security-FAQs",
+    "https://help.hotjar.com/hc/en-us/articles/36820059270929-Hotjar-IPs",
+    "https://help.hotjar.com/hc/en-us/articles/36820004397713-Privacy-FAQs",
+    "https://docs.contentsquare.com/en/web/cookies/",
+    "https://trust.contentsquare.com/?itemUid=fa7a4923-3f51-431c-9eb6-3f88989ea858&source=title",
+    "https://wordpress.org/plugins/hotjar/",
+    "https://github.com/jkwakman/Open-Cookie-Database"
+  ],
+  "checked": "2026-10-27"
+}

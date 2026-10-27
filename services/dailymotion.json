@@ -1,0 +1,62 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "dailymotion",
+  "version": 2,
+  "name": "Dailymotion",
+  "provider": "Dailymotion SA",
+  "category": "media",
+  "purpose": "Shows embedded videos.",
+  "privacyUrl": "https://legal.dailymotion.com/en/privacy-policy/",
+  "dataCountry": "EU and USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "dailymotion.com/embed",
+      "geo.dailymotion.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "v1st",
+      "lifetime": "13 months",
+      "purpose": "Identifies the visitor for fraud checks."
+    },
+    {
+      "name": "ts",
+      "lifetime": "13 months",
+      "purpose": "Rolls out player updates."
+    },
+    {
+      "name": "client_token",
+      "lifetime": "10 hours",
+      "purpose": "Keeps video playback smooth."
+    },
+    {
+      "name": "dmvk",
+      "lifetime": "Session",
+      "purpose": "Keeps a video from being interrupted."
+    }
+  ],
+  "storage": [
+    "dmp_currenttime",
+    "dmp_subtitles",
+    "dmp_max_quality",
+    "stlast",
+    "inlined_view_id"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://legal.dailymotion.com/en/privacy-policy/",
+    "https://legal.dailymotion.com/en/cookie-policy/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

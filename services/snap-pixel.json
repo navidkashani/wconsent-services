@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "snap-pixel",
+  "version": 2,
+  "name": "Snap Pixel",
+  "provider": "Snap Inc.",
+  "category": "marketing",
+  "purpose": "Measures Snapchat ads.",
+  "privacyUrl": "https://values.snap.com/privacy/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "sc-static.net/scevent.min.js",
+      "tr.snapchat.com"
+    ],
+    "inline": [
+      "snaptr('init'",
+      "snaptr(\"init\""
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_scid",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_scid_r",
+      "lifetime": "13 months",
+      "purpose": "Ad measurement."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://values.snap.com/privacy/privacy-policy",
+    "https://values.snap.com/privacy/privacy-policy/eea-uk-privacy-notice",
+    "https://www.snap.com/cookie-policy",
+    "https://developers.snap.com/api/marketing-api/Conversions-API/UsingTheAPI",
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}

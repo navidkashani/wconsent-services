@@ -1,0 +1,65 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "meta-pixel",
+  "version": 2,
+  "name": "Meta Pixel",
+  "provider": "Meta Platforms Ireland Limited",
+  "category": "marketing",
+  "purpose": "Measures Facebook and Instagram ads.",
+  "privacyUrl": "https://www.facebook.com/privacy/policy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "connect.facebook.net",
+      "facebook.com/tr"
+    ],
+    "inline": [
+      "connect.facebook.net",
+      "fbq('init'",
+      "fbq(\"init\""
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_fbp",
+      "lifetime": "90 days",
+      "purpose": "Ad measurement."
+    },
+    {
+      "name": "_fbc",
+      "lifetime": "90 days",
+      "purpose": "Stores the ad click."
+    },
+    {
+      "name": "fr",
+      "lifetime": "90 days",
+      "purpose": "Ad delivery.",
+      "httpOnly": true
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "pixelyoursite/facebook-pixel-master.php",
+      "official-facebook-pixel/facebook-for-wordpress.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.facebook.com/privacy/policies/cookies/",
+    "https://www.facebook.com/privacy/policies/data_privacy_framework/",
+    "https://www.facebook.com/privacy/policy/",
+    "https://www.facebook.com/legal/terms/businesstools",
+    "https://developers.facebook.com/docs/marketing-api/conversions-api/parameters/fbp-and-fbc",
+    "https://wordpress.org/plugins/pixelyoursite/",
+    "https://wordpress.org/plugins/official-facebook-pixel/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-27"
+}
