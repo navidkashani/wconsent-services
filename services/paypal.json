@@ -7,7 +7,7 @@
   "category": "essential",
   "purpose": "Processes PayPal payments and prevents fraud.",
   "privacyUrl": "https://www.paypal.com/ie/legalhub/paypal/privacy-full",
-  "dataCountry": "",
+  "dataCountry": "USA and other countries",
   "legalBasis": "contract",
   "match": {
     "hosts": [

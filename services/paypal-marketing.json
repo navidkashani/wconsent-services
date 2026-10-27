@@ -7,7 +7,7 @@
   "category": "marketing",
   "purpose": "PayPal's tag that its checkout adds to measure shopping on this site for PayPal's marketing.",
   "privacyUrl": "https://www.paypal.com/ie/legalhub/paypal/privacy-full",
-  "dataCountry": "",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
