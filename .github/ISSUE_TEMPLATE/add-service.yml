@@ -1,0 +1,42 @@
+name: Add a service
+description: Suggest a tracker, embed or widget the list does not know yet.
+title: "Add a service: "
+labels: [add-service]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping. Every service is checked against the vendor's own pages before it is added, so links to those pages help most. Please don't copy from other cookie databases: most of them don't allow it.
+  - type: input
+    id: name
+    attributes:
+      label: Service name
+      placeholder: Hotjar
+  - type: input
+    id: website
+    attributes:
+      label: The vendor's website
+      placeholder: https://www.hotjar.com
+  - type: textarea
+    id: hosts
+    attributes:
+      label: Addresses it loads from
+      description: One per line. The host of its script, iframe or pixel.
+      placeholder: static.hotjar.com
+    validations:
+      required: true
+  - type: textarea
+    id: cookies
+    attributes:
+      label: Cookies and storage keys it sets
+      description: One per line, if you know them.
+      placeholder: _hjSessionUser_*
+  - type: textarea
+    id: sources
+    attributes:
+      label: The vendor's own pages
+      description: Its privacy policy, cookie list, or install guide.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else

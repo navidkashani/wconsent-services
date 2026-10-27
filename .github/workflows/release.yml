@@ -1,0 +1,62 @@
+name: Release
+
+# Starts when a v1.N.0 tag is pushed. The tag must point at a commit on main
+# whose release.json has the same version and whose dist/ is exactly what
+# npm run build makes. Sites read dist/ through jsDelivr.
+
+on:
+  push:
+    tags: ['v[0-9]+.[0-9]+.[0-9]+']
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run check
+      - run: npm test
+
+      - name: The tag is on main and matches release.json
+        run: |
+          git merge-base --is-ancestor "$GITHUB_SHA" origin/main || { echo "::error::The tag is not on main."; exit 1; }
+          version="$(node -p "require('./release.json').version")"
+          [ "v$version" = "$GITHUB_REF_NAME" ] || { echo "::error::release.json says $version."; exit 1; }
+
+      - name: dist/ is the real build
+        run: |
+          npm run build
+          [ -z "$(git status --porcelain -- dist)" ] || { git status --short -- dist; echo "::error::dist/ differs from a fresh build. Run npm run release."; exit 1; }
+
+      - name: Publish the GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" --verify-tag --generate-notes --title "$GITHUB_REF_NAME"
+
+      # Sites ask for @<major>; refreshing it makes the release visible within
+      # minutes instead of up to 12 hours. The other files are fetched from
+      # the exact version, which jsDelivr has never served before.
+      - name: Refresh jsDelivr
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          major="${version%%.*}"
+          index="gh/${GITHUB_REPOSITORY}@${major}/dist/index.json"
+          curl -fsS "https://purge.jsdelivr.net/${index}" || echo "::warning::The purge request failed."
+          for attempt in 1 2 3 4 5 6 7 8 9 10; do
+            served="$(curl -fsS "https://cdn.jsdelivr.net/${index}" | node -pe 'JSON.parse(require("fs").readFileSync(0, "utf8")).version' 2>/dev/null || true)"
+            if [ "$served" = "$version" ]; then echo "jsDelivr serves $version."; exit 0; fi
+            sleep 30
+          done
+          echo "::warning::jsDelivr still serves ${served:-nothing}. It catches up within 12 hours."

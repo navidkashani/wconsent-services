@@ -1,0 +1,11 @@
+# Groups the generated release notes by label.
+changelog:
+  categories:
+    - title: New services
+      labels: [add-service]
+    - title: Corrected services
+      labels: [fix-service]
+    - title: Translations
+      labels: [translation]
+    - title: Other changes
+      labels: ['*']

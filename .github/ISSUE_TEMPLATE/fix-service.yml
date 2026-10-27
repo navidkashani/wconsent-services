@@ -1,0 +1,27 @@
+name: Fix a service
+description: Something in a service's entry is wrong or out of date.
+title: "Fix a service: "
+labels: [fix-service]
+body:
+  - type: input
+    id: service
+    attributes:
+      label: Which service
+      description: The file name in services/, or the service's name.
+      placeholder: hotjar
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      placeholder: The _hjSession_* cookie lasts 30 minutes, not 1 day.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: The vendor's page that shows it
+      description: A link to the vendor's own documentation or policy.
+    validations:
+      required: true

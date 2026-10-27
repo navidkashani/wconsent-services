@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/translation.json",
+  "title": "Translation",
+  "description": "The visitor-facing texts of services in one language, keyed by service id. Names, cookie names and web addresses are never translated. Every file in translations/ must validate against this schema.",
+  "type": "object",
+  "additionalProperties": false,
+  "patternProperties": {
+    "^[a-z0-9]+(-[a-z0-9]+)*$": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["purpose"],
+      "properties": {
+        "purpose": { "type": "string", "minLength": 1, "maxLength": 200, "description": "The service's purpose in this language." },
+        "cookies": {
+          "type": "object",
+          "description": "Each cookie's purpose in this language, keyed by the cookie name exactly as the service lists it.",
+          "additionalProperties": { "type": "string", "minLength": 1, "maxLength": 150 }
+        },
+        "machine": {
+          "const": true,
+          "description": "Machine-translated and not yet confirmed by a person who speaks the language. Remove it when someone does."
+        }
+      }
+    }
+  }
+}

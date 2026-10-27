@@ -1,0 +1,19 @@
+{
+  "name": "wconsent-services",
+  "private": true,
+  "description": "An open list of third-party web services: how to recognise them, what they store, and who receives the data.",
+  "license": "GPL-3.0-only",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "format": "node scripts/check.mjs --fix",
+    "test": "node --test scripts/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "release": "node scripts/release.mjs",
+    "convert:cookies": "node scripts/convert-cookies.mjs"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0"
+  }
+}

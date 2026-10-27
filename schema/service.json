@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "title": "Service",
+  "description": "One third-party service: how to recognise it on a page, what it stores in the browser, and who receives the data. Every file in services/ must validate against this schema.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "id", "version", "name", "provider", "category", "purpose", "privacyUrl", "dataCountry", "legalBasis", "match", "cookies", "storage", "consentMode", "placeholder", "wordpress", "sources", "checked"],
+  "anyOf": [
+    { "properties": { "match": { "type": "object", "required": ["hosts"], "properties": { "hosts": { "type": "array", "minItems": 1 } } } } },
+    { "properties": { "match": { "type": "object", "required": ["inline"], "properties": { "inline": { "type": "array", "minItems": 1 } } } } },
+    { "properties": { "match": { "type": "object", "maxProperties": 0 }, "cookies": { "type": "array", "minItems": 1 } } }
+  ],
+  "properties": {
+    "$schema": { "const": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json" },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 60,
+      "description": "Permanent. Never renamed or deleted: sites store it. A renamed service gets a new id, and the old file gets replacedBy."
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Raised by one on every change to the file, so sites using the service can show what changed."
+    },
+    "name": { "type": "string", "minLength": 1, "maxLength": 60, "description": "The product name, as the vendor writes it. Never translated." },
+    "provider": { "type": "string", "maxLength": 100, "description": "The legal entity that receives the data, for visitors in the EU where it differs. Empty when it could not be confirmed." },
+    "category": {
+      "enum": ["essential", "functional", "statistics", "marketing", "media"],
+      "description": "essential: the site cannot work without it. functional: a feature the visitor uses (chat, forms, spam protection). statistics: measuring visits. marketing: advertising and cross-site tracking. media: embedded videos, maps and posts."
+    },
+    "purpose": { "type": "string", "minLength": 1, "maxLength": 140, "description": "One short, plain sentence for visitors, ending with a full stop." },
+    "privacyUrl": {
+      "type": "string",
+      "pattern": "^(https://[^\\s]+)?$",
+      "maxLength": 200,
+      "description": "The vendor's privacy policy. Empty when it could not be confirmed."
+    },
+    "dataCountry": {
+      "type": "string",
+      "maxLength": 80,
+      "description": "Where the data is processed or stored, as the vendor states it. Write USA for the United States, and name the EU-US Data Privacy Framework only when the vendor is listed on dataprivacyframework.gov. Empty when it could not be confirmed."
+    },
+    "legalBasis": {
+      "enum": ["consent", "contract", "legal-obligation", "legitimate-interest"],
+      "description": "The basis a site usually relies on. Anything that is not strictly necessary is consent."
+    },
+    "match": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "How the service is recognised. A URL matches a host pattern when its host equals the pattern's host or is a subdomain of it, and its path and query start with the pattern's rest. The longest matching pattern across all services wins. Empty only for a service known by its cookies alone.",
+      "properties": {
+        "hosts": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[a-z0-9.-]+\\.[a-z]{2,}(/[^\\s]*)?$", "maxLength": 120 },
+          "uniqueItems": true
+        },
+        "inline": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 6, "maxLength": 80 },
+          "uniqueItems": true,
+          "description": "Substrings that identify the service's code written into the page."
+        }
+      }
+    },
+    "cookies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "lifetime", "purpose"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_.\\-/]+\\*?$",
+            "maxLength": 60,
+            "description": "A trailing * matches any suffix. A / is allowed: some services name cookies like paths. Never translated."
+          },
+          "lifetime": { "type": "string", "minLength": 1, "maxLength": 30, "description": "For example \"Session\", \"30 minutes\", \"1 year\"." },
+          "purpose": { "type": "string", "minLength": 1, "maxLength": 100, "description": "A few plain words, ending with a full stop." },
+          "httpOnly": { "type": "boolean", "description": "Set by the server and unreadable by scripts, so a site cannot remove it from the browser." }
+        }
+      }
+    },
+    "storage": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[A-Za-z0-9_.\\-:/]+\\*?$", "maxLength": 60 },
+      "uniqueItems": true,
+      "description": "localStorage and sessionStorage keys; a trailing * matches any suffix."
+    },
+    "consentMode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["google", "advanced"],
+      "properties": {
+        "google": { "type": "boolean", "description": "A Google tag that reads Google Consent Mode." },
+        "advanced": { "type": "boolean", "description": "Can send cookieless pings before consent, if the site owner allows it (Consent Mode's advanced setup)." }
+      }
+    },
+    "placeholder": {
+      "enum": ["video", "map", "audio", "social", "form", "generic", null],
+      "description": "What to show in place of an embed that waits for consent. null for services that show nothing on the page."
+    },
+    "wordpress": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["plugins", "handles"],
+      "description": "Hints about other WordPress plugins. Data only.",
+      "properties": {
+        "plugins": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[a-z0-9_.-]+/[a-z0-9_.-]+\\.php$" },
+          "uniqueItems": true,
+          "description": "Plugins that usually add this service, as folder/main-file.php."
+        },
+        "handles": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+          "uniqueItems": true,
+          "description": "Script handles registered by another plugin that only work together with this service, so they wait for consent with it."
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^https://[^\\s]+$", "maxLength": 300 },
+      "description": "The vendor's own pages the facts were checked against."
+    },
+    "checked": {
+      "type": "string",
+      "pattern": "^20[0-9]{2}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$",
+      "description": "The day a person last checked the facts against the sources."
+    },
+    "replacedBy": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "The id that took over this service after a rename or merger."
+    },
+    "retired": {
+      "const": true,
+      "description": "The service no longer exists. The file stays so sites that use it keep working."
+    }
+  }
+}

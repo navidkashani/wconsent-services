@@ -1,0 +1,36 @@
+name: Improve a translation
+description: A description reads wrong in your language.
+title: "Translation: "
+labels: [translation]
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: German (de)
+    validations:
+      required: true
+  - type: input
+    id: service
+    attributes:
+      label: Which service
+      placeholder: hotjar
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: The current text
+  - type: textarea
+    id: better
+    attributes:
+      label: A better text
+      description: Keep names, cookie names and web addresses as they are.
+    validations:
+      required: true
+  - type: checkboxes
+    id: speaker
+    attributes:
+      label: About you
+      options:
+        - label: I speak this language natively or fluently.
