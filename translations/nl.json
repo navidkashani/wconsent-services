@@ -1,0 +1,580 @@
+{
+  "ab-tasty": {
+    "purpose": "Voert A/B-tests uit en meet de resultaten.",
+    "cookies": {
+      "ABTasty": "Onthoudt de bezoeker en de getoonde testversie.",
+      "ABTastySession": "Geeft aan of een nieuw bezoek is gestart."
+    },
+    "machine": true
+  },
+  "activecampaign": {
+    "purpose": "Volgt bezoeken voor e-mailmarketing.",
+    "cookies": {
+      "prism_*": "Onderscheidt bezoekers van elkaar.",
+      "ac_enable_tracking": "Registreert dat tracking aan staat."
+    },
+    "machine": true
+  },
+  "adobe-analytics": {
+    "purpose": "Meet bezoeken en conversies.",
+    "cookies": {
+      "AMCV_*": "Onderscheidt bezoekers van elkaar.",
+      "AMCVS_*": "Houdt de huidige sessie bij.",
+      "s_cc": "Controleert of cookies werken.",
+      "s_sq": "Bewaart de laatst aangeklikte link.",
+      "s_fid": "Onderscheidt bezoekers van elkaar.",
+      "s_vi*": "Onderscheidt bezoekers van elkaar.",
+      "s_ecid": "Bewaart de bezoeker-ID."
+    },
+    "machine": true
+  },
+  "amazon-ads": {
+    "purpose": "Toont Amazon-advertenties en meet ze.",
+    "cookies": {
+      "ad-id": "Weergave van advertenties.",
+      "ad-privacy": "Bewaart de afmelding voor advertenties."
+    },
+    "machine": true
+  },
+  "amplitude": {
+    "purpose": "Meet hoe bezoekers de site gebruiken.",
+    "cookies": {
+      "AMP_*": "Onderscheidt bezoekers van elkaar.",
+      "AMP_MKTG_*": "Bewaart waar de bezoeker vandaan kwam."
+    },
+    "machine": true
+  },
+  "calendly": {
+    "purpose": "Toont een ingesloten boekingskalender.",
+    "machine": true
+  },
+  "cloudflare-turnstile": {
+    "purpose": "Houdt spam uit formulieren. Plaatst geen trackingcookies en wordt alleen voor beveiliging gebruikt.",
+    "machine": true
+  },
+  "cloudflare-web-analytics": {
+    "purpose": "Meet bezoeken zonder cookies.",
+    "machine": true
+  },
+  "crazy-egg": {
+    "purpose": "Heatmaps en sessieopnames.",
+    "cookies": {
+      "_ce.s": "Bewaart de sessie-ID van de bezoeker.",
+      "_ce.clock_data": "Synchroniseert de klok.",
+      "_ce.clock_event": "Beperkt klokverzoeken.",
+      "cebs": "Houdt de huidige sessie bij.",
+      "cebsp_": "Houdt de huidige sessie bij."
+    },
+    "machine": true
+  },
+  "crisp": {
+    "purpose": "Livechat.",
+    "cookies": {
+      "crisp-client/*": "Bewaart de chatgeschiedenis over pagina's en bezoeken heen."
+    },
+    "machine": true
+  },
+  "criteo": {
+    "purpose": "Toont advertenties aan eerdere bezoekers.",
+    "machine": true
+  },
+  "dailymotion": {
+    "purpose": "Toont ingesloten video's.",
+    "cookies": {
+      "v1st": "Identificeert de bezoeker voor fraudecontroles.",
+      "ts": "Rolt updates van de speler uit.",
+      "client_token": "Houdt het afspelen van video soepel.",
+      "dmvk": "Voorkomt dat een video wordt onderbroken."
+    },
+    "machine": true
+  },
+  "disqus": {
+    "purpose": "Toont het reactiegedeelte.",
+    "machine": true
+  },
+  "facebook-embed": {
+    "purpose": "Toont ingesloten berichten, video's en paginablokken.",
+    "machine": true
+  },
+  "fathom": {
+    "purpose": "Meet bezoeken zonder cookies.",
+    "machine": true
+  },
+  "freshchat": {
+    "purpose": "Livechat en supportberichten.",
+    "machine": true
+  },
+  "fullstory": {
+    "purpose": "Sessieopnames en gebruiksanalyse.",
+    "machine": true
+  },
+  "giphy": {
+    "purpose": "Toont ingesloten GIF's.",
+    "machine": true
+  },
+  "google-ads": {
+    "purpose": "Meet advertentieconversies en toont advertenties aan eerdere bezoekers.",
+    "cookies": {
+      "_gcl_au": "Koppelt advertentieklikken aan conversies.",
+      "_gcl_aw": "Bewaart de advertentieklik.",
+      "IDE": "Weergave en meting van advertenties."
+    },
+    "machine": true
+  },
+  "google-adsense": {
+    "purpose": "Toont advertenties op deze site.",
+    "cookies": {
+      "__gads": "Weergave en meting van advertenties.",
+      "__gpi": "Weergave en meting van advertenties."
+    },
+    "machine": true
+  },
+  "google-analytics": {
+    "purpose": "Meet bezoeken en conversies.",
+    "cookies": {
+      "_ga": "Onderscheidt bezoekers van elkaar.",
+      "_ga_*": "Houdt de sessiestatus bij.",
+      "_gid": "Onderscheidt bezoekers van elkaar.",
+      "_gat*": "Beperkt het aantal verzoeken."
+    },
+    "machine": true
+  },
+  "google-maps": {
+    "purpose": "Toont ingesloten kaarten.",
+    "cookies": {
+      "NID": "Onthoudt voorkeuren."
+    },
+    "machine": true
+  },
+  "google-recaptcha": {
+    "purpose": "Houdt spam uit formulieren.",
+    "cookies": {
+      "_GRECAPTCHA": "Spambescherming."
+    },
+    "machine": true
+  },
+  "google-tag-manager": {
+    "purpose": "Laadt de andere tags van de site. Plaatst zelf geen cookies; elke geladen tag wacht op eigen toestemming.",
+    "machine": true
+  },
+  "gravatar": {
+    "purpose": "Toont profielfoto's naast reacties.",
+    "machine": true
+  },
+  "hcaptcha": {
+    "purpose": "Houdt spam uit formulieren.",
+    "cookies": {
+      "hmt_id": "Servicestatistieken en ondersteuning voor toegankelijkheid.",
+      "hc_accessibility": "Schakelt de toegankelijkheidsmodus van hCaptcha in."
+    },
+    "machine": true
+  },
+  "heap": {
+    "purpose": "Meet hoe bezoekers de site gebruiken.",
+    "cookies": {
+      "_hp2_id.*": "Onderscheidt bezoekers van elkaar.",
+      "_hp2_ses_props.*": "Houdt de huidige sessie bij."
+    },
+    "machine": true
+  },
+  "hotjar": {
+    "purpose": "Heatmaps en sessieopnames.",
+    "cookies": {
+      "_hjSessionUser_*": "Onderscheidt bezoekers van elkaar.",
+      "_hjSession_*": "Houdt de huidige sessie bij.",
+      "_hjClosedSurveyInvites": "Voorkomt dat een gesloten enquête-uitnodiging opnieuw verschijnt.",
+      "_hjDonePolls": "Voorkomt dat een voltooide enquête opnieuw verschijnt.",
+      "_hjMinimizedPolls": "Houdt een geminimaliseerde enquête geminimaliseerd.",
+      "_hjHasCachedUserAttributes": "Toont of opgeslagen gebruikerskenmerken actueel zijn.",
+      "_hjUserAttributesHash": "Markeert een wijziging in gebruikerskenmerken."
+    },
+    "machine": true
+  },
+  "hubspot": {
+    "purpose": "Volgt bezoeken om marketingcontactgegevens op te bouwen.",
+    "cookies": {
+      "__hstc": "Onderscheidt bezoekers van elkaar.",
+      "hubspotutk": "Onderscheidt bezoekers van elkaar.",
+      "__hssc": "Houdt de huidige sessie bij.",
+      "__hssrc": "Herkent een nieuwe sessie."
+    },
+    "machine": true
+  },
+  "instagram-embed": {
+    "purpose": "Toont ingesloten berichten.",
+    "machine": true
+  },
+  "intercom": {
+    "purpose": "Livechat en supportberichten.",
+    "cookies": {
+      "intercom-id-*": "Onderscheidt bezoekers van elkaar.",
+      "intercom-session-*": "Houdt de chatsessie bij.",
+      "intercom-device-id-*": "Onderscheidt apparaten van elkaar."
+    },
+    "machine": true
+  },
+  "jetpack-stats": {
+    "purpose": "Telt bezoeken.",
+    "machine": true
+  },
+  "klaviyo": {
+    "purpose": "Volgt bezoeken voor e-mailmarketing.",
+    "cookies": {
+      "__kla_id": "Onderscheidt bezoekers van elkaar."
+    },
+    "machine": true
+  },
+  "linkedin-insight": {
+    "purpose": "Meet LinkedIn-advertenties.",
+    "cookies": {
+      "li_fat_id": "Bewaart de advertentieklik.",
+      "bcookie": "Onderscheidt browsers van elkaar.",
+      "UserMatchHistory": "Koppelt de bezoeker aan LinkedIn voor advertenties.",
+      "AnalyticsSyncHistory": "Bewaart het tijdstip van de laatste ID-synchronisatie.",
+      "lms_analytics": "Herkent LinkedIn-leden, voor statistieken.",
+      "lms_ads": "Herkent LinkedIn-leden, voor advertenties.",
+      "li_sugr": "Koppelt de bezoeker aan een LinkedIn-lid."
+    },
+    "machine": true
+  },
+  "livechat": {
+    "purpose": "Livechat.",
+    "cookies": {
+      "__lc_cid": "Onderscheidt chatbezoekers van elkaar.",
+      "__lc_cst": "Verifieert de chatbezoeker.",
+      "__lc2_cid": "Onderscheidt chatbezoekers van elkaar.",
+      "__lc2_cst": "Onderscheidt chatbezoekers van elkaar."
+    },
+    "machine": true
+  },
+  "lucky-orange": {
+    "purpose": "Heatmaps en sessieopnames.",
+    "cookies": {
+      "lo-uid": "Onderscheidt bezoekers van elkaar.",
+      "lo-visits": "Telt bezoeken.",
+      "lo-opt-out": "Onthoudt dat een bezoeker tracking heeft geweigerd.",
+      "_lo_uid": "Onderscheidt bezoekers van elkaar.",
+      "_lo_v": "Telt bezoeken.",
+      "_lo_rid": "Voegt paginaweergaven samen tot één opname.",
+      "__lotl": "Bewaart de eerste landingspagina.",
+      "__lotr": "Bewaart waar de bezoeker vandaan kwam."
+    },
+    "machine": true
+  },
+  "mailchimp": {
+    "purpose": "Volgt bezoeken voor e-mailmarketing.",
+    "cookies": {
+      "mailchimp_user_email": "Onthoudt het e-mailadres van de klant voor winkelwagenherinneringen.",
+      "mailchimp.cart.previous_email": "Wist oude winkelwagengegevens na een wijziging van het e-mailadres.",
+      "mailchimp.cart.current_email": "Bewaart het e-mailadres van de klant voor de huidige winkelwagen."
+    },
+    "machine": true
+  },
+  "matomo-cloud": {
+    "purpose": "Meet bezoeken en conversies.",
+    "cookies": {
+      "_pk_id.*": "Onderscheidt bezoekers van elkaar.",
+      "_pk_ses.*": "Houdt het huidige bezoek bij.",
+      "_pk_ref.*": "Bewaart waar de bezoeker vandaan kwam."
+    },
+    "machine": true
+  },
+  "meta-pixel": {
+    "purpose": "Meet Facebook- en Instagram-advertenties.",
+    "cookies": {
+      "_fbp": "Meting van advertenties.",
+      "_fbc": "Bewaart de advertentieklik.",
+      "fr": "Weergave van advertenties."
+    },
+    "machine": true
+  },
+  "microsoft-advertising": {
+    "purpose": "Meet Microsoft Advertising-advertenties (Bing).",
+    "cookies": {
+      "_uetsid": "Meting van advertenties.",
+      "_uetvid": "Meting van advertenties.",
+      "MUID": "Onderscheidt browsers van elkaar."
+    },
+    "machine": true
+  },
+  "microsoft-clarity": {
+    "purpose": "Heatmaps en sessieopnames.",
+    "cookies": {
+      "_clck": "Onderscheidt bezoekers van elkaar.",
+      "_clsk": "Voegt paginaweergaven samen tot één opname.",
+      "CLID": "Onderscheidt bezoekers van elkaar.",
+      "MUID": "Onderscheidt browsers van elkaar.",
+      "SM": "Synchroniseert de Microsoft-browser-ID.",
+      "MR": "Markeert wanneer de Microsoft-browser-ID wordt vernieuwd.",
+      "ANONCHK": "Controleert of de Microsoft-ID voor advertenties wordt gebruikt."
+    },
+    "machine": true
+  },
+  "mixpanel": {
+    "purpose": "Meet hoe bezoekers de site gebruiken.",
+    "cookies": {
+      "mp_*": "Onderscheidt bezoekers van elkaar."
+    },
+    "machine": true
+  },
+  "mouseflow": {
+    "purpose": "Heatmaps en sessieopnames.",
+    "cookies": {
+      "mf_user": "Onderscheidt nieuwe van terugkerende bezoekers.",
+      "mf_*": "Identificeert de huidige sessie."
+    },
+    "machine": true
+  },
+  "openstreetmap": {
+    "purpose": "Toont ingesloten kaarten.",
+    "machine": true
+  },
+  "optimizely": {
+    "purpose": "Voert A/B-tests uit en meet de resultaten.",
+    "cookies": {
+      "optimizelyEndUserId": "Onderscheidt bezoekers van elkaar.",
+      "optimizelySession": "Onderscheidt nieuwe en terugkerende bezoeken van elkaar.",
+      "optimizelyRedirectData": "Neemt gegevens mee bij een testomleiding.",
+      "optimizelyOptOut": "Onthoudt dat de bezoeker tests heeft geweigerd."
+    },
+    "machine": true
+  },
+  "outbrain": {
+    "purpose": "Toont gesponsorde inhoud en meet deze.",
+    "cookies": {
+      "obuid": "Onderscheidt bezoekers van elkaar en meet klikken.",
+      "auid": "Bewaart de advertentie-ID op mobiele apparaten.",
+      "dicbo_id": "Ondersteunt conversietoewijzing."
+    },
+    "machine": true
+  },
+  "paypal-marketing": {
+    "purpose": "De tag van PayPal die de checkout toevoegt om winkelen op deze site te meten voor de marketing van PayPal.",
+    "machine": true
+  },
+  "paypal": {
+    "purpose": "Verwerkt PayPal-betalingen en voorkomt fraude.",
+    "cookies": {
+      "ts_c": "Fraudepreventie.",
+      "tsrce": "Betalingsverwerking.",
+      "x-pp-s": "Betalingsverwerking.",
+      "nsid": "Fraudepreventie."
+    },
+    "machine": true
+  },
+  "pinterest-tag": {
+    "purpose": "Meet Pinterest-advertenties.",
+    "cookies": {
+      "_pin_unauth": "Onderscheidt bezoekers van elkaar.",
+      "_epik": "Bewaart de advertentieklik.",
+      "_derived_epik": "Meting van advertenties."
+    },
+    "machine": true
+  },
+  "plausible": {
+    "purpose": "Meet bezoeken zonder cookies.",
+    "machine": true
+  },
+  "posthog": {
+    "purpose": "Meet hoe bezoekers de site gebruiken.",
+    "cookies": {
+      "ph_phc_*": "Onderscheidt bezoekers van elkaar."
+    },
+    "machine": true
+  },
+  "quora-pixel": {
+    "purpose": "Meet Quora-advertenties.",
+    "machine": true
+  },
+  "reddit-pixel": {
+    "purpose": "Meet Reddit-advertenties.",
+    "cookies": {
+      "_rdt_uuid": "Meting van advertenties."
+    },
+    "machine": true
+  },
+  "segment": {
+    "purpose": "Verzamelt bezoekgegevens en stuurt ze naar de andere tools van de site.",
+    "cookies": {
+      "ajs_anonymous_id": "Onderscheidt bezoekers van elkaar.",
+      "ajs_user_id": "Bewaart de ingelogde gebruiker.",
+      "ajs_group_id": "Bewaart de groep waartoe de bezoeker behoort."
+    },
+    "machine": true
+  },
+  "smartlook": {
+    "purpose": "Sessieopnames en gebruiksanalyse.",
+    "cookies": {
+      "SL_C_*": "Onderscheidt bezoekers van elkaar en houdt de sessie bij."
+    },
+    "machine": true
+  },
+  "snap-pixel": {
+    "purpose": "Meet Snapchat-advertenties.",
+    "cookies": {
+      "_scid": "Onderscheidt bezoekers van elkaar.",
+      "_scid_r": "Meting van advertenties."
+    },
+    "machine": true
+  },
+  "soundcloud": {
+    "purpose": "Speelt ingesloten audio af.",
+    "machine": true
+  },
+  "spotify": {
+    "purpose": "Speelt ingesloten muziek en podcasts af.",
+    "cookies": {
+      "sp_t": "Nodig voor de werking van de ingesloten Spotify-speler.",
+      "sp_landing": "Nodig voor de werking van de ingesloten Spotify-speler."
+    },
+    "machine": true
+  },
+  "stripe": {
+    "purpose": "Verwerkt kaartbetalingen en voorkomt fraude.",
+    "cookies": {
+      "__stripe_mid": "Fraudepreventie.",
+      "__stripe_sid": "Fraudepreventie."
+    },
+    "machine": true
+  },
+  "taboola": {
+    "purpose": "Toont gesponsorde inhoud en meet deze.",
+    "cookies": {
+      "t_gid": "Onderscheidt bezoekers van elkaar.",
+      "t_pt_gid": "Onderscheidt bezoekers van elkaar op de site van de uitgever.",
+      "t_pid": "Onderscheidt bezoekers van elkaar.",
+      "trc_cookie_storage": "Onderscheidt bezoekers van elkaar voor rapportage.",
+      "taboola_session_id": "Voorkomt dat dezelfde inhoud twee keer wordt getoond."
+    },
+    "machine": true
+  },
+  "tawk-to": {
+    "purpose": "Livechat.",
+    "cookies": {
+      "tawk_uuid_*": "Herkent terugkerende chatbezoekers.",
+      "twk_idm_key": "Beperkt herhaalde verzoeken voor een chatverbinding.",
+      "TawkConnectionTime": "Beheert de chatverbinding over tabbladen heen."
+    },
+    "machine": true
+  },
+  "tidio": {
+    "purpose": "Livechat.",
+    "machine": true
+  },
+  "tiktok-embed": {
+    "purpose": "Toont ingesloten video's.",
+    "cookies": {
+      "ttwid": "Beveiliging en statistieken voor ingesloten video's."
+    },
+    "machine": true
+  },
+  "tiktok-pixel": {
+    "purpose": "Meet TikTok-advertenties.",
+    "cookies": {
+      "_ttp": "Meting van advertenties.",
+      "ttcsid*": "Meting van advertenties.",
+      "ttclid": "Meting van advertenties."
+    },
+    "machine": true
+  },
+  "typeform": {
+    "purpose": "Toont ingesloten formulieren en enquêtes.",
+    "cookies": {
+      "tf_respondent_cc": "Houdt het formulier werkend."
+    },
+    "machine": true
+  },
+  "vimeo": {
+    "purpose": "Toont ingesloten video's.",
+    "cookies": {
+      "vuid": "Video-analyse voor de eigenaar van de video.",
+      "player": "Onthoudt volume, kwaliteit en ondertitels.",
+      "flags": "Functie-instellingen die de eigenaar van de video heeft ingeschakeld.",
+      "lc_*": "Onthoudt een verzonden videoformulier.",
+      "player_clearance": "Botpreventie."
+    },
+    "machine": true
+  },
+  "vwo": {
+    "purpose": "Voert A/B-tests uit en meet de resultaten.",
+    "cookies": {
+      "_vwo_uuid_v2": "Telt unieke bezoekers.",
+      "_vwo_uuid": "Onderscheidt bezoekers van elkaar.",
+      "_vwo_ds": "Bewaart bezoekersgegevens voor gedragsrapporten.",
+      "_vwo_sn": "Houdt de huidige sessie bij.",
+      "_vis_opt_s": "Telt de browsersessies van de bezoeker.",
+      "_vis_opt_exp_*": "Onthoudt de getoonde testversie.",
+      "_wingify_uuid_v2": "Telt unieke bezoekers.",
+      "_wingify_uuid": "Onderscheidt bezoekers van elkaar.",
+      "_wingify_ds": "Bewaart bezoekersgegevens voor gedragsrapporten.",
+      "_wingify_sn": "Houdt de huidige sessie bij.",
+      "_wingify_s": "Telt de browsersessies van de bezoeker.",
+      "_wingify_exp_*": "Onthoudt de getoonde testversie."
+    },
+    "machine": true
+  },
+  "wistia": {
+    "purpose": "Toont ingesloten video's.",
+    "cookies": {
+      "_distillery": "Hervat een video op de plek waar de bezoeker bleef.",
+      "_simplex": "Bewaart verwijzer en landingspagina.",
+      "wistia": "Nodig voor de werking van de videospeler."
+    },
+    "machine": true
+  },
+  "woocommerce-attribution": {
+    "purpose": "Registreert welke campagne of website de bezoeker bracht, bewaard bij de bestelling.",
+    "cookies": {
+      "sbjs_session": "Telt paginaweergaven in dit bezoek.",
+      "sbjs_*": "Waar het bezoek vandaan kwam (bron, campagne, eerste en huidige bezoek)."
+    },
+    "machine": true
+  },
+  "x-embed": {
+    "purpose": "Toont ingesloten berichten en tijdlijnen.",
+    "cookies": {
+      "guest_id": "Onderscheidt bezoekers van elkaar.",
+      "personalization_id": "Personaliseert inhoud en advertenties."
+    },
+    "machine": true
+  },
+  "x-pixel": {
+    "purpose": "Meet X-advertenties (Twitter).",
+    "cookies": {
+      "muc_ads": "Meting van advertenties.",
+      "guest_id_ads": "Weergave van advertenties.",
+      "personalization_id": "Weergave van advertenties."
+    },
+    "machine": true
+  },
+  "yandex-metrica": {
+    "purpose": "Meet bezoeken, met heatmaps en sessieopnames.",
+    "cookies": {
+      "_ym_uid": "Onderscheidt bezoekers van elkaar.",
+      "_ym_d": "Bewaart de datum van het eerste bezoek.",
+      "_ym_isad": "Detecteert advertentieblokkers.",
+      "_ym_visorc*": "Voegt paginaweergaven samen tot één opname.",
+      "_ym_metrika_enabled": "Controleert of cookies werken.",
+      "_ym_hostIndex": "Beperkt het aantal verzoeken."
+    },
+    "machine": true
+  },
+  "youtube": {
+    "purpose": "Toont ingesloten video's.",
+    "cookies": {
+      "YSC": "Controleert of verzoeken van de bezoeker komen.",
+      "VISITOR_INFO1_LIVE": "Videoaanbevelingen en statistieken.",
+      "__Secure-YNID": "Videovoorkeuren en statistieken."
+    },
+    "machine": true
+  },
+  "zendesk-chat": {
+    "purpose": "Livechat en supportberichten.",
+    "cookies": {
+      "__zlcmid": "Identificeert de chatbezoeker.",
+      "__zlcprivacy": "Onthoudt de cookiekeuze van de bezoeker voor chat.",
+      "zte2095": "Identificeert de site die de chatwidget host."
+    },
+    "machine": true
+  }
+}
