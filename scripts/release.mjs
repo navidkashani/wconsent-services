@@ -69,5 +69,6 @@ function writeChangelog(version, date) {
   }
 
   const entry = `## ${version} (${date})\n\n${lines.join('\n') || '- Maintenance.'}\n`;
-  writeFileSync(path, changelog.replace(/^(# Changelog\n\n)/, `$1${entry}\n`));
+  const first = changelog.indexOf('\n## ');
+  writeFileSync(path, first < 0 ? `${changelog.trimEnd()}\n\n${entry}` : `${changelog.slice(0, first + 1)}${entry}\n${changelog.slice(first + 1)}`);
 }
