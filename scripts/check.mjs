@@ -8,9 +8,9 @@
 // Runs on every pull request (.github/workflows/check.yml).
 
 import { execFileSync } from 'node:child_process';
-import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { checkPublic, checkServices, checkTranslation, format } from './lib/rules.mjs';
+import { checkLogo, checkPublic, checkServices, checkTranslation, format } from './lib/rules.mjs';
 
 const ROOT = resolve(import.meta.dirname, '..');
 const fix = process.argv.includes('--fix');
@@ -50,6 +50,15 @@ for (const [locale, file] of translations) {
   problems.push(...('error' in file.data ? [`translations/${locale}.json: ${file.data.error}`] : checkTranslation(locale, file, valid)));
 }
 
+const logos = existsSync(resolve(ROOT, 'logos')) ? readdirSync(resolve(ROOT, 'logos')).filter((f) => f !== '.gitkeep') : [];
+for (const name of logos) {
+  if (!name.endsWith('.svg')) {
+    problems.push(`logos/${name}: only <id>.svg files belong here.`);
+    continue;
+  }
+  problems.push(...checkLogo(name.replace(/\.svg$/, ''), readFileSync(resolve(ROOT, 'logos', name), 'utf8'), new Set(services.keys())).problems);
+}
+
 // Every file that is or would be committed. The rules file names the words it
 // looks for, so it is the one file left out.
 const tracked = execFileSync('git', ['ls-files', '--cached', '--others', '--exclude-standard'], { cwd: ROOT, encoding: 'utf8' })
@@ -71,4 +80,4 @@ if (problems.length > 0) {
   process.exit(1);
 }
 
-console.log(`${services.size} services, ${translations.size} translations and ${tracked.length} files checked.`);
+console.log(`${services.size} services, ${logos.length} logos, ${translations.size} translations and ${tracked.length} files checked.`);

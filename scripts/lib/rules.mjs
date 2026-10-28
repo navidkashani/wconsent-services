@@ -17,6 +17,13 @@ const describe = (errors) => (errors ?? []).map((e) => `${e.instancePath || '/'}
 // The canonical text of a JSON file. `npm run format` writes it.
 export const format = (value) => `${JSON.stringify(value, null, 2)}\n`;
 
+// The first sentence of a purpose: what a site owner sees on the service's
+// card, in two lines at most.
+export const firstSentence = (text) => text.match(/^.*?[.!?](?=\s|$)/s)?.[0] ?? text;
+export const CARD_TEXT = 50;
+// Other languages run longer than English; two card lines still hold this.
+export const CARD_TEXT_TRANSLATED = 70;
+
 // A name pattern with a trailing * matches any suffix; otherwise it must be equal.
 export const nameMatches = (name, pattern) => (pattern.endsWith('*') ? name.startsWith(pattern.slice(0, -1)) : name === pattern);
 
@@ -74,6 +81,7 @@ export function checkServices(files) {
     }
 
     if (data.replacedBy === id) problems.push(`${where}: replacedBy points to itself.`);
+    if (firstSentence(data.purpose).length > CARD_TEXT) problems.push(`${where}: the purpose's first sentence is longer than ${CARD_TEXT} characters.`);
   }
 
   for (const [id, data] of services) {
@@ -105,6 +113,7 @@ export function checkTranslation(locale, { text, data }, services) {
       problems.push(`${where}: "${id}" is not a service.`);
       continue;
     }
+    if (firstSentence(entry.purpose).length > CARD_TEXT_TRANSLATED) problems.push(`${where}: ${id}'s purpose's first sentence is longer than ${CARD_TEXT_TRANSLATED} characters.`);
     const cookies = new Set(service.cookies.map((c) => c.name));
     for (const name of Object.keys(entry.cookies ?? {})) {
       if (!cookies.has(name)) problems.push(`${where}: ${id} has no cookie "${name}".`);
@@ -116,6 +125,46 @@ export function checkTranslation(locale, { text, data }, services) {
   }
 
   return problems;
+}
+
+// A logo is one colour on a 24×24 grid, made of path data only, so a site can
+// draw it with no SVG parser and nothing in it can run.
+export const LOGO_MAX = 4096;
+const LOGO_PATH = /^[MmLlHhVvCcSsQqTtAaZz0-9.,\s+-]+$/;
+const LOGO_FILE = /^<svg xmlns="http:\/\/www\.w3\.org\/2000\/svg" viewBox="([^"]*)">\s*((?:<path\b[^<>]*\/>\s*)+)<\/svg>\s*$/;
+
+/**
+ * @param {string} id the file's name without .svg
+ * @param {string} text logos/<id>.svg
+ * @param {Set<string>} services every service id
+ * @returns {{problems: string[], d: string}} the paths joined into one
+ */
+export function checkLogo(id, text, services) {
+  const where = `logos/${id}.svg`;
+  const problems = [];
+  if (!services.has(id)) problems.push(`${where}: there is no service "${id}".`);
+  if (Buffer.byteLength(text) > LOGO_MAX) problems.push(`${where}: larger than ${LOGO_MAX} bytes.`);
+  const file = text.match(LOGO_FILE);
+  if (file === null) return { problems: [...problems, `${where}: only <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> with <path d="…"/> elements inside.`], d: '' };
+  if (file[1] !== '0 0 24 24') problems.push(`${where}: the viewBox is "${file[1]}", not "0 0 24 24".`);
+
+  const paths = [];
+  const fills = new Set();
+  for (const [, attributes] of file[2].matchAll(/<path\b([^<>]*)\/>/g)) {
+    const pairs = [...attributes.matchAll(/\s*([a-z-]+)="([^"]*)"/g)];
+    if (pairs.map((m) => m[0]).join('') !== attributes.replace(/\s+$/, '')) problems.push(`${where}: a path's attributes can't be read.`);
+    for (const [, name, value] of pairs) {
+      if (name === 'd') paths.push(value);
+      else if (name === 'fill') fills.add(value);
+      else problems.push(`${where}: a path has "${name}"; only d (and one fill colour) are allowed.`);
+    }
+  }
+  if (fills.size > 1) problems.push(`${where}: ${fills.size} fill colours; a logo has one.`);
+  if (paths.length === 0) problems.push(`${where}: no path data.`);
+  for (const d of paths.filter((d) => !LOGO_PATH.test(d))) problems.push(`${where}: path data may hold only path commands and numbers: "${d.slice(0, 40)}…".`);
+
+  const d = paths.map((p) => p.trim().replace(/\s+/g, ' ')).join(' ');
+  return { problems, d: problems.length ? '' : d };
 }
 
 // Words and links that belong in no public file of this repository.

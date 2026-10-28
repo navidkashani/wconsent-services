@@ -15,8 +15,10 @@
 // can rebuild it and prove the committed dist/ is the real thing.
 
 import { createHash } from 'node:crypto';
-import { mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
+
+import { checkLogo } from './lib/rules.mjs';
 
 const ROOT = resolve(import.meta.dirname, '..');
 const DIST = resolve(ROOT, 'dist');
@@ -47,6 +49,18 @@ export function build() {
     const texts = Object.fromEntries(Object.entries(json(`translations/${file}`)).map(([id, { machine, ...entry }]) => [id, entry]));
     files[`i18n/${locale}.json`] = { format: FORMAT, version, locale, services: texts };
   }
+
+  // Each logo's paths become one path, drawn in the site's own colour. A site
+  // that knows no logos file simply skips it.
+  const ids = new Set(services.map((s) => s.id));
+  const logos = {};
+  for (const file of existsSync(resolve(ROOT, 'logos')) ? readdirSync(resolve(ROOT, 'logos')).filter((f) => f.endsWith('.svg')).sort() : []) {
+    const id = file.replace(/\.svg$/, '');
+    const { problems, d } = checkLogo(id, readFileSync(resolve(ROOT, 'logos', file), 'utf8'), ids);
+    if (problems.length) throw new Error(problems.join('\n'));
+    logos[id] = d;
+  }
+  if (Object.keys(logos).length) files['logos.json'] = { format: FORMAT, version, logos };
 
   const out = {};
   const index = [];

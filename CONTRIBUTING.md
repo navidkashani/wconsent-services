@@ -19,7 +19,8 @@ site owners, so every change is checked before it is merged.
 5. **Every change raises `version` by one** and sets `checked` to the day you
    checked it.
 6. **Plain words.** A `purpose` is one short sentence a visitor understands,
-   ending with a full stop: "Measures visits and conversions." Cookie
+   ending with a full stop, of 50 characters at most (70 in a translation),
+   so it fits on the service's card: "Measures visits and conversions." Cookie
    purposes are a few words: "Tells visitors apart."
 7. **Licence.** By contributing, you agree that your contribution is licensed
    under the GPL-3.0, like the rest of the repository.
@@ -42,6 +43,29 @@ site owners, so every change is checked before it is merged.
    ```
 
 5. Open a pull request and fill in the template.
+
+## Adding a logo
+
+A logo is optional. A service without one shows its initials.
+
+1. Take the logo from [Simple Icons](https://simpleicons.org) (CC0) if it has
+   one. Otherwise use a set under the MIT or CC0 licence, or the brand's own
+   press kit, and make it one colour. Never use a logo its brand asked Simple
+   Icons to remove.
+2. Save it as `logos/<id>.svg`, named after the service's id, in exactly this
+   form: a 24×24 viewBox and `<path>` elements with only a `d` attribute.
+
+   ```svg
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.37…"/></svg>
+   ```
+
+   No colours, styles, groups, shapes, text or links; at most 4 KB. Holes
+   come from the path's direction, as in Simple Icons, since every path is
+   filled the same way.
+3. Check it reads well at 28 pixels, dark on light and light on dark.
+4. Add a line for it to [CREDITS.md](CREDITS.md): where it came from and
+   under which licence.
+5. Run `npm run check`.
 
 ## Translations
 

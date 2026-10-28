@@ -113,7 +113,7 @@
     "machine": true
   },
   "google-ads": {
-    "purpose": "Mierzy konwersje reklam i wyświetla reklamy dawnym odwiedzającym.",
+    "purpose": "Mierzy reklamy i wyświetla je dawnym odwiedzającym.",
     "cookies": {
       "_gcl_au": "Łączy kliknięcia reklam z konwersjami.",
       "_gcl_aw": "Zapisuje kliknięcie reklamy.",
@@ -349,7 +349,7 @@
     "machine": true
   },
   "paypal-marketing": {
-    "purpose": "Tag PayPal dodawany przez jego kasę, aby mierzyć zakupy w tej witrynie na potrzeby marketingu PayPal.",
+    "purpose": "Mierzy zakupy w tej witrynie na potrzeby marketingu PayPal.",
     "machine": true
   },
   "paypal": {
@@ -394,7 +394,7 @@
     "machine": true
   },
   "segment": {
-    "purpose": "Zbiera dane o wizytach i wysyła je do pozostałych narzędzi witryny.",
+    "purpose": "Zbiera dane o wizytach dla pozostałych narzędzi witryny.",
     "cookies": {
       "ajs_anonymous_id": "Odróżnia odwiedzających.",
       "ajs_user_id": "Zapisuje zalogowanego użytkownika.",
@@ -523,7 +523,7 @@
     "machine": true
   },
   "woocommerce-attribution": {
-    "purpose": "Zapisuje kampanię lub witrynę, z której przyszedł odwiedzający, razem z zamówieniem.",
+    "purpose": "Zapisuje z zamówieniem, skąd przyszła wizyta.",
     "cookies": {
       "sbjs_session": "Zlicza odsłony stron w tej wizycie.",
       "sbjs_*": "Skąd pochodzi wizyta (źródło, kampania, pierwsza i bieżąca wizyta)."
@@ -548,7 +548,7 @@
     "machine": true
   },
   "yandex-metrica": {
-    "purpose": "Mierzy wizyty, z mapami cieplnymi i nagraniami sesji.",
+    "purpose": "Mierzy wizyty, z mapami cieplnymi i nagraniami.",
     "cookies": {
       "_ym_uid": "Odróżnia odwiedzających.",
       "_ym_d": "Zapisuje datę pierwszej wizyty.",

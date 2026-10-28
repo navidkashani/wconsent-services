@@ -1,11 +1,11 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "segment",
-  "version": 2,
+  "version": 3,
   "name": "Segment",
   "provider": "Twilio Inc.",
   "category": "statistics",
-  "purpose": "Collects visit data and sends it to the site's other tools.",
+  "purpose": "Collects visit data for the site's other tools.",
   "privacyUrl": "https://www.twilio.com/en-us/legal/privacy",
   "dataCountry": "USA (EU-US Data Privacy Framework)",
   "legalBasis": "consent",
@@ -57,5 +57,5 @@
     "https://dataprivacyframework.gov/list",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-28"
 }

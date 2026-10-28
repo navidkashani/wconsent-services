@@ -36,6 +36,12 @@ body:
     attributes:
       label: The vendor's own pages
       description: Its privacy policy, cookie list, or install guide.
+  - type: input
+    id: logo
+    attributes:
+      label: Logo (optional)
+      description: A link to a one-colour logo under a free licence, such as the brand's page on Simple Icons, or its press kit.
+      placeholder: https://simpleicons.org/?q=hotjar
   - type: textarea
     id: notes
     attributes:
