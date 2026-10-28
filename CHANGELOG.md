@@ -2,6 +2,10 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.1.1 (2026-10-28)
+
+- Jetpack Stats logo, from Automattic's Jetpack brand kit.
+
 ## 1.1.0 (2026-10-28)
 
 - One-colour logos for 56 services, in the new `logos.json` (#2).

@@ -89,6 +89,10 @@ The symbol alone, from each brand's press or brand page, made one colour.
 
 - activecampaign: ActiveCampaign press kit https://www.activecampaign.com/brand
 - crisp: Crisp brand assets, https://crisp.chat/en/about/
+- jetpack-stats: Automattic brand materials (the Jetpack brand kit)
+  https://automattic.com/press/brand-materials/. Its terms name Automattic's
+  partners and editorial use; the logo is used here only to identify the
+  service.
 - mouseflow: Mouseflow press page https://mouseflow.com/press-releases/
 - taboola: Taboola branding page https://www.taboola.com/branding
 - tidio: Tidio brand PDF https://assets.tidio.com/homepage/brand/assets.pdf
