@@ -93,7 +93,7 @@
     "machine": true
   },
   "facebook-embed": {
-    "purpose": "Affiche des publications, des vidéos et des encadrés de page embarqués.",
+    "purpose": "Affiche des publications, vidéos et encadrés de page embarqués.",
     "machine": true
   },
   "fathom": {
@@ -113,7 +113,7 @@
     "machine": true
   },
   "google-ads": {
-    "purpose": "Mesure les conversions publicitaires et affiche des publicités aux anciens visiteurs.",
+    "purpose": "Mesure les publicités et les montre aux anciens visiteurs.",
     "cookies": {
       "_gcl_au": "Associe les clics sur les publicités aux conversions.",
       "_gcl_aw": "Mémorise le clic sur la publicité.",
@@ -349,7 +349,7 @@
     "machine": true
   },
   "paypal-marketing": {
-    "purpose": "Balise de PayPal ajoutée par son module de paiement pour mesurer les achats sur ce site, à des fins de marketing PayPal.",
+    "purpose": "Mesure les achats sur ce site pour le marketing de PayPal.",
     "machine": true
   },
   "paypal": {
@@ -394,7 +394,7 @@
     "machine": true
   },
   "segment": {
-    "purpose": "Collecte les données de visite et les transmet aux autres outils du site.",
+    "purpose": "Collecte les données de visite pour les autres outils du site.",
     "cookies": {
       "ajs_anonymous_id": "Distingue les visiteurs.",
       "ajs_user_id": "Mémorise l’utilisateur connecté.",
@@ -523,7 +523,7 @@
     "machine": true
   },
   "woocommerce-attribution": {
-    "purpose": "Enregistre la campagne ou le site d’origine de la visite, mémorisé avec la commande.",
+    "purpose": "Enregistre avec la commande l’origine de la visite.",
     "cookies": {
       "sbjs_session": "Compte les pages vues pendant cette visite.",
       "sbjs_*": "Provenance de la visite (source, campagne, première visite et visite en cours)."
@@ -548,7 +548,7 @@
     "machine": true
   },
   "yandex-metrica": {
-    "purpose": "Mesure les visites, avec cartes de chaleur et enregistrements de session.",
+    "purpose": "Mesure les visites, avec cartes de chaleur et enregistrements.",
     "cookies": {
       "_ym_uid": "Distingue les visiteurs.",
       "_ym_d": "Mémorise la date de la première visite.",

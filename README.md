@@ -16,6 +16,7 @@ the data under the [GPL-3.0](LICENSE).
 |---|---|
 | `services/` | One file per service, named after its id. |
 | `translations/` | The visitor-facing texts in other languages, one file per WordPress locale. |
+| `logos/` | One-colour logos, one per service that has one, named after its id. |
 | `cookies/` | A converted copy of the [Open Cookie Database](https://github.com/jkwakman/Open-Cookie-Database), for cookies no service names. |
 | `schema/` | JSON Schemas for services and translations. |
 | `scripts/` | The checks, the build and the cookie conversion. |
@@ -97,6 +98,7 @@ Each release builds `dist/`:
 | `dist/services.json` | All services. |
 | `dist/cookies.json` | The converted Open Cookie Database: `[name, wildcard, category, platform, retention, description]` rows. |
 | `dist/i18n/<locale>.json` | One language's texts. |
+| `dist/logos.json` | `{ "logos": { "<id>": "<path data>" } }`: each logo as one path on a 24×24 grid, to fill with a single colour. |
 
 Read the index from the newest release of format 1:
 
@@ -127,4 +129,6 @@ or open an issue: [add a service](../../issues/new?template=add-service.yml),
 ## Licence and credits
 
 GPL-3.0. The cookie data in `cookies/` comes from the Open Cookie Database
-under Apache-2.0. See [CREDITS.md](CREDITS.md).
+under Apache-2.0. The logos come from Simple Icons and other sets under their
+own licences, and the brands are their owners' trademarks. See
+[CREDITS.md](CREDITS.md).

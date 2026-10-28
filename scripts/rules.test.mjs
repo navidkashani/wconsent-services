@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { convert } from './convert-cookies.mjs';
 import { parseCsv } from './lib/csv.mjs';
-import { checkPublic, checkServices, checkTranslation, format } from './lib/rules.mjs';
+import { checkLogo, checkPublic, checkServices, checkTranslation, format } from './lib/rules.mjs';
 
 const service = (overrides = {}) => ({
   $schema: 'https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json',
@@ -112,6 +112,31 @@ test('public files carry no private links or internal words', () => {
     assert.equal(checkPublic('README.md', `A ${word} here.`).length, 1, word);
   }
   assert.equal(checkPublic('README.md', 'A process, a product, provider.').length, 0);
+});
+
+test('a purpose\'s first sentence fits on a card', () => {
+  assert.deepEqual(checkServices(files(service({ purpose: 'Measures visits. Then says a great deal more about what it does.' }))), []);
+  assert.equal(only(checkServices(files(service({ purpose: 'Measures visits, conversions, audiences and a lot more.' }))), 'first sentence').length, 1);
+  const translation = { example: { purpose: `${'Mesure les visites '.repeat(4)}.` } };
+  assert.equal(only(checkTranslation('fr', { text: format(translation), data: translation }, new Map([['example', service()]])), 'first sentence').length, 1);
+});
+
+const svg = (inner, viewBox = '0 0 24 24') => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox}">${inner}</svg>\n`;
+const ids = new Set(['example']);
+
+test('a logo is one colour of path data on a 24×24 grid', () => {
+  assert.deepEqual(checkLogo('example', svg('<path d="M0 0h24v24H0z"/><path d="M1 1L2 2z"/>'), ids), { problems: [], d: 'M0 0h24v24H0z M1 1L2 2z' });
+  assert.deepEqual(checkLogo('example', svg('<path fill="#000" d="M0 0h24z"/>'), ids).problems, []);
+  const fails = (text, word, id = 'example') => assert.equal(only(checkLogo(id, text, ids).problems, word).length, 1, `${text} should fail on ${word}`);
+  fails(svg('<path d="M0 0h24z"/>'), 'no service', 'unknown');
+  fails(svg('<path d="M0 0h24z"/>', '0 0 48 48'), 'viewBox');
+  fails(svg('<circle r="4"/>'), 'only <svg');
+  fails(svg('<path d="M0 0h24z"/><script>alert(1)</script>'), 'only <svg');
+  fails(svg('<path d="M0 0h24z" onload="x()"/>'), '"onload"');
+  fails(svg('<path d="M0 0h24z" style="fill:red"/>'), '"style"');
+  fails(svg('<path fill="#000" d="M0 0z"/><path fill="#fff" d="M1 1z"/>'), 'fill colours');
+  fails(svg('<path d="M0 0 url(#x)"/>'), 'path commands');
+  fails(svg(`<path d="M0 0${' L1 1'.repeat(1000)}"/>`), 'larger than');
 });
 
 test('the CSV reader handles quotes and line breaks', () => {

@@ -1,11 +1,11 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "paypal-marketing",
-  "version": 2,
+  "version": 3,
   "name": "PayPal marketing",
   "provider": "PayPal (Europe) S.à r.l. et Cie, S.C.A.",
   "category": "marketing",
-  "purpose": "PayPal's tag that its checkout adds to measure shopping on this site for PayPal's marketing.",
+  "purpose": "Measures shopping here for PayPal's marketing.",
   "privacyUrl": "https://www.paypal.com/ie/legalhub/paypal/privacy-full",
   "dataCountry": "USA and other countries",
   "legalBasis": "consent",
@@ -32,5 +32,5 @@
     "https://developer.paypal.com/docs/archive/marketing-solutions/",
     "https://wordpress.org/plugins/woocommerce-paypal-payments/"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-28"
 }

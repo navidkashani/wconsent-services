@@ -113,7 +113,7 @@
     "machine": true
   },
   "google-ads": {
-    "purpose": "Misst Werbe-Conversions und zeigt früheren Besuchern Werbung an.",
+    "purpose": "Misst Werbung und zeigt sie früheren Besuchern.",
     "cookies": {
       "_gcl_au": "Verknüpft Klicks auf Werbung mit Conversions.",
       "_gcl_aw": "Speichert den Klick auf Werbung.",
@@ -349,7 +349,7 @@
     "machine": true
   },
   "paypal-marketing": {
-    "purpose": "PayPal-Tag, den der PayPal-Checkout hinzufügt, um Einkäufe auf dieser Website für das Marketing von PayPal zu messen.",
+    "purpose": "Misst Einkäufe auf dieser Website für das Marketing von PayPal.",
     "machine": true
   },
   "paypal": {
@@ -394,7 +394,7 @@
     "machine": true
   },
   "segment": {
-    "purpose": "Erfasst Besuchsdaten und sendet sie an die anderen Tools der Website.",
+    "purpose": "Erfasst Besuchsdaten für die anderen Tools der Website.",
     "cookies": {
       "ajs_anonymous_id": "Unterscheidet Besucher.",
       "ajs_user_id": "Speichert den angemeldeten Benutzer.",
@@ -523,7 +523,7 @@
     "machine": true
   },
   "woocommerce-attribution": {
-    "purpose": "Erfasst, welche Kampagne oder Website zum Besuch geführt hat, und speichert dies mit der Bestellung.",
+    "purpose": "Speichert mit der Bestellung, woher der Besuch kam.",
     "cookies": {
       "sbjs_session": "Zählt Seitenaufrufe in diesem Besuch.",
       "sbjs_*": "Herkunft des Besuchs (Quelle, Kampagne, erster und aktueller Besuch)."
@@ -548,7 +548,7 @@
     "machine": true
   },
   "yandex-metrica": {
-    "purpose": "Misst Besuche, mit Heatmaps und Sitzungsaufzeichnungen.",
+    "purpose": "Misst Besuche, mit Heatmaps und Aufzeichnungen.",
     "cookies": {
       "_ym_uid": "Unterscheidet Besucher.",
       "_ym_d": "Speichert das Datum des ersten Besuchs.",

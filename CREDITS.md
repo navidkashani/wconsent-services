@@ -34,3 +34,61 @@ they are added.
 https://github.com/whotracksme, statistics under CC BY 4.0. Used only to decide
 which services to check first, by how common they are. No tracker data from
 WhoTracks.me is copied into this list.
+
+## Logos
+
+`logos/` and the `logos.json` built from it hold one-colour logos. Brand
+names and logos are trademarks of their owners. They are here only to show
+which service is which, and no endorsement is implied. Every logo was made one
+colour and fitted to a 24×24 grid; see each source below.
+
+### Simple Icons
+
+https://github.com/simple-icons/simple-icons, version 16.36.0, CC0-1.0. For a
+product of a larger brand (Meta Pixel, Cloudflare Turnstile, Zendesk Chat),
+the brand's own icon.
+
+calendly (`calendly`), cloudflare-turnstile (`cloudflare`),
+cloudflare-web-analytics (`cloudflare`), dailymotion (`dailymotion`),
+disqus (`disqus`), facebook-embed (`facebook`), fathom (`fathom`),
+giphy (`giphy`), google-ads (`googleads`), google-adsense (`googleadsense`),
+google-analytics (`googleanalytics`), google-maps (`googlemaps`),
+google-tag-manager (`googletagmanager`), gravatar (`gravatar`),
+hotjar (`hotjar`), hubspot (`hubspot`), instagram-embed (`instagram`),
+intercom (`intercom`), livechat (`livechat`), mailchimp (`mailchimp`),
+matomo-cloud (`matomo`), meta-pixel (`meta`), mixpanel (`mixpanel`),
+openstreetmap (`openstreetmap`), paypal (`paypal`),
+paypal-marketing (`paypal`), pinterest-tag (`pinterest`),
+plausible (`plausibleanalytics`), posthog (`posthog`), quora-pixel (`quora`),
+reddit-pixel (`reddit`), snap-pixel (`snapchat`), soundcloud (`soundcloud`),
+spotify (`spotify`), stripe (`stripe`), tiktok-embed (`tiktok`),
+tiktok-pixel (`tiktok`), vimeo (`vimeo`), wistia (`wistia`), x-embed (`x`),
+x-pixel (`x`), youtube (`youtube`), zendesk-chat (`zendesk`)
+
+### gilbarbara/logos
+
+https://github.com/gilbarbara/logos, commit d6960ed, CC0-1.0. Colours merged
+into one; the reCAPTCHA logo keeps its arrows without the word.
+
+amplitude (`logos/amplitude-icon.svg`),
+google-recaptcha (`logos/recaptcha.svg`), heap (`logos/heap-icon.svg`),
+optimizely (`logos/optimizely-icon.svg`), segment (`logos/segment-icon.svg`),
+vwo (`logos/vwo.svg`),
+woocommerce-attribution (`logos/woocommerce-icon.svg`)
+
+### svgl
+
+https://github.com/pheralb/svgl, commit 88467c0, MIT licence, copyright (c)
+2022 Pablo Hdez. Gradients merged into one colour.
+
+hcaptcha (`static/library/hcaptcha.svg`)
+
+### Brands' own press kits
+
+The symbol alone, from each brand's press or brand page, made one colour.
+
+- activecampaign: ActiveCampaign press kit https://www.activecampaign.com/brand
+- crisp: Crisp brand assets, https://crisp.chat/en/about/
+- mouseflow: Mouseflow press page https://mouseflow.com/press-releases/
+- taboola: Taboola branding page https://www.taboola.com/branding
+- tidio: Tidio brand PDF https://assets.tidio.com/homepage/brand/assets.pdf

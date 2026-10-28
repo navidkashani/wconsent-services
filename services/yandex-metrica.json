@@ -1,11 +1,11 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "yandex-metrica",
-  "version": 2,
+  "version": 3,
   "name": "Yandex Metrica",
   "provider": "Air Smart Advertising Solutions FZ-LLC",
   "category": "statistics",
-  "purpose": "Measures visits, with heatmaps and session recordings.",
+  "purpose": "Measures visits, with heatmaps and recordings.",
   "privacyUrl": "https://yandex.com/legal/confidential/en/",
   "dataCountry": "",
   "legalBasis": "consent",
@@ -73,5 +73,5 @@
     "https://yandex.com/support/metrica/en/general/cookie-usage",
     "https://yandex.com/support/metrica/en/code/counter-initialize"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-28"
 }

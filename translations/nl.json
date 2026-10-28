@@ -113,7 +113,7 @@
     "machine": true
   },
   "google-ads": {
-    "purpose": "Meet advertentieconversies en toont advertenties aan eerdere bezoekers.",
+    "purpose": "Meet advertenties en toont ze aan eerdere bezoekers.",
     "cookies": {
       "_gcl_au": "Koppelt advertentieklikken aan conversies.",
       "_gcl_aw": "Bewaart de advertentieklik.",
@@ -349,7 +349,7 @@
     "machine": true
   },
   "paypal-marketing": {
-    "purpose": "De tag van PayPal die de checkout toevoegt om winkelen op deze site te meten voor de marketing van PayPal.",
+    "purpose": "Meet winkelen op deze site voor de marketing van PayPal.",
     "machine": true
   },
   "paypal": {
@@ -394,7 +394,7 @@
     "machine": true
   },
   "segment": {
-    "purpose": "Verzamelt bezoekgegevens en stuurt ze naar de andere tools van de site.",
+    "purpose": "Verzamelt bezoekgegevens voor de andere tools van de site.",
     "cookies": {
       "ajs_anonymous_id": "Onderscheidt bezoekers van elkaar.",
       "ajs_user_id": "Bewaart de ingelogde gebruiker.",
@@ -523,7 +523,7 @@
     "machine": true
   },
   "woocommerce-attribution": {
-    "purpose": "Registreert welke campagne of website de bezoeker bracht, bewaard bij de bestelling.",
+    "purpose": "Bewaart bij de bestelling waar het bezoek vandaan kwam.",
     "cookies": {
       "sbjs_session": "Telt paginaweergaven in dit bezoek.",
       "sbjs_*": "Waar het bezoek vandaan kwam (bron, campagne, eerste en huidige bezoek)."
@@ -548,7 +548,7 @@
     "machine": true
   },
   "yandex-metrica": {
-    "purpose": "Meet bezoeken, met heatmaps en sessieopnames.",
+    "purpose": "Meet bezoeken, met heatmaps en opnames.",
     "cookies": {
       "_ym_uid": "Onderscheidt bezoekers van elkaar.",
       "_ym_d": "Bewaart de datum van het eerste bezoek.",
