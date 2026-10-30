@@ -139,6 +139,10 @@
     },
     "machine": true
   },
+  "google-fonts": {
+    "purpose": "Laadt de lettertypen van de site van Google.",
+    "machine": true
+  },
   "google-maps": {
     "purpose": "Toont ingesloten kaarten.",
     "cookies": {
