@@ -139,6 +139,10 @@
     },
     "machine": true
   },
+  "google-fonts": {
+    "purpose": "Carga las fuentes del sitio desde Google.",
+    "machine": true
+  },
   "google-maps": {
     "purpose": "Muestra mapas incrustados.",
     "cookies": {
