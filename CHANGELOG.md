@@ -2,6 +2,11 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.2.0 (2026-10-30)
+
+- Google Fonts (Functional): `fonts.googleapis.com` and `fonts.gstatic.com`,
+  with its logo and translations (#5).
+
 ## 1.1.1 (2026-10-28)
 
 - Jetpack Stats logo, from Automattic's Jetpack brand kit.
