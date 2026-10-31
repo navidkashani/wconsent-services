@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "google-ads",
-  "version": 3,
+  "version": 4,
   "name": "Google Ads",
   "provider": "Google Ireland Limited",
   "category": "marketing",
@@ -49,15 +49,23 @@
   },
   "placeholder": null,
   "wordpress": {
-    "plugins": [],
-    "handles": []
+    "plugins": [
+      "google-site-kit/google-site-kit.php",
+      "google-listings-and-ads/google-listings-and-ads.php",
+      "kliken-marketing-for-google/kliken-marketing-for-google.php"
+    ],
+    "handles": [
+      "gla-gtag-events"
+    ]
   },
   "sources": [
     "https://business.safety.google/adscookies/",
     "https://policies.google.com/technologies/cookies",
     "https://policies.google.com/privacy/frameworks",
     "https://policies.google.com/privacy",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/google-listings-and-ads/trunk/google-listings-and-ads.php",
+    "https://plugins.svn.wordpress.org/kliken-marketing-for-google/trunk/kliken-marketing-for-google.php"
   ],
-  "checked": "2026-10-28"
+  "checked": "2026-10-31"
 }

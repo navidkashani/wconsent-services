@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "google-maps",
-  "version": 1,
+  "version": 2,
   "name": "Google Maps",
   "provider": "Google Ireland Limited",
   "category": "media",
@@ -31,14 +31,23 @@
   },
   "placeholder": "map",
   "wordpress": {
-    "plugins": [],
-    "handles": []
+    "plugins": [
+      "agile-store-locator/agile-store-locator.php",
+      "wp-store-locator/wp-store-locator.php"
+    ],
+    "handles": [
+      "wpgmza_canvas_layer",
+      "wpgmza_canvas_layer_options"
+    ]
   },
   "sources": [
     "https://policies.google.com/technologies/cookies",
     "https://policies.google.com/privacy/frameworks",
     "https://policies.google.com/privacy",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/wp-google-maps/trunk/",
+    "https://plugins.svn.wordpress.org/agile-store-locator/trunk/",
+    "https://plugins.svn.wordpress.org/wp-store-locator/trunk/"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-31"
 }

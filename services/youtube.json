@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "youtube",
-  "version": 2,
+  "version": 3,
   "name": "YouTube",
   "provider": "Google Ireland Limited",
   "category": "media",
@@ -41,7 +41,10 @@
   },
   "placeholder": "video",
   "wordpress": {
-    "plugins": [],
+    "plugins": [
+      "feeds-for-youtube/youtube-feed.php",
+      "wp-social-reviews/wp-social-reviews.php"
+    ],
     "handles": []
   },
   "sources": [
@@ -50,7 +53,9 @@
     "https://policies.google.com/privacy/frameworks",
     "https://policies.google.com/privacy",
     "https://github.com/jkwakman/Open-Cookie-Database",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/feeds-for-youtube/trunk/youtube-feed.php",
+    "https://plugins.svn.wordpress.org/wp-social-reviews/trunk/wp-social-reviews.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-31"
 }

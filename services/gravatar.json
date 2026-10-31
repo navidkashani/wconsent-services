@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "gravatar",
-  "version": 2,
+  "version": 3,
   "name": "Gravatar",
   "provider": "Aut O'Mattic A8C Ireland Ltd.",
   "category": "media",
@@ -22,13 +22,19 @@
   },
   "placeholder": null,
   "wordpress": {
-    "plugins": [],
-    "handles": []
+    "plugins": [
+      "gravatar-enhanced/gravatar-enhanced.php"
+    ],
+    "handles": [
+      "gravatar-enhanced-hovercards",
+      "gravatar-enhanced-comments"
+    ]
   },
   "sources": [
     "https://automattic.com/privacy/",
     "https://automattic.com/cookies/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/gravatar-enhanced/trunk/gravatar-enhanced.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-31"
 }

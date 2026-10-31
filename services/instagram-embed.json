@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "instagram-embed",
-  "version": 1,
+  "version": 2,
   "name": "Instagram embeds",
   "provider": "Meta Platforms Ireland Limited",
   "category": "media",
@@ -14,7 +14,8 @@
       "instagram.com/embed.js",
       "instagram.com/p",
       "instagram.com/reel",
-      "instagram.com/tv"
+      "instagram.com/tv",
+      "cdninstagram.com"
     ],
     "inline": [
       "instagram.com/embed.js"
@@ -28,14 +29,21 @@
   },
   "placeholder": "social",
   "wordpress": {
-    "plugins": [],
+    "plugins": [
+      "instagram-feed/instagram-feed.php",
+      "spotlight-social-photo-feeds/plugin.php",
+      "wp-social-reviews/wp-social-reviews.php"
+    ],
     "handles": []
   },
   "sources": [
     "https://privacycenter.instagram.com/policy",
     "https://www.facebook.com/privacy/policies/data_privacy_framework/",
     "https://www.facebook.com/privacy/policies/cookies/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/instagram-feed/trunk/instagram-feed.php",
+    "https://plugins.svn.wordpress.org/spotlight-social-photo-feeds/trunk/plugin.php",
+    "https://plugins.svn.wordpress.org/wp-social-reviews/trunk/wp-social-reviews.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-31"
 }
