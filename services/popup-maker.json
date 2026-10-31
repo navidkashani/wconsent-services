@@ -1,0 +1,39 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "popup-maker",
+  "version": 1,
+  "name": "Popup Maker",
+  "provider": "This website",
+  "category": "functional",
+  "purpose": "Remembers which pop-ups were shown or closed.",
+  "privacyUrl": "https://wppopupmaker.com/docs/controlling-popups/cookie-settings/",
+  "dataCountry": "Stays on this website",
+  "legalBasis": "consent",
+  "match": {},
+  "cookies": [
+    {
+      "name": "pum-*",
+      "lifetime": "Set by pop-up settings",
+      "purpose": "Stops the same pop-up showing again."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "popup-maker/popup-maker.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://wppopupmaker.com/docs/controlling-popups/cookie-settings/",
+    "https://plugins.svn.wordpress.org/popup-maker/trunk/",
+    "https://plugins.svn.wordpress.org/popup-maker/trunk/popup-maker.php",
+    "https://wordpress.org/plugins/popup-maker/"
+  ],
+  "checked": "2026-10-31"
+}

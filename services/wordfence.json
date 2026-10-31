@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "wordfence",
+  "version": 1,
+  "name": "Wordfence",
+  "provider": "Defiant, Inc.",
+  "category": "essential",
+  "purpose": "Protects the site from attacks and spam logins.",
+  "privacyUrl": "https://www.wordfence.com/privacy-policy/",
+  "dataCountry": "USA",
+  "legalBasis": "legitimate-interest",
+  "match": {},
+  "cookies": [
+    {
+      "name": "wfwaf-authcookie-*",
+      "lifetime": "12 hours",
+      "purpose": "Lets the firewall recognise logged-in users.",
+      "httpOnly": true
+    },
+    {
+      "name": "wf_loginalerted_*",
+      "lifetime": "1 year",
+      "purpose": "Spots logins from a new device for alerts.",
+      "httpOnly": true
+    },
+    {
+      "name": "wfCBLBypass",
+      "lifetime": "1 year",
+      "purpose": "Lets chosen visitors past country blocking.",
+      "httpOnly": true
+    },
+    {
+      "name": "wfls-remembered-*",
+      "lifetime": "30 days",
+      "purpose": "Remembers a browser that passed two-factor login.",
+      "httpOnly": true
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "wordfence/wordfence.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.wordfence.com/help/general-data-protection-regulation/",
+    "https://www.wordfence.com/privacy-policy/",
+    "https://plugins.svn.wordpress.org/wordfence/trunk/",
+    "https://plugins.svn.wordpress.org/wordfence/trunk/wordfence.php",
+    "https://wordpress.org/plugins/wordfence/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

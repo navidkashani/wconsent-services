@@ -1,0 +1,35 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "cdnjs",
+  "version": 1,
+  "name": "cdnjs",
+  "provider": "Cloudflare, Inc.",
+  "category": "essential",
+  "purpose": "Delivers code libraries the site uses.",
+  "privacyUrl": "https://www.cloudflare.com/privacypolicy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "cdnjs.cloudflare.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://cdnjs.com/about",
+    "https://cdnjs.com/libraries/jquery",
+    "https://www.cloudflare.com/privacypolicy/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
