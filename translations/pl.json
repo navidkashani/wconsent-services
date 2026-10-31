@@ -7,6 +7,10 @@
     },
     "machine": true
   },
+  "accessibe": {
+    "purpose": "Dodaje do strony menu ułatwień dostępu.",
+    "machine": true
+  },
   "activecampaign": {
     "purpose": "Śledzi wizyty na potrzeby marketingu e-mailowego.",
     "cookies": {
@@ -156,6 +160,23 @@
     "purpose": "Mierzy wizyty bez ciasteczek.",
     "machine": true
   },
+  "contentsquare": {
+    "purpose": "Mapy cieplne i nagrania sesji.",
+    "cookies": {
+      "_cs_id": "Odróżnia odwiedzających.",
+      "_cs_s": "Utrzymuje bieżącą sesję.",
+      "_cs_s_ctx": "Zapamiętuje, jak rozpoczęła się sesja.",
+      "_cs_c": "Zapisuje wybór dotyczący nagrywania sesji.",
+      "_cs_i": "Przechowuje zaszyfrowaną tożsamość użytkownika.",
+      "_cs_cvars": "Przechowuje niestandardowe dane o wizycie.",
+      "_cs_ep": "Przechowuje niestandardowe dane o wizycie.",
+      "_cs_ex": "Wyklucza odwiedzającego ze śledzenia.",
+      "_cs_optout": "Zapamiętuje, że odwiedzający zrezygnował.",
+      "_cs_mk_*": "Wysyła dane do narzędzia analitycznego tylko raz.",
+      "_cs_rl_*": "Przechowuje link do odtworzenia sesji na potrzeby integracji."
+    },
+    "machine": true
+  },
   "crazy-egg": {
     "purpose": "Mapy cieplne i nagrania sesji.",
     "cookies": {
@@ -190,6 +211,13 @@
   },
   "disqus": {
     "purpose": "Wyświetla sekcję komentarzy.",
+    "machine": true
+  },
+  "elfsight": {
+    "purpose": "Wyświetla kanały społecznościowe, opinie i inne widżety.",
+    "cookies": {
+      "elfsight_viewed_recently": "Zapobiega liczeniu jednej wizyty jako wielu wyświetleń."
+    },
     "machine": true
   },
   "etracker": {
@@ -368,6 +396,10 @@
       "intercom-session-*": "Utrzymuje sesję czatu.",
       "intercom-device-id-*": "Odróżnia urządzenia."
     },
+    "machine": true
+  },
+  "jetpack-comments": {
+    "purpose": "Wyświetla formularz komentarzy z logowaniem społecznościowym.",
     "machine": true
   },
   "jetpack-stats": {
@@ -721,12 +753,24 @@
     },
     "machine": true
   },
+  "rybbit": {
+    "purpose": "Mierzy wizyty bez ciasteczek.",
+    "machine": true
+  },
   "segment": {
     "purpose": "Zbiera dane o wizytach dla pozostałych narzędzi witryny.",
     "cookies": {
       "ajs_anonymous_id": "Odróżnia odwiedzających.",
       "ajs_user_id": "Zapisuje zalogowanego użytkownika.",
       "ajs_group_id": "Zapisuje grupę, do której należy odwiedzający."
+    },
+    "machine": true
+  },
+  "shopify-buy-button": {
+    "purpose": "Wyświetla produkty Shopify i koszyk.",
+    "cookies": {
+      "_shopify_y": "Odróżnia odwiedzających.",
+      "_shopify_s": "Grupuje odsłony stron w jedną wizytę."
     },
     "machine": true
   },
@@ -797,6 +841,14 @@
     },
     "machine": true
   },
+  "the-trade-desk": {
+    "purpose": "Wyświetla reklamy dawnym odwiedzającym i mierzy ich skuteczność.",
+    "cookies": {
+      "TDID": "Odróżnia odwiedzających w różnych witrynach na potrzeby reklam.",
+      "TDCPM": "Odróżnia odwiedzających na potrzeby reklam."
+    },
+    "machine": true
+  },
   "tidio": {
     "purpose": "Czat na żywo.",
     "machine": true
@@ -858,6 +910,17 @@
     "cookies": {
       "uslk_umm_*": "Przechowuje stan czatu i rozpoznaje powracające kontakty."
     },
+    "machine": true
+  },
+  "usermaven": {
+    "purpose": "Mierzy, jak odwiedzający korzystają z witryny.",
+    "cookies": {
+      "__eventn_id_*": "Odróżnia odwiedzających."
+    },
+    "machine": true
+  },
+  "userway": {
+    "purpose": "Dodaje do witryny menu ułatwień dostępu.",
     "machine": true
   },
   "vg-wort": {
@@ -967,6 +1030,40 @@
   },
   "zoho-forms": {
     "purpose": "Wyświetla osadzone formularze.",
+    "machine": true
+  },
+  "zoho-pagesense": {
+    "purpose": "Przeprowadza testy A/B i rejestruje zachowanie odwiedzających.",
+    "cookies": {
+      "zabUserId": "Odróżnia odwiedzających.",
+      "zabBucket": "Wyświetla stale tę samą wersję testu.",
+      "zabQABucket": "Utrzymuje wersję testu w trybie podglądu.",
+      "zabSplit": "Przekazuje dane testu na następną stronę.",
+      "zabHMBucket": "Zapamiętuje, która mapa cieplna jest śledzona.",
+      "zabBotScore": "Odróżnia prawdziwych odwiedzających od botów.",
+      "zabme": "Utrzymuje ten sam test w obrębie grupy testów.",
+      "zabPZBucket": "Wyświetla stale tę samą spersonalizowaną wersję.",
+      "zab_g_*": "Zlicza osiągnięte cele testów.",
+      "zab_qag_*": "Zlicza cele testów w trybie podglądu.",
+      "zPersonalization": "Przekazuje dane personalizacji na następną stronę.",
+      "zft-sdc": "Zapisuje, jak rozpoczęła się wizyta.",
+      "zsc*": "Identyfikuje bieżącą wizytę.",
+      "zps-tgr-dts": "Uruchamia testy po spełnieniu ich warunku wyzwalającego.",
+      "zpsfa_*": "Śledzi ścieżkę odwiedzającego w lejku.",
+      "zfa*": "Zlicza przesłane formularze.",
+      "zsr*": "Łączy działania w nagraniu sesji.",
+      "zsd*": "Przechowuje dane nagrania sesji.",
+      "ps_payloadSeqId": "Zapobiega dwukrotnemu wysyłaniu danych nagrania.",
+      "zia_*": "Zapobiega dwukrotnemu wysyłaniu danych odwiedzającego.",
+      "zpc*": "Zapamiętuje wybór odwiedzającego dotyczący prywatności.",
+      "zps_permission_status": "Zapamiętuje wybór dotyczący powiadomień push.",
+      "zpspolls_*": "Zapamiętuje wyświetlenia ankiet i odpowiedzi.",
+      "zpsPollsBucket": "Zapamiętuje, którą ankietę wyświetlić.",
+      "zpspb*": "Zapamiętuje wyświetlenia okienek i odpowiedzi.",
+      "zpsPopupBucket": "Zapamiętuje, które okienko wyświetlić.",
+      "zpssr*": "Ustala główną domenę witryny.",
+      "zpsCookieMeta": "Zapisuje, kiedy wygasają pozostałe ciasteczka usługi."
+    },
     "machine": true
   },
   "zoho-salesiq": {

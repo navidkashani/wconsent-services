@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "rybbit",
+  "version": 1,
+  "name": "Rybbit",
+  "provider": "Tomato.gg LLC",
+  "category": "statistics",
+  "purpose": "Measures visits without cookies.",
+  "privacyUrl": "https://rybbit.com/privacy",
+  "dataCountry": "EU (Germany and Finland) and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "app.rybbit.io/api"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "rybbit-visitor-id",
+    "rybbit-user-id",
+    "rybbit-replay-sampled"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://rybbit.com/privacy",
+    "https://rybbit.com/company",
+    "https://rybbit.com/subprocessors",
+    "https://rybbit.com/security",
+    "https://rybbit.com/dpa",
+    "https://rybbit.com/for-european-companies",
+    "https://rybbit.com/terms-and-conditions",
+    "https://rybbit.com/docs/script",
+    "https://rybbit.com/docs/guides/wordpress",
+    "https://rybbit.com/docs/feature-flags",
+    "https://rybbit.com/docs/identify-users",
+    "https://app.rybbit.io/api/script.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

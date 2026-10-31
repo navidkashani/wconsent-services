@@ -7,6 +7,10 @@
     },
     "machine": true
   },
+  "accessibe": {
+    "purpose": "Añade un menú de accesibilidad a la página.",
+    "machine": true
+  },
   "activecampaign": {
     "purpose": "Rastrea las visitas para el marketing por correo electrónico.",
     "cookies": {
@@ -156,6 +160,23 @@
     "purpose": "Mide las visitas sin cookies.",
     "machine": true
   },
+  "contentsquare": {
+    "purpose": "Mapas de calor y grabaciones de sesiones.",
+    "cookies": {
+      "_cs_id": "Distingue a los visitantes entre sí.",
+      "_cs_s": "Mantiene la sesión actual.",
+      "_cs_s_ctx": "Recuerda cómo empezó la sesión.",
+      "_cs_c": "Guarda la elección sobre la grabación de sesiones.",
+      "_cs_i": "Guarda una identidad de usuario cifrada.",
+      "_cs_cvars": "Guarda datos personalizados sobre la visita.",
+      "_cs_ep": "Guarda datos personalizados sobre la visita.",
+      "_cs_ex": "Excluye al visitante del seguimiento.",
+      "_cs_optout": "Recuerda que el visitante se excluyó.",
+      "_cs_mk_*": "Envía datos a una herramienta de analítica solo una vez.",
+      "_cs_rl_*": "Guarda un enlace a la reproducción de la sesión para una integración."
+    },
+    "machine": true
+  },
   "crazy-egg": {
     "purpose": "Mapas de calor y grabaciones de sesiones.",
     "cookies": {
@@ -190,6 +211,13 @@
   },
   "disqus": {
     "purpose": "Muestra la sección de comentarios.",
+    "machine": true
+  },
+  "elfsight": {
+    "purpose": "Muestra feeds sociales, opiniones y otros widgets.",
+    "cookies": {
+      "elfsight_viewed_recently": "Evita que una visita cuente como varias visualizaciones."
+    },
     "machine": true
   },
   "etracker": {
@@ -368,6 +396,10 @@
       "intercom-session-*": "Mantiene la sesión del chat.",
       "intercom-device-id-*": "Distingue los dispositivos entre sí."
     },
+    "machine": true
+  },
+  "jetpack-comments": {
+    "purpose": "Muestra el formulario de comentarios con inicio de sesión social.",
     "machine": true
   },
   "jetpack-stats": {
@@ -721,12 +753,24 @@
     },
     "machine": true
   },
+  "rybbit": {
+    "purpose": "Mide las visitas sin cookies.",
+    "machine": true
+  },
   "segment": {
     "purpose": "Recopila datos de las visitas para las demás herramientas del sitio.",
     "cookies": {
       "ajs_anonymous_id": "Distingue a los visitantes entre sí.",
       "ajs_user_id": "Guarda al usuario conectado.",
       "ajs_group_id": "Guarda el grupo al que pertenece el visitante."
+    },
+    "machine": true
+  },
+  "shopify-buy-button": {
+    "purpose": "Muestra productos de Shopify y un carrito de compra.",
+    "cookies": {
+      "_shopify_y": "Distingue a los visitantes entre sí.",
+      "_shopify_s": "Agrupa las vistas de página en una visita."
     },
     "machine": true
   },
@@ -797,6 +841,14 @@
     },
     "machine": true
   },
+  "the-trade-desk": {
+    "purpose": "Muestra anuncios a visitantes anteriores y los mide.",
+    "cookies": {
+      "TDID": "Distingue a los visitantes entre sitios para los anuncios.",
+      "TDCPM": "Distingue a los visitantes para los anuncios."
+    },
+    "machine": true
+  },
   "tidio": {
     "purpose": "Chat en vivo.",
     "machine": true
@@ -858,6 +910,17 @@
     "cookies": {
       "uslk_umm_*": "Guarda el estado del chat y reconoce a los contactos recurrentes."
     },
+    "machine": true
+  },
+  "usermaven": {
+    "purpose": "Mide cómo los visitantes usan el sitio.",
+    "cookies": {
+      "__eventn_id_*": "Distingue a los visitantes entre sí."
+    },
+    "machine": true
+  },
+  "userway": {
+    "purpose": "Añade un menú de accesibilidad al sitio.",
     "machine": true
   },
   "vg-wort": {
@@ -967,6 +1030,40 @@
   },
   "zoho-forms": {
     "purpose": "Muestra formularios incrustados.",
+    "machine": true
+  },
+  "zoho-pagesense": {
+    "purpose": "Realiza pruebas A/B y registra el comportamiento de los visitantes.",
+    "cookies": {
+      "zabUserId": "Distingue a los visitantes entre sí.",
+      "zabBucket": "Sigue mostrando la misma versión de la prueba.",
+      "zabQABucket": "Mantiene la versión de la prueba en el modo de vista previa.",
+      "zabSplit": "Pasa los datos de la prueba a la página siguiente.",
+      "zabHMBucket": "Recuerda qué mapa de calor se registra.",
+      "zabBotScore": "Distingue a los visitantes reales de los bots.",
+      "zabme": "Mantiene la misma prueba dentro de un grupo de pruebas.",
+      "zabPZBucket": "Sigue mostrando la misma versión personalizada.",
+      "zab_g_*": "Cuenta los objetivos de prueba alcanzados.",
+      "zab_qag_*": "Cuenta los objetivos de prueba en el modo de vista previa.",
+      "zPersonalization": "Pasa los datos de personalización a la página siguiente.",
+      "zft-sdc": "Guarda cómo empezó la visita.",
+      "zsc*": "Identifica la visita actual.",
+      "zps-tgr-dts": "Inicia las pruebas cuando se cumple su condición de activación.",
+      "zpsfa_*": "Sigue el recorrido del visitante por un embudo.",
+      "zfa*": "Cuenta los envíos de formularios.",
+      "zsr*": "Vincula las acciones de una grabación de sesión.",
+      "zsd*": "Guarda los datos de la grabación de sesión.",
+      "ps_payloadSeqId": "Evita enviar dos veces los datos de la grabación.",
+      "zia_*": "Evita enviar dos veces los datos del visitante.",
+      "zpc*": "Recuerda la elección de privacidad del visitante.",
+      "zps_permission_status": "Recuerda la elección sobre las notificaciones push.",
+      "zpspolls_*": "Recuerda las visualizaciones y respuestas de las encuestas.",
+      "zpsPollsBucket": "Recuerda qué encuesta mostrar.",
+      "zpspb*": "Recuerda las visualizaciones y respuestas de las ventanas emergentes.",
+      "zpsPopupBucket": "Recuerda qué ventana emergente mostrar.",
+      "zpssr*": "Determina el dominio principal del sitio.",
+      "zpsCookieMeta": "Guarda cuándo caducan sus otras cookies."
+    },
     "machine": true
   },
   "zoho-salesiq": {

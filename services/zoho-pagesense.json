@@ -1,0 +1,205 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "zoho-pagesense",
+  "version": 1,
+  "name": "Zoho PageSense",
+  "provider": "Zoho Corporation B.V.",
+  "category": "statistics",
+  "purpose": "Runs A/B tests and records visitor behaviour.",
+  "privacyUrl": "https://www.zoho.com/privacy.html",
+  "dataCountry": "EU for EU accounts; otherwise USA, India or another Zoho region",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "pagesense.io/js",
+      "pagesense.io/stage-script",
+      "static.zohocdn.com/pagesense"
+    ],
+    "inline": [
+      "zps-page-screen",
+      "pauseRenderForManualActivation",
+      "pagesense.push("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "zabUserId",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "zabBucket",
+      "lifetime": "1 year",
+      "purpose": "Keeps showing the same test version."
+    },
+    {
+      "name": "zabQABucket",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps the test version in preview mode."
+    },
+    {
+      "name": "zabSplit",
+      "lifetime": "5 seconds",
+      "purpose": "Passes test details on to the next page."
+    },
+    {
+      "name": "zabHMBucket",
+      "lifetime": "1 year",
+      "purpose": "Remembers which heatmap is tracked."
+    },
+    {
+      "name": "zabBotScore",
+      "lifetime": "1 year",
+      "purpose": "Tells real visitors from bots."
+    },
+    {
+      "name": "zabme",
+      "lifetime": "1 year",
+      "purpose": "Keeps the same test within a test group."
+    },
+    {
+      "name": "zabPZBucket",
+      "lifetime": "1 year",
+      "purpose": "Keeps showing the same personalised version."
+    },
+    {
+      "name": "zab_g_*",
+      "lifetime": "Session",
+      "purpose": "Counts test goals reached."
+    },
+    {
+      "name": "zab_qag_*",
+      "lifetime": "Session",
+      "purpose": "Counts test goals in preview mode."
+    },
+    {
+      "name": "zPersonalization",
+      "lifetime": "1 year",
+      "purpose": "Passes personalisation details to the next page."
+    },
+    {
+      "name": "zft-sdc",
+      "lifetime": "1 year",
+      "purpose": "Stores how the visit started."
+    },
+    {
+      "name": "zsc*",
+      "lifetime": "1 year",
+      "purpose": "Identifies the current visit."
+    },
+    {
+      "name": "zps-tgr-dts",
+      "lifetime": "1 year",
+      "purpose": "Starts tests when their trigger is met."
+    },
+    {
+      "name": "zpsfa_*",
+      "lifetime": "1 month",
+      "purpose": "Follows the visitor's path through a funnel."
+    },
+    {
+      "name": "zfa*",
+      "lifetime": "1 hour",
+      "purpose": "Counts form submissions."
+    },
+    {
+      "name": "zsr*",
+      "lifetime": "2 hours",
+      "purpose": "Links actions in a session recording."
+    },
+    {
+      "name": "zsd*",
+      "lifetime": "2 hours",
+      "purpose": "Stores session recording details."
+    },
+    {
+      "name": "ps_payloadSeqId",
+      "lifetime": "2 hours",
+      "purpose": "Avoids sending recording data twice."
+    },
+    {
+      "name": "zia_*",
+      "lifetime": "1 year",
+      "purpose": "Avoids sending visitor details twice."
+    },
+    {
+      "name": "zpc*",
+      "lifetime": "1 year",
+      "purpose": "Remembers the visitor's privacy choice."
+    },
+    {
+      "name": "zps_permission_status",
+      "lifetime": "1 year",
+      "purpose": "Remembers the push notification choice."
+    },
+    {
+      "name": "zpspolls_*",
+      "lifetime": "1 year",
+      "purpose": "Remembers poll views and answers."
+    },
+    {
+      "name": "zpsPollsBucket",
+      "lifetime": "1 year",
+      "purpose": "Remembers which poll to show."
+    },
+    {
+      "name": "zpspb*",
+      "lifetime": "1 year",
+      "purpose": "Remembers pop-up views and answers."
+    },
+    {
+      "name": "zpsPopupBucket",
+      "lifetime": "1 year",
+      "purpose": "Remembers which pop-up to show."
+    },
+    {
+      "name": "zpssr*",
+      "lifetime": "Deleted at once",
+      "purpose": "Finds the site's main domain."
+    },
+    {
+      "name": "zpsCookieMeta",
+      "lifetime": "400 days",
+      "purpose": "Stores when its other cookies expire."
+    }
+  ],
+  "storage": [
+    "zab_g_*",
+    "z_user_info*",
+    "zps-ft-details",
+    "zps-ft-pghitType-details"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "zoho-pagesense/index.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.zoho.com/pagesense/cookie-policy.html",
+    "https://www.zoho.com/pagesense/gdpr.html",
+    "https://help.zoho.com/portal/en/kb/pagesense/get-started-with-zoho-pagesense/settings/articles/website-settings-pagesense",
+    "https://help.zoho.com/portal/en/kb/pagesense/frequently-asked-questions/articles/installing-the-code-snippet",
+    "https://help.zoho.com/portal/en/kb/pagesense/install-the-code-snippet/articles/on-shopify-sites",
+    "https://cdn.pagesense.io/js/bizsugar/5328e7d4cd45428c9b8c129ca0ae4c13.js",
+    "https://cdn-eu.pagesense.io/js/portaleswm/a01f018e8ebe4d4cadf1aa8128000557.js",
+    "https://cdn-in.pagesense.io/js/sliverstar/998e70f5dd39461c84d489c3a4b02130.js",
+    "https://cdn-au.pagesense.io/js/yourrentalhomefinders/14574dedc7ea4fed9f16b7fea65d59f6.js",
+    "https://cdn-jp.pagesense.io/js/90002345470/61678dbe9f8943a886ccb92c81385be7.js",
+    "https://cdn-ca.pagesense.io/js/biobiscuit/ca2d56acd8654c79859cca235228d53f.js",
+    "https://www.zoho.com/privacy.html",
+    "https://www.zoho.com/privacy/zoho-group.html",
+    "https://www.zoho.com/legal/zoho-contracting-entities.html",
+    "https://www.zoho.com/know-your-datacenter.html",
+    "https://wordpress.org/plugins/zoho-pagesense/",
+    "https://plugins.svn.wordpress.org/zoho-pagesense/trunk/index.php",
+    "https://plugins.svn.wordpress.org/zoho-pagesense/trunk/includes/class.zpwc.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
