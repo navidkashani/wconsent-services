@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "linkedin-embed",
+  "version": 1,
+  "name": "LinkedIn",
+  "provider": "LinkedIn Ireland Unlimited Company",
+  "category": "media",
+  "purpose": "Shows embedded LinkedIn posts and badges.",
+  "privacyUrl": "https://www.linkedin.com/legal/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "linkedin.com/embed",
+      "platform.linkedin.com",
+      "badges.linkedin.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "bcookie",
+      "lifetime": "1 year",
+      "purpose": "Tells browsers apart, to detect abuse."
+    },
+    {
+      "name": "bscookie",
+      "lifetime": "1 year",
+      "purpose": "Remembers a verified LinkedIn sign-in."
+    },
+    {
+      "name": "lidc",
+      "lifetime": "24 hours",
+      "purpose": "Picks the data centre."
+    },
+    {
+      "name": "li_gc",
+      "lifetime": "6 months",
+      "purpose": "Stores a guest's cookie choices."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.linkedin.com/help/linkedin/answer/a529065",
+    "https://www.linkedin.com/help/linkedin/answer/a517984",
+    "https://learn.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/plugins/share-plugin",
+    "https://learn.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/plugins/follow-company-plugin",
+    "https://platform.linkedin.com/badges/js/profile.js",
+    "https://platform.linkedin.com/in.js",
+    "https://www.linkedin.com/legal/l/cookie-table",
+    "https://www.linkedin.com/legal/privacy-policy",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

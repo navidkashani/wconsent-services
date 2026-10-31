@@ -1,0 +1,37 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "apple-podcasts",
+  "version": 1,
+  "name": "Apple Podcasts",
+  "provider": "Apple Distribution International Limited",
+  "category": "media",
+  "purpose": "Plays embedded podcast shows and episodes.",
+  "privacyUrl": "https://www.apple.com/legal/privacy/en-ww/",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "embed.podcasts.apple.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://podcasters.apple.com/support/5619-apple-podcasts-embed-player",
+    "https://www.apple.com/legal/privacy/data/en/apple-podcasts-web/",
+    "https://www.apple.com/legal/privacy/en-ww/",
+    "https://podcasts.apple.com/us/podcast/in-around-podcasting/id1731172191",
+    "https://embed.podcasts.apple.com/us/podcast/1731172191",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
