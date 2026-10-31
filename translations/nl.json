@@ -15,6 +15,15 @@
     },
     "machine": true
   },
+  "acuity-scheduling": {
+    "purpose": "Toont een ingesloten boekingskalender.",
+    "cookies": {
+      "client_username": "Onthoudt de gebruikersnaam van een ingelogde klant.",
+      "clientUser": "Houdt een klant ingelogd in zijn account.",
+      "remember_client": "Onthoudt de inloggegevens van een klant."
+    },
+    "machine": true
+  },
   "adobe-analytics": {
     "purpose": "Meet bezoeken en conversies.",
     "cookies": {
@@ -67,6 +76,10 @@
       "AWSESS": "Voorkomt dat dezelfde advertentie opnieuw wordt getoond.",
       "awpv*": "Registreert dat een advertentie is gezien."
     },
+    "machine": true
+  },
+  "booking-com": {
+    "purpose": "Toont zoekvakken, kaarten en banners van Booking.com.",
     "machine": true
   },
   "brevo": {
@@ -248,6 +261,13 @@
       "_ga_*": "Houdt de sessiestatus bij.",
       "_gid": "Onderscheidt bezoekers van elkaar.",
       "_gat*": "Beperkt het aantal verzoeken."
+    },
+    "machine": true
+  },
+  "google-calendar": {
+    "purpose": "Toont een ingesloten kalender of boekingspagina.",
+    "cookies": {
+      "NID": "Onthoudt voorkeuren."
     },
     "machine": true
   },
@@ -484,6 +504,10 @@
     },
     "machine": true
   },
+  "microsoft-bookings": {
+    "purpose": "Toont een ingesloten boekingskalender.",
+    "machine": true
+  },
   "microsoft-clarity": {
     "purpose": "Heatmaps en sessieopnames.",
     "cookies": {
@@ -514,6 +538,13 @@
   },
   "openstreetmap": {
     "purpose": "Toont ingesloten kaarten.",
+    "machine": true
+  },
+  "opentable": {
+    "purpose": "Laat bezoekers een tafel in een restaurant reserveren.",
+    "cookies": {
+      "ot_widget_dtp_values": "Onthoudt de gekozen datum, tijd en het aantal personen."
+    },
     "machine": true
   },
   "optimizely": {
@@ -706,6 +737,10 @@
     "purpose": "Livechat.",
     "machine": true
   },
+  "tidycal": {
+    "purpose": "Toont een ingesloten boekingskalender.",
+    "machine": true
+  },
   "tiktok-embed": {
     "purpose": "Toont ingesloten video's.",
     "cookies": {
@@ -817,6 +852,10 @@
       "_ym_metrika_enabled": "Controleert of cookies werken.",
       "_ym_hostIndex": "Beperkt het aantal verzoeken."
     },
+    "machine": true
+  },
+  "youcanbookme": {
+    "purpose": "Toont een ingesloten boekingskalender.",
     "machine": true
   },
   "youtube": {

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "booking-com",
+  "version": 1,
+  "name": "Booking.com",
+  "provider": "Booking.com B.V.",
+  "category": "marketing",
+  "purpose": "Shows Booking.com search boxes, maps and banners.",
+  "privacyUrl": "https://www.booking.com/content/privacy.html",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "booking.com/affiliate/prelanding_sdk",
+      "booking.com/prelanding_product.html",
+      "booking.com/flexiproduct.html",
+      "wasabi.bstatic.com/sdk/",
+      "bstatic.com/static/affiliate_base/"
+    ],
+    "inline": [
+      "new Booking.AffiliateWidget(",
+      "static/affiliate_base/js/flexiproduct.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "bookingcom-product-helper/bookingcom-product-helper.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://affiliates.support.booking.com/kb/s/article/Search-Box",
+    "https://affiliates.support.booking.com/kb/s/article/Map-Widget",
+    "https://affiliates.support.booking.com/kb/s/article/Banners",
+    "https://affiliates.support.booking.com/kb/s/article/Choosing-the-Right-Widget-for-Your-Website",
+    "https://affiliates.support.booking.com/kb/s/article/Data-Protection-And-Privacy-FAQs",
+    "https://www.booking.com/affiliate/prelanding_sdk",
+    "https://wasabi.bstatic.com/sdk/3.6.1/sdk.bundle.js",
+    "https://aff.bstatic.com/static/affiliate_base/js/flexiproduct.js",
+    "https://www.booking.com/content/privacy.html",
+    "https://wordpress.org/plugins/bookingcom-product-helper/",
+    "https://plugins.svn.wordpress.org/bookingcom-product-helper/trunk/",
+    "https://wordpress.org/plugins/bookingcom-official-searchbox/",
+    "https://plugins.svn.wordpress.org/bookingcom-official-searchbox/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
