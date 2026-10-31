@@ -1,0 +1,112 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "piwik-pro",
+  "version": 1,
+  "name": "Piwik PRO",
+  "provider": "Piwik PRO SA",
+  "category": "statistics",
+  "purpose": "Measures visits and conversions.",
+  "privacyUrl": "https://piwik.pro/privacy-policy/",
+  "dataCountry": "EU (Sweden, Germany, Netherlands or France); USA or Hong Kong if chosen",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "containers.piwik.pro",
+      "piwik.pro/containers/",
+      "piwik.pro/ppms.js",
+      "piwik.pro/ppms.php"
+    ],
+    "inline": [
+      "event:\"stg.start\"",
+      "(window,\"ppms\",[\"tm\",\"cm\"])",
+      "u + \"ppms.php\"",
+      "ppms.php"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_pk_id.*",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_pk_ses.*",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps the current visit."
+    },
+    {
+      "name": "ppms_privacy_*",
+      "lifetime": "12 months",
+      "purpose": "Stores the visitor's consent choice."
+    },
+    {
+      "name": "ppms_privacy_bar_*",
+      "lifetime": "Session",
+      "purpose": "Remembers the consent reminder was closed."
+    },
+    {
+      "name": "stg_traffic_source_priority",
+      "lifetime": "30 minutes",
+      "purpose": "Stores the traffic source type."
+    },
+    {
+      "name": "stg_last_interaction",
+      "lifetime": "1 year",
+      "purpose": "Tells whether a new visit has started."
+    },
+    {
+      "name": "stg_returning_visitor",
+      "lifetime": "1 year",
+      "purpose": "Marks a returning visitor."
+    },
+    {
+      "name": "stg_fired_*",
+      "lifetime": "Session",
+      "purpose": "Remembers which tags ran in this visit."
+    },
+    {
+      "name": "stg_utm_campaign",
+      "lifetime": "Session",
+      "purpose": "Stores the campaign the visitor came from."
+    },
+    {
+      "name": "stg_pk_campaign",
+      "lifetime": "Session",
+      "purpose": "Stores the campaign the visitor came from."
+    },
+    {
+      "name": "stg_externalReferrer",
+      "lifetime": "Session",
+      "purpose": "Stores where the visitor came from."
+    },
+    {
+      "name": "_stg_optout",
+      "lifetime": "1 year",
+      "purpose": "Remembers an opt-out from tracking."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "piwik-pro/plugin.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://piwik.pro/privacy-policy/",
+    "https://piwik.pro/wp-content/uploads/2025/08/Piwik-PRO-Business-Data-Agreement.pdf",
+    "https://help.piwik.pro/support/privacy/cookies-created-for-visitors-by-piwik-pro/",
+    "https://developers.piwik.pro/docs/content-security-policy-csp",
+    "https://help.piwik.pro/support/getting-started/no-piwik-pro-tag-manager-install-a-tracking-code/",
+    "https://help.piwik.pro/support/getting-started/wordpress-install-a-tracking-code/",
+    "https://piwik.pro/blog/global-data-centers-gdpr/",
+    "https://wordpress.org/plugins/piwik-pro/",
+    "https://plugins.svn.wordpress.org/piwik-pro/trunk/plugin.php"
+  ],
+  "checked": "2026-10-31"
+}

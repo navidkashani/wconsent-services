@@ -1,0 +1,79 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "etracker",
+  "version": 1,
+  "name": "etracker Analytics",
+  "provider": "JustRelate Deutschland GmbH",
+  "category": "statistics",
+  "purpose": "Measures visits and conversions.",
+  "privacyUrl": "https://www.etracker.com/en/data-privacy-statement/",
+  "dataCountry": "EU (Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "etracker.de"
+    ],
+    "inline": [
+      "et_pagename",
+      "_etrackerOnReady"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_et_coid",
+      "lifetime": "24 months",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "et_allow_cookies",
+      "lifetime": "180 days",
+      "purpose": "Stores whether etracker may set cookies."
+    },
+    {
+      "name": "et_oi_v2",
+      "lifetime": "180 days",
+      "purpose": "Stores the visitor's tracking opt-out."
+    },
+    {
+      "name": "isSdEnabled",
+      "lifetime": "1 day",
+      "purpose": "Marks whether scroll depth is measured."
+    }
+  ],
+  "storage": [
+    "_et_coid",
+    "et_allow_cookies",
+    "et_oi_v2",
+    "et_scroll_depth",
+    "et_cssSelectors",
+    "et_tagManagerEntries",
+    "et_tagManagerVars"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "etracker/etracker.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://help.etracker.com/en/article/cookies-used/",
+    "https://help.etracker.com/article/verwendete-cookies/",
+    "https://help.etracker.com/en/article/basic-integration/",
+    "https://help.etracker.com/en/article/tracking-code-parameter/",
+    "https://help.etracker.com/en/article/consent-management-tools/",
+    "https://code.etracker.com/code/e.js",
+    "https://www.etracker.com/en/data-privacy-statement/",
+    "https://www.etracker.com/en/data-protection-by-etracker/",
+    "https://www.etracker.com/en/imprint/",
+    "https://wordpress.org/plugins/etracker/",
+    "https://plugins.svn.wordpress.org/etracker/trunk/"
+  ],
+  "checked": "2026-10-31"
+}

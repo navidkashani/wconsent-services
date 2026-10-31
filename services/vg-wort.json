@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "vg-wort",
+  "version": 1,
+  "name": "VG WORT",
+  "provider": "Verwertungsgesellschaft WORT (VG WORT)",
+  "category": "statistics",
+  "purpose": "Counts reads of texts so authors get paid.",
+  "privacyUrl": "https://vgwort.de/datenschutz",
+  "dataCountry": "EU (Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "met.vgwort.de"
+    ],
+    "inline": [
+      "met.vgwort.de/na/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "vgw-metis/vgw-metis.php",
+      "wp-worthy/wp-worthy.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://tom.vgwort.de/portal/showParticipationCondition",
+    "https://vgwort.de/media/pages/service/dokumente/merkblaetter-und-formulare/5721d6ddd0-1771937772/metis_beschreibung_urheber_5_1.pdf",
+    "https://vgwort.de/fuer-urheber-und-verlage/urheber/online-e-books/online-e-books",
+    "https://vgwort.de/datenschutz",
+    "https://vgwort.de/impressum",
+    "https://wordpress.org/plugins/vgw-metis/",
+    "https://plugins.svn.wordpress.org/vgw-metis/trunk/",
+    "https://wordpress.org/plugins/wp-worthy/",
+    "https://plugins.svn.wordpress.org/wp-worthy/trunk/"
+  ],
+  "checked": "2026-10-31"
+}

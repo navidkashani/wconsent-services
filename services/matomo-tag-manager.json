@@ -1,0 +1,40 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "matomo-tag-manager",
+  "version": 1,
+  "name": "Matomo Tag Manager",
+  "provider": "",
+  "category": "statistics",
+  "purpose": "Loads the site's tracking tags.",
+  "privacyUrl": "",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "inline": [
+      "var _mtm = window._mtm",
+      "_mtm.push("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "matomo/matomo.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://developer.matomo.org/guides/tagmanager/embedding",
+    "https://developer.matomo.org/guides/tagmanager/integration-plugin",
+    "https://developer.matomo.org/guides/tagmanager/debugging",
+    "https://matomo.org/faq/general/faq_146/",
+    "https://wordpress.org/plugins/matomo/",
+    "https://plugins.svn.wordpress.org/matomo/trunk/"
+  ],
+  "checked": "2026-10-31"
+}

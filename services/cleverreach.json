@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "cleverreach",
+  "version": 1,
+  "name": "CleverReach",
+  "provider": "CleverReach GmbH & Co. KG",
+  "category": "marketing",
+  "purpose": "Shows newsletter sign-up forms.",
+  "privacyUrl": "https://www.cleverreach.com/en/privacy-policy/",
+  "dataCountry": "EU (Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cleverreach.com/fl/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "cleverreach-wp/cleverreach-wp.php",
+      "cleverreach/cleverreach.php",
+      "cleverreach-wc/cleverreach-wc.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://support.cleverreach.com/hc/en-us/articles/18275420066962-Integrate-forms-on-website",
+    "https://support.cleverreach.com/hc/en-us/articles/202373011-Using-your-own-subdomain",
+    "https://www.cleverreach.com/en/privacy-policy/",
+    "https://www.cleverreach.com/en/gdpr-compliant-newsletter-tool/",
+    "https://wordpress.org/plugins/cleverreach-wp/",
+    "https://plugins.svn.wordpress.org/cleverreach-wp/trunk/cleverreach-wp.php",
+    "https://plugins.svn.wordpress.org/cleverreach/trunk/cleverreach.php",
+    "https://plugins.svn.wordpress.org/cleverreach-wc/trunk/cleverreach-wc.php"
+  ],
+  "checked": "2026-10-31"
+}

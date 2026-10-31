@@ -44,8 +44,16 @@
     },
     "machine": true
   },
+  "brevo": {
+    "purpose": "Volgt bezoeken en toont aanmeldformulieren en chat.",
+    "machine": true
+  },
   "calendly": {
     "purpose": "Toont een ingesloten boekingskalender.",
+    "machine": true
+  },
+  "cleverreach": {
+    "purpose": "Toont aanmeldformulieren voor nieuwsbrieven.",
     "machine": true
   },
   "cloudflare-turnstile": {
@@ -92,6 +100,16 @@
     "purpose": "Toont het reactiegedeelte.",
     "machine": true
   },
+  "etracker": {
+    "purpose": "Meet bezoeken en conversies.",
+    "cookies": {
+      "_et_coid": "Onderscheidt bezoekers van elkaar.",
+      "et_allow_cookies": "Bewaart of etracker cookies mag plaatsen.",
+      "et_oi_v2": "Bewaart de afmelding voor tracking van de bezoeker.",
+      "isSdEnabled": "Geeft aan of de scrolldiepte wordt gemeten."
+    },
+    "machine": true
+  },
   "facebook-embed": {
     "purpose": "Toont ingesloten berichten, video's en paginablokken.",
     "machine": true
@@ -106,6 +124,10 @@
   },
   "fullstory": {
     "purpose": "Sessieopnames en gebruiksanalyse.",
+    "machine": true
+  },
+  "getresponse": {
+    "purpose": "Toont aanmeldformulieren en volgt bezoeken.",
     "machine": true
   },
   "giphy": {
@@ -221,6 +243,15 @@
     "purpose": "Telt bezoeken.",
     "machine": true
   },
+  "kit": {
+    "purpose": "Toont aanmeldformulieren voor een e-mailnieuwsbrief.",
+    "cookies": {
+      "ck_subscriber_id": "Onthoudt de abonnee voor inhoud voor leden.",
+      "ck_subscriber_id_signature": "Controleert of de abonnee-ID niet is gewijzigd.",
+      "ck_non_inline_form_displayed": "Toont maximaal één pop-upformulier per bezoek."
+    },
+    "machine": true
+  },
   "klaviyo": {
     "purpose": "Volgt bezoeken voor e-mailmarketing.",
     "cookies": {
@@ -274,12 +305,41 @@
     },
     "machine": true
   },
+  "mailerlite": {
+    "purpose": "Toont aanmeldformulieren en volgt bezoeken.",
+    "cookies": {
+      "mailerlite_session_id": "Onderscheidt bezoekers van elkaar.",
+      "mailerlite_forms_shown_*": "Onthoudt dat een pop-upformulier is getoond.",
+      "mailerlite_forms_submitted_*": "Onthoudt dat een formulier is verzonden."
+    },
+    "machine": true
+  },
   "matomo-cloud": {
     "purpose": "Meet bezoeken en conversies.",
     "cookies": {
       "_pk_id.*": "Onderscheidt bezoekers van elkaar.",
       "_pk_ses.*": "Houdt het huidige bezoek bij.",
       "_pk_ref.*": "Bewaart waar de bezoeker vandaan kwam."
+    },
+    "machine": true
+  },
+  "matomo-tag-manager": {
+    "purpose": "Laadt de trackingtags van de site.",
+    "machine": true
+  },
+  "matomo": {
+    "purpose": "Meet bezoeken en conversies.",
+    "cookies": {
+      "_pk_id.*": "Onderscheidt bezoekers van elkaar.",
+      "_pk_ses.*": "Houdt het huidige bezoek bij.",
+      "_pk_ref.*": "Bewaart waar de bezoeker vandaan kwam.",
+      "_pk_cvar.*": "Bewaart aangepaste gegevens over dit bezoek.",
+      "_pk_testcookie*": "Controleert of cookies werken.",
+      "_pk_hsr*": "Koppelt heatmap- en opnamegegevens aan het bezoek.",
+      "_pk_uid": "Herkent de bezoeker op alle domeinen van de site.",
+      "mtm_consent": "Onthoudt de toestemming voor tracking.",
+      "mtm_cookie_consent": "Onthoudt de toestemming voor trackingcookies.",
+      "mtm_consent_removed": "Onthoudt de afmelding voor tracking."
     },
     "machine": true
   },
@@ -290,6 +350,10 @@
       "_fbc": "Bewaart de advertentieklik.",
       "fr": "Weergave van advertenties."
     },
+    "machine": true
+  },
+  "metricool": {
+    "purpose": "Telt bezoeken en bekeken pagina's.",
     "machine": true
   },
   "microsoft-advertising": {
@@ -372,6 +436,24 @@
       "_pin_unauth": "Onderscheidt bezoekers van elkaar.",
       "_epik": "Bewaart de advertentieklik.",
       "_derived_epik": "Meting van advertenties."
+    },
+    "machine": true
+  },
+  "piwik-pro": {
+    "purpose": "Meet bezoeken en conversies.",
+    "cookies": {
+      "_pk_id.*": "Onderscheidt bezoekers van elkaar.",
+      "_pk_ses.*": "Houdt het huidige bezoek bij.",
+      "ppms_privacy_*": "Bewaart de toestemmingskeuze van de bezoeker.",
+      "ppms_privacy_bar_*": "Onthoudt dat de toestemmingsherinnering is gesloten.",
+      "stg_traffic_source_priority": "Bewaart het type verkeersbron.",
+      "stg_last_interaction": "Geeft aan of een nieuw bezoek is gestart.",
+      "stg_returning_visitor": "Markeert een terugkerende bezoeker.",
+      "stg_fired_*": "Onthoudt welke tags in dit bezoek zijn uitgevoerd.",
+      "stg_utm_campaign": "Bewaart de campagne waarvan de bezoeker kwam.",
+      "stg_pk_campaign": "Bewaart de campagne waarvan de bezoeker kwam.",
+      "stg_externalReferrer": "Bewaart waar de bezoeker vandaan kwam.",
+      "_stg_optout": "Onthoudt een afmelding voor tracking."
     },
     "machine": true
   },
@@ -486,6 +568,10 @@
     "cookies": {
       "tf_respondent_cc": "Houdt het formulier werkend."
     },
+    "machine": true
+  },
+  "vg-wort": {
+    "purpose": "Telt hoe vaak teksten worden gelezen, zodat auteurs worden betaald.",
     "machine": true
   },
   "vimeo": {

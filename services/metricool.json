@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "metricool",
+  "version": 1,
+  "name": "Metricool",
+  "provider": "Metricool Software S.L.",
+  "category": "statistics",
+  "purpose": "Counts visits and pages viewed.",
+  "privacyUrl": "https://metricool.com/privacy-policy/",
+  "dataCountry": "EU",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "tracker.metricool.com"
+    ],
+    "inline": [
+      "beTracker.t("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "metricool/metricool.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://help.metricool.com/how-to-connect-your-website-or-blog-to-metricool-ejuy1",
+    "https://help.metricool.com/use-of-cookies-in-metricool-v5dg7",
+    "https://tracker.metricool.com/resources/be.js",
+    "https://metricool.com/privacy-policy/",
+    "https://metricool.com/cookies-policy/",
+    "https://wordpress.org/plugins/metricool/",
+    "https://plugins.svn.wordpress.org/metricool/trunk/"
+  ],
+  "checked": "2026-10-31"
+}

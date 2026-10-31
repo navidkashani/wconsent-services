@@ -1,0 +1,96 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "matomo",
+  "version": 1,
+  "name": "Matomo",
+  "provider": "",
+  "category": "statistics",
+  "purpose": "Measures visits and conversions.",
+  "privacyUrl": "",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "inline": [
+      "_paq.push("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_pk_id.*",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_pk_ses.*",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps the current visit."
+    },
+    {
+      "name": "_pk_ref.*",
+      "lifetime": "6 months",
+      "purpose": "Stores where the visitor came from."
+    },
+    {
+      "name": "_pk_cvar.*",
+      "lifetime": "30 minutes",
+      "purpose": "Stores custom details for this visit."
+    },
+    {
+      "name": "_pk_testcookie*",
+      "lifetime": "Session",
+      "purpose": "Checks that cookies work."
+    },
+    {
+      "name": "_pk_hsr*",
+      "lifetime": "30 minutes",
+      "purpose": "Links heatmap and recording data to the visit."
+    },
+    {
+      "name": "_pk_uid",
+      "lifetime": "13 months",
+      "purpose": "Recognises the visitor across the site's domains."
+    },
+    {
+      "name": "mtm_consent",
+      "lifetime": "30 years",
+      "purpose": "Remembers consent to tracking."
+    },
+    {
+      "name": "mtm_cookie_consent",
+      "lifetime": "30 years",
+      "purpose": "Remembers consent to tracking cookies."
+    },
+    {
+      "name": "mtm_consent_removed",
+      "lifetime": "30 years",
+      "purpose": "Remembers the opt-out from tracking."
+    }
+  ],
+  "storage": [
+    "MatomoAbTesting"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "matomo/matomo.php",
+      "wp-piwik/wp-piwik.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://developer.matomo.org/guides/tracking-javascript-guide",
+    "https://matomo.org/faq/general/faq_146/",
+    "https://developer.matomo.org/guides/tracking-consent",
+    "https://raw.githubusercontent.com/matomo-org/matomo/5.x-dev/js/piwik.js",
+    "https://matomo.org/privacy-policy/",
+    "https://wordpress.org/plugins/matomo/",
+    "https://plugins.svn.wordpress.org/matomo/trunk/matomo.php",
+    "https://wordpress.org/plugins/wp-piwik/",
+    "https://plugins.svn.wordpress.org/wp-piwik/trunk/wp-piwik.php"
+  ],
+  "checked": "2026-10-31"
+}
