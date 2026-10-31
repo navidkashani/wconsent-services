@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "gohighlevel",
+  "version": 1,
+  "name": "HighLevel",
+  "provider": "HighLevel LLC",
+  "category": "marketing",
+  "purpose": "Shows forms, booking calendars and live chat.",
+  "privacyUrl": "https://www.gohighlevel.com/privacy-policy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "link.msgsndr.com",
+      "api.leadconnectorhq.com",
+      "widgets.leadconnectorhq.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "lc_session_*",
+      "lifetime": "1 day",
+      "purpose": "Keeps the visit session."
+    }
+  ],
+  "storage": [
+    "lc_session_*",
+    "v2_contact_session_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "leadconnector/leadconnector.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.gohighlevel.com/privacy-policy",
+    "https://www.gohighlevel.com/cookies-policy",
+    "https://www.gohighlevel.com/subprocessors",
+    "https://www.gohighlevel.com/terms-of-service",
+    "https://www.leadconnectorhq.com/privacy-policy",
+    "https://help.gohighlevel.com/support/solutions/articles/48001191051-web-chat-widget-advanced-configurations-public-api-events",
+    "https://help.gohighlevel.com/support/solutions/articles/155000002178-track-chat-widget-activity-using-google-analytics-4-ga4-",
+    "https://help.gohighlevel.com/support/solutions/articles/155000006092-tracking-external-forms-with-gohighlevel",
+    "https://help.gohighlevel.com/support/solutions/articles/155000004524-embedding-highlevel-forms-on-non-highlevel-websites",
+    "https://link.msgsndr.com/js/form_embed.js",
+    "https://link.msgsndr.com/js/external-tracking.js",
+    "https://api.leadconnectorhq.com/js/user_session.js",
+    "https://widgets.leadconnectorhq.com/loader.js",
+    "https://wordpress.org/plugins/leadconnector/",
+    "https://plugins.svn.wordpress.org/leadconnector/trunk/leadconnector.php",
+    "https://plugins.svn.wordpress.org/leadconnector/trunk/config.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

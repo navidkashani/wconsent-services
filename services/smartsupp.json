@@ -1,0 +1,62 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "smartsupp",
+  "version": 1,
+  "name": "Smartsupp",
+  "provider": "Smartsupp.com, s.r.o.",
+  "category": "functional",
+  "purpose": "Live chat.",
+  "privacyUrl": "https://help.smartsupp.com/en/articles/12647743-privacy-policy",
+  "dataCountry": "EU and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "smartsuppchat.com",
+      "smartsuppcdn.com"
+    ],
+    "inline": [
+      "_smartsupp.key",
+      "smartsuppchat.com/loader.js"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ssupp.vid",
+      "lifetime": "6 months",
+      "purpose": "Keeps the chat conversation across pages."
+    },
+    {
+      "name": "ssupp.visits",
+      "lifetime": "6 months",
+      "purpose": "Counts visits to target chat messages."
+    }
+  ],
+  "storage": [
+    "ssupp_*",
+    "_ss.enableSounds"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "smartsupp-live-chat/smartsupp.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://help.smartsupp.com/en/articles/12647741-data-privacy-gdpr",
+    "https://help.smartsupp.com/en/articles/12647743-privacy-policy",
+    "https://help.smartsupp.com/en/articles/12647343-dpa-data-processing-terms",
+    "https://help.smartsupp.com/en/articles/12647685-list-of-sub-processors",
+    "https://docs.smartsupp.com/chat-box/installation/",
+    "https://www.smartsuppchat.com/loader.js",
+    "https://wordpress.org/plugins/smartsupp-live-chat/",
+    "https://plugins.svn.wordpress.org/smartsupp-live-chat/trunk/smartsupp.php",
+    "https://plugins.svn.wordpress.org/smartsupp-live-chat/trunk/vendor/smartsupp/chat-code-generator/src/Smartsupp/ChatGenerator.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

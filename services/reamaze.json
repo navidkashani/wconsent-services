@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "reamaze",
+  "version": 1,
+  "name": "Re:amaze",
+  "provider": "Lantirn, Inc.",
+  "category": "functional",
+  "purpose": "Customer support chat.",
+  "privacyUrl": "https://www.reamaze.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.reamaze.com",
+      "reamaze.io"
+    ],
+    "inline": [
+      "var _support = _support ||",
+      "_support['account']"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "rmz.*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "reamaze/reamaze.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.reamaze.com/developer/widget",
+    "https://www.reamaze.com/privacy",
+    "https://www.reamaze.com/dpa",
+    "https://www.reamaze.com/cookies",
+    "https://cdn.reamaze.com/assets/reamaze.js",
+    "https://cdn.reamaze.com/assets/reamaze-loader.js",
+    "https://wordpress.org/plugins/reamaze/",
+    "https://plugins.svn.wordpress.org/reamaze/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

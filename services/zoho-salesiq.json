@@ -1,0 +1,103 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "zoho-salesiq",
+  "version": 1,
+  "name": "Zoho SalesIQ",
+  "provider": "Zoho Corporation B.V.",
+  "category": "functional",
+  "purpose": "Live chat and visitor tracking.",
+  "privacyUrl": "https://www.zoho.com/privacy.html",
+  "dataCountry": "EU for EU accounts; otherwise USA, India or another Zoho region",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "salesiq.zoho.com",
+      "salesiq.zoho.eu",
+      "salesiq.zoho.in",
+      "salesiq.zoho.com.au",
+      "salesiq.zoho.jp",
+      "salesiq.zohocloud.ca",
+      "salesiq.zoho.com.cn",
+      "salesiq.zoho.sa",
+      "salesiq.zoho.uk",
+      "salesiq.zoho.ae",
+      "salesiq.zohopublic.com",
+      "salesiq.zohopublic.eu",
+      "salesiq.zohopublic.in",
+      "salesiq.zohopublic.com.au",
+      "salesiq.zohopublic.jp",
+      "salesiq.zohopublic.ca",
+      "salesiq.zohopublic.com.cn",
+      "salesiq.zohopublic.sa",
+      "salesiq.zohopublic.uk",
+      "salesiq.zohopublic.ae",
+      "static.zohocdn.com/zoho-salesiq-widgets",
+      "static.zohocdn.com/salesiq"
+    ],
+    "inline": [
+      "$zoho.salesiq",
+      "zsiqscript"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "zld*",
+      "lifetime": "5 minutes to 1 day",
+      "purpose": "Remembers the chat window's state and position."
+    },
+    {
+      "name": "ZLD*",
+      "lifetime": "310 seconds",
+      "purpose": "Keeps chat and visitor details across subdomains."
+    },
+    {
+      "name": "isiframeenabled",
+      "lifetime": "1 day",
+      "purpose": "Remembers that live chat was turned off."
+    },
+    {
+      "name": "_zldvfp",
+      "lifetime": "6 months",
+      "purpose": "Recognises visitors from email campaigns."
+    },
+    {
+      "name": "ZSIQ*",
+      "lifetime": "30 days",
+      "purpose": "Remembers whether the visitor's IP is blocked."
+    }
+  ],
+  "storage": [
+    "siqlsdb",
+    "utsdb",
+    "utssynccache"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "zoho-salesiq/index.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.zoho.com/salesiq/cookies-policy.html",
+    "https://www.zoho.com/salesiq/help/developer-section/js-api.html",
+    "https://www.zoho.com/salesiq/help/developer-section/js-api-privacy-get-cookie-list.html",
+    "https://www.zoho.com/salesiq/help/developer-section/js-api-privacy-update-cookie-consent.html",
+    "https://www.zoho.com/salesiq/faq.html",
+    "https://www.zoho.com/salesiq/gdpr.html",
+    "https://salesiq.zoho.com/widget?widgetcode=test",
+    "https://www.zoho.com/privacy.html",
+    "https://www.zoho.com/privacy/zoho-group.html",
+    "https://www.zoho.com/legal/zoho-contracting-entities.html",
+    "https://www.zoho.com/know-your-datacenter.html",
+    "https://wordpress.org/plugins/zoho-salesiq/",
+    "https://plugins.svn.wordpress.org/zoho-salesiq/trunk/index.php",
+    "https://plugins.svn.wordpress.org/zoho-salesiq/trunk/salesiq.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

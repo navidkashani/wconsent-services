@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "pipedrive",
+  "version": 1,
+  "name": "Pipedrive",
+  "provider": "Pipedrive OÜ",
+  "category": "functional",
+  "purpose": "Shows a sales chat and contact forms.",
+  "privacyUrl": "https://www.pipedrive.com/en/privacy",
+  "dataCountry": "EU (Germany or Ireland) for EU accounts; otherwise USA, UK, Canada or Australia",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "webforms.pipedrive.com",
+      "leadbooster-chat.pipedrive.com"
+    ],
+    "inline": [
+      "pipedriveLeadboosterConfig"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "leadbooster-by-pipedrive/pipedrive.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://support.pipedrive.com/en/article/leadbooster-cookies",
+    "https://support.pipedrive.com/en/article/web-forms",
+    "https://kb-cms.pipedriveassets.com/web%20forms%2014.jpg",
+    "https://support.pipedrive.com/en/article/how-can-i-host-or-embed-my-chatbot",
+    "https://support.pipedrive.com/en/article/chatbot",
+    "https://support.pipedrive.com/en/article/live-chat",
+    "https://support.pipedrive.com/en/article/installing-your-web-visitors-tracker-script",
+    "https://pipedrive.readme.io/docs/leadbooster-browser-api",
+    "https://www.pipedrive.com/en/contact-sales",
+    "https://webforms.pipedrive.com/f/loader",
+    "https://leadbooster-chat.pipedrive.com/assets/loader.js",
+    "https://www.pipedrive.com/en/privacy",
+    "https://www.pipedrive.com/en/terms-of-service",
+    "https://www.pipedrive.com/en/privacy/dpa",
+    "https://www.pipedrive.com/en/subprocessors",
+    "https://support.pipedrive.com/en/article/how-secure-is-my-data-in-pipedrive",
+    "https://wordpress.org/plugins/leadbooster-by-pipedrive/",
+    "https://plugins.svn.wordpress.org/leadbooster-by-pipedrive/trunk/pipedrive.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
