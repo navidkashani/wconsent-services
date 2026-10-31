@@ -48,7 +48,7 @@ https://github.com/simple-icons/simple-icons, version 16.36.0, CC0-1.0. For a
 product of a larger brand (Meta Pixel, Cloudflare Turnstile, Zendesk Chat),
 the brand's own icon.
 
-calendly (`calendly`), cloudflare-turnstile (`cloudflare`),
+brevo (`brevo`), calendly (`calendly`), cloudflare-turnstile (`cloudflare`),
 cloudflare-web-analytics (`cloudflare`), dailymotion (`dailymotion`),
 disqus (`disqus`), facebook-embed (`facebook`), fathom (`fathom`),
 giphy (`giphy`), google-ads (`googleads`), google-adsense (`googleadsense`),
@@ -57,7 +57,8 @@ google-maps (`googlemaps`),
 google-tag-manager (`googletagmanager`), gravatar (`gravatar`),
 hotjar (`hotjar`), hubspot (`hubspot`), instagram-embed (`instagram`),
 intercom (`intercom`), livechat (`livechat`), mailchimp (`mailchimp`),
-matomo-cloud (`matomo`), meta-pixel (`meta`), mixpanel (`mixpanel`),
+matomo (`matomo`), matomo-cloud (`matomo`),
+matomo-tag-manager (`matomo`), meta-pixel (`meta`), mixpanel (`mixpanel`),
 openstreetmap (`openstreetmap`), paypal (`paypal`),
 paypal-marketing (`paypal`), pinterest-tag (`pinterest`),
 plausible (`plausibleanalytics`), posthog (`posthog`), quora-pixel (`quora`),

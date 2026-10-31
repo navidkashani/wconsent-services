@@ -44,8 +44,16 @@
     },
     "machine": true
   },
+  "brevo": {
+    "purpose": "Suit les visites et affiche formulaires d’inscription et discussion.",
+    "machine": true
+  },
   "calendly": {
     "purpose": "Affiche un calendrier de réservation embarqué.",
+    "machine": true
+  },
+  "cleverreach": {
+    "purpose": "Affiche des formulaires d’inscription à la lettre d’information.",
     "machine": true
   },
   "cloudflare-turnstile": {
@@ -92,6 +100,16 @@
     "purpose": "Affiche la section des commentaires.",
     "machine": true
   },
+  "etracker": {
+    "purpose": "Mesure les visites et les conversions.",
+    "cookies": {
+      "_et_coid": "Distingue les visiteurs.",
+      "et_allow_cookies": "Mémorise si etracker peut définir des cookies.",
+      "et_oi_v2": "Mémorise le refus du suivi par le visiteur.",
+      "isSdEnabled": "Indique si la profondeur de défilement est mesurée."
+    },
+    "machine": true
+  },
   "facebook-embed": {
     "purpose": "Affiche des publications, vidéos et encadrés de page embarqués.",
     "machine": true
@@ -106,6 +124,10 @@
   },
   "fullstory": {
     "purpose": "Enregistrements de session et statistiques d’utilisation.",
+    "machine": true
+  },
+  "getresponse": {
+    "purpose": "Affiche des formulaires d’inscription et suit les visites.",
     "machine": true
   },
   "giphy": {
@@ -221,6 +243,15 @@
     "purpose": "Compte les visites.",
     "machine": true
   },
+  "kit": {
+    "purpose": "Affiche des formulaires d’inscription à une lettre d’information.",
+    "cookies": {
+      "ck_subscriber_id": "Mémorise l’abonné pour le contenu réservé aux membres.",
+      "ck_subscriber_id_signature": "Vérifie que l’identifiant d’abonné n’a pas été modifié.",
+      "ck_non_inline_form_displayed": "Affiche au plus un formulaire contextuel par visite."
+    },
+    "machine": true
+  },
   "klaviyo": {
     "purpose": "Suit les visites pour le marketing par e-mail.",
     "cookies": {
@@ -274,12 +305,41 @@
     },
     "machine": true
   },
+  "mailerlite": {
+    "purpose": "Affiche des formulaires d’inscription et suit les visites.",
+    "cookies": {
+      "mailerlite_session_id": "Distingue les visiteurs.",
+      "mailerlite_forms_shown_*": "Mémorise qu’un formulaire contextuel a été affiché.",
+      "mailerlite_forms_submitted_*": "Mémorise qu’un formulaire a été envoyé."
+    },
+    "machine": true
+  },
   "matomo-cloud": {
     "purpose": "Mesure les visites et les conversions.",
     "cookies": {
       "_pk_id.*": "Distingue les visiteurs.",
       "_pk_ses.*": "Conserve la visite en cours.",
       "_pk_ref.*": "Mémorise la provenance du visiteur."
+    },
+    "machine": true
+  },
+  "matomo-tag-manager": {
+    "purpose": "Charge les balises de suivi du site.",
+    "machine": true
+  },
+  "matomo": {
+    "purpose": "Mesure les visites et les conversions.",
+    "cookies": {
+      "_pk_id.*": "Distingue les visiteurs.",
+      "_pk_ses.*": "Conserve la visite en cours.",
+      "_pk_ref.*": "Mémorise la provenance du visiteur.",
+      "_pk_cvar.*": "Mémorise des données personnalisées de cette visite.",
+      "_pk_testcookie*": "Vérifie que les cookies fonctionnent.",
+      "_pk_hsr*": "Associe les données de carte de chaleur et d’enregistrement à la visite.",
+      "_pk_uid": "Reconnaît le visiteur sur tous les domaines du site.",
+      "mtm_consent": "Mémorise le consentement au suivi.",
+      "mtm_cookie_consent": "Mémorise le consentement aux cookies de suivi.",
+      "mtm_consent_removed": "Mémorise le refus du suivi."
     },
     "machine": true
   },
@@ -290,6 +350,10 @@
       "_fbc": "Mémorise le clic sur la publicité.",
       "fr": "Diffusion des publicités."
     },
+    "machine": true
+  },
+  "metricool": {
+    "purpose": "Compte les visites et les pages vues.",
     "machine": true
   },
   "microsoft-advertising": {
@@ -372,6 +436,24 @@
       "_pin_unauth": "Distingue les visiteurs.",
       "_epik": "Mémorise le clic sur la publicité.",
       "_derived_epik": "Mesure des publicités."
+    },
+    "machine": true
+  },
+  "piwik-pro": {
+    "purpose": "Mesure les visites et les conversions.",
+    "cookies": {
+      "_pk_id.*": "Distingue les visiteurs.",
+      "_pk_ses.*": "Conserve la visite en cours.",
+      "ppms_privacy_*": "Mémorise le choix de consentement du visiteur.",
+      "ppms_privacy_bar_*": "Mémorise la fermeture du rappel de consentement.",
+      "stg_traffic_source_priority": "Mémorise le type de source de trafic.",
+      "stg_last_interaction": "Indique si une nouvelle visite a commencé.",
+      "stg_returning_visitor": "Signale un visiteur qui revient.",
+      "stg_fired_*": "Mémorise les balises exécutées pendant cette visite.",
+      "stg_utm_campaign": "Mémorise la campagne d’où vient le visiteur.",
+      "stg_pk_campaign": "Mémorise la campagne d’où vient le visiteur.",
+      "stg_externalReferrer": "Mémorise la provenance du visiteur.",
+      "_stg_optout": "Mémorise un refus du suivi."
     },
     "machine": true
   },
@@ -486,6 +568,10 @@
     "cookies": {
       "tf_respondent_cc": "Assure le fonctionnement du formulaire."
     },
+    "machine": true
+  },
+  "vg-wort": {
+    "purpose": "Compte les lectures des textes pour rémunérer les auteurs.",
     "machine": true
   },
   "vimeo": {

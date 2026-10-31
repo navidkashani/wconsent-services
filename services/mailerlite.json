@@ -1,0 +1,66 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "mailerlite",
+  "version": 1,
+  "name": "MailerLite",
+  "provider": "MailerLite Limited",
+  "category": "marketing",
+  "purpose": "Shows sign-up forms and tracks visits.",
+  "privacyUrl": "https://www.mailerlite.com/legal/privacy-policy",
+  "dataCountry": "EU (Netherlands and Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "assets.mailerlite.com",
+      "static.mailerlite.com",
+      "track.mailerlite.com"
+    ],
+    "inline": [
+      "ml('account'",
+      "ml('accounts'",
+      "MailerLiteObject"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "mailerlite_session_id",
+      "lifetime": "7 days",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "mailerlite_forms_shown_*",
+      "lifetime": "Set by form settings",
+      "purpose": "Remembers that a pop-up form was shown."
+    },
+    {
+      "name": "mailerlite_forms_submitted_*",
+      "lifetime": "27 years",
+      "purpose": "Remembers that a form was submitted."
+    }
+  ],
+  "storage": [
+    "ml_guid"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "official-mailerlite-sign-up-forms/mailerlite.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.mailerlite.com/legal/privacy-policy",
+    "https://www.mailerlite.com/legal",
+    "https://www.mailerlite.com/help/which-cookies-are-used-by-mailerlite-forms",
+    "https://www.mailerlite.com/help/how-to-add-a-form-to-your-website",
+    "https://assets.mailerlite.com/js/universal.js",
+    "https://static.mailerlite.com/js/universal.js",
+    "https://wordpress.org/plugins/official-mailerlite-sign-up-forms/",
+    "https://plugins.svn.wordpress.org/official-mailerlite-sign-up-forms/trunk/"
+  ],
+  "checked": "2026-10-31"
+}

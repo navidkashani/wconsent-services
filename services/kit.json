@@ -1,0 +1,68 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "kit",
+  "version": 1,
+  "name": "Kit",
+  "provider": "Kit, Inc.",
+  "category": "marketing",
+  "purpose": "Shows sign-up forms for an email newsletter.",
+  "privacyUrl": "https://kit.com/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "kit.com",
+      "ck.page",
+      "f.convertkit.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ck_subscriber_id",
+      "lifetime": "1 year",
+      "purpose": "Remembers the subscriber for member content."
+    },
+    {
+      "name": "ck_subscriber_id_signature",
+      "lifetime": "1 year",
+      "purpose": "Checks the subscriber ID was not changed."
+    },
+    {
+      "name": "ck_non_inline_form_displayed",
+      "lifetime": "Session",
+      "purpose": "Shows at most one pop-up form per visit."
+    }
+  ],
+  "storage": [
+    "ckid",
+    "cksubscribed-*",
+    "ck/forms/modal/*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "convertkit/wp-convertkit.php",
+      "convertkit-for-woocommerce/woocommerce-convertkit.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://kit.com/privacy",
+    "https://help.kit.com/en/articles/4009572-form-embedding-basics",
+    "https://help.kit.com/en/articles/3639563-ck-page-domains",
+    "https://help.kit.com/en/articles/9375532-global-advanced-tracking",
+    "https://developers.kit.com/api-reference/forms/list-forms",
+    "https://f.convertkit.com/ckjs/ck.5.js",
+    "https://github.com/Kit/convertkit-wordpress/blob/main/tests/Integration/ResourceFormsTest.php",
+    "https://plugins.svn.wordpress.org/convertkit/trunk/wp-convertkit.php",
+    "https://plugins.svn.wordpress.org/convertkit/trunk/includes/class-convertkit-subscriber.php",
+    "https://plugins.svn.wordpress.org/convertkit/trunk/resources/frontend/js/dist/frontend.min.js",
+    "https://plugins.svn.wordpress.org/convertkit-for-woocommerce/trunk/woocommerce-convertkit.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

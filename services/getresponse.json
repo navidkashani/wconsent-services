@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "getresponse",
+  "version": 1,
+  "name": "GetResponse",
+  "provider": "GetResponse S.A.",
+  "category": "marketing",
+  "purpose": "Shows sign-up forms and tracks visits.",
+  "privacyUrl": "https://www.getresponse.com/legal/privacy",
+  "dataCountry": "USA and Canada; EU (Poland) only on MAX EU plans",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "app.getresponse.com/view_webform"
+    ],
+    "inline": [
+      "__GetResponseAnalyticsObject",
+      "GrTracking("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "getresponse-official/getresponse-for-wp.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.getresponse.com/legal/privacy",
+    "https://www.getresponse.com/help/how-to-export-your-data-from-getresponse.html",
+    "https://www.getresponse.com/help/what-is-web-connect-and-how-can-i-use-it.html",
+    "https://www.getresponse.com/help/how-do-i-add-the-tracking-javascript-code-to-my-website.html",
+    "https://www.getresponse.com/help/how-to-create-events.html",
+    "https://www.getresponse.com/help/what-are-events-and-how-to-use-them.html",
+    "https://apireference.getresponse.com/open-api.json",
+    "https://www.getresponse.com/legal/cookie-policy",
+    "https://wordpress.org/plugins/getresponse-official/",
+    "https://plugins.svn.wordpress.org/getresponse-official/tags/1.9.0/getresponse-for-wp.php"
+  ],
+  "checked": "2026-10-31"
+}

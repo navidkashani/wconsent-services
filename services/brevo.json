@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "brevo",
+  "version": 1,
+  "name": "Brevo",
+  "provider": "Brevo SAS",
+  "category": "marketing",
+  "purpose": "Tracks visits and shows sign-up forms and chat.",
+  "privacyUrl": "https://www.brevo.com/legal/privacypolicy/",
+  "dataCountry": "EU (France and Belgium), USA (EU-US Data Privacy Framework) and India",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.brevo.com/js/sdk-loader.js",
+      "sibautomation.com",
+      "sibforms.com",
+      "conversations-widget.brevo.com",
+      "conversations-widget.sendinblue.com"
+    ],
+    "inline": [
+      "window.Brevo = window.Brevo",
+      "window.sendinblue = {}",
+      "sibautomation.com/sa.js",
+      "BrevoConversationsID"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "mailin/sendinblue.php",
+      "woocommerce-sendinblue-newsletter-subscription/woocommerce-sendinblue.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.brevo.com/legal/privacypolicy/",
+    "https://www.brevo.com/legal/termsofuse/",
+    "https://www.brevo.com/features/data-security/",
+    "https://developers.brevo.com/docs/getting-started-with-js-implementation",
+    "https://developers.brevo.com/docs/getting-started-with-the-brevo-tracker",
+    "https://tracker-doc.brevo.com/docs/installation",
+    "https://cdn.brevo.com/js/sdk-loader.js",
+    "https://help.brevo.com/hc/en-us/articles/360021301540-Install-the-Brevo-tracker-manually-on-your-website-Advanced",
+    "https://help.brevo.com/hc/en-us/articles/209465705-FAQs-What-is-the-Brevo-tracker-and-how-to-install-it",
+    "https://help.brevo.com/hc/en-us/articles/7831106865810-Install-the-chat-widget-manually-on-any-website",
+    "https://help.brevo.com/hc/en-us/articles/22309612161426-Install-the-chat-widget-on-your-Shopify-website",
+    "https://developers.brevo.com/docs/javascript-api-reference",
+    "https://help.brevo.com/hc/en-us/articles/360019551939-Add-a-CAPTCHA-to-a-sign-up-form-created-in-Brevo",
+    "https://help.brevo.com/hc/en-us/articles/208771869-Create-a-sign-up-form-in-Brevo",
+    "https://plugins.svn.wordpress.org/mailin/trunk/sendinblue.php",
+    "https://plugins.svn.wordpress.org/woocommerce-sendinblue-newsletter-subscription/trunk/woocommerce-sendinblue.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
