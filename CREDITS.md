@@ -68,12 +68,14 @@ openstreetmap (`openstreetmap`), paddle (`paddle`), paddle-retain (`paddle`),
 paypal (`paypal`), paypal-marketing (`paypal`), pinterest-embed (`pinterest`),
 pinterest-tag (`pinterest`), plausible (`plausibleanalytics`),
 posthog (`posthog`), quora-pixel (`quora`), reddit-pixel (`reddit`),
-snap-pixel (`snapchat`), soundcloud (`soundcloud`), spotify (`spotify`),
-stripe (`stripe`), tiktok-embed (`tiktok`), tiktok-pixel (`tiktok`),
+shopify-buy-button (`shopify`), snap-pixel (`snapchat`),
+soundcloud (`soundcloud`), spotify (`spotify`), stripe (`stripe`),
+tiktok-embed (`tiktok`), tiktok-pixel (`tiktok`),
 trusted-shops (`trustedshops`), trustpilot (`trustpilot`),
 trustpilot-invitations (`trustpilot`), vimeo (`vimeo`), wistia (`wistia`),
 x-embed (`x`), x-pixel (`x`), youtube (`youtube`), zendesk-chat (`zendesk`),
-zoho-bookings (`zoho`), zoho-forms (`zoho`), zoho-salesiq (`zoho`)
+zoho-bookings (`zoho`), zoho-forms (`zoho`), zoho-pagesense (`zoho`),
+zoho-salesiq (`zoho`)
 
 ### gilbarbara/logos
 
@@ -99,10 +101,10 @@ The symbol alone, from each brand's press or brand page, made one colour.
 
 - activecampaign: ActiveCampaign press kit https://www.activecampaign.com/brand
 - crisp: Crisp brand assets, https://crisp.chat/en/about/
-- jetpack-stats: Automattic brand materials (the Jetpack brand kit)
-  https://automattic.com/press/brand-materials/. Its terms name Automattic's
-  partners and editorial use; the logo is used here only to identify the
-  service.
+- jetpack-comments, jetpack-stats: Automattic brand materials (the Jetpack
+  brand kit) https://automattic.com/press/brand-materials/. Its terms name
+  Automattic's partners and editorial use; the logo is used here only to
+  identify the service.
 - mouseflow: Mouseflow press page https://mouseflow.com/press-releases/
 - taboola: Taboola branding page https://www.taboola.com/branding
 - tidio: Tidio brand PDF https://assets.tidio.com/homepage/brand/assets.pdf

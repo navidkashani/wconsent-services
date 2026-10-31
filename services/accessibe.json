@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "accessibe",
+  "version": 1,
+  "name": "accessiBe",
+  "provider": "accessiBe Ltd.",
+  "category": "functional",
+  "purpose": "Adds an accessibility menu to the page.",
+  "privacyUrl": "https://accessibe.com/privacy-notice",
+  "dataCountry": "USA, EU, UK and Australia",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "acsbapp.com",
+      "acsbap.com"
+    ],
+    "inline": [
+      "acsbJS.init(",
+      "acsbapp.com/apps/app/dist/js/app.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "acsbState",
+    "acsbFormSubmission",
+    "acsb:logs",
+    "core-engine-remediator:resources:keepAlive"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "accessibe/accessibe.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://support.accessibe.com/hc/en-us/articles/37847421167506-Does-accessWidget-use-cookies-or-collect-personal-data",
+    "https://support.accessibe.com/hc/en-us/articles/16531492149650-How-to-install-accessWidget-on-your-website",
+    "https://support.accessibe.com/hc/en-us/articles/28993202078354-How-to-uninstall-accessWidget",
+    "https://support.accessibe.com/hc/en-us/articles/28533073312274-How-to-customize-the-widget-manually-using-config-json",
+    "https://acsbapp.com/apps/app/dist/js/app.js",
+    "https://accessibe.com/privacy-notice",
+    "https://accessibe.com/cookie-policy",
+    "https://accessibe.com/data-processing-addendum",
+    "https://accessibe.com/terms-of-service",
+    "https://wordpress.org/plugins/accessibe/",
+    "https://plugins.svn.wordpress.org/accessibe/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
