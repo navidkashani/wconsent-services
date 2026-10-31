@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "addtoany",
+  "version": 1,
+  "name": "AddToAny",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Shows buttons to share pages on social networks.",
+  "privacyUrl": "https://www.addtoany.com/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "static.addtoany.com",
+      "a2a.me"
+    ],
+    "inline": [
+      "a2a_config"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "page_services",
+      "lifetime": "27 years",
+      "purpose": "Remembers the visitor's preferred share services."
+    },
+    {
+      "name": "feed_services",
+      "lifetime": "27 years",
+      "purpose": "Remembers the visitor's preferred feed services."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "add-to-any/add-to-any.php"
+    ],
+    "handles": [
+      "addtoany-core",
+      "addtoany-jquery"
+    ]
+  },
+  "sources": [
+    "https://www.addtoany.com/privacy",
+    "https://www.addtoany.com/buttons/faq/",
+    "https://www.addtoany.com/buttons/customize/single_button_current_page",
+    "https://www.addtoany.com/buttons/customize/thanks",
+    "https://static.addtoany.com/menu/page.js",
+    "https://static.addtoany.com/menu/sm.25.html",
+    "https://www.a2a.me/html/tag.html",
+    "https://www.addtoany.com/share/preferences",
+    "https://www.addtoany.com/subscribe/preferences",
+    "https://wordpress.org/plugins/add-to-any/",
+    "https://plugins.svn.wordpress.org/add-to-any/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
