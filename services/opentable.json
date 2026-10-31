@@ -1,0 +1,65 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "opentable",
+  "version": 1,
+  "name": "OpenTable",
+  "provider": "OpenTable International Limited",
+  "category": "functional",
+  "purpose": "Lets visitors book a restaurant table.",
+  "privacyUrl": "https://www.opentable.com/c/legal/privacy-policy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "opentable.com/widget/",
+      "opentable.co.uk/widget/",
+      "opentable.ie/widget/",
+      "opentable.de/widget/",
+      "opentable.fr/widget/",
+      "opentable.es/widget/",
+      "opentable.it/widget/",
+      "opentable.nl/widget/",
+      "opentable.ca/widget/",
+      "opentable.com.mx/widget/",
+      "opentable.com.au/widget/",
+      "opentable.jp/widget/",
+      "opentable.hk/widget/",
+      "opentable.sg/widget/",
+      "opentable.co.th/widget/",
+      "opentable.com.tw/widget/",
+      "opentable.ae/widget/",
+      "cdn.otstatic.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "ot_widget_dtp_values",
+      "lifetime": "Session",
+      "purpose": "Remembers the chosen date, time and party size."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.opentable.com/widget/reservation/loader?rid=1&type=standard&theme=standard&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website",
+    "https://www.opentable.com/widget/reservation/loader?rid=1&type=standard&theme=standard&iframe=false&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website",
+    "https://www.opentable.com/widget/reservation/mural?restaurantIds=1&type=standard&isIframe=true&domain=com&lang=en-US",
+    "https://cdn.otstatic.com/cfe/15/js/reservation-widget-standard-4QOKSSLE.js",
+    "https://cdn.otstatic.com/cfe/15/js/chunk-SYAGEULS.js",
+    "https://www.opentable.com/c/legal/privacy-policy/",
+    "https://www.opentable.co.uk/c/legal/privacy-policy/",
+    "https://www.opentable.co.uk/c/legal/corporate-contact-information/",
+    "https://www.opentable.co.uk/c/legal/cookie-policy/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/jetpack/trunk/extensions/blocks/opentable/render.php"
+  ],
+  "checked": "2026-10-31"
+}

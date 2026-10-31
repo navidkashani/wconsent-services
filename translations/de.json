@@ -15,6 +15,15 @@
     },
     "machine": true
   },
+  "acuity-scheduling": {
+    "purpose": "Zeigt einen eingebetteten Buchungskalender an.",
+    "cookies": {
+      "client_username": "Merkt sich den Benutzernamen eines angemeldeten Kunden.",
+      "clientUser": "Hält einen Kunden in seinem Konto angemeldet.",
+      "remember_client": "Merkt sich die Anmeldedaten eines Kunden."
+    },
+    "machine": true
+  },
   "adobe-analytics": {
     "purpose": "Misst Besuche und Conversions.",
     "cookies": {
@@ -67,6 +76,10 @@
       "AWSESS": "Verhindert, dass dieselbe Anzeige erneut erscheint.",
       "awpv*": "Erfasst, dass eine Anzeige gesehen wurde."
     },
+    "machine": true
+  },
+  "booking-com": {
+    "purpose": "Zeigt Suchfelder, Karten und Banner von Booking.com an.",
     "machine": true
   },
   "brevo": {
@@ -248,6 +261,13 @@
       "_ga_*": "Behält den Sitzungsstatus bei.",
       "_gid": "Unterscheidet Besucher.",
       "_gat*": "Begrenzt die Anfragerate."
+    },
+    "machine": true
+  },
+  "google-calendar": {
+    "purpose": "Zeigt einen eingebetteten Kalender oder eine Buchungsseite an.",
+    "cookies": {
+      "NID": "Merkt sich Einstellungen."
     },
     "machine": true
   },
@@ -484,6 +504,10 @@
     },
     "machine": true
   },
+  "microsoft-bookings": {
+    "purpose": "Zeigt einen eingebetteten Buchungskalender an.",
+    "machine": true
+  },
   "microsoft-clarity": {
     "purpose": "Heatmaps und Sitzungsaufzeichnungen.",
     "cookies": {
@@ -514,6 +538,13 @@
   },
   "openstreetmap": {
     "purpose": "Zeigt eingebettete Karten an.",
+    "machine": true
+  },
+  "opentable": {
+    "purpose": "Ermöglicht Besuchern, einen Tisch im Restaurant zu reservieren.",
+    "cookies": {
+      "ot_widget_dtp_values": "Merkt sich Datum, Uhrzeit und Personenzahl."
+    },
     "machine": true
   },
   "optimizely": {
@@ -706,6 +737,10 @@
     "purpose": "Live-Chat.",
     "machine": true
   },
+  "tidycal": {
+    "purpose": "Zeigt einen eingebetteten Buchungskalender an.",
+    "machine": true
+  },
   "tiktok-embed": {
     "purpose": "Zeigt eingebettete Videos an.",
     "cookies": {
@@ -817,6 +852,10 @@
       "_ym_metrika_enabled": "Prüft, ob Cookies funktionieren.",
       "_ym_hostIndex": "Begrenzt die Anzahl der Anfragen."
     },
+    "machine": true
+  },
+  "youcanbookme": {
+    "purpose": "Zeigt einen eingebetteten Buchungskalender an.",
     "machine": true
   },
   "youtube": {

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "acuity-scheduling",
+  "version": 1,
+  "name": "Acuity Scheduling",
+  "provider": "Squarespace Ireland Limited",
+  "category": "functional",
+  "purpose": "Shows an embedded booking calendar.",
+  "privacyUrl": "https://www.squarespace.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "acuityscheduling.com",
+      "as.me",
+      "squarespacescheduling.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "client_username",
+      "lifetime": "1 year",
+      "purpose": "Remembers a signed-in client's username."
+    },
+    {
+      "name": "clientUser",
+      "lifetime": "30 days",
+      "purpose": "Keeps a client signed in to their account."
+    },
+    {
+      "name": "remember_client",
+      "lifetime": "1 year",
+      "purpose": "Remembers a client's login details."
+    }
+  ],
+  "storage": [
+    "ACUITY_CART"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://help.acuityscheduling.com/hc/en-us/articles/16676884389133-Adding-Acuity-Scheduling-to-your-website",
+    "https://help.acuityscheduling.com/hc/en-us/articles/47575509977997-Change-your-scheduling-page-link",
+    "https://help.acuityscheduling.com/hc/en-us/articles/16726357347981-Data-privacy-and-Acuity-Scheduling",
+    "https://developers.acuityscheduling.com/docs/embedding",
+    "https://github.com/AcuityScheduling/acuity-js/blob/master/src/index.js",
+    "https://github.com/AcuityScheduling/acuity-mobile-webviews-embed/blob/master/iOSWebviewAcuity/AcuityWebview/ViewController.m",
+    "https://embed.acuityscheduling.com/js/embed.js",
+    "https://support.squarespace.com/hc/en-us/articles/360001264507-The-cookies-Squarespace-uses",
+    "https://support.squarespace.com/hc/en-us/articles/115012540827-Where-does-Squarespace-store-my-data",
+    "https://www.squarespace.com/privacy",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

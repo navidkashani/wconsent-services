@@ -1,0 +1,40 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "youcanbookme",
+  "version": 1,
+  "name": "YouCanBookMe",
+  "provider": "AI Software (Capacity) UK Ltd",
+  "category": "functional",
+  "purpose": "Shows an embedded booking calendar.",
+  "privacyUrl": "https://youcanbook.me/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "youcanbook.me"
+    ],
+    "inline": [
+      "getElementById(\"ycbm\").style.height"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.youcanbook.me/hc/en-us/articles/17297710335767-Embed-Your-Booking-Page-in-a-Website",
+    "https://support.youcanbook.me/hc/en-us/articles/24739175462807-Embed-YCBM-on-your-WordPress-site",
+    "https://support.youcanbook.me/hc/en-us/articles/17321549584151-GDPR-European-and-UK-privacy-and-data-regulations",
+    "https://embed.youcanbook.me",
+    "https://youcanbook.me/privacy",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
