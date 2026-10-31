@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "loom",
+  "version": 1,
+  "name": "Loom",
+  "provider": "Atlassian Pty Ltd and Atlassian, Inc.",
+  "category": "media",
+  "purpose": "Shows embedded screen recordings.",
+  "privacyUrl": "https://www.atlassian.com/legal/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and Australia",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "loom.com/embed",
+      "useloom.com/embed",
+      "cdn.loom.com",
+      "unpkg.com/@loomhq/loom-embed"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.atlassian.com/legal/privacy-policy",
+    "https://www.loom.com/cookie-policy",
+    "https://www.atlassian.com/legal/cookies",
+    "https://support.atlassian.com/loom/docs/embed-your-video-into-a-webpage/",
+    "https://support.atlassian.com/loom/docs/make-embedded-videos-autoplay-or-play-at-a-specific-time/",
+    "https://support.atlassian.com/loom/kb/i-cant-watch-loom-embeds-on-firefox",
+    "https://dev.loom.com/docs/embed-sdk/getting-started",
+    "https://www.loom.com/v1/oembed?url=https://www.loom.com/share/e5b8c04bca094dd8a5507925ab887002",
+    "https://www.loom.com/embed/e5b8c04bca094dd8a5507925ab887002",
+    "https://support.atlassian.com/loom/docs/understand-loom-data-residency/",
+    "https://www.atlassian.com/legal/data-transfer-impact-assessment",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

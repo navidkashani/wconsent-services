@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "podigee",
+  "version": 1,
+  "name": "Podigee",
+  "provider": "Podigee GmbH",
+  "category": "media",
+  "purpose": "Plays embedded podcast episodes.",
+  "privacyUrl": "https://www.podigee.com/about/privacy/",
+  "dataCountry": "EU (Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "player.podigee-cdn.net",
+      "cdn.podigee.com/podcast-player",
+      "podigee.io"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [
+      "podigee/podigee-quick-publish.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.podigee.com/api-reference/web-player/embed-codes-and-configuration-urls",
+    "https://docs.podigee.com/api-reference/web-player/oembed",
+    "https://help.podigee.com/article/271-simple-player-embed",
+    "https://help.podigee.com/article/22-oembed-endpoint",
+    "https://help.podigee.com/article/474-the-podigee-podcast-player",
+    "https://www.podigee.com/about/privacy/",
+    "https://github.com/podigee/podigee-podcast-player",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/podigee/",
+    "https://plugins.svn.wordpress.org/podigee/trunk/"
+  ],
+  "checked": "2026-10-31"
+}

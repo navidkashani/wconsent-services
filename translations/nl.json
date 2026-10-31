@@ -48,6 +48,10 @@
     },
     "machine": true
   },
+  "apple-music": {
+    "purpose": "Speelt ingesloten nummers, albums en afspeellijsten af.",
+    "machine": true
+  },
   "awin": {
     "purpose": "Volgt verkopen via affiliatelinks.",
     "cookies": {
@@ -71,6 +75,10 @@
   },
   "bunny-fonts": {
     "purpose": "Laadt de lettertypen van de site van bunny.net.",
+    "machine": true
+  },
+  "bunny-stream": {
+    "purpose": "Toont ingesloten video's.",
     "machine": true
   },
   "cal-com": {
@@ -174,6 +182,10 @@
     "purpose": "Meet bezoeken zonder cookies.",
     "machine": true
   },
+  "flickr": {
+    "purpose": "Toont ingesloten foto's.",
+    "machine": true
+  },
   "font-awesome": {
     "purpose": "Laadt de pictogrammen van de site van Font Awesome.",
     "machine": true
@@ -188,6 +200,10 @@
   },
   "getresponse": {
     "purpose": "Toont aanmeldformulieren en volgt bezoeken.",
+    "machine": true
+  },
+  "getyourguide": {
+    "purpose": "Toont boekbare tours en activiteiten.",
     "machine": true
   },
   "giphy": {
@@ -323,6 +339,10 @@
     },
     "machine": true
   },
+  "komoot": {
+    "purpose": "Toont ingesloten routekaarten.",
+    "machine": true
+  },
   "linkedin-insight": {
     "purpose": "Meet LinkedIn-advertenties.",
     "cookies": {
@@ -344,6 +364,10 @@
       "__lc2_cid": "Onderscheidt chatbezoekers van elkaar.",
       "__lc2_cst": "Onderscheidt chatbezoekers van elkaar."
     },
+    "machine": true
+  },
+  "loom": {
+    "purpose": "Toont ingesloten schermopnames.",
     "machine": true
   },
   "lucky-orange": {
@@ -502,6 +526,10 @@
     },
     "machine": true
   },
+  "pinterest-embed": {
+    "purpose": "Toont ingesloten pins en de knop Opslaan.",
+    "machine": true
+  },
   "pinterest-tag": {
     "purpose": "Meet Pinterest-advertenties.",
     "cookies": {
@@ -533,11 +561,19 @@
     "purpose": "Meet bezoeken zonder cookies.",
     "machine": true
   },
+  "podigee": {
+    "purpose": "Speelt ingesloten podcastafleveringen af.",
+    "machine": true
+  },
   "posthog": {
     "purpose": "Meet hoe bezoekers de site gebruiken.",
     "cookies": {
       "ph_phc_*": "Onderscheidt bezoekers van elkaar."
     },
+    "machine": true
+  },
+  "provenexpert": {
+    "purpose": "Toont klantbeoordelingen en een beoordelingszegel.",
     "machine": true
   },
   "quora-pixel": {
@@ -633,6 +669,10 @@
       "ttcsid*": "Meting van advertenties.",
       "ttclid": "Meting van advertenties."
     },
+    "machine": true
+  },
+  "trustindex": {
+    "purpose": "Toont beoordelingen van Google en andere sites.",
     "machine": true
   },
   "typeform": {

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "trustindex",
+  "version": 1,
+  "name": "Trustindex",
+  "provider": "Trustindex Ltd",
+  "category": "media",
+  "purpose": "Shows reviews from Google and other sites.",
+  "privacyUrl": "https://www.trustindex.io/privacy-policy/",
+  "dataCountry": "EU and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.trustindex.io"
+    ],
+    "inline": [
+      "window.tiLoaderFallback"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "ti-cdn-url",
+    "ti-widget-closed-*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "wp-reviews-plugin-for-google/wp-reviews-plugin-for-google.php",
+      "review-widgets-for-tripadvisor/review-widgets-for-tripadvisor.php",
+      "review-widgets-for-booking-com/review-widgets-for-booking-com.php",
+      "free-facebook-reviews-and-recommendations-widgets/free-facebook-reviews-and-recommendations-widgets.php",
+      "review-widgets-for-airbnb/review-widgets-for-airbnb.php",
+      "reviews-widgets-for-yelp/reviews-widgets-for-yelp.php",
+      "review-widgets-for-amazon/review-widgets-for-amazon.php"
+    ],
+    "handles": [
+      "trustindex-loader-js"
+    ]
+  },
+  "sources": [
+    "https://www.trustindex.io/privacy-policy/",
+    "https://www.trustindex.io/data-processing-agreement/",
+    "https://www.trustindex.io/how-to-insert-your-widgets-code-into-your-site/",
+    "https://cdn.trustindex.io/loader.js",
+    "https://plugins.svn.wordpress.org/wp-reviews-plugin-for-google/trunk/",
+    "https://wordpress.org/plugins/wp-reviews-plugin-for-google/",
+    "https://plugins.svn.wordpress.org/review-widgets-for-tripadvisor/trunk/",
+    "https://plugins.svn.wordpress.org/review-widgets-for-booking-com/trunk/",
+    "https://plugins.svn.wordpress.org/free-facebook-reviews-and-recommendations-widgets/trunk/",
+    "https://plugins.svn.wordpress.org/review-widgets-for-airbnb/trunk/",
+    "https://plugins.svn.wordpress.org/reviews-widgets-for-yelp/trunk/",
+    "https://plugins.svn.wordpress.org/review-widgets-for-amazon/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

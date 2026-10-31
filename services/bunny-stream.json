@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "bunny-stream",
+  "version": 1,
+  "name": "Bunny Stream",
+  "provider": "BunnyWay d.o.o.",
+  "category": "media",
+  "purpose": "Shows embedded videos.",
+  "privacyUrl": "https://bunny.net/privacy/",
+  "dataCountry": "EU (Slovenia), served from a global CDN",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "mediadelivery.net"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "bunny_stream_settings_*",
+    "bunny_stream_position_*",
+    "media-chrome-pref-subtitles-lang",
+    "plyr--lib-*",
+    "plyr-video-position-*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [
+      "bunnycdn/bunnycdn.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://bunny.net/docs/stream/embedding.md",
+    "https://bunny.net/docs/stream/data-and-privacy.md",
+    "https://bunny.net/docs/stream/storage-structure.md",
+    "https://bunny.net/docs/stream/player/javascript.md",
+    "https://bunny.net/docs/api-reference/stream/oembed/get-oembed-data.md",
+    "https://bunny.net/docs/stream/statistics.md",
+    "https://bunny.net/docs/stream/player.md",
+    "https://bunny.net/docs/integrations/wordpress/stream.md",
+    "https://bunny.net/gdpr/",
+    "https://bunny.net/privacy/",
+    "https://bunny.net/stream/",
+    "https://player.mediadelivery.net/assets/1.3.37/player.es.js",
+    "https://assets.mediadelivery.net/plyr-position.js",
+    "https://wordpress.org/plugins/bunnycdn/",
+    "https://plugins.svn.wordpress.org/bunnycdn/tags/3.1.1/"
+  ],
+  "checked": "2026-10-31"
+}

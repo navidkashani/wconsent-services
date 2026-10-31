@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "getyourguide",
+  "version": 1,
+  "name": "GetYourGuide",
+  "provider": "GetYourGuide Deutschland GmbH",
+  "category": "marketing",
+  "purpose": "Shows bookable tours and activities.",
+  "privacyUrl": "https://www.getyourguide.com/c/privacy-policy/",
+  "dataCountry": "EU and USA (remote maintenance)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.getyourguide.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "gyg_visitor_id"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "getyourguide-widget/getyourguide-widget.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://partner.getyourguide.support/hc/en-us/articles/13981142981789-Widgets-101",
+    "https://partner.getyourguide.support/hc/en-us/articles/13980983394333-How-to-install-the-Integration-Analyzer",
+    "https://partner.getyourguide.support/hc/en-us/articles/13981115983133-How-does-the-cookie-ID-tracking-work",
+    "https://widget.getyourguide.com/dist/pa.umd.production.min.js",
+    "https://widget.getyourguide.com/pw/latest/client-loader/widget.js",
+    "https://www.getyourguide.com/c/privacy-policy/",
+    "https://wordpress.org/plugins/getyourguide-widget/",
+    "https://plugins.svn.wordpress.org/getyourguide-widget/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "komoot",
+  "version": 1,
+  "name": "komoot",
+  "provider": "komoot GmbH",
+  "category": "media",
+  "purpose": "Shows embedded tour maps.",
+  "privacyUrl": "https://www.komoot.com/privacy",
+  "dataCountry": "EU",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "komoot.com",
+      "komoot.de"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "map",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.komoot.com/b2b/embed",
+    "https://www.komoot.com/privacy",
+    "https://www.komoot.com/imprint",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
