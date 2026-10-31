@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "jsdelivr",
+  "version": 1,
+  "name": "jsDelivr",
+  "provider": "Volentio JSD Limited",
+  "category": "essential",
+  "purpose": "Delivers code libraries the site uses.",
+  "privacyUrl": "https://www.jsdelivr.com/terms/privacy-policy",
+  "dataCountry": "UK, USA and other countries",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "cdn.jsdelivr.net",
+      "fastly.jsdelivr.net",
+      "gcore.jsdelivr.net",
+      "testingcf.jsdelivr.net",
+      "quantil.jsdelivr.net"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.jsdelivr.com/terms/privacy-policy",
+    "https://raw.githubusercontent.com/jsdelivr/jsdelivr/master/Privacy%20Policy.md",
+    "https://www.jsdelivr.com/terms/sub-processors",
+    "https://raw.githubusercontent.com/jsdelivr/jsdelivr/master/Sub-Processors.md",
+    "https://github.com/jsdelivr/jsdelivr",
+    "https://github.com/jsdelivr/jsdelivr/issues/18656",
+    "https://github.com/jsdelivr/jsdelivr/issues/18581",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "google-hosted-libraries",
+  "version": 1,
+  "name": "Google Hosted Libraries",
+  "provider": "Google Ireland Limited",
+  "category": "essential",
+  "purpose": "Delivers code libraries the site uses.",
+  "privacyUrl": "https://policies.google.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "ajax.googleapis.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://developers.google.com/speed/libraries",
+    "https://developers.google.com/speed/libraries/terms",
+    "https://policies.google.com/privacy",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
