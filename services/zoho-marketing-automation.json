@@ -1,0 +1,138 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "zoho-marketing-automation",
+  "version": 1,
+  "name": "Zoho Marketing Automation",
+  "provider": "Zoho Corporation B.V.",
+  "category": "marketing",
+  "purpose": "Tracks visits and shows sign-up forms.",
+  "privacyUrl": "https://www.zoho.com/privacy.html",
+  "dataCountry": "EU for EU accounts; otherwise USA, India or another Zoho region",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "ma.zoho.com",
+      "ma.zoho.eu",
+      "ma.zoho.in",
+      "ma.zoho.com.au",
+      "ma.zoho.jp",
+      "ma.zohocloud.ca",
+      "ma.zoho.com.cn",
+      "ma.zoho.sa",
+      "ma.zoho.uk",
+      "ma.zoho.ae",
+      "mh.zoho.com",
+      "mh.zoho.eu",
+      "mh.zoho.in",
+      "marketinghub.zoho.com",
+      "marketinghub.zoho.in"
+    ],
+    "inline": [
+      "loadwaprops(",
+      "hub/js/WebsiteAutomation.js"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "zc_consent",
+      "lifetime": "12 months",
+      "purpose": "Remembers whether tracking was accepted."
+    },
+    {
+      "name": "zc_show",
+      "lifetime": "12 months",
+      "purpose": "Remembers whether to show the privacy banner."
+    },
+    {
+      "name": "zpc*",
+      "lifetime": "12 months",
+      "purpose": "Stops the privacy banner from showing again."
+    },
+    {
+      "name": "zc_loc",
+      "lifetime": "Session",
+      "purpose": "Checks whether location details were sent."
+    },
+    {
+      "name": "zpsPopupBucket",
+      "lifetime": "12 months",
+      "purpose": "Remembers which pop-up test to show."
+    },
+    {
+      "name": "zpspb*",
+      "lifetime": "12 months",
+      "purpose": "Runs a pop-up test."
+    },
+    {
+      "name": "zc_cu",
+      "lifetime": "12 months",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "zc_cu_exp",
+      "lifetime": "12 months",
+      "purpose": "Recognises returning visitors."
+    },
+    {
+      "name": "zc_tp",
+      "lifetime": "12 months",
+      "purpose": "Records where the visitor came from."
+    },
+    {
+      "name": "zabUserId",
+      "lifetime": "12 months",
+      "purpose": "Tells new and returning visitors apart."
+    },
+    {
+      "name": "zsc*",
+      "lifetime": "12 months",
+      "purpose": "Identifies the current visit."
+    },
+    {
+      "name": "zft-sdc",
+      "lifetime": "1 day",
+      "purpose": "Stores how the visit started."
+    },
+    {
+      "name": "zps-tgr-dts",
+      "lifetime": "12 months",
+      "purpose": "Starts actions when their trigger is met."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "zoho-marketinghub/zmh.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.zoho.com/marketingautomation/cookie-policy.html",
+    "https://help.zoho.com/portal/en/kb/marketing-automation-2-0/user-guide/website-analytics/articles/install-tracking-code-on-you-website",
+    "https://help.zoho.com/portal/en/kb/marketing-automation-2-0/user-guide/settings/marketing-channels/articles/web-pages",
+    "https://help.zoho.com/portal/en/kb/marketing-automation-2-0/user-guide/website-analytics-1/articles/identifier-api-identify-and-target-visitors-on-your-website-through-ma",
+    "https://help.zoho.com/portal/en/kb/marketing-automation-2-0-beta/user-guide/lead-generation/articles/create-signup-form",
+    "https://help.zoho.com/portal/en/kb/marketing-automation-2-0/user-guide/settings/consent-and-privacy/articles/configure-cookies-and-privacy-policy-banner",
+    "https://ma.zoho.com/js/optin.min.js",
+    "https://cdn-in.pagesense.io/js/60088040938/51b9c6385db24e9395c60bc0be9b5829.js",
+    "https://www.zoho.com/privacy.html",
+    "https://www.zoho.com/privacy/privacy-faq.html",
+    "https://www.zoho.com/privacy/zoho-group.html",
+    "https://www.zoho.com/legal/zoho-contracting-entities.html",
+    "https://wordpress.org/plugins/zoho-marketinghub/",
+    "https://plugins.svn.wordpress.org/zoho-marketinghub/trunk/zmh.php",
+    "https://plugins.svn.wordpress.org/zoho-marketinghub/trunk/includes/class.zmh.php",
+    "https://plugins.svn.wordpress.org/zoho-marketinghub/trunk/includes/admin/class.zmh-admin.php",
+    "https://github.com/nilesh-mule-mach/jyn_ai/blob/dev/components/global/DefaultForm.vue",
+    "https://github.com/ornicar/worldchess-frontend/blob/master/src/index.html",
+    "https://github.com/Coaktion/coaktion-website/blob/main/src/app/components/zoho-optin-form/index.tsx",
+    "https://github.com/janeshkrish/resqnowfrontend/blob/main/index.html",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

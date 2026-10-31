@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "klook",
+  "version": 1,
+  "name": "Klook",
+  "provider": "Klook Travel Technology Limited",
+  "category": "marketing",
+  "purpose": "Shows bookable tours and activities.",
+  "privacyUrl": "https://www.klook.com/policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "affiliate.klook.com",
+      "cdn.klook.com/s/dist_web/klook-affiliate-front"
+    ],
+    "inline": [
+      "klook.com/widget/fetch-iframe-init.js",
+      "klook-affiliate-front/s/dist/desktop/auto_dynamic_widget"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://affiliate.klook.com/home",
+    "https://cdn.klook.com/s/dist_web/klook-affiliate-front/static/web/assets/index.41d9fef7.js",
+    "https://affiliate.klook.com/widget/fetch-iframe-init.js",
+    "https://cdn.klook.com/s/dist_web/klook-affiliate-front/static/widget/iframe/iframe-init-v1.0.10.js",
+    "https://cdn.klook.com/s/dist_web/klook-affiliate-front/s/dist/desktop/auto_dynamic_widget_v1.js",
+    "https://cdn.klook.com/s/dist_web/klook-affiliate-front/static/widget/js/chunk-common.6b1edf0c.js",
+    "https://www.klook.com/policy/",
+    "https://www.klook.com/cookiepolicy/",
+    "https://www.klook.com/v1/usrcsrv/generic/19300?type=406",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database"
+  ],
+  "checked": "2026-10-31"
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "salesviewer",
+  "version": 1,
+  "name": "SalesViewer",
+  "provider": "SalesViewer GmbH",
+  "category": "marketing",
+  "purpose": "Identifies companies visiting the site.",
+  "privacyUrl": "https://www.salesviewer.com/en/privacy-policy/",
+  "dataCountry": "EU (Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "salesviewer.org"
+    ],
+    "inline": [
+      "https://salesviewer.org",
+      "SV_XHR"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.salesviewer.com/en/help/first-steps/install-the-salesviewer-tracking-code/",
+    "https://www.salesviewer.com/en/help/tracking-en/integration-of-the-salesviewer-tracking-code-into-an-html-page/",
+    "https://www.salesviewer.com/en/help/tracking-en/check-tracking-code-installation/",
+    "https://www.salesviewer.com/en/help/first-steps/implement-salesviewer-in-wordpress/",
+    "https://www.salesviewer.com/en/help/first-steps/implement-salesviewer-with-google-tag-manager/",
+    "https://www.salesviewer.com/en/help/first-steps/implement-salesviewer-in-shopware/",
+    "https://www.salesviewer.com/en/",
+    "https://salesviewer.org/",
+    "https://www.salesviewer.com/en/platform/data-protection/",
+    "https://www.salesviewer.com/de/plattform/datenschutz/",
+    "https://www.salesviewer.com/en/help/data-protection/salesviewer-data-protection-compliant/",
+    "https://www.salesviewer.com/en/help/data-protection/privacy-statement-salesviewer/",
+    "https://www.salesviewer.com/en/help/data-protection/data-protection-certificates-salesviewer/",
+    "https://www.salesviewer.com/en/privacy-policy/",
+    "https://www.salesviewer.com/en/opt-out/",
+    "https://www.salesviewer.com/en/imprint/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

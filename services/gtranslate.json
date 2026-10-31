@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "gtranslate",
+  "version": 1,
+  "name": "GTranslate",
+  "provider": "GTranslate Inc.",
+  "category": "functional",
+  "purpose": "Translates the page into other languages.",
+  "privacyUrl": "https://gtranslate.io/privacy-policy",
+  "dataCountry": "USA and EU",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.gtranslate.net"
+    ],
+    "inline": [
+      "window.gtranslateSettings"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "__GT_TRANSLATE_LANGS",
+    "gt_autoswitch"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "gtranslate/gtranslate.php",
+      "google-language-translator/google-language-translator.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://gtranslate.io/website-translator-widget",
+    "https://gtranslate.io/privacy-policy",
+    "https://gtranslate.io/docs/58-gtranslate-tdn-documentation",
+    "https://cdn.gtranslate.net/widgets/latest/base.js",
+    "https://cdn.gtranslate.net/widgets/latest/float.js",
+    "https://cdn.gtranslate.net/widgets/latest/dropdown.js",
+    "https://cdn.gtranslate.net/widgets/latest/lib.min.js",
+    "https://plugins.svn.wordpress.org/gtranslate/trunk/gtranslate.php",
+    "https://plugins.svn.wordpress.org/gtranslate/trunk/js/base.js",
+    "https://plugins.svn.wordpress.org/gtranslate/trunk/url_addon/gtranslate.php",
+    "https://plugins.svn.wordpress.org/google-language-translator/trunk/google-language-translator.php",
+    "https://plugins.svn.wordpress.org/google-language-translator/trunk/js/scripts.js",
+    "https://wordpress.org/plugins/gtranslate/",
+    "https://wordpress.org/plugins/google-language-translator/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

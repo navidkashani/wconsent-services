@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "stay22",
+  "version": 1,
+  "name": "Stay22",
+  "provider": "Stay22 Technologies Inc.",
+  "category": "marketing",
+  "purpose": "Shows hotel maps and tracks affiliate links.",
+  "privacyUrl": "https://www.stay22.com/privacy",
+  "dataCountry": "Canada, plus service providers in USA and Europe",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "stay22.com/embed/",
+      "scripts.stay22.com"
+    ],
+    "inline": [
+      "window.Stay22"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "session22",
+      "lifetime": "3 days",
+      "purpose": "Identifies the visitor's session."
+    }
+  ],
+  "storage": [
+    "sid22",
+    "hip22",
+    "visitor_id_id22",
+    "scrollPort22"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "map",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://dev.stay22.com/docs/maps",
+    "https://dev.stay22.com/docs/maps/quick-start",
+    "https://dev.stay22.com/docs/maps/secrets",
+    "https://dev.stay22.com/docs/allez/quick-start",
+    "https://dev.stay22.com/docs/mobile-sdk",
+    "https://dev.stay22.com/llms-full.txt",
+    "https://community.stay22.com/how-to-set-up-your-letmeallez-script",
+    "https://community.stay22.com/how-to-verify-that-you-letmeallez-script-is-working",
+    "https://www.stay22.com/letmeallez",
+    "https://www.stay22.com/faq",
+    "https://scripts.stay22.com/letmeallez.js",
+    "https://scripts.stay22.com/smaps.js",
+    "https://www.stay22.com/embed/gm",
+    "https://www.stay22.com/privacy",
+    "https://www.stay22.com/cookies",
+    "https://lando.stay22.com/cookie",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

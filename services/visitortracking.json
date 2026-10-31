@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "visitortracking",
+  "version": 1,
+  "name": "VisitorTracking",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Identifies companies visiting the site.",
+  "privacyUrl": "https://visitortracking.com/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "app.visitortracking.com"
+    ],
+    "inline": [
+      "init_tracer",
+      "new Tracer({"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "VTVisitiorId",
+    "VTVisitiorName",
+    "VTSessionId",
+    "VTSessionTime",
+    "VTConversion"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://visitortracking.com/",
+    "https://visitortracking.com/privacy-policy/",
+    "https://visitortracking.com/gdpr-compliance/",
+    "https://visitortracking.com/how-to-add-visitor-tracking-code-snippet-to-your-website/",
+    "https://visitortracking.com/terms-of-service/",
+    "https://visitortracking.com/features/wordpress/",
+    "https://app.visitortracking.com/assets/js/tracer.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
