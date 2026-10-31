@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "userway",
+  "version": 1,
+  "name": "UserWay",
+  "provider": "UserWay Inc.",
+  "category": "functional",
+  "purpose": "Adds an accessibility menu to the site.",
+  "privacyUrl": "https://userway.org/privacy/",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.userway.org",
+      "api.userway.org"
+    ],
+    "inline": [
+      "cdn.userway.org/widget.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "userway-*",
+    "uw-uid",
+    "uw-tunings",
+    "uw-tunings-checksum",
+    "uw-icon-locales"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "userway-accessibility-widget/userway.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://help.userway.org/en/articles/10219337-load-a-fixed-version-of-the-userway-javascript-via-the-userway-cdn",
+    "https://help.userway.org/en/articles/6157906-how-to-reset-accessibility-settings-in-the-userway-widget",
+    "https://help.userway.org/en/articles/9824130-how-to-integrate-the-userway-widget-with-a-react-application",
+    "https://userway.org/widget/",
+    "https://userway.org/faq/",
+    "https://userway.org/privacy/",
+    "https://userway.org/dpa/",
+    "https://userway.org/cookies/",
+    "https://userway.org/terms/",
+    "https://cdn.userway.org/widget.js",
+    "https://plugins.svn.wordpress.org/userway-accessibility-widget/trunk/userway.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

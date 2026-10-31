@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "shopify-buy-button",
+  "version": 1,
+  "name": "Shopify Buy Button",
+  "provider": "Shopify International Limited",
+  "category": "functional",
+  "purpose": "Shows Shopify products and a shopping cart.",
+  "privacyUrl": "https://www.shopify.com/legal/privacy",
+  "dataCountry": "EU (Ireland), Canada and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "sdks.shopifycdn.com/buy-button/"
+    ],
+    "inline": [
+      "ShopifyBuyInit",
+      "ShopifyBuy.UI.onReady(",
+      "sdks.shopifycdn.com/buy-button/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_shopify_y",
+      "lifetime": "2 years",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_shopify_s",
+      "lifetime": "30 minutes",
+      "purpose": "Groups page views into a visit."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://help.shopify.com/en/manual/online-sales-channels/buy-button/add-embed-code",
+    "https://help.shopify.com/en/manual/online-sales-channels/buy-button/edit-delete",
+    "https://shopify.github.io/buy-button-js/",
+    "https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js",
+    "https://www.shopify.com/legal/privacy",
+    "https://www.shopify.com/legal/privacy/consumers",
+    "https://www.shopify.com/legal/cookies",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/wp-shopify/"
+  ],
+  "checked": "2026-10-31"
+}

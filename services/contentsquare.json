@@ -1,0 +1,106 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "contentsquare",
+  "version": 1,
+  "name": "Contentsquare",
+  "provider": "Content Square SAS",
+  "category": "statistics",
+  "purpose": "Heatmaps and session recordings.",
+  "privacyUrl": "https://contentsquare.com/privacy-center/services-privacy-policy/",
+  "dataCountry": "EU (Ireland) or USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "contentsquare.net"
+    ],
+    "inline": [
+      "t.contentsquare.net/uxa/",
+      "window._uxa"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_cs_id",
+      "lifetime": "13 months",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_cs_s",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps the current session."
+    },
+    {
+      "name": "_cs_s_ctx",
+      "lifetime": "30 minutes",
+      "purpose": "Remembers how the session started."
+    },
+    {
+      "name": "_cs_c",
+      "lifetime": "13 months",
+      "purpose": "Stores the choice about session recording."
+    },
+    {
+      "name": "_cs_i",
+      "lifetime": "3 days",
+      "purpose": "Stores an encrypted user identity."
+    },
+    {
+      "name": "_cs_cvars",
+      "lifetime": "Session",
+      "purpose": "Stores custom details about the visit."
+    },
+    {
+      "name": "_cs_ep",
+      "lifetime": "13 months",
+      "purpose": "Stores custom details about the visit."
+    },
+    {
+      "name": "_cs_ex",
+      "lifetime": "30 days",
+      "purpose": "Excludes the visitor from tracking."
+    },
+    {
+      "name": "_cs_optout",
+      "lifetime": "13 months",
+      "purpose": "Remembers that the visitor opted out."
+    },
+    {
+      "name": "_cs_mk_*",
+      "lifetime": "30 minutes",
+      "purpose": "Sends data to an analytics tool only once."
+    },
+    {
+      "name": "_cs_rl_*",
+      "lifetime": "365 days",
+      "purpose": "Stores a session replay link for an integration."
+    }
+  ],
+  "storage": [
+    "_cs_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.contentsquare.com/en/web/",
+    "https://docs.contentsquare.com/en/web/requests/",
+    "https://docs.contentsquare.com/en/web/tag-delivery/",
+    "https://docs.contentsquare.com/en/web/content-security-policy/",
+    "https://docs.contentsquare.com/en/web/cookies/",
+    "https://docs.contentsquare.com/en/web/voice-of-customer/",
+    "https://contentsquare.com/privacy-center/services-privacy-policy/",
+    "https://contentsquare.com/contentsquare-group-list/",
+    "https://contentsquare.com/privacy-center/subprocessors/",
+    "https://contentsquare.com/privacy-center/security-at-contentsquare/",
+    "https://contentsquare.com/privacy-center/dpf-certification/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/search/contentsquare/"
+  ],
+  "checked": "2026-10-31"
+}

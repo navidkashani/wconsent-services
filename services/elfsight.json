@@ -1,0 +1,65 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "elfsight",
+  "version": 1,
+  "name": "Elfsight",
+  "provider": "Elfsight, SL",
+  "category": "media",
+  "purpose": "Shows social feeds, reviews and other widgets.",
+  "privacyUrl": "https://elfsight.com/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "elfsightcdn.com",
+      "static.elfsight.com",
+      "apps.elfsight.com",
+      "service.elfsight.com"
+    ],
+    "inline": [
+      "elfsightcdn.com/platform.js"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "elfsight_viewed_recently",
+      "lifetime": "15 seconds",
+      "purpose": "Stops one visit counting as many views.",
+      "httpOnly": true
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "elfsight-blocks/elfsight-blocks.php",
+      "elfsight-addons-for-elementor/elfsight-elementor-extension.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://help.elfsight.com/article/418-elfsight-and-gdpr",
+    "https://elfsight.com/privacy-policy/",
+    "https://elfsight.com/terms-of-service/",
+    "https://help.elfsight.com/article/1633-adding-elfsight-widget-to-framer-website",
+    "https://help.elfsight.com/article/1381-how-to-add-elfsight-widget-to-hostinger-website",
+    "https://help.elfsight.com/article/793-how-to-add-elfsight-widget-to-lightspeed-website",
+    "https://help.elfsight.com/article/1062-why-my-social-feed-is-not-being-updated",
+    "https://help.elfsight.com/article/214-new-posts-dont-show-up-in-the-instagram-feed-widget-on-your-website",
+    "https://elfsightcdn.com/platform.js",
+    "https://static.elfsight.com/platform/platform.js",
+    "https://universe-static.elfsightcdn.com/app-releases/instagram-feed/stable/v2.66.0/61fececee041c088fa9d6945963b0e759719cdbb/widget/instagramFeed.js",
+    "https://universe-static.elfsightcdn.com/app-releases/all-in-one-reviews/stable/v3.56.6/61fececee041c088fa9d6945963b0e759719cdbb/widget/allInOneReviews.js",
+    "https://community.elfsight.com/t/elfsight-cookies-and-site-data/141974",
+    "https://wordpress.org/plugins/elfsight-blocks/",
+    "https://plugins.svn.wordpress.org/elfsight-blocks/trunk/",
+    "https://wordpress.org/plugins/elfsight-addons-for-elementor/",
+    "https://plugins.svn.wordpress.org/elfsight-addons-for-elementor/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

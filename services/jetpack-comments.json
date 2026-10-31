@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "jetpack-comments",
+  "version": 1,
+  "name": "Jetpack Comments",
+  "provider": "Aut O'Mattic A8C Ireland Ltd.",
+  "category": "functional",
+  "purpose": "Shows the comment form with social sign-in.",
+  "privacyUrl": "https://automattic.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "jetpack.wordpress.com/jetpack-comment/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "jetpack/jetpack.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://jetpack.com/support/comments/",
+    "https://jetpack.com/support/cookies/",
+    "https://automattic.com/privacy/",
+    "https://automattic.com/cookies/",
+    "https://plugins.svn.wordpress.org/jetpack/tags/16.3.1/modules/comments.php",
+    "https://plugins.svn.wordpress.org/jetpack/tags/16.3.1/modules/comments/comments.php",
+    "https://plugins.svn.wordpress.org/jetpack/trunk/jetpack_vendor/automattic/jetpack-comments/CHANGELOG.md",
+    "https://plugins.svn.wordpress.org/jetpack/trunk/jetpack.php",
+    "https://wordpress.org/plugins/jetpack/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

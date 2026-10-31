@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "usermaven",
+  "version": 1,
+  "name": "Usermaven",
+  "provider": "Usermaven Inc.",
+  "category": "statistics",
+  "purpose": "Measures how visitors use the site.",
+  "privacyUrl": "https://usermaven.com/privacy",
+  "dataCountry": "EU, USA and other countries",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "t.usermaven.com",
+      "events.usermaven.com"
+    ],
+    "inline": [
+      "window.usermavenQ"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "__eventn_id_*",
+      "lifetime": "10 years",
+      "purpose": "Tells visitors apart."
+    }
+  ],
+  "storage": [
+    "usermaven_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "usermaven/usermaven.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://usermaven.com/privacy",
+    "https://usermaven.com/dpa",
+    "https://usermaven.com/gdpr",
+    "https://usermaven.com/docs/getting-started/installing-usermaven",
+    "https://usermaven.com/docs/getting-started/identity-resolution",
+    "https://usermaven.com/docs/articles/parameters-45c0fee5",
+    "https://usermaven.com/docs/getting-started/cookieless-tracking",
+    "https://t.usermaven.com/lib.js",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/usermaven/",
+    "https://plugins.svn.wordpress.org/usermaven/trunk/"
+  ],
+  "checked": "2026-10-31"
+}
