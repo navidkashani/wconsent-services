@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "sketchfab",
+  "version": 1,
+  "name": "Sketchfab",
+  "provider": "KitBash SF Operations LLC",
+  "category": "media",
+  "purpose": "Shows embedded 3D models.",
+  "privacyUrl": "https://sketchfab.com/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "sketchfab.com/models/",
+      "sketchfab.com/playlists/embed",
+      "static.sketchfab.com/api/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "sb_csrftoken",
+      "lifetime": "1 year",
+      "purpose": "Protects against forged requests."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://sketchfab.com/privacy",
+    "https://sketchfab.com/terms",
+    "https://sketchfab.com/developers/oembed",
+    "https://sketchfab.com/developers/viewer",
+    "https://help.sketchfab.com/en/articles/16152695-playlists",
+    "https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

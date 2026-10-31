@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "google-trends",
+  "version": 1,
+  "name": "Google Trends",
+  "provider": "Google Ireland Limited",
+  "category": "media",
+  "purpose": "Shows embedded search trend charts.",
+  "privacyUrl": "https://policies.google.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "gstatic.com/trends_nrtr",
+      "trends.google.com/trends/"
+    ],
+    "inline": [
+      "trends.embed.render"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "NID",
+      "lifetime": "6 months",
+      "purpose": "Remembers preferences.",
+      "httpOnly": true
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.google.com/trends/answer/4365538",
+    "https://ssl.gstatic.com/trends_nrtr/4630_RC01/embed_loader.js",
+    "https://policies.google.com/technologies/cookies",
+    "https://policies.google.com/privacy/frameworks",
+    "https://policies.google.com/privacy",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
