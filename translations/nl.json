@@ -101,8 +101,19 @@
     },
     "machine": true
   },
+  "bookeo": {
+    "purpose": "Toont een ingesloten boekingskalender.",
+    "machine": true
+  },
   "booking-com": {
     "purpose": "Toont zoekvakken, kaarten en banners van Booking.com.",
+    "machine": true
+  },
+  "bookingkit": {
+    "purpose": "Toont een boekingswidget voor tours en activiteiten.",
+    "cookies": {
+      "BkOpSession": "Bewaart de boekingssessie en de winkelwagen."
+    },
     "machine": true
   },
   "bootstrapcdn": {
@@ -177,6 +188,10 @@
   },
   "cloudflare-web-analytics": {
     "purpose": "Meet bezoeken zonder cookies.",
+    "machine": true
+  },
+  "cloudpano": {
+    "purpose": "Toont ingesloten virtuele 360°-rondleidingen.",
     "machine": true
   },
   "contentsquare": {
@@ -261,6 +276,21 @@
       "et_allow_cookies": "Bewaart of etracker cookies mag plaatsen.",
       "et_oi_v2": "Bewaart de afmelding voor tracking van de bezoeker.",
       "isSdEnabled": "Geeft aan of de scrolldiepte wordt gemeten."
+    },
+    "machine": true
+  },
+  "eventfrog": {
+    "purpose": "Toont een ingesloten evenementenkalender en ticketshop.",
+    "cookies": {
+      "efrg_v1_tracking_limited": "Onthoudt de keuze van de bezoeker over analysecookies.",
+      "efrg_v1_tracking_full": "Onthoudt de keuze van de bezoeker over marketingcookies."
+    },
+    "machine": true
+  },
+  "eversports": {
+    "purpose": "Toont een lesrooster en een boekingswidget.",
+    "cookies": {
+      "et-legacy": "Houdt een ingelogde klant ingelogd."
     },
     "machine": true
   },
@@ -437,6 +467,10 @@
     },
     "machine": true
   },
+  "heyflow": {
+    "purpose": "Toont ingesloten formulieren en funnels.",
+    "machine": true
+  },
   "hotjar": {
     "purpose": "Heatmaps en sessieopnames.",
     "cookies": {
@@ -466,6 +500,10 @@
   },
   "instagram-embed": {
     "purpose": "Toont ingesloten berichten.",
+    "machine": true
+  },
+  "instatus": {
+    "purpose": "Toont de servicestatus en storingsmeldingen.",
     "machine": true
   },
   "intercom": {
@@ -538,6 +576,10 @@
   },
   "komoot": {
     "purpose": "Toont ingesloten routekaarten.",
+    "machine": true
+  },
+  "kuula": {
+    "purpose": "Toont ingesloten virtuele 360°-rondleidingen.",
     "machine": true
   },
   "leadfeeder": {
@@ -721,6 +763,10 @@
     },
     "machine": true
   },
+  "momoyoga": {
+    "purpose": "Toont een lesrooster met boekingslinks.",
+    "machine": true
+  },
   "mouseflow": {
     "purpose": "Heatmaps en sessieopnames.",
     "cookies": {
@@ -815,6 +861,10 @@
     },
     "machine": true
   },
+  "phorest": {
+    "purpose": "Laat bezoekers online salonafspraken boeken.",
+    "machine": true
+  },
   "pinterest-embed": {
     "purpose": "Toont ingesloten pins en de knop Opslaan.",
     "machine": true
@@ -848,6 +898,10 @@
       "stg_externalReferrer": "Bewaart waar de bezoeker vandaan kwam.",
       "_stg_optout": "Onthoudt een afmelding voor tracking."
     },
+    "machine": true
+  },
+  "planity": {
+    "purpose": "Laat bezoekers salonafspraken boeken.",
     "machine": true
   },
   "plausible": {
@@ -906,6 +960,10 @@
       "ajs_user_id": "Bewaart de ingelogde gebruiker.",
       "ajs_group_id": "Bewaart de groep waartoe de bezoeker behoort."
     },
+    "machine": true
+  },
+  "senja": {
+    "purpose": "Toont klantervaringen en videobeoordelingen.",
     "machine": true
   },
   "shopify-buy-button": {
@@ -978,6 +1036,10 @@
       "__stripe_mid": "Fraudepreventie.",
       "__stripe_sid": "Fraudepreventie."
     },
+    "machine": true
+  },
+  "superchat": {
+    "purpose": "Livechat en links naar messengers.",
     "machine": true
   },
   "taboola": {
@@ -1203,6 +1265,10 @@
       "guest_id_ads": "Weergave van advertenties.",
       "personalization_id": "Weergave van advertenties."
     },
+    "machine": true
+  },
+  "xing": {
+    "purpose": "Toont knoppen om pagina's op XING te delen.",
     "machine": true
   },
   "yandex-metrica": {

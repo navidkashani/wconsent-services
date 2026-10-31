@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "kuula",
+  "version": 1,
+  "name": "Kuula",
+  "provider": "Kuula Inc.",
+  "category": "media",
+  "purpose": "Shows embedded 360° virtual tours.",
+  "privacyUrl": "https://kuula.co/legal/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "kuula.co/share/",
+      "mls.kuu.la/share/",
+      "static.kuula.io/embed"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "kuulaembed"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://kuula.co/help/embed-integration",
+    "https://kuula.co/help/embed-code",
+    "https://kuula.co/help/embed-css",
+    "https://kuula.co/help/share-embed",
+    "https://static.kuula.io/embed.js",
+    "https://kuula.co/share/collection/7lPhR?fs=1&vr=0",
+    "https://static.kuula.io/prod/viewer-868r52.js",
+    "https://static.kuula.io/prod/app-868r52.js",
+    "https://kuula.co/legal/privacy",
+    "https://kuula.co/legal/gdpr",
+    "https://kuula.co/content/legal.html",
+    "https://blog.kuula.co/add-virtual-tour-wordpress",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

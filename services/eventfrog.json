@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "eventfrog",
+  "version": 1,
+  "name": "Eventfrog",
+  "provider": "Eventfrog AG",
+  "category": "functional",
+  "purpose": "Shows an embedded event calendar and ticket shop.",
+  "privacyUrl": "https://eventfrog.ch/de/datenschutzerklaerung.html",
+  "dataCountry": "Switzerland; hosted on Google Cloud, also USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "embed.eventfrog.ch",
+      "embed.eventfrog.de",
+      "embed.eventfrog.at"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "efrg_v1_tracking_limited",
+      "lifetime": "6 months",
+      "purpose": "Remembers the visitor's analytics cookie choice."
+    },
+    {
+      "name": "efrg_v1_tracking_full",
+      "lifetime": "6 months",
+      "purpose": "Remembers the visitor's marketing cookie choice."
+    }
+  ],
+  "storage": [
+    "eventfrog-cookies-allowed"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://eventfrog.ch/en/help/organizer/sell/embed/iframe.html",
+    "https://eventfrog.ch/en/help/organizer/settings/embed/embed-calendar.html",
+    "https://eventfrog.ch/en/about-us/cooperations/embed-event-calendar.html",
+    "https://eventfrog.ch/de/datenschutzerklaerung.html",
+    "https://embed.eventfrog.ch/js/relaunch/embed/embed.js",
+    "https://embed.eventfrog.ch/api/scripts/embed/event.js",
+    "https://embed.eventfrog.ch/js/relaunch/embed/parent/storage-parent.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

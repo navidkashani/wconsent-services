@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "momoyoga",
+  "version": 1,
+  "name": "Momoyoga",
+  "provider": "Momo Studio B.V.",
+  "category": "functional",
+  "purpose": "Shows a class schedule with booking links.",
+  "privacyUrl": "https://www.momoyoga.com/en/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.momo.yoga",
+      "api.momoyoga.com",
+      "momoyoga.com/api/schedule"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "momoyoga-integration/momoyoga-schedule.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://support.momoyoga.com/en/support/solutions/articles/201000111696-adding-my-schedule-to-a-website-with-javascript",
+    "https://cdn.momo.yoga/plugins/schedule-integration/schedule.js",
+    "https://www.momoyoga.com/en/privacy",
+    "https://www.momoyoga.com/en/terms-and-conditions",
+    "https://wordpress.org/plugins/momoyoga-integration/",
+    "https://plugins.svn.wordpress.org/momoyoga-integration/trunk/momoyoga-schedule.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

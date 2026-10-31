@@ -101,8 +101,19 @@
     },
     "machine": true
   },
+  "bookeo": {
+    "purpose": "Zeigt einen eingebetteten Buchungskalender an.",
+    "machine": true
+  },
   "booking-com": {
     "purpose": "Zeigt Suchfelder, Karten und Banner von Booking.com an.",
+    "machine": true
+  },
+  "bookingkit": {
+    "purpose": "Zeigt ein Buchungs-Widget für Touren und Aktivitäten an.",
+    "cookies": {
+      "BkOpSession": "Behält die Buchungssitzung und den Warenkorb."
+    },
     "machine": true
   },
   "bootstrapcdn": {
@@ -177,6 +188,10 @@
   },
   "cloudflare-web-analytics": {
     "purpose": "Misst Besuche ohne Cookies.",
+    "machine": true
+  },
+  "cloudpano": {
+    "purpose": "Zeigt eingebettete virtuelle 360°-Rundgänge an.",
     "machine": true
   },
   "contentsquare": {
@@ -261,6 +276,21 @@
       "et_allow_cookies": "Speichert, ob etracker Cookies setzen darf.",
       "et_oi_v2": "Speichert den Tracking-Widerspruch des Besuchers.",
       "isSdEnabled": "Kennzeichnet, ob die Scrolltiefe gemessen wird."
+    },
+    "machine": true
+  },
+  "eventfrog": {
+    "purpose": "Zeigt einen eingebetteten Veranstaltungskalender und Ticketshop an.",
+    "cookies": {
+      "efrg_v1_tracking_limited": "Merkt sich die Wahl des Besuchers zu Analyse-Cookies.",
+      "efrg_v1_tracking_full": "Merkt sich die Wahl des Besuchers zu Marketing-Cookies."
+    },
+    "machine": true
+  },
+  "eversports": {
+    "purpose": "Zeigt einen Kursplan und ein Buchungs-Widget an.",
+    "cookies": {
+      "et-legacy": "Hält einen angemeldeten Kunden angemeldet."
     },
     "machine": true
   },
@@ -437,6 +467,10 @@
     },
     "machine": true
   },
+  "heyflow": {
+    "purpose": "Zeigt eingebettete Formulare und Funnels an.",
+    "machine": true
+  },
   "hotjar": {
     "purpose": "Heatmaps und Sitzungsaufzeichnungen.",
     "cookies": {
@@ -466,6 +500,10 @@
   },
   "instagram-embed": {
     "purpose": "Zeigt eingebettete Beiträge an.",
+    "machine": true
+  },
+  "instatus": {
+    "purpose": "Zeigt den Dienststatus und Störungsmeldungen an.",
     "machine": true
   },
   "intercom": {
@@ -538,6 +576,10 @@
   },
   "komoot": {
     "purpose": "Zeigt eingebettete Tourenkarten an.",
+    "machine": true
+  },
+  "kuula": {
+    "purpose": "Zeigt eingebettete virtuelle 360°-Rundgänge an.",
     "machine": true
   },
   "leadfeeder": {
@@ -721,6 +763,10 @@
     },
     "machine": true
   },
+  "momoyoga": {
+    "purpose": "Zeigt einen Kursplan mit Buchungslinks an.",
+    "machine": true
+  },
   "mouseflow": {
     "purpose": "Heatmaps und Sitzungsaufzeichnungen.",
     "cookies": {
@@ -815,6 +861,10 @@
     },
     "machine": true
   },
+  "phorest": {
+    "purpose": "Ermöglicht Besuchern, Salontermine online zu buchen.",
+    "machine": true
+  },
   "pinterest-embed": {
     "purpose": "Zeigt eingebettete Pins und die Merken-Schaltfläche an.",
     "machine": true
@@ -848,6 +898,10 @@
       "stg_externalReferrer": "Speichert, woher der Besucher gekommen ist.",
       "_stg_optout": "Merkt sich einen Widerspruch gegen das Tracking."
     },
+    "machine": true
+  },
+  "planity": {
+    "purpose": "Ermöglicht Besuchern, Salontermine zu buchen.",
     "machine": true
   },
   "plausible": {
@@ -906,6 +960,10 @@
       "ajs_user_id": "Speichert den angemeldeten Benutzer.",
       "ajs_group_id": "Speichert die Gruppe, zu der der Besucher gehört."
     },
+    "machine": true
+  },
+  "senja": {
+    "purpose": "Zeigt Kundenstimmen und Videobewertungen an.",
     "machine": true
   },
   "shopify-buy-button": {
@@ -978,6 +1036,10 @@
       "__stripe_mid": "Betrugsprävention.",
       "__stripe_sid": "Betrugsprävention."
     },
+    "machine": true
+  },
+  "superchat": {
+    "purpose": "Live-Chat und Links zu Messengern.",
     "machine": true
   },
   "taboola": {
@@ -1203,6 +1265,10 @@
       "guest_id_ads": "Auslieferung von Werbung.",
       "personalization_id": "Auslieferung von Werbung."
     },
+    "machine": true
+  },
+  "xing": {
+    "purpose": "Zeigt Schaltflächen zum Teilen von Seiten auf XING an.",
     "machine": true
   },
   "yandex-metrica": {

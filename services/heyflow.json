@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "heyflow",
+  "version": 1,
+  "name": "Heyflow",
+  "provider": "Heyflow GmbH",
+  "category": "functional",
+  "purpose": "Shows embedded forms and funnels.",
+  "privacyUrl": "https://heyflow.com/legal/data-privacy/",
+  "dataCountry": "EU",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "assets.prd.heyflow.com",
+      "mini-serve.prd.heyflow.com",
+      "fonts.heyflow.cloud",
+      "static.heyflow.app",
+      "heyflow.site"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "heyflow-*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://help.heyflow.com/en/articles/12050858-embedding-inline-or-popup-intro",
+    "https://help.heyflow.com/en/articles/12050538-embed-your-funnel-in-wordpress",
+    "https://help.heyflow.com/en/articles/8489698-cookie-consent-heyflow",
+    "https://help.heyflow.com/en/articles/11064597-domain-connection-intro",
+    "https://assets.prd.heyflow.com/builder/widget/latest/webview.js",
+    "https://static.heyflow.app/widget/1-6-2/widget.min.js",
+    "https://assets.prd.heyflow.com/flows/interactive-forms/www/dist/flow-CwXKpuZ_.js",
+    "https://heyflow.com/legal/data-privacy/",
+    "https://heyflow.com/legal/data-processing-agreement/",
+    "https://res.cloudinary.com/dgaicn4mz/image/upload/v1753270630/EN_Data_Processing_Addendum_2025vf_kl6jia.pdf",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

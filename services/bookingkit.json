@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "bookingkit",
+  "version": 1,
+  "name": "bookingkit",
+  "provider": "bookingkit GmbH",
+  "category": "functional",
+  "purpose": "Shows a booking widget for tours and activities.",
+  "privacyUrl": "https://bookingkit.com/privacy-statement/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.bookingkit.net",
+      "widget.bookingkit.com",
+      "eu5.bookingkit.de",
+      "app.bookingkit.de/bkscript.js.php"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "BkOpSession",
+      "lifetime": "1 day",
+      "purpose": "Keeps the booking session and cart."
+    }
+  ],
+  "storage": [
+    "bkref",
+    "bklink",
+    "bkEnrollments"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://developers.bookingkit.com/docs/widgets/widget_v2/integration",
+    "https://developers.bookingkit.com/docs/widgets/widget_v2/best-practices",
+    "https://developers.bookingkit.com/docs/widgets/widget_v3/install",
+    "https://developers.bookingkit.com/docs/widgets/widget_v3/elements",
+    "https://help.bookingkit.com/en/articles/2844308-how-to-integrate-bookingkit-into-your-own-website",
+    "https://help.bookingkit.com/en/articles/5649665-bookingkit-and-cookie-settings",
+    "https://help.bookingkit.com/en/articles/16339593-my-booking-widget-takes-a-long-time-to-load-what-can-i-do",
+    "https://v3.widget.bookingkit.com/bookingkitWidgetElements.js",
+    "https://4706b1799db005bf104.widget.bookingkit.net/bkscript/6dfd2c67962b9442abd2a28759a7445e/",
+    "https://bookingkit.com/privacy-statement/",
+    "https://github.com/netresearch/usercentrics-widgets"
+  ],
+  "checked": "2026-10-31"
+}

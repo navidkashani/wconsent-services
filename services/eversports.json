@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "eversports",
+  "version": 1,
+  "name": "Eversports",
+  "provider": "Eversport GmbH",
+  "category": "functional",
+  "purpose": "Shows a class schedule and booking widget.",
+  "privacyUrl": "https://www.eversports.at/h/privacy",
+  "dataCountry": "EU (Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget-static.eversports.io",
+      "eversports.com/widget",
+      "eversports.com/org/widget",
+      "eversports.at/widget",
+      "eversports.at/org/widget"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "et-legacy",
+      "lifetime": "1 month",
+      "purpose": "Keeps a signed-in customer logged in."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://helpcenter.eversportsmanager.com/how-to-integrate-the-new-widgets",
+    "https://helpcenter.eversportsmanager.com/switching-from-old-to-new-widgets-what-you-need-to-know",
+    "https://helpcenter.eversportsmanager.com/-old-widget-is-being-discontinued-what-you-need-to-do",
+    "https://helpcenter.eversportsmanager.com/what-is-a-widget",
+    "https://widget-static.eversports.io/loader.js",
+    "https://www.eversports.at/h/privacy",
+    "https://www.eversports.be/h/technical-notes",
+    "https://www.eversportsmanager.com/data-processors",
+    "https://wordpress.org/plugins/"
+  ],
+  "checked": "2026-10-31"
+}
