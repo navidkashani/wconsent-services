@@ -1,0 +1,57 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "the-trade-desk",
+  "version": 1,
+  "name": "The Trade Desk",
+  "provider": "The UK Trade Desk Ltd.",
+  "category": "marketing",
+  "purpose": "Shows ads to past visitors and measures them.",
+  "privacyUrl": "https://www.thetradedesk.com/legal/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "adsrvr.org"
+    ],
+    "inline": [
+      "ttdConversionEventsLayer",
+      "TTDUniversalPixelApi",
+      "ttd_dom_ready("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "TDID",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart across sites for ads."
+    },
+    {
+      "name": "TDCPM",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart for ads."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.thetradedesk.com/legal/privacy",
+    "https://open.thetradedesk.com/provider/docsApp/GuidesProvider/retail/doc/TrackingTagsEvents",
+    "https://open.thetradedesk.com/provider/docsApp/GuidesProvider/retail/doc/CookieSyncing",
+    "https://js.adsrvr.org/up_loader.1.1.0.js",
+    "https://js.adsrvr.org/up_loader.3.0.0.js",
+    "https://github.com/thetradedesk/conversion-events-sdk-for-googletagmanager",
+    "https://www.thetradedesk.com/assets/global/Unified-ID-Adoption-Guidelines-for-SSPs-v1.8.pdf",
+    "https://adsrvr.org/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database"
+  ],
+  "checked": "2026-10-31"
+}

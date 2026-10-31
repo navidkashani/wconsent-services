@@ -7,6 +7,10 @@
     },
     "machine": true
   },
+  "accessibe": {
+    "purpose": "Voegt een toegankelijkheidsmenu toe aan de pagina.",
+    "machine": true
+  },
   "activecampaign": {
     "purpose": "Volgt bezoeken voor e-mailmarketing.",
     "cookies": {
@@ -156,6 +160,23 @@
     "purpose": "Meet bezoeken zonder cookies.",
     "machine": true
   },
+  "contentsquare": {
+    "purpose": "Heatmaps en sessieopnames.",
+    "cookies": {
+      "_cs_id": "Onderscheidt bezoekers van elkaar.",
+      "_cs_s": "Houdt de huidige sessie bij.",
+      "_cs_s_ctx": "Onthoudt hoe de sessie is begonnen.",
+      "_cs_c": "Bewaart de keuze voor sessieopname.",
+      "_cs_i": "Bewaart een versleutelde gebruikersidentiteit.",
+      "_cs_cvars": "Bewaart aangepaste gegevens over het bezoek.",
+      "_cs_ep": "Bewaart aangepaste gegevens over het bezoek.",
+      "_cs_ex": "Sluit de bezoeker uit van tracking.",
+      "_cs_optout": "Onthoudt dat de bezoeker zich heeft afgemeld.",
+      "_cs_mk_*": "Stuurt gegevens maar één keer naar een analysetool.",
+      "_cs_rl_*": "Bewaart een link naar de sessieherhaling voor een integratie."
+    },
+    "machine": true
+  },
   "crazy-egg": {
     "purpose": "Heatmaps en sessieopnames.",
     "cookies": {
@@ -190,6 +211,13 @@
   },
   "disqus": {
     "purpose": "Toont het reactiegedeelte.",
+    "machine": true
+  },
+  "elfsight": {
+    "purpose": "Toont sociale feeds, beoordelingen en andere widgets.",
+    "cookies": {
+      "elfsight_viewed_recently": "Voorkomt dat één bezoek als meerdere weergaven telt."
+    },
     "machine": true
   },
   "etracker": {
@@ -368,6 +396,10 @@
       "intercom-session-*": "Houdt de chatsessie bij.",
       "intercom-device-id-*": "Onderscheidt apparaten van elkaar."
     },
+    "machine": true
+  },
+  "jetpack-comments": {
+    "purpose": "Toont het reactieformulier met inloggen via sociale media.",
     "machine": true
   },
   "jetpack-stats": {
@@ -721,12 +753,24 @@
     },
     "machine": true
   },
+  "rybbit": {
+    "purpose": "Meet bezoeken zonder cookies.",
+    "machine": true
+  },
   "segment": {
     "purpose": "Verzamelt bezoekgegevens voor de andere tools van de site.",
     "cookies": {
       "ajs_anonymous_id": "Onderscheidt bezoekers van elkaar.",
       "ajs_user_id": "Bewaart de ingelogde gebruiker.",
       "ajs_group_id": "Bewaart de groep waartoe de bezoeker behoort."
+    },
+    "machine": true
+  },
+  "shopify-buy-button": {
+    "purpose": "Toont Shopify-producten en een winkelwagen.",
+    "cookies": {
+      "_shopify_y": "Onderscheidt bezoekers van elkaar.",
+      "_shopify_s": "Groepeert paginaweergaven tot één bezoek."
     },
     "machine": true
   },
@@ -797,6 +841,14 @@
     },
     "machine": true
   },
+  "the-trade-desk": {
+    "purpose": "Toont advertenties aan eerdere bezoekers en meet ze.",
+    "cookies": {
+      "TDID": "Onderscheidt bezoekers op verschillende sites voor advertenties.",
+      "TDCPM": "Onderscheidt bezoekers voor advertenties."
+    },
+    "machine": true
+  },
   "tidio": {
     "purpose": "Livechat.",
     "machine": true
@@ -858,6 +910,17 @@
     "cookies": {
       "uslk_umm_*": "Bewaart de chatstatus en herkent terugkerende chatcontacten."
     },
+    "machine": true
+  },
+  "usermaven": {
+    "purpose": "Meet hoe bezoekers de site gebruiken.",
+    "cookies": {
+      "__eventn_id_*": "Onderscheidt bezoekers van elkaar."
+    },
+    "machine": true
+  },
+  "userway": {
+    "purpose": "Voegt een toegankelijkheidsmenu toe aan de site.",
     "machine": true
   },
   "vg-wort": {
@@ -967,6 +1030,40 @@
   },
   "zoho-forms": {
     "purpose": "Toont ingesloten formulieren.",
+    "machine": true
+  },
+  "zoho-pagesense": {
+    "purpose": "Voert A/B-tests uit en legt het gedrag van bezoekers vast.",
+    "cookies": {
+      "zabUserId": "Onderscheidt bezoekers van elkaar.",
+      "zabBucket": "Blijft dezelfde testversie tonen.",
+      "zabQABucket": "Behoudt de testversie in de voorbeeldmodus.",
+      "zabSplit": "Geeft testgegevens door aan de volgende pagina.",
+      "zabHMBucket": "Onthoudt welke heatmap wordt gevolgd.",
+      "zabBotScore": "Onderscheidt echte bezoekers van bots.",
+      "zabme": "Behoudt dezelfde test binnen een testgroep.",
+      "zabPZBucket": "Blijft dezelfde gepersonaliseerde versie tonen.",
+      "zab_g_*": "Telt behaalde testdoelen.",
+      "zab_qag_*": "Telt testdoelen in de voorbeeldmodus.",
+      "zPersonalization": "Geeft personalisatiegegevens door aan de volgende pagina.",
+      "zft-sdc": "Bewaart hoe het bezoek is begonnen.",
+      "zsc*": "Identificeert het huidige bezoek.",
+      "zps-tgr-dts": "Start tests zodra aan hun trigger is voldaan.",
+      "zpsfa_*": "Volgt het pad van de bezoeker door een funnel.",
+      "zfa*": "Telt formulierinzendingen.",
+      "zsr*": "Koppelt acties in een sessieopname.",
+      "zsd*": "Bewaart gegevens van de sessieopname.",
+      "ps_payloadSeqId": "Voorkomt dat opnamegegevens twee keer worden verzonden.",
+      "zia_*": "Voorkomt dat bezoekersgegevens twee keer worden verzonden.",
+      "zpc*": "Onthoudt de privacykeuze van de bezoeker.",
+      "zps_permission_status": "Onthoudt de keuze voor pushmeldingen.",
+      "zpspolls_*": "Onthoudt weergaven van en antwoorden op peilingen.",
+      "zpsPollsBucket": "Onthoudt welke peiling getoond moet worden.",
+      "zpspb*": "Onthoudt weergaven van en antwoorden op pop-ups.",
+      "zpsPopupBucket": "Onthoudt welke pop-up getoond moet worden.",
+      "zpssr*": "Bepaalt het hoofddomein van de site.",
+      "zpsCookieMeta": "Bewaart wanneer de overige cookies verlopen."
+    },
     "machine": true
   },
   "zoho-salesiq": {
