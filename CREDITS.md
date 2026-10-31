@@ -56,9 +56,9 @@ fathom (`fathom`), flickr (`flickr`), font-awesome (`fontawesome`),
 giphy (`giphy`), google-ads (`googleads`), google-adsense (`googleadsense`),
 google-analytics (`googleanalytics`), google-fonts (`googlefonts`),
 google-maps (`googlemaps`), google-tag-manager (`googletagmanager`),
-gravatar (`gravatar`), hotjar (`hotjar`), hubspot (`hubspot`),
-instagram-embed (`instagram`), intercom (`intercom`), klarna (`klarna`),
-komoot (`komoot`), livechat (`livechat`), loom (`loom`),
+gravatar (`gravatar`), help-scout (`helpscout`), hotjar (`hotjar`),
+hubspot (`hubspot`), instagram-embed (`instagram`), intercom (`intercom`),
+klarna (`klarna`), komoot (`komoot`), livechat (`livechat`), loom (`loom`),
 mailchimp (`mailchimp`), matomo (`matomo`), matomo-cloud (`matomo`),
 matomo-tag-manager (`matomo`), meta-pixel (`meta`), mixpanel (`mixpanel`),
 openstreetmap (`openstreetmap`), paddle (`paddle`), paddle-retain (`paddle`),
@@ -69,7 +69,7 @@ snap-pixel (`snapchat`), soundcloud (`soundcloud`), spotify (`spotify`),
 stripe (`stripe`), tiktok-embed (`tiktok`), tiktok-pixel (`tiktok`),
 vimeo (`vimeo`), wistia (`wistia`), x-embed (`x`), x-pixel (`x`),
 youtube (`youtube`), zendesk-chat (`zendesk`), zoho-bookings (`zoho`),
-zoho-forms (`zoho`)
+zoho-forms (`zoho`), zoho-salesiq (`zoho`)
 
 ### gilbarbara/logos
 

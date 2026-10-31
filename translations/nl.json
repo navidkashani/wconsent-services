@@ -89,6 +89,13 @@
     "purpose": "Toont een ingesloten boekingskalender.",
     "machine": true
   },
+  "chatbase": {
+    "purpose": "Beantwoordt vragen van bezoekers met een AI-chatbot.",
+    "cookies": {
+      "chatbase_anon_id": "Herkent de bezoeker in de chat."
+    },
+    "machine": true
+  },
   "cleantalk": {
     "purpose": "Houdt spam uit formulieren en reacties.",
     "cookies": {
@@ -210,6 +217,13 @@
     "purpose": "Toont ingesloten GIF's.",
     "machine": true
   },
+  "gohighlevel": {
+    "purpose": "Toont formulieren, boekingskalenders en livechat.",
+    "cookies": {
+      "lc_session_*": "Bewaart de bezoeksessie."
+    },
+    "machine": true
+  },
   "google-ads": {
     "purpose": "Meet advertenties en toont ze aan eerdere bezoekers.",
     "cookies": {
@@ -279,6 +293,19 @@
     },
     "machine": true
   },
+  "help-scout": {
+    "purpose": "Livechat en helpartikelen.",
+    "machine": true
+  },
+  "helpcrunch": {
+    "purpose": "Livechat en helpartikelen.",
+    "cookies": {
+      "device-source": "Onthoudt de pagina waarop de chat is geladen.",
+      "device-referrer": "Onthoudt de pagina waar de bezoeker vandaan kwam.",
+      "hc-visitor-hash": "Telt automatische chatberichten en pop-ups."
+    },
+    "machine": true
+  },
   "hotjar": {
     "purpose": "Heatmaps en sessieopnames.",
     "cookies": {
@@ -317,6 +344,10 @@
   },
   "jetpack-stats": {
     "purpose": "Telt bezoeken.",
+    "machine": true
+  },
+  "jotform": {
+    "purpose": "Toont ingesloten formulieren.",
     "machine": true
   },
   "kit": {
@@ -539,6 +570,10 @@
     },
     "machine": true
   },
+  "pipedrive": {
+    "purpose": "Toont een verkoopchat en contactformulieren.",
+    "machine": true
+  },
   "piwik-pro": {
     "purpose": "Meet bezoeken en conversies.",
     "cookies": {
@@ -580,6 +615,10 @@
     "purpose": "Meet Quora-advertenties.",
     "machine": true
   },
+  "reamaze": {
+    "purpose": "Chat met de klantenservice.",
+    "machine": true
+  },
   "reddit-pixel": {
     "purpose": "Meet Reddit-advertenties.",
     "cookies": {
@@ -600,6 +639,14 @@
     "purpose": "Sessieopnames en gebruiksanalyse.",
     "cookies": {
       "SL_C_*": "Onderscheidt bezoekers van elkaar en houdt de sessie bij."
+    },
+    "machine": true
+  },
+  "smartsupp": {
+    "purpose": "Livechat.",
+    "cookies": {
+      "ssupp.vid": "Bewaart het chatgesprek tussen pagina's.",
+      "ssupp.visits": "Telt bezoeken om chatberichten gericht te tonen."
     },
     "machine": true
   },
@@ -640,6 +687,10 @@
       "trc_cookie_storage": "Onderscheidt bezoekers van elkaar voor rapportage.",
       "taboola_session_id": "Voorkomt dat dezelfde inhoud twee keer wordt getoond."
     },
+    "machine": true
+  },
+  "tally": {
+    "purpose": "Toont ingesloten formulieren.",
     "machine": true
   },
   "tawk-to": {
@@ -792,6 +843,17 @@
   },
   "zoho-forms": {
     "purpose": "Toont ingesloten formulieren.",
+    "machine": true
+  },
+  "zoho-salesiq": {
+    "purpose": "Livechat en het volgen van bezoekers.",
+    "cookies": {
+      "zld*": "Onthoudt de status en positie van het chatvenster.",
+      "ZLD*": "Bewaart chat- en bezoekersgegevens over subdomeinen heen.",
+      "isiframeenabled": "Onthoudt dat de livechat is uitgeschakeld.",
+      "_zldvfp": "Herkent bezoekers uit e-mailcampagnes.",
+      "ZSIQ*": "Onthoudt of het IP-adres van de bezoeker is geblokkeerd."
+    },
     "machine": true
   }
 }

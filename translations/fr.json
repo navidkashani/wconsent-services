@@ -89,6 +89,13 @@
     "purpose": "Affiche un calendrier de réservation embarqué.",
     "machine": true
   },
+  "chatbase": {
+    "purpose": "Répond aux questions des visiteurs avec un chatbot d’IA.",
+    "cookies": {
+      "chatbase_anon_id": "Reconnaît le visiteur dans la discussion."
+    },
+    "machine": true
+  },
   "cleantalk": {
     "purpose": "Empêche le spam dans les formulaires et les commentaires.",
     "cookies": {
@@ -210,6 +217,13 @@
     "purpose": "Affiche des GIF embarqués.",
     "machine": true
   },
+  "gohighlevel": {
+    "purpose": "Affiche des formulaires, des agendas de réservation et une discussion.",
+    "cookies": {
+      "lc_session_*": "Conserve la session de visite."
+    },
+    "machine": true
+  },
   "google-ads": {
     "purpose": "Mesure les publicités et les montre aux anciens visiteurs.",
     "cookies": {
@@ -279,6 +293,19 @@
     },
     "machine": true
   },
+  "help-scout": {
+    "purpose": "Discussion en direct et articles d’aide.",
+    "machine": true
+  },
+  "helpcrunch": {
+    "purpose": "Discussion en direct et articles d’aide.",
+    "cookies": {
+      "device-source": "Mémorise la page sur laquelle la discussion s’est chargée.",
+      "device-referrer": "Mémorise la page d’où vient le visiteur.",
+      "hc-visitor-hash": "Compte les messages de discussion automatiques et les fenêtres contextuelles."
+    },
+    "machine": true
+  },
   "hotjar": {
     "purpose": "Cartes de chaleur et enregistrements de session.",
     "cookies": {
@@ -317,6 +344,10 @@
   },
   "jetpack-stats": {
     "purpose": "Compte les visites.",
+    "machine": true
+  },
+  "jotform": {
+    "purpose": "Affiche des formulaires embarqués.",
     "machine": true
   },
   "kit": {
@@ -539,6 +570,10 @@
     },
     "machine": true
   },
+  "pipedrive": {
+    "purpose": "Affiche une discussion commerciale et des formulaires de contact.",
+    "machine": true
+  },
   "piwik-pro": {
     "purpose": "Mesure les visites et les conversions.",
     "cookies": {
@@ -580,6 +615,10 @@
     "purpose": "Mesure les publicités Quora.",
     "machine": true
   },
+  "reamaze": {
+    "purpose": "Discussion avec le service client.",
+    "machine": true
+  },
   "reddit-pixel": {
     "purpose": "Mesure les publicités Reddit.",
     "cookies": {
@@ -600,6 +639,14 @@
     "purpose": "Enregistrements de session et statistiques d’utilisation.",
     "cookies": {
       "SL_C_*": "Distingue les visiteurs et conserve la session."
+    },
+    "machine": true
+  },
+  "smartsupp": {
+    "purpose": "Discussion en direct.",
+    "cookies": {
+      "ssupp.vid": "Conserve la conversation de discussion d’une page à l’autre.",
+      "ssupp.visits": "Compte les visites pour cibler les messages de discussion."
     },
     "machine": true
   },
@@ -640,6 +687,10 @@
       "trc_cookie_storage": "Distingue les visiteurs pour les rapports.",
       "taboola_session_id": "Évite d’afficher deux fois le même contenu."
     },
+    "machine": true
+  },
+  "tally": {
+    "purpose": "Affiche des formulaires embarqués.",
     "machine": true
   },
   "tawk-to": {
@@ -792,6 +843,17 @@
   },
   "zoho-forms": {
     "purpose": "Affiche des formulaires embarqués.",
+    "machine": true
+  },
+  "zoho-salesiq": {
+    "purpose": "Discussion en direct et suivi des visiteurs.",
+    "cookies": {
+      "zld*": "Mémorise l’état et la position de la fenêtre de discussion.",
+      "ZLD*": "Conserve les données de discussion et du visiteur entre les sous-domaines.",
+      "isiframeenabled": "Mémorise que la discussion en direct a été désactivée.",
+      "_zldvfp": "Reconnaît les visiteurs venant de campagnes d’e-mails.",
+      "ZSIQ*": "Mémorise si l’adresse IP du visiteur est bloquée."
+    },
     "machine": true
   }
 }

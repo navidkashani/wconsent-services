@@ -89,6 +89,13 @@
     "purpose": "Mostra un calendario di prenotazione incorporato.",
     "machine": true
   },
+  "chatbase": {
+    "purpose": "Risponde alle domande dei visitatori con un chatbot IA.",
+    "cookies": {
+      "chatbase_anon_id": "Riconosce il visitatore nella chat."
+    },
+    "machine": true
+  },
   "cleantalk": {
     "purpose": "Tiene lo spam lontano da moduli e commenti.",
     "cookies": {
@@ -210,6 +217,13 @@
     "purpose": "Mostra GIF incorporate.",
     "machine": true
   },
+  "gohighlevel": {
+    "purpose": "Mostra moduli, calendari di prenotazione e chat dal vivo.",
+    "cookies": {
+      "lc_session_*": "Mantiene la sessione della visita."
+    },
+    "machine": true
+  },
   "google-ads": {
     "purpose": "Misura gli annunci e li mostra ai visitatori precedenti.",
     "cookies": {
@@ -279,6 +293,19 @@
     },
     "machine": true
   },
+  "help-scout": {
+    "purpose": "Chat dal vivo e articoli di aiuto.",
+    "machine": true
+  },
+  "helpcrunch": {
+    "purpose": "Chat dal vivo e articoli di aiuto.",
+    "cookies": {
+      "device-source": "Ricorda la pagina in cui è stata caricata la chat.",
+      "device-referrer": "Ricorda la pagina da cui proviene il visitatore.",
+      "hc-visitor-hash": "Conta i messaggi automatici della chat e i pop-up."
+    },
+    "machine": true
+  },
   "hotjar": {
     "purpose": "Mappe di calore e registrazioni delle sessioni.",
     "cookies": {
@@ -317,6 +344,10 @@
   },
   "jetpack-stats": {
     "purpose": "Conta le visite.",
+    "machine": true
+  },
+  "jotform": {
+    "purpose": "Mostra moduli incorporati.",
     "machine": true
   },
   "kit": {
@@ -539,6 +570,10 @@
     },
     "machine": true
   },
+  "pipedrive": {
+    "purpose": "Mostra una chat di vendita e moduli di contatto.",
+    "machine": true
+  },
   "piwik-pro": {
     "purpose": "Misura visite e conversioni.",
     "cookies": {
@@ -580,6 +615,10 @@
     "purpose": "Misura gli annunci Quora.",
     "machine": true
   },
+  "reamaze": {
+    "purpose": "Chat di assistenza clienti.",
+    "machine": true
+  },
   "reddit-pixel": {
     "purpose": "Misura gli annunci Reddit.",
     "cookies": {
@@ -600,6 +639,14 @@
     "purpose": "Registrazioni delle sessioni e analisi di utilizzo.",
     "cookies": {
       "SL_C_*": "Distingue i visitatori e mantiene la sessione."
+    },
+    "machine": true
+  },
+  "smartsupp": {
+    "purpose": "Chat dal vivo.",
+    "cookies": {
+      "ssupp.vid": "Mantiene la conversazione della chat tra le pagine.",
+      "ssupp.visits": "Conta le visite per indirizzare i messaggi della chat."
     },
     "machine": true
   },
@@ -640,6 +687,10 @@
       "trc_cookie_storage": "Distingue i visitatori a fini di reportistica.",
       "taboola_session_id": "Evita di mostrare due volte lo stesso contenuto."
     },
+    "machine": true
+  },
+  "tally": {
+    "purpose": "Mostra moduli incorporati.",
     "machine": true
   },
   "tawk-to": {
@@ -792,6 +843,17 @@
   },
   "zoho-forms": {
     "purpose": "Mostra moduli incorporati.",
+    "machine": true
+  },
+  "zoho-salesiq": {
+    "purpose": "Chat dal vivo e tracciamento dei visitatori.",
+    "cookies": {
+      "zld*": "Ricorda lo stato e la posizione della finestra della chat.",
+      "ZLD*": "Mantiene i dati della chat e del visitatore tra i sottodomini.",
+      "isiframeenabled": "Ricorda che la chat dal vivo è stata disattivata.",
+      "_zldvfp": "Riconosce i visitatori provenienti da campagne email.",
+      "ZSIQ*": "Ricorda se l'IP del visitatore è bloccato."
+    },
     "machine": true
   }
 }

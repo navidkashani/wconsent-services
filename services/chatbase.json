@@ -1,0 +1,60 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "chatbase",
+  "version": 1,
+  "name": "Chatbase",
+  "provider": "Chatbase Inc.",
+  "category": "functional",
+  "purpose": "Answers visitor questions with an AI chatbot.",
+  "privacyUrl": "https://www.chatbase.co/legal/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "chatbase.co/embed.min.js",
+      "chatbase.co/chatbot-iframe/",
+      "chatbase.co/api/embed/"
+    ],
+    "inline": [
+      "window.chatbase(\"getState\")",
+      "embeddedChatbotConfig"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "chatbase_anon_id",
+      "lifetime": "Session",
+      "purpose": "Recognises the visitor in the chat."
+    }
+  ],
+  "storage": [
+    "chatbase_traffic_roll_*",
+    "message_bubbles_have_been_shown"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "chatbase/chatbase.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.chatbase.co/docs/developer-guides/javascript-embed",
+    "https://www.chatbase.co/docs/developer-guides/website-integration/iframe",
+    "https://chatbase.co/docs/user-guides/integrations/wordpress",
+    "https://www.chatbase.co/embed.min.js",
+    "https://www.chatbase.co/legal/privacy",
+    "https://www.chatbase.co/legal/dpa",
+    "https://www.chatbase.co/legal/cookie-policy",
+    "https://chatbase.co/docs/faq/faq",
+    "https://chatbase.co/docs/user-guides/chatbot/models-comparison",
+    "https://wordpress.org/plugins/chatbase/",
+    "https://plugins.svn.wordpress.org/chatbase/trunk/chatbase.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
