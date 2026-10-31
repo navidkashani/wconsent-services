@@ -45,20 +45,23 @@ colour and fitted to a 24×24 grid; see each source below.
 ### Simple Icons
 
 https://github.com/simple-icons/simple-icons, version 16.36.0, CC0-1.0. For a
-product of a larger brand (Meta Pixel, Cloudflare Turnstile, Zendesk Chat),
+product of a larger brand (Meta Pixel, Cloudflare Turnstile, Zendesk Chat,
+Acuity Scheduling),
 the brand's own icon.
 
-apple-music (`applemusic`), brevo (`brevo`), bunny-fonts (`bunnydotnet`),
+acuity-scheduling (`squarespace`), apple-music (`applemusic`),
+booking-com (`bookingdotcom`), brevo (`brevo`), bunny-fonts (`bunnydotnet`),
 bunny-stream (`bunnydotnet`), cal-com (`caldotcom`), calendly (`calendly`),
 cloudflare-turnstile (`cloudflare`), cloudflare-web-analytics (`cloudflare`),
 dailymotion (`dailymotion`), disqus (`disqus`), facebook-embed (`facebook`),
 fathom (`fathom`), flickr (`flickr`), font-awesome (`fontawesome`),
 giphy (`giphy`), google-ads (`googleads`), google-adsense (`googleadsense`),
-google-analytics (`googleanalytics`), google-fonts (`googlefonts`),
-google-maps (`googlemaps`), google-tag-manager (`googletagmanager`),
-gravatar (`gravatar`), help-scout (`helpscout`), hotjar (`hotjar`),
-hubspot (`hubspot`), instagram-embed (`instagram`), intercom (`intercom`),
-klarna (`klarna`), komoot (`komoot`), livechat (`livechat`), loom (`loom`),
+google-analytics (`googleanalytics`), google-calendar (`googlecalendar`),
+google-fonts (`googlefonts`), google-maps (`googlemaps`),
+google-tag-manager (`googletagmanager`), gravatar (`gravatar`),
+help-scout (`helpscout`), hotjar (`hotjar`), hubspot (`hubspot`),
+instagram-embed (`instagram`), intercom (`intercom`), klarna (`klarna`),
+komoot (`komoot`), livechat (`livechat`), loom (`loom`),
 mailchimp (`mailchimp`), matomo (`matomo`), matomo-cloud (`matomo`),
 matomo-tag-manager (`matomo`), meta-pixel (`meta`), mixpanel (`mixpanel`),
 openstreetmap (`openstreetmap`), paddle (`paddle`), paddle-retain (`paddle`),

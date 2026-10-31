@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "microsoft-bookings",
+  "version": 1,
+  "name": "Microsoft Bookings",
+  "provider": "Microsoft Ireland Operations Limited",
+  "category": "functional",
+  "purpose": "Shows an embedded booking calendar.",
+  "privacyUrl": "https://www.microsoft.com/en-us/privacy/privacystatement",
+  "dataCountry": "EU (EU Data Boundary) for EU tenants, else USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "outlook.office365.com/book/",
+      "outlook.office.com/book/",
+      "outlook.office365.com/owa/calendar/",
+      "bookings.cloud.microsoft/book/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-faq?view=o365-worldwide",
+    "https://learn.microsoft.com/en-us/microsoft-365/bookings/share-shared-bookings-page?view=o365-worldwide",
+    "https://learn.microsoft.com/en-us/microsoft-365/bookings/customize-booking-page?view=o365-worldwide",
+    "https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview",
+    "https://learn.microsoft.com/en-us/privacy/eudb/eu-data-boundary-learn",
+    "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "https://websites.uta.edu/oit/2023/03/27/bookings-end-point-url-for-customers-will-change",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
