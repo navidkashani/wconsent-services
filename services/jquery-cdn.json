@@ -1,0 +1,36 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "jquery-cdn",
+  "version": 1,
+  "name": "jQuery CDN",
+  "provider": "OpenJS Foundation",
+  "category": "essential",
+  "purpose": "Delivers code libraries the site uses.",
+  "privacyUrl": "https://openjsf.org/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "code.jquery.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://releases.jquery.com/",
+    "https://jquery.com/",
+    "https://openjsf.org/privacy",
+    "https://github.com/jquery/infrastructure-puppet/blob/staging/doc/cdn.md",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

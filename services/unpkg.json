@@ -1,0 +1,35 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "unpkg",
+  "version": 1,
+  "name": "UNPKG",
+  "provider": "",
+  "category": "essential",
+  "purpose": "Delivers code libraries the site uses.",
+  "privacyUrl": "",
+  "dataCountry": "",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "unpkg.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://unpkg.com/",
+    "https://unpkg.com/about",
+    "https://unpkg.com/network",
+    "https://unpkg.com/status"
+  ],
+  "checked": "2026-10-31"
+}

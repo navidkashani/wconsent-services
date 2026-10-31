@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "wordpress-com-cdn",
+  "version": 1,
+  "name": "Jetpack Site Accelerator",
+  "provider": "Aut O'Mattic A8C Ireland Ltd.",
+  "category": "essential",
+  "purpose": "Serves the site's images and files faster.",
+  "privacyUrl": "https://automattic.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "c0.wp.com",
+      "i0.wp.com",
+      "i1.wp.com",
+      "i2.wp.com",
+      "i3.wp.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "jetpack/jetpack.php",
+      "jetpack-boost/jetpack-boost.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://jetpack.com/support/site-accelerator/",
+    "https://automattic.com/privacy/",
+    "https://automattic.com/privacy-notice/",
+    "https://jetpack.com/support/cookies/",
+    "https://plugins.svn.wordpress.org/jetpack/tags/16.3.1/modules/photon-cdn.php",
+    "https://plugins.svn.wordpress.org/jetpack/tags/16.3.1/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn-core.php",
+    "https://plugins.svn.wordpress.org/jetpack/tags/16.3.1/jetpack.php",
+    "https://plugins.svn.wordpress.org/jetpack-boost/tags/4.8.1/jetpack-boost.php",
+    "https://plugins.svn.wordpress.org/jetpack-boost/tags/4.8.1/readme.txt",
+    "https://plugins.svn.wordpress.org/jetpack-boost/tags/4.8.1/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn-core.php",
+    "https://wordpress.org/plugins/jetpack/",
+    "https://wordpress.org/plugins/jetpack-boost/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

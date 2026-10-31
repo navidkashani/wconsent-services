@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "bootstrapcdn",
+  "version": 1,
+  "name": "BootstrapCDN",
+  "provider": "Volentio JSD Limited",
+  "category": "essential",
+  "purpose": "Delivers code libraries the site uses.",
+  "privacyUrl": "https://www.jsdelivr.com/terms/privacy-policy",
+  "dataCountry": "UK, USA and other countries",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "maxcdn.bootstrapcdn.com",
+      "stackpath.bootstrapcdn.com",
+      "netdna.bootstrapcdn.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.bootstrapcdn.com/",
+    "https://www.bootstrapcdn.com/about/",
+    "https://www.jsdelivr.com/terms/privacy-policy",
+    "https://raw.githubusercontent.com/jsdelivr/jsdelivr/master/Sub-Processors.md",
+    "https://github.com/jsdelivr/bootstrapcdn",
+    "https://raw.githubusercontent.com/twbs/bootstrap/v3.0.0/_config.yml",
+    "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.7/_config.yml",
+    "https://raw.githubusercontent.com/twbs/bootstrap/v4.1.3/_config.yml",
+    "https://fontawesome.com/v4/get-started/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

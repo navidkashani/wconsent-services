@@ -105,6 +105,10 @@
     "purpose": "Zeigt Suchfelder, Karten und Banner von Booking.com an.",
     "machine": true
   },
+  "bootstrapcdn": {
+    "purpose": "Liefert Code-Bibliotheken, die die Website nutzt.",
+    "machine": true
+  },
   "brevo": {
     "purpose": "Erfasst Besuche und zeigt Anmeldeformulare und Chat an.",
     "machine": true
@@ -123,6 +127,10 @@
   },
   "calendly": {
     "purpose": "Zeigt einen eingebetteten Buchungskalender an.",
+    "machine": true
+  },
+  "cdnjs": {
+    "purpose": "Liefert Code-Bibliotheken, die die Website nutzt.",
     "machine": true
   },
   "chatbase": {
@@ -326,6 +334,10 @@
     "purpose": "Lädt die Schriftarten der Website von Google.",
     "machine": true
   },
+  "google-hosted-libraries": {
+    "purpose": "Liefert Code-Bibliotheken, die die Website nutzt.",
+    "machine": true
+  },
   "google-maps": {
     "purpose": "Zeigt eingebettete Karten an.",
     "cookies": {
@@ -449,6 +461,14 @@
   },
   "jotform": {
     "purpose": "Zeigt eingebettete Formulare an.",
+    "machine": true
+  },
+  "jquery-cdn": {
+    "purpose": "Liefert Code-Bibliotheken, die die Website nutzt.",
+    "machine": true
+  },
+  "jsdelivr": {
+    "purpose": "Liefert Code-Bibliotheken, die die Website nutzt.",
     "machine": true
   },
   "kit": {
@@ -790,6 +810,13 @@
     "purpose": "Spielt eingebettete Podcast-Folgen ab.",
     "machine": true
   },
+  "popup-maker": {
+    "purpose": "Merkt sich, welche Pop-ups angezeigt oder geschlossen wurden.",
+    "cookies": {
+      "pum-*": "Verhindert, dass dasselbe Pop-up erneut erscheint."
+    },
+    "machine": true
+  },
   "posthog": {
     "purpose": "Misst, wie Besucher die Website nutzen.",
     "cookies": {
@@ -986,6 +1013,10 @@
     },
     "machine": true
   },
+  "unpkg": {
+    "purpose": "Liefert Code-Bibliotheken, die die Website nutzt.",
+    "machine": true
+  },
   "unsplash": {
     "purpose": "Zeigt Fotos an, die bei Unsplash gehostet werden.",
     "machine": true
@@ -1056,6 +1087,24 @@
       "sbjs_session": "Zählt Seitenaufrufe in diesem Besuch.",
       "sbjs_*": "Herkunft des Besuchs (Quelle, Kampagne, erster und aktueller Besuch)."
     },
+    "machine": true
+  },
+  "wordfence": {
+    "purpose": "Schützt die Website vor Angriffen und Spam-Anmeldungen.",
+    "cookies": {
+      "wfwaf-authcookie-*": "Lässt die Firewall angemeldete Benutzer erkennen.",
+      "wf_loginalerted_*": "Erkennt Anmeldungen von neuen Geräten für Warnhinweise.",
+      "wfCBLBypass": "Lässt ausgewählte Besucher trotz Ländersperre durch.",
+      "wfls-remembered-*": "Merkt sich einen Browser, der die Zwei-Faktor-Anmeldung bestanden hat."
+    },
+    "machine": true
+  },
+  "wordpress-com-cdn": {
+    "purpose": "Liefert Bilder und Dateien der Website schneller aus.",
+    "machine": true
+  },
+  "wordpress-org": {
+    "purpose": "Stellt WordPress-Emojis und -Bilder bereit.",
     "machine": true
   },
   "x-embed": {
