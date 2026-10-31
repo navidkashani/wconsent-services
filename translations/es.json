@@ -105,6 +105,10 @@
     "purpose": "Muestra buscadores, mapas y banners de Booking.com.",
     "machine": true
   },
+  "bootstrapcdn": {
+    "purpose": "Sirve bibliotecas de código que usa el sitio.",
+    "machine": true
+  },
   "brevo": {
     "purpose": "Sigue las visitas y muestra formularios de suscripción y chat.",
     "machine": true
@@ -123,6 +127,10 @@
   },
   "calendly": {
     "purpose": "Muestra un calendario de reservas incrustado.",
+    "machine": true
+  },
+  "cdnjs": {
+    "purpose": "Sirve bibliotecas de código que usa el sitio.",
     "machine": true
   },
   "chatbase": {
@@ -326,6 +334,10 @@
     "purpose": "Carga las fuentes del sitio desde Google.",
     "machine": true
   },
+  "google-hosted-libraries": {
+    "purpose": "Sirve bibliotecas de código que usa el sitio.",
+    "machine": true
+  },
   "google-maps": {
     "purpose": "Muestra mapas incrustados.",
     "cookies": {
@@ -449,6 +461,14 @@
   },
   "jotform": {
     "purpose": "Muestra formularios incrustados.",
+    "machine": true
+  },
+  "jquery-cdn": {
+    "purpose": "Sirve bibliotecas de código que usa el sitio.",
+    "machine": true
+  },
+  "jsdelivr": {
+    "purpose": "Sirve bibliotecas de código que usa el sitio.",
     "machine": true
   },
   "kit": {
@@ -790,6 +810,13 @@
     "purpose": "Reproduce episodios de pódcast incrustados.",
     "machine": true
   },
+  "popup-maker": {
+    "purpose": "Recuerda qué ventanas emergentes se mostraron o cerraron.",
+    "cookies": {
+      "pum-*": "Evita que la misma ventana emergente vuelva a aparecer."
+    },
+    "machine": true
+  },
   "posthog": {
     "purpose": "Mide cómo los visitantes usan el sitio.",
     "cookies": {
@@ -986,6 +1013,10 @@
     },
     "machine": true
   },
+  "unpkg": {
+    "purpose": "Sirve bibliotecas de código que usa el sitio.",
+    "machine": true
+  },
   "unsplash": {
     "purpose": "Muestra fotos alojadas en Unsplash.",
     "machine": true
@@ -1056,6 +1087,24 @@
       "sbjs_session": "Cuenta las vistas de página de esta visita.",
       "sbjs_*": "De dónde procede la visita (fuente, campaña, primera visita y visita actual)."
     },
+    "machine": true
+  },
+  "wordfence": {
+    "purpose": "Protege el sitio frente a ataques e inicios de sesión de spam.",
+    "cookies": {
+      "wfwaf-authcookie-*": "Permite al cortafuegos reconocer a los usuarios con sesión iniciada.",
+      "wf_loginalerted_*": "Detecta inicios de sesión desde un dispositivo nuevo para avisar.",
+      "wfCBLBypass": "Permite pasar el bloqueo por país a visitantes elegidos.",
+      "wfls-remembered-*": "Recuerda un navegador que superó el inicio de sesión en dos pasos."
+    },
+    "machine": true
+  },
+  "wordpress-com-cdn": {
+    "purpose": "Sirve más rápido las imágenes y archivos del sitio.",
+    "machine": true
+  },
+  "wordpress-org": {
+    "purpose": "Sirve emojis e imágenes de WordPress.",
     "machine": true
   },
   "x-embed": {

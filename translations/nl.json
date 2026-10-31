@@ -105,6 +105,10 @@
     "purpose": "Toont zoekvakken, kaarten en banners van Booking.com.",
     "machine": true
   },
+  "bootstrapcdn": {
+    "purpose": "Levert codebibliotheken die de site gebruikt.",
+    "machine": true
+  },
   "brevo": {
     "purpose": "Volgt bezoeken en toont aanmeldformulieren en chat.",
     "machine": true
@@ -123,6 +127,10 @@
   },
   "calendly": {
     "purpose": "Toont een ingesloten boekingskalender.",
+    "machine": true
+  },
+  "cdnjs": {
+    "purpose": "Levert codebibliotheken die de site gebruikt.",
     "machine": true
   },
   "chatbase": {
@@ -326,6 +334,10 @@
     "purpose": "Laadt de lettertypen van de site van Google.",
     "machine": true
   },
+  "google-hosted-libraries": {
+    "purpose": "Levert codebibliotheken die de site gebruikt.",
+    "machine": true
+  },
   "google-maps": {
     "purpose": "Toont ingesloten kaarten.",
     "cookies": {
@@ -449,6 +461,14 @@
   },
   "jotform": {
     "purpose": "Toont ingesloten formulieren.",
+    "machine": true
+  },
+  "jquery-cdn": {
+    "purpose": "Levert codebibliotheken die de site gebruikt.",
+    "machine": true
+  },
+  "jsdelivr": {
+    "purpose": "Levert codebibliotheken die de site gebruikt.",
     "machine": true
   },
   "kit": {
@@ -790,6 +810,13 @@
     "purpose": "Speelt ingesloten podcastafleveringen af.",
     "machine": true
   },
+  "popup-maker": {
+    "purpose": "Onthoudt welke pop-ups zijn getoond of gesloten.",
+    "cookies": {
+      "pum-*": "Voorkomt dat dezelfde pop-up opnieuw verschijnt."
+    },
+    "machine": true
+  },
   "posthog": {
     "purpose": "Meet hoe bezoekers de site gebruiken.",
     "cookies": {
@@ -986,6 +1013,10 @@
     },
     "machine": true
   },
+  "unpkg": {
+    "purpose": "Levert codebibliotheken die de site gebruikt.",
+    "machine": true
+  },
   "unsplash": {
     "purpose": "Toont foto's die bij Unsplash worden gehost.",
     "machine": true
@@ -1056,6 +1087,24 @@
       "sbjs_session": "Telt paginaweergaven in dit bezoek.",
       "sbjs_*": "Waar het bezoek vandaan kwam (bron, campagne, eerste en huidige bezoek)."
     },
+    "machine": true
+  },
+  "wordfence": {
+    "purpose": "Beschermt de site tegen aanvallen en spamaanmeldingen.",
+    "cookies": {
+      "wfwaf-authcookie-*": "Laat de firewall ingelogde gebruikers herkennen.",
+      "wf_loginalerted_*": "Herkent aanmeldingen vanaf een nieuw apparaat voor meldingen.",
+      "wfCBLBypass": "Laat gekozen bezoekers door de landblokkering.",
+      "wfls-remembered-*": "Onthoudt een browser die de tweestapsaanmelding heeft doorstaan."
+    },
+    "machine": true
+  },
+  "wordpress-com-cdn": {
+    "purpose": "Levert de afbeeldingen en bestanden van de site sneller.",
+    "machine": true
+  },
+  "wordpress-org": {
+    "purpose": "Levert WordPress-emoji en -afbeeldingen.",
     "machine": true
   },
   "x-embed": {

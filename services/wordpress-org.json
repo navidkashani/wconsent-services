@@ -1,0 +1,33 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "wordpress-org",
+  "version": 1,
+  "name": "WordPress.org",
+  "provider": "",
+  "category": "essential",
+  "purpose": "Serves WordPress emoji and images.",
+  "privacyUrl": "https://wordpress.org/about/privacy/",
+  "dataCountry": "",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "s.w.org"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://wordpress.org/about/privacy/",
+    "https://core.svn.wordpress.org/trunk/wp-includes/formatting.php"
+  ],
+  "checked": "2026-10-31"
+}
