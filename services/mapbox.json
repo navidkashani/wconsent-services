@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "mapbox",
+  "version": 1,
+  "name": "Mapbox",
+  "provider": "Mapbox, Inc.",
+  "category": "media",
+  "purpose": "Shows embedded maps.",
+  "privacyUrl": "https://www.mapbox.com/legal/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "api.mapbox.com",
+      "events.mapbox.com",
+      "tiles.mapbox.com"
+    ],
+    "inline": [
+      "mapboxgl.accessToken",
+      "new mapboxgl.Map("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "mapbox.eventData*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "map",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.mapbox.com/mapbox-gl-js/guides/install/",
+    "https://docs.mapbox.com/mapbox-gl-js/guides/",
+    "https://docs.mapbox.com/mapbox-gl-js/example/simple-map/",
+    "https://docs.mapbox.com/mapbox-gl-js/api/properties/",
+    "https://docs.mapbox.com/api/maps/static-images/",
+    "https://docs.mapbox.com/help/glossary/tilejson/",
+    "https://github.com/mapbox/mapbox-gl-js/blob/main/src/util/config.ts",
+    "https://github.com/mapbox/mapbox-gl-js/blob/main/src/util/mapbox.ts",
+    "https://www.mapbox.com/legal/privacy",
+    "https://www.mapbox.com/legal/notice-of-certification",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

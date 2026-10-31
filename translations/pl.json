@@ -77,6 +77,13 @@
     "purpose": "Odtwarza osadzone podcasty i odcinki.",
     "machine": true
   },
+  "audioboom": {
+    "purpose": "Odtwarza osadzone odcinki podcastów.",
+    "cookies": {
+      "_audioboo_session2": "Łączy wizytę z logowaniem."
+    },
+    "machine": true
+  },
   "awin": {
     "purpose": "Śledzi sprzedaż z linków partnerskich.",
     "cookies": {
@@ -337,6 +344,21 @@
     "purpose": "Wczytuje pozostałe tagi witryny. Sam nie ustawia ciasteczek; każdy wczytywany tag czeka na własną zgodę.",
     "machine": true
   },
+  "google-translate": {
+    "purpose": "Tłumaczy stronę na inne języki.",
+    "cookies": {
+      "googtrans": "Zapamiętuje wybrany język.",
+      "googtransopt": "Zapamiętuje ustawienia paska tłumaczenia."
+    },
+    "machine": true
+  },
+  "google-trends": {
+    "purpose": "Wyświetla osadzone wykresy trendów wyszukiwania.",
+    "cookies": {
+      "NID": "Zapamiętuje preferencje."
+    },
+    "machine": true
+  },
   "gravatar": {
     "purpose": "Wyświetla zdjęcia profilowe przy komentarzach.",
     "machine": true
@@ -471,6 +493,10 @@
     },
     "machine": true
   },
+  "libsyn": {
+    "purpose": "Odtwarza osadzone odcinki podcastów.",
+    "machine": true
+  },
   "linkedin-embed": {
     "purpose": "Wyświetla osadzone posty i odznaki z LinkedIn.",
     "cookies": {
@@ -544,6 +570,10 @@
     "purpose": "Wyświetla formularze zapisu do newslettera.",
     "machine": true
   },
+  "mapbox": {
+    "purpose": "Wyświetla osadzone mapy.",
+    "machine": true
+  },
   "matomo-cloud": {
     "purpose": "Mierzy wizyty i konwersje.",
     "cookies": {
@@ -571,6 +601,10 @@
       "mtm_cookie_consent": "Zapamiętuje zgodę na ciasteczka śledzące.",
       "mtm_consent_removed": "Zapamiętuje rezygnację ze śledzenia."
     },
+    "machine": true
+  },
+  "matterport": {
+    "purpose": "Wyświetla osadzone wirtualne wycieczki 3D.",
     "machine": true
   },
   "meta-pixel": {
@@ -803,6 +837,13 @@
     },
     "machine": true
   },
+  "sketchfab": {
+    "purpose": "Wyświetla osadzone modele 3D.",
+    "cookies": {
+      "sb_csrftoken": "Chroni przed sfałszowanymi żądaniami."
+    },
+    "machine": true
+  },
   "smartlook": {
     "purpose": "Nagrania sesji i analityka użytkowania.",
     "cookies": {
@@ -835,6 +876,13 @@
     "cookies": {
       "sp_t": "Niezbędne do działania osadzenia Spotify.",
       "sp_landing": "Niezbędne do działania osadzenia Spotify."
+    },
+    "machine": true
+  },
+  "strava": {
+    "purpose": "Wyświetla osadzone aktywności i mapy tras.",
+    "cookies": {
+      "_strava4_session": "Utrzymuje sesję Strava."
     },
     "machine": true
   },

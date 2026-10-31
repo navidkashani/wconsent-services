@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "google-translate",
+  "version": 1,
+  "name": "Google Translate",
+  "provider": "Google Ireland Limited",
+  "category": "functional",
+  "purpose": "Translates the page into other languages.",
+  "privacyUrl": "https://policies.google.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "translate.google.com/translate_a",
+      "translate.googleapis.com",
+      "translate-pa.googleapis.com",
+      "gstatic.com/_/translate_http"
+    ],
+    "inline": [
+      "google.translate.TranslateElement(",
+      "googleTranslateElementInit"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "googtrans",
+      "lifetime": "Session",
+      "purpose": "Remembers the chosen language."
+    },
+    {
+      "name": "googtransopt",
+      "lifetime": "Session",
+      "purpose": "Remembers the translate bar's settings."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "google-website-translator/google-website-translator.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit",
+    "https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.ru.yj9p_gZ32Uw.O/am=AACAAQ/d=1/ed=1/rs=AN8SPfp0Rgbxn40GzvR8Uy5sWQMQGMUtcw/m=el_main",
+    "https://web.archive.org/web/20191225001914/https://translate.google.com/intl/en/about/website/",
+    "https://developers.google.com/search/blog/2020/05/google-translates-website-translator",
+    "https://policies.google.com/privacy",
+    "https://policies.google.com/privacy/frameworks",
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/google-website-translator/trunk/",
+    "https://plugins.svn.wordpress.org/gtranslate/trunk/",
+    "https://plugins.svn.wordpress.org/google-language-translator/trunk/"
+  ],
+  "checked": "2026-10-31"
+}

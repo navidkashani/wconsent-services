@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "audioboom",
+  "version": 1,
+  "name": "Audioboom",
+  "provider": "Audioboom Limited",
+  "category": "media",
+  "purpose": "Plays embedded podcast episodes.",
+  "privacyUrl": "https://audioboom.com/about/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "embeds.audioboom.com",
+      "audioboom.com/boos"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_audioboo_session2",
+      "lifetime": "Session",
+      "purpose": "Keeps the visit and sign-in together."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.audioboom.com/hc/en-us/articles/360004974373-Episode-Embed-Player",
+    "https://support.audioboom.com/hc/en-us/articles/360004927114-Podcast-Embed-Player",
+    "https://support.audioboom.com/hc/en-us/articles/360021287474-Embeds-in-Google-AMP-pages",
+    "https://support.audioboom.com/hc/en-us/articles/360004974453-Embedding-on-Wordpress-Websites",
+    "https://support.audioboom.com/hc/en-us/articles/360021131674-Ad-Schedule",
+    "https://audioboom.com/publishing/oembed.json?url=https://audioboom.com/posts/4304807",
+    "https://audioboom.com/about/privacy",
+    "https://audioboom.com/about/cookies",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
