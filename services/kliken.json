@@ -1,0 +1,67 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "kliken",
+  "version": 1,
+  "name": "Kliken",
+  "provider": "Sitewit Corp",
+  "category": "marketing",
+  "purpose": "Tracks sales from ads and retargets visitors.",
+  "privacyUrl": "https://www.kliken.com/privacy.html",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "analytics.sitewit.com"
+    ],
+    "inline": [
+      "var _swaMa=["
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_swa_u",
+      "lifetime": "1000 days",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_ow_agid",
+      "lifetime": "90 days",
+      "purpose": "Remembers which Kliken ad sent the visitor."
+    }
+  ],
+  "storage": [
+    "_swa_u",
+    "_ow_agid"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "kliken-marketing-for-google/kliken-marketing-for-google.php",
+      "kliken-ads-pixel-for-meta/kliken-ads-pixel-for-meta.php"
+    ],
+    "handles": [
+      "kk-script",
+      "kk-fb-script",
+      "kk-fb-trigger-cart-script"
+    ]
+  },
+  "sources": [
+    "https://www.kliken.com/privacy.html",
+    "https://www.kliken.com/dpa.html",
+    "https://www.kliken.com/subprocessors.html",
+    "https://www.kliken.com/cookies.html",
+    "https://legal.kliken.com/",
+    "https://help.kliken.com/en/articles/2958534-do-i-really-need-to-install-a-tracking-code",
+    "https://analytics.sitewit.com/v3/1/sw.js",
+    "https://wordpress.org/plugins/kliken-marketing-for-google/",
+    "https://plugins.svn.wordpress.org/kliken-marketing-for-google/trunk/",
+    "https://wordpress.org/plugins/kliken-ads-pixel-for-meta/",
+    "https://plugins.svn.wordpress.org/kliken-ads-pixel-for-meta/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

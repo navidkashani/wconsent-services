@@ -24,6 +24,14 @@
     },
     "machine": true
   },
+  "addtoany": {
+    "purpose": "Toont knoppen om pagina's op sociale netwerken te delen.",
+    "cookies": {
+      "page_services": "Onthoudt de voorkeursdiensten van de bezoeker om te delen.",
+      "feed_services": "Onthoudt de voorkeursdiensten voor feeds van de bezoeker."
+    },
+    "machine": true
+  },
   "adobe-analytics": {
     "purpose": "Meet bezoeken en conversies.",
     "cookies": {
@@ -390,8 +398,26 @@
     },
     "machine": true
   },
+  "kliken": {
+    "purpose": "Volgt verkopen uit advertenties en retarget bezoekers.",
+    "cookies": {
+      "_swa_u": "Onderscheidt bezoekers van elkaar.",
+      "_ow_agid": "Onthoudt via welke Kliken-advertentie de bezoeker kwam."
+    },
+    "machine": true
+  },
   "komoot": {
     "purpose": "Toont ingesloten routekaarten.",
+    "machine": true
+  },
+  "leadfeeder": {
+    "purpose": "Identificeert bedrijven die de site bezoeken.",
+    "cookies": {
+      "_lfa": "Onderscheidt bezoekers van elkaar.",
+      "_lfa_consent": "Bewaart de toestemmingsstatus van de bezoeker.",
+      "_lfa_test_cookie_stored": "Controleert of cookies kunnen worden opgeslagen.",
+      "ldfdr_opt_out": "Onthoudt dat de bezoeker zich heeft afgemeld."
+    },
     "machine": true
   },
   "linkedin-insight": {
@@ -451,6 +477,10 @@
       "mailerlite_forms_shown_*": "Onthoudt dat een pop-upformulier is getoond.",
       "mailerlite_forms_submitted_*": "Onthoudt dat een formulier is verzonden."
     },
+    "machine": true
+  },
+  "mailjet": {
+    "purpose": "Toont aanmeldformulieren voor nieuwsbrieven.",
     "machine": true
   },
   "matomo-cloud": {
@@ -536,6 +566,19 @@
     },
     "machine": true
   },
+  "onesignal": {
+    "purpose": "Stuurt webpushmeldingen en in-app-berichten.",
+    "machine": true
+  },
+  "openai-ads": {
+    "purpose": "Meet advertenties in ChatGPT.",
+    "cookies": {
+      "__oppref": "Koppelt een bezoek aan een klik op een ChatGPT-advertentie.",
+      "__obref": "Onderscheidt bezoekers van elkaar.",
+      "__oaiq_consent": "Bewaart de toestemmingskeuze voor metingen."
+    },
+    "machine": true
+  },
   "openstreetmap": {
     "purpose": "Toont ingesloten kaarten.",
     "machine": true
@@ -554,6 +597,27 @@
       "optimizelySession": "Onderscheidt nieuwe en terugkerende bezoeken van elkaar.",
       "optimizelyRedirectData": "Neemt gegevens mee bij een testomleiding.",
       "optimizelyOptOut": "Onthoudt dat de bezoeker tests heeft geweigerd."
+    },
+    "machine": true
+  },
+  "optinmonster": {
+    "purpose": "Toont pop-ups en aanmeldformulieren.",
+    "cookies": {
+      "_omappvp": "Onderscheidt nieuwe van terugkerende bezoekers.",
+      "_omappvs": "Markeert wanneer een bezoeker als terugkerend telt.",
+      "om-global-cookie": "Voorkomt dat er meer campagnes worden getoond.",
+      "omGlobalSuccessCookie": "Voorkomt dat er meer campagnes worden getoond.",
+      "om-interaction-cookie": "Onthoudt elke interactie met een campagne.",
+      "omGlobalInteractionCookie": "Onthoudt elke interactie met een campagne.",
+      "om-*": "Onthoudt interactie met een campagne.",
+      "omSeen-*": "Onthoudt dat een campagne is getoond.",
+      "om-success-*": "Onthoudt een aanmelding in een campagne.",
+      "omSuccess-*": "Onthoudt een aanmelding in een campagne.",
+      "om-success-cookie": "Ontgrendelt vergrendelde inhoud na een aanmelding.",
+      "omSuccessCookie": "Ontgrendelt vergrendelde inhoud na een aanmelding.",
+      "omSlideClosed-*": "Onthoudt dat een inschuifvenster is gesloten.",
+      "omCountdown-*": "Houdt afteltimers gelijk.",
+      "_omra": "Koppelt campagneweergaven aan verkopen."
     },
     "machine": true
   },
@@ -757,8 +821,29 @@
     },
     "machine": true
   },
+  "trusted-shops": {
+    "purpose": "Toont een keurmerk en winkelbeoordelingen.",
+    "cookies": {
+      "TRSTD_ID_TOKEN": "Herkent een ingelogde Trusted Shops-gebruiker.",
+      "TRSTD_ID_TOKEN_METADATA": "Bewaart gegevens over het inlogtoken.",
+      "TRSTD_CC": "Voegt een beveiligingscontrole toe aan het inloggen.",
+      "TRSTD_CV": "Voegt een beveiligingscontrole toe aan het inloggen."
+    },
+    "machine": true
+  },
   "trustindex": {
     "purpose": "Toont beoordelingen van Google en andere sites.",
+    "machine": true
+  },
+  "trustpilot-invitations": {
+    "purpose": "Vraagt klanten hun aankoop te beoordelen.",
+    "cookies": {
+      "TP.uuid": "Herkent de browser."
+    },
+    "machine": true
+  },
+  "trustpilot": {
+    "purpose": "Toont beoordelingen van Trustpilot.",
     "machine": true
   },
   "typeform": {

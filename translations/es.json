@@ -24,6 +24,14 @@
     },
     "machine": true
   },
+  "addtoany": {
+    "purpose": "Muestra botones para compartir páginas en redes sociales.",
+    "cookies": {
+      "page_services": "Recuerda los servicios preferidos del visitante para compartir.",
+      "feed_services": "Recuerda los servicios de feeds preferidos del visitante."
+    },
+    "machine": true
+  },
   "adobe-analytics": {
     "purpose": "Mide las visitas y las conversiones.",
     "cookies": {
@@ -390,8 +398,26 @@
     },
     "machine": true
   },
+  "kliken": {
+    "purpose": "Registra las ventas de los anuncios y reimpacta a los visitantes.",
+    "cookies": {
+      "_swa_u": "Distingue a los visitantes entre sí.",
+      "_ow_agid": "Recuerda qué anuncio de Kliken trajo al visitante."
+    },
+    "machine": true
+  },
   "komoot": {
     "purpose": "Muestra mapas de rutas incrustados.",
+    "machine": true
+  },
+  "leadfeeder": {
+    "purpose": "Identifica a las empresas que visitan el sitio.",
+    "cookies": {
+      "_lfa": "Distingue a los visitantes entre sí.",
+      "_lfa_consent": "Guarda el estado de consentimiento del visitante.",
+      "_lfa_test_cookie_stored": "Comprueba si se pueden guardar cookies.",
+      "ldfdr_opt_out": "Recuerda que el visitante se excluyó."
+    },
     "machine": true
   },
   "linkedin-insight": {
@@ -451,6 +477,10 @@
       "mailerlite_forms_shown_*": "Recuerda que se mostró un formulario emergente.",
       "mailerlite_forms_submitted_*": "Recuerda que se envió un formulario."
     },
+    "machine": true
+  },
+  "mailjet": {
+    "purpose": "Muestra formularios de suscripción al boletín.",
     "machine": true
   },
   "matomo-cloud": {
@@ -536,6 +566,19 @@
     },
     "machine": true
   },
+  "onesignal": {
+    "purpose": "Envía notificaciones push web y mensajes en la aplicación.",
+    "machine": true
+  },
+  "openai-ads": {
+    "purpose": "Mide los anuncios de ChatGPT.",
+    "cookies": {
+      "__oppref": "Vincula una visita a un clic en un anuncio de ChatGPT.",
+      "__obref": "Distingue a los visitantes entre sí.",
+      "__oaiq_consent": "Guarda la elección de consentimiento para la medición."
+    },
+    "machine": true
+  },
   "openstreetmap": {
     "purpose": "Muestra mapas incrustados.",
     "machine": true
@@ -554,6 +597,27 @@
       "optimizelySession": "Distingue las visitas nuevas de las recurrentes.",
       "optimizelyRedirectData": "Transporta datos durante una redirección de prueba.",
       "optimizelyOptOut": "Recuerda que el visitante se excluyó de las pruebas."
+    },
+    "machine": true
+  },
+  "optinmonster": {
+    "purpose": "Muestra ventanas emergentes y formularios de suscripción.",
+    "cookies": {
+      "_omappvp": "Distingue a los visitantes nuevos de los recurrentes.",
+      "_omappvs": "Marca cuándo un visitante cuenta como recurrente.",
+      "om-global-cookie": "Evita que se muestren más campañas.",
+      "omGlobalSuccessCookie": "Evita que se muestren más campañas.",
+      "om-interaction-cookie": "Recuerda cualquier interacción con una campaña.",
+      "omGlobalInteractionCookie": "Recuerda cualquier interacción con una campaña.",
+      "om-*": "Recuerda la interacción con una campaña.",
+      "omSeen-*": "Recuerda que se mostró una campaña.",
+      "om-success-*": "Recuerda una suscripción en una campaña.",
+      "omSuccess-*": "Recuerda una suscripción en una campaña.",
+      "om-success-cookie": "Desbloquea contenido bloqueado tras una suscripción.",
+      "omSuccessCookie": "Desbloquea contenido bloqueado tras una suscripción.",
+      "omSlideClosed-*": "Recuerda que se cerró un panel deslizante.",
+      "omCountdown-*": "Mantiene sincronizadas las cuentas atrás.",
+      "_omra": "Vincula las visualizaciones de campañas con las ventas."
     },
     "machine": true
   },
@@ -757,8 +821,29 @@
     },
     "machine": true
   },
+  "trusted-shops": {
+    "purpose": "Muestra un sello de confianza y opiniones de la tienda.",
+    "cookies": {
+      "TRSTD_ID_TOKEN": "Reconoce a un usuario de Trusted Shops con la sesión iniciada.",
+      "TRSTD_ID_TOKEN_METADATA": "Guarda datos sobre el token de inicio de sesión.",
+      "TRSTD_CC": "Añade una comprobación de seguridad al inicio de sesión.",
+      "TRSTD_CV": "Añade una comprobación de seguridad al inicio de sesión."
+    },
+    "machine": true
+  },
   "trustindex": {
     "purpose": "Muestra opiniones de Google y otros sitios.",
+    "machine": true
+  },
+  "trustpilot-invitations": {
+    "purpose": "Pide a los clientes que valoren su compra.",
+    "cookies": {
+      "TP.uuid": "Reconoce el navegador."
+    },
+    "machine": true
+  },
+  "trustpilot": {
+    "purpose": "Muestra opiniones de Trustpilot.",
     "machine": true
   },
   "typeform": {
