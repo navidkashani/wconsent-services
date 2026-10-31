@@ -67,6 +67,10 @@ main ones:
 - **`wordpress`** holds hints about other WordPress plugins: `plugins` that
   usually add the service, and script `handles` of another plugin that only
   work together with it.
+- **`common.json`** names the trackers that tag managers and plugins often
+  add by JavaScript after a page has loaded. A consent tool can keep their
+  rules on every page and carry the rest only for sites that use them. The
+  build puts the list in `services.json` as `common`.
 - **`sources`** and **`checked`** say where the facts come from and when a
   person last checked them.
 

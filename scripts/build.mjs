@@ -39,7 +39,8 @@ export function build() {
     const { $schema, ...service } = json(`services/${file}`);
     return service;
   });
-  files['services.json'] = { format: FORMAT, version, date, services };
+  // The trackers a consent tool may keep on every page (common.json).
+  files['services.json'] = { format: FORMAT, version, date, services, common: json('common.json').services };
 
   const { source, commit, licence, cookies } = json('cookies/open-cookie-database.json');
   files['cookies.json'] = { format: FORMAT, version, source, commit, licence, cookies };
