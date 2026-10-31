@@ -1,0 +1,38 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "discord-widget",
+  "version": 1,
+  "name": "Discord",
+  "provider": "Discord Netherlands BV",
+  "category": "media",
+  "purpose": "Shows a Discord server's online members.",
+  "privacyUrl": "https://discord.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "discord.com/widget",
+      "discordapp.com/widget",
+      "discord.com/api/guilds"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://discord.com/privacy",
+    "https://discord.com/terms/cookie-policy",
+    "https://discord.com/blog/add-the-discord-widget-to-your-site",
+    "https://docs.discord.com/developers/resources/guild",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

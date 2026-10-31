@@ -73,6 +73,10 @@
     "purpose": "Reproduce canciones, álbumes y listas de reproducción incrustados.",
     "machine": true
   },
+  "apple-podcasts": {
+    "purpose": "Reproduce pódcasts y episodios incrustados.",
+    "machine": true
+  },
   "awin": {
     "purpose": "Registra las ventas procedentes de enlaces de afiliados.",
     "cookies": {
@@ -207,6 +211,10 @@
       "client_token": "Mantiene fluida la reproducción del vídeo.",
       "dmvk": "Evita que se interrumpa un vídeo."
     },
+    "machine": true
+  },
+  "discord-widget": {
+    "purpose": "Muestra los miembros conectados de un servidor de Discord.",
     "machine": true
   },
   "disqus": {
@@ -385,6 +393,10 @@
     },
     "machine": true
   },
+  "imgur": {
+    "purpose": "Muestra publicaciones e imágenes de Imgur incrustadas.",
+    "machine": true
+  },
   "instagram-embed": {
     "purpose": "Muestra publicaciones incrustadas.",
     "machine": true
@@ -395,6 +407,13 @@
       "intercom-id-*": "Distingue a los visitantes entre sí.",
       "intercom-session-*": "Mantiene la sesión del chat.",
       "intercom-device-id-*": "Distingue los dispositivos entre sí."
+    },
+    "machine": true
+  },
+  "issuu": {
+    "purpose": "Muestra publicaciones digitales incrustadas.",
+    "cookies": {
+      "COOKIE_ID_pico_lsid": "Mide cómo usan los visitantes la publicación incrustada."
     },
     "machine": true
   },
@@ -449,6 +468,16 @@
       "_lfa_consent": "Guarda el estado de consentimiento del visitante.",
       "_lfa_test_cookie_stored": "Comprueba si se pueden guardar cookies.",
       "ldfdr_opt_out": "Recuerda que el visitante se excluyó."
+    },
+    "machine": true
+  },
+  "linkedin-embed": {
+    "purpose": "Muestra publicaciones e insignias de LinkedIn incrustadas.",
+    "cookies": {
+      "bcookie": "Distingue navegadores para detectar abusos.",
+      "bscookie": "Recuerda un inicio de sesión verificado en LinkedIn.",
+      "lidc": "Elige el centro de datos.",
+      "li_gc": "Guarda las elecciones de cookies de un invitado."
     },
     "machine": true
   },
@@ -841,6 +870,10 @@
     },
     "machine": true
   },
+  "ted": {
+    "purpose": "Muestra charlas TED incrustadas.",
+    "machine": true
+  },
   "the-trade-desk": {
     "purpose": "Muestra anuncios a visitantes anteriores y los mide.",
     "cookies": {
@@ -903,6 +936,10 @@
     "cookies": {
       "tf_respondent_cc": "Mantiene el formulario en funcionamiento."
     },
+    "machine": true
+  },
+  "unsplash": {
+    "purpose": "Muestra fotos alojadas en Unsplash.",
     "machine": true
   },
   "userlike": {
@@ -1013,6 +1050,10 @@
       "VISITOR_INFO1_LIVE": "Recomendaciones y estadísticas de vídeo.",
       "__Secure-YNID": "Preferencias y estadísticas de vídeo."
     },
+    "machine": true
+  },
+  "yumpu": {
+    "purpose": "Muestra revistas y catálogos digitales incrustados.",
     "machine": true
   },
   "zendesk-chat": {

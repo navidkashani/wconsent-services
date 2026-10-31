@@ -73,6 +73,10 @@
     "purpose": "Riproduce brani, album e playlist incorporati.",
     "machine": true
   },
+  "apple-podcasts": {
+    "purpose": "Riproduce podcast ed episodi incorporati.",
+    "machine": true
+  },
   "awin": {
     "purpose": "Traccia le vendite dai link di affiliazione.",
     "cookies": {
@@ -207,6 +211,10 @@
       "client_token": "Mantiene fluida la riproduzione dei video.",
       "dmvk": "Evita che un video venga interrotto."
     },
+    "machine": true
+  },
+  "discord-widget": {
+    "purpose": "Mostra i membri online di un server Discord.",
     "machine": true
   },
   "disqus": {
@@ -385,6 +393,10 @@
     },
     "machine": true
   },
+  "imgur": {
+    "purpose": "Mostra post e immagini di Imgur incorporati.",
+    "machine": true
+  },
   "instagram-embed": {
     "purpose": "Mostra post incorporati.",
     "machine": true
@@ -395,6 +407,13 @@
       "intercom-id-*": "Distingue i visitatori.",
       "intercom-session-*": "Mantiene la sessione della chat.",
       "intercom-device-id-*": "Distingue i dispositivi."
+    },
+    "machine": true
+  },
+  "issuu": {
+    "purpose": "Mostra pubblicazioni digitali incorporate.",
+    "cookies": {
+      "COOKIE_ID_pico_lsid": "Misura come i visitatori usano la pubblicazione incorporata."
     },
     "machine": true
   },
@@ -449,6 +468,16 @@
       "_lfa_consent": "Memorizza lo stato del consenso del visitatore.",
       "_lfa_test_cookie_stored": "Verifica se è possibile salvare cookie.",
       "ldfdr_opt_out": "Ricorda che il visitatore ha rinunciato."
+    },
+    "machine": true
+  },
+  "linkedin-embed": {
+    "purpose": "Mostra post e badge di LinkedIn incorporati.",
+    "cookies": {
+      "bcookie": "Distingue i browser per rilevare abusi.",
+      "bscookie": "Ricorda un accesso verificato a LinkedIn.",
+      "lidc": "Sceglie il data center.",
+      "li_gc": "Memorizza le scelte sui cookie di un ospite."
     },
     "machine": true
   },
@@ -841,6 +870,10 @@
     },
     "machine": true
   },
+  "ted": {
+    "purpose": "Mostra talk TED incorporati.",
+    "machine": true
+  },
   "the-trade-desk": {
     "purpose": "Mostra annunci ai visitatori precedenti e li misura.",
     "cookies": {
@@ -903,6 +936,10 @@
     "cookies": {
       "tf_respondent_cc": "Mantiene il modulo funzionante."
     },
+    "machine": true
+  },
+  "unsplash": {
+    "purpose": "Mostra foto ospitate da Unsplash.",
     "machine": true
   },
   "userlike": {
@@ -1013,6 +1050,10 @@
       "VISITOR_INFO1_LIVE": "Video consigliati e statistiche.",
       "__Secure-YNID": "Preferenze e statistiche per i video."
     },
+    "machine": true
+  },
+  "yumpu": {
+    "purpose": "Mostra riviste e sfogliabili incorporati.",
     "machine": true
   },
   "zendesk-chat": {
