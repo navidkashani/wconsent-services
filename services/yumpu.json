@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "yumpu",
+  "version": 1,
+  "name": "Yumpu",
+  "provider": "i-Magazine AG",
+  "category": "media",
+  "purpose": "Shows embedded magazines and flipbooks.",
+  "privacyUrl": "https://www.yumpu.com/en/info/privacy_policy",
+  "dataCountry": "EU (Ireland)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "yumpu.com",
+      "player.yumpu.news"
+    ],
+    "inline": [
+      "new Yumpu()"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "yumpu-epaper-publishing/yumpu.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://helpcenter.yumpu.com/en/articles/1101898-embed-magazine",
+    "https://helpcenter.yumpu.com/en/articles/1116550-embed-types",
+    "https://helpcenter.yumpu.com/en/articles/1101901-advanced-embed",
+    "https://helpcenter.yumpu.com/en/articles/1139675-third-party-integration",
+    "https://developers.yumpu.com/api/documents/documentsget.md",
+    "https://developers.yumpu.com/api/embeds/embedsget.md",
+    "https://developers.yumpu.com/js/quicksetup.md",
+    "https://developers.yumpu.com/js/faqs.md",
+    "https://players.yumpu.com/hub.js",
+    "https://www.yumpu.com/en/embed/view/71307858",
+    "https://www.yumpu.com/en/info/privacy_policy",
+    "https://www.yumpu.com/en/info/cookie_policy",
+    "https://www.yumpu.com/en/info/impressum",
+    "https://wordpress.org/plugins/yumpu-epaper-publishing/",
+    "https://plugins.svn.wordpress.org/yumpu-epaper-publishing/trunk/yumpu.php",
+    "https://plugins.svn.wordpress.org/yumpu-epaper-publishing/trunk/lib/Shortcode.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

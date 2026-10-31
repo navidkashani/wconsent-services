@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "unsplash",
+  "version": 1,
+  "name": "Unsplash",
+  "provider": "Unsplash Inc.",
+  "category": "media",
+  "purpose": "Shows photos hosted by Unsplash.",
+  "privacyUrl": "https://unsplash.com/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "images.unsplash.com",
+      "plus.unsplash.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://unsplash.com/documentation",
+    "https://unsplash.com/documentation/changelog",
+    "https://help.unsplash.com/en/articles/2511271-guideline-hotlinking-images",
+    "https://unsplash.com/privacy",
+    "https://unsplash.com/blog/unsplash-getty",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/instant-images/",
+    "https://wordpress.org/plugins/image-hub/",
+    "https://wordpress.org/plugins/stockpack/",
+    "https://wordpress.org/plugins/unsplash/"
+  ],
+  "checked": "2026-10-31"
+}

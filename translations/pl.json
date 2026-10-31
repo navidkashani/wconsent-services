@@ -73,6 +73,10 @@
     "purpose": "Odtwarza osadzone utwory, albumy i playlisty.",
     "machine": true
   },
+  "apple-podcasts": {
+    "purpose": "Odtwarza osadzone podcasty i odcinki.",
+    "machine": true
+  },
   "awin": {
     "purpose": "Śledzi sprzedaż z linków partnerskich.",
     "cookies": {
@@ -207,6 +211,10 @@
       "client_token": "Zapewnia płynne odtwarzanie wideo.",
       "dmvk": "Zapobiega przerywaniu wideo."
     },
+    "machine": true
+  },
+  "discord-widget": {
+    "purpose": "Wyświetla członków serwera Discord, którzy są online.",
     "machine": true
   },
   "disqus": {
@@ -385,6 +393,10 @@
     },
     "machine": true
   },
+  "imgur": {
+    "purpose": "Wyświetla osadzone posty i obrazy z Imgur.",
+    "machine": true
+  },
   "instagram-embed": {
     "purpose": "Wyświetla osadzone wpisy.",
     "machine": true
@@ -395,6 +407,13 @@
       "intercom-id-*": "Odróżnia odwiedzających.",
       "intercom-session-*": "Utrzymuje sesję czatu.",
       "intercom-device-id-*": "Odróżnia urządzenia."
+    },
+    "machine": true
+  },
+  "issuu": {
+    "purpose": "Wyświetla osadzone publikacje cyfrowe.",
+    "cookies": {
+      "COOKIE_ID_pico_lsid": "Mierzy, jak odwiedzający korzystają z osadzonej publikacji."
     },
     "machine": true
   },
@@ -449,6 +468,16 @@
       "_lfa_consent": "Zapisuje stan zgody odwiedzającego.",
       "_lfa_test_cookie_stored": "Sprawdza, czy można zapisać ciasteczka.",
       "ldfdr_opt_out": "Zapamiętuje, że odwiedzający zrezygnował."
+    },
+    "machine": true
+  },
+  "linkedin-embed": {
+    "purpose": "Wyświetla osadzone posty i odznaki z LinkedIn.",
+    "cookies": {
+      "bcookie": "Odróżnia przeglądarki, aby wykrywać nadużycia.",
+      "bscookie": "Zapamiętuje zweryfikowane logowanie do LinkedIn.",
+      "lidc": "Wybiera centrum danych.",
+      "li_gc": "Zapisuje wybory gościa dotyczące ciasteczek."
     },
     "machine": true
   },
@@ -841,6 +870,10 @@
     },
     "machine": true
   },
+  "ted": {
+    "purpose": "Wyświetla osadzone wykłady TED.",
+    "machine": true
+  },
   "the-trade-desk": {
     "purpose": "Wyświetla reklamy dawnym odwiedzającym i mierzy ich skuteczność.",
     "cookies": {
@@ -903,6 +936,10 @@
     "cookies": {
       "tf_respondent_cc": "Utrzymuje działanie formularza."
     },
+    "machine": true
+  },
+  "unsplash": {
+    "purpose": "Wyświetla zdjęcia hostowane przez Unsplash.",
     "machine": true
   },
   "userlike": {
@@ -1013,6 +1050,10 @@
       "VISITOR_INFO1_LIVE": "Rekomendacje i statystyki wideo.",
       "__Secure-YNID": "Preferencje i statystyki wideo."
     },
+    "machine": true
+  },
+  "yumpu": {
+    "purpose": "Wyświetla osadzone czasopisma i katalogi do przeglądania.",
     "machine": true
   },
   "zendesk-chat": {

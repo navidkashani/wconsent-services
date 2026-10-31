@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "ted",
+  "version": 1,
+  "name": "TED",
+  "provider": "TED Conferences, LLC",
+  "category": "media",
+  "purpose": "Shows embedded TED talks.",
+  "privacyUrl": "https://www.ted.com/about/our-organization/our-policies-terms/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "embed.ted.com",
+      "embed-ssl.ted.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "mp_cefc84a7a812fb3bb40d6efadb6b3163_mixpanel"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.ted.com/about/our-organization/our-policies-terms/privacy-policy",
+    "https://www.ted.com/about/our-organization/our-policies-terms/ted-com-terms-of-use",
+    "https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy",
+    "https://www.ted.com/services/v1/oembed.json?url=https://www.ted.com/talks/ken_robinson_do_schools_kill_creativity",
+    "https://embed.ted.com/talks/sir_ken_robinson_do_schools_kill_creativity",
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/class-wp-oembed.php"
+  ],
+  "checked": "2026-10-31"
+}
