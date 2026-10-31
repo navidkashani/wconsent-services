@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { convert } from './convert-cookies.mjs';
 import { parseCsv } from './lib/csv.mjs';
-import { checkLogo, checkPublic, checkServices, checkTranslation, format } from './lib/rules.mjs';
+import { checkCommon, checkLogo, checkPublic, checkServices, checkTranslation, format } from './lib/rules.mjs';
 
 const service = (overrides = {}) => ({
   $schema: 'https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json',
@@ -81,6 +81,26 @@ test('replacedBy must name a live service', () => {
   assert.equal(only(checkServices(files(service({ replacedBy: 'missing' }))), 'does not exist').length, 1);
   const problems = checkServices(files(service({ replacedBy: 'next' }), service({ id: 'next', match: { hosts: ['next.example.com'] }, retired: true })));
   assert.equal(only(problems, 'is retired').length, 1);
+});
+
+test('common.json names live, non-essential services once, in order', () => {
+  const live = new Map([
+    ['a-one', service({ id: 'a-one' })],
+    ['b-two', service({ id: 'b-two' })],
+    ['gone', service({ id: 'gone', retired: true })],
+    ['needed', service({ id: 'needed', category: 'essential' })],
+  ]);
+  const common = (ids) => {
+    const data = { description: 'Kept on every page.', services: ids };
+    return { text: format(data), data };
+  };
+  assert.deepEqual(checkCommon(common(['a-one', 'b-two']), live), []);
+  assert.equal(only(checkCommon(common(['b-two', 'a-one']), live), 'alphabetical').length, 1);
+  assert.equal(only(checkCommon(common(['a-one', 'a-one']), live), 'alphabetical').length, 1);
+  assert.equal(only(checkCommon(common(['missing']), live), 'not a service').length, 1);
+  assert.equal(only(checkCommon(common(['needed']), live), 'essential').length, 1);
+  assert.equal(only(checkCommon(common(['gone']), live), 'retired').length, 1);
+  assert.equal(checkCommon({ text: '[]', data: [] }, live).length, 1);
 });
 
 const services = new Map([['example', service()]]);

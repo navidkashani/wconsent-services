@@ -10,7 +10,7 @@
 import { execFileSync } from 'node:child_process';
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { checkLogo, checkPublic, checkServices, checkTranslation, format } from './lib/rules.mjs';
+import { checkCommon, checkLogo, checkPublic, checkServices, checkTranslation, format } from './lib/rules.mjs';
 
 const ROOT = resolve(import.meta.dirname, '..');
 const fix = process.argv.includes('--fix');
@@ -43,6 +43,17 @@ problems.push(...checkServices(services));
 const valid = new Map([...services].filter(([, f]) => !('error' in f.data)).map(([id, f]) => [id, f.data]));
 for (const [id, { data }] of services) {
   if ('error' in data) problems.push(`services/${id}.json: ${data.error}`);
+}
+
+const commonPath = resolve(ROOT, 'common.json');
+const commonText = readFileSync(commonPath, 'utf8');
+let common;
+try {
+  common = JSON.parse(commonText);
+  if (fix) writeFileSync(commonPath, format(common));
+  problems.push(...checkCommon({ text: fix ? format(common) : commonText, data: common }, valid));
+} catch (error) {
+  problems.push(`common.json: ${error}`);
 }
 
 const translations = read('translations');

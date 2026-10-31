@@ -94,6 +94,32 @@ export function checkServices(files) {
 }
 
 /**
+ * common.json: the trackers a consent tool may keep on every page.
+ *
+ * @param {{text: string, data: unknown}} file
+ * @param {Map<string, object>} services valid services, keyed by id
+ * @returns {string[]}
+ */
+export function checkCommon({ text, data }, services) {
+  const where = 'common.json';
+  if (typeof data?.description !== 'string' || !Array.isArray(data?.services) || Object.keys(data).length !== 2) {
+    return [`${where}: an object with only "description" and "services" (a list of ids).`];
+  }
+  const problems = [];
+  if (text !== format(data)) problems.push(`${where}: not formatted. Run npm run format.`);
+  const ids = data.services;
+  if (ids.some((id, i) => typeof id !== 'string' || (i > 0 && ids[i - 1] >= id))) problems.push(`${where}: list each id once, in alphabetical order.`);
+  for (const id of ids.filter((id) => typeof id === 'string')) {
+    const service = services.get(id);
+    if (service === undefined) problems.push(`${where}: "${id}" is not a service.`);
+    else if (service.category === 'essential') problems.push(`${where}: "${id}" is essential, so nothing about it is ever held back.`);
+    else if (service.retired) problems.push(`${where}: "${id}" is retired.`);
+  }
+
+  return problems;
+}
+
+/**
  * @param {string} locale
  * @param {{text: string, data: unknown}} file translations/<locale>.json
  * @param {Map<string, object>} services valid services, keyed by id
