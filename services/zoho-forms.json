@@ -1,0 +1,69 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "zoho-forms",
+  "version": 1,
+  "name": "Zoho Forms",
+  "provider": "Zoho Corporation B.V.",
+  "category": "functional",
+  "purpose": "Shows embedded forms.",
+  "privacyUrl": "https://www.zoho.com/privacy.html",
+  "dataCountry": "EU for EU accounts; otherwise USA, India or another Zoho region",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "forms.zohopublic.com",
+      "forms.zohopublic.eu",
+      "forms.zohopublic.in",
+      "forms.zohopublic.com.au",
+      "forms.zohopublic.jp",
+      "forms.zohopublic.ca",
+      "forms.zohopublic.com.cn",
+      "forms.zohopublic.sa",
+      "forms.zohopublic.uk",
+      "forms.zohopublic1.com",
+      "forms.zoho.com",
+      "forms.zoho.eu",
+      "forms.zoho.in",
+      "forms.zoho.com.au",
+      "forms.zoho.jp",
+      "forms.zohocloud.ca",
+      "forms.zoho.com.cn",
+      "forms.zoho.sa",
+      "forms.zoho.uk"
+    ],
+    "inline": [
+      "zf_ifrm_ht_nw",
+      "zf_lB_Dimmer_",
+      "getsrcurlZForm_"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://help.zoho.com/portal/en/kb/forms/user-guide/embedding-forms/embedding-forms-in-webpages/articles/embed-using-iframe",
+    "https://help.zoho.com/portal/en/kb/forms/user-guide/embedding-forms/embedding-forms-in-webpages/articles/embed-using-javascript",
+    "https://help.zoho.com/portal/en/kb/forms/embedding-forms/embedding-forms-in-webpages/articles/embedding-forms-overview",
+    "https://help.zoho.com/portal/en/kb/forms/user-guide/embedding-forms/embedding-forms-in-webpages/articles/lightbox",
+    "https://help.zoho.com/portal/en/kb/forms/sharing-forms/articles/sharing-a-form-publicly",
+    "https://help.zoho.com/portal/en/community/topic/severity-high-please-change-the-url-of-published-forms",
+    "https://www.zoho.com/privacy.html",
+    "https://www.zoho.com/privacy/privacy-faq.html",
+    "https://www.zoho.com/privacy/zoho-group.html",
+    "https://www.zoho.com/legal/zoho-contracting-entities.html",
+    "https://www.zoho.com/privacy/cookie-policy.html",
+    "https://plugins.svn.wordpress.org/zoho-forms/trunk/zohoForms.php",
+    "https://plugins.svn.wordpress.org/zoho-forms/trunk/zohoforms-block.js",
+    "https://wordpress.org/plugins/zoho-forms/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

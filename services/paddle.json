@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "paddle",
+  "version": 1,
+  "name": "Paddle",
+  "provider": "Paddle.com Market Limited",
+  "category": "essential",
+  "purpose": "Runs the checkout and processes payments.",
+  "privacyUrl": "https://www.paddle.com/legal/privacy",
+  "dataCountry": "UK, USA and other countries",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "cdn.paddle.com",
+      "sandbox-cdn.paddle.com",
+      "buy.paddle.com",
+      "sandbox-buy.paddle.com",
+      "subscription-management.paddle.com"
+    ],
+    "inline": [
+      "Paddle.Initialize(",
+      "Paddle.Setup("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "paddlejs_popup"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://developer.paddle.com/paddle-js/about.md",
+    "https://developer.paddle.com/paddlejs/include-paddlejs",
+    "https://developer.paddle.com/build/checkout/build-overlay-checkout.md",
+    "https://developer.paddle.com/build/retain.md",
+    "https://classic.paddle.com/guides/checkout/inline-checkout/",
+    "https://cdn.paddle.com/paddle/v2/paddle.js",
+    "https://cdn.paddle.com/paddle/paddle.js",
+    "https://www.paddle.com/legal/privacy",
+    "https://www.paddle.com/legal/buyer-terms",
+    "https://www.paddle.com/legal/gdpr",
+    "https://www.paddle.com/legal/data-sharing-addendum",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

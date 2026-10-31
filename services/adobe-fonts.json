@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "adobe-fonts",
+  "version": 1,
+  "name": "Adobe Fonts",
+  "provider": "Adobe Systems Software Ireland Limited",
+  "category": "functional",
+  "purpose": "Loads the site's fonts from Adobe.",
+  "privacyUrl": "https://www.adobe.com/privacy/policy.html",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "use.typekit.net",
+      "p.typekit.net",
+      "use.typekit.com"
+    ],
+    "inline": [
+      "Typekit.load"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "custom-typekit-fonts/custom-typekit-fonts.php",
+      "typekit-fonts-for-wordpress/typekit.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.adobe.com/privacy/policies/adobe-fonts.html",
+    "https://helpx.adobe.com/fonts/using/content-security-policy.html",
+    "https://helpx.adobe.com/fonts/using/use-typekit-net.html",
+    "https://helpx.adobe.com/fonts/using/embed-codes.html",
+    "https://www.adobe.com/privacy/policy.html",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/custom-typekit-fonts/",
+    "https://plugins.svn.wordpress.org/custom-typekit-fonts/trunk/",
+    "https://wordpress.org/plugins/typekit-fonts-for-wordpress/",
+    "https://plugins.svn.wordpress.org/typekit-fonts-for-wordpress/trunk/"
+  ],
+  "checked": "2026-10-31"
+}

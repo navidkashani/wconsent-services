@@ -1,0 +1,58 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "klarna",
+  "version": 1,
+  "name": "Klarna",
+  "provider": "Klarna Bank AB (publ)",
+  "category": "essential",
+  "purpose": "Processes Klarna payments and prevents fraud.",
+  "privacyUrl": "https://cdn.klarna.com/1.0/shared/content/legal/terms/0/en_ie/privacy",
+  "dataCountry": "EU and other countries, including USA",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "js.klarna.com",
+      "payments.klarna.com",
+      "x.klarnacdn.net",
+      "klarnaservices.com",
+      "klarnaevt.com"
+    ],
+    "inline": [
+      "klarnaAsyncCallback",
+      "KlarnaSDKCallback",
+      "js.klarna.com/web-sdk/"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "__klarna_sdk_*",
+    "_klarna_mdid",
+    "_klarna_authorization_recovery"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "klarna-payments-for-woocommerce/klarna-payments-for-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.klarna.com/acquirer/klarna/web-payments/integrate-with-klarna-payments/integrate-via-sdk/step-2-checkout.md",
+    "https://docs.klarna.com/acquirer/klarna/on-site-messaging/integrate-on-site-messaging/integrate-using-klarna-web-sdk.md",
+    "https://docs.klarna.com/acquirer/klarna/on-site-messaging/additional-resources/migration-to-the-new-klarna-websdk.md",
+    "https://docs.klarna.com/acquirer/klarna/sign-in-with-klarna/integrate-sign-in-with-klarna/web-sdk-integration.md",
+    "https://docs.klarna.com/acquirer/jpm/payments/klarna-api-integration/klarna-websdk.md",
+    "https://docs.klarna.com/acquirer/klarna/resources/legal-and-compliance/more-solutions-guidelines/terms-and-conditions.md",
+    "https://cdn.klarna.com/1.0/shared/content/legal/terms/0/en_ie/privacy",
+    "https://x.klarnacdn.net/kp/lib/v1/api.js",
+    "https://js.klarna.com/web-sdk/v1/klarna.js",
+    "https://js.klarna.com/web-sdk/v2/klarna.mjs",
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/klarna-payments-for-woocommerce/trunk/"
+  ],
+  "checked": "2026-10-31"
+}

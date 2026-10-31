@@ -28,6 +28,10 @@
     },
     "machine": true
   },
+  "adobe-fonts": {
+    "purpose": "Carica i font del sito da Adobe.",
+    "machine": true
+  },
   "amazon-ads": {
     "purpose": "Mostra annunci Amazon e li misura.",
     "cookies": {
@@ -44,12 +48,64 @@
     },
     "machine": true
   },
+  "awin": {
+    "purpose": "Traccia le vendite dai link di affiliazione.",
+    "cookies": {
+      "_aw_m_*": "Ricorda il clic di affiliazione per attribuire la vendita.",
+      "_aw_j_*": "Collega le fasi del percorso di un visitatore.",
+      "_aw_sn_*": "Ricorda un clic su cashback o buono sconto.",
+      "adv_awc": "Ricorda il clic di affiliazione per attribuire la vendita.",
+      "awc": "Ricorda il clic di affiliazione per attribuire la vendita.",
+      "awin_awc": "Ricorda il clic di affiliazione per attribuire la vendita.",
+      "awin_source": "Ricorda quale canale ha portato il visitatore.",
+      "AwinChannelCookie": "Ricorda quale canale ha portato il visitatore.",
+      "ServerAwinChannelCookie": "Ricorda quale canale ha portato il visitatore.",
+      "AWSESS": "Evita di mostrare di nuovo lo stesso annuncio.",
+      "awpv*": "Registra che un annuncio è stato visto."
+    },
+    "machine": true
+  },
   "brevo": {
     "purpose": "Traccia le visite e mostra moduli di iscrizione e chat.",
     "machine": true
   },
+  "bunny-fonts": {
+    "purpose": "Carica i font del sito da bunny.net.",
+    "machine": true
+  },
+  "cal-com": {
+    "purpose": "Mostra un calendario di prenotazione incorporato.",
+    "machine": true
+  },
   "calendly": {
     "purpose": "Mostra un calendario di prenotazione incorporato.",
+    "machine": true
+  },
+  "cleantalk": {
+    "purpose": "Tiene lo spam lontano da moduli e commenti.",
+    "cookies": {
+      "apbct_cookies_test": "Verifica che gli altri cookie non siano stati falsificati.",
+      "apbct_headless": "Dati del visitatore per il controllo antispam.",
+      "apbct_page_hits": "Dati del visitatore per il controllo antispam.",
+      "apbct_pixel_url": "Dati del visitatore per il controllo antispam.",
+      "apbct_prev_referer": "Dati del visitatore per il controllo antispam.",
+      "apbct_site_landing_ts": "Dati del visitatore per il controllo antispam.",
+      "apbct_site_referer": "Dati del visitatore per il controllo antispam.",
+      "apbct_timestamp": "Dati del visitatore per il controllo antispam.",
+      "ct_checked_emails": "Dati del browser per il controllo antispam.",
+      "ct_checkjs": "Dati del browser per il controllo antispam.",
+      "ct_fkp_timestamp": "Dati del browser per il controllo antispam.",
+      "ct_has_input_focused": "Dati del browser per il controllo antispam.",
+      "ct_has_key_up": "Dati del browser per il controllo antispam.",
+      "ct_has_scrolled": "Dati del browser per il controllo antispam.",
+      "ct_mouse_moved": "Dati del browser per il controllo antispam.",
+      "ct_pointer_data": "Dati del browser per il controllo antispam.",
+      "ct_ps_timestamp": "Dati del browser per il controllo antispam.",
+      "ct_screen_info": "Dati del browser per il controllo antispam.",
+      "ct_sfw_ip_wl": "Ricorda il controllo del firewall antispam.",
+      "ct_sfw_pass_key": "Ricorda il controllo del firewall antispam.",
+      "ct_timezone": "Dati del browser per il controllo antispam."
+    },
     "machine": true
   },
   "cleverreach": {
@@ -116,6 +172,10 @@
   },
   "fathom": {
     "purpose": "Misura le visite senza cookie.",
+    "machine": true
+  },
+  "font-awesome": {
+    "purpose": "Carica le icone del sito da Font Awesome.",
     "machine": true
   },
   "freshchat": {
@@ -250,6 +310,10 @@
       "ck_subscriber_id_signature": "Verifica che l'ID dell'iscritto non sia stato modificato.",
       "ck_non_inline_form_displayed": "Mostra al massimo un modulo pop-up per visita."
     },
+    "machine": true
+  },
+  "klarna": {
+    "purpose": "Elabora i pagamenti Klarna e previene le frodi.",
     "machine": true
   },
   "klaviyo": {
@@ -416,6 +480,14 @@
     },
     "machine": true
   },
+  "paddle-retain": {
+    "purpose": "Mostra offerte di fatturazione e traccia l'utilizzo.",
+    "machine": true
+  },
+  "paddle": {
+    "purpose": "Gestisce il checkout ed elabora i pagamenti.",
+    "machine": true
+  },
   "paypal-marketing": {
     "purpose": "Misura gli acquisti su questo sito per il marketing di PayPal.",
     "machine": true
@@ -570,6 +642,13 @@
     },
     "machine": true
   },
+  "userlike": {
+    "purpose": "Chat dal vivo.",
+    "cookies": {
+      "uslk_umm_*": "Mantiene lo stato della chat e riconosce i contatti di ritorno."
+    },
+    "machine": true
+  },
   "vg-wort": {
     "purpose": "Conta le letture dei testi per retribuire gli autori.",
     "machine": true
@@ -665,6 +744,14 @@
       "__zlcprivacy": "Ricorda la scelta del visitatore sui cookie per la chat.",
       "zte2095": "Identifica il sito che ospita il widget della chat."
     },
+    "machine": true
+  },
+  "zoho-bookings": {
+    "purpose": "Mostra un calendario di prenotazione incorporato.",
+    "machine": true
+  },
+  "zoho-forms": {
+    "purpose": "Mostra moduli incorporati.",
     "machine": true
   }
 }

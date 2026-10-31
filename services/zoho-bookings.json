@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "zoho-bookings",
+  "version": 1,
+  "name": "Zoho Bookings",
+  "provider": "Zoho Corporation B.V.",
+  "category": "functional",
+  "purpose": "Shows an embedded booking calendar.",
+  "privacyUrl": "https://www.zoho.com/privacy.html",
+  "dataCountry": "EU or USA by account region; India as a sub-processor",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "bookings.nimbuspop.com",
+      "zohobookings.com",
+      "zohobookings.eu",
+      "zohobookings.in",
+      "zohobookings.com.au",
+      "zohobookings.ca",
+      "zohobookings.sa",
+      "zohobookings.jp",
+      "zohobookings.com.cn"
+    ],
+    "inline": [
+      "Bookings.inlineEmbed(",
+      "Bookings.buttonModal(",
+      "Bookings.linkModal("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://help.zoho.com/portal/en/kb/bookings-2-0/booking-pages/booking-pages-and-links/articles/ways-to-share-booking-link",
+    "https://help.zoho.com/portal/en/kb/bookings/my-profile/articles/embed-as-widget-15-12-2022",
+    "https://help.zoho.com/portal/en/kb/bookings/general-setup/articles/bookings-booking-page-url",
+    "https://www.zoho.com/bookings/help/api/v1/domain-specificapiurls.html",
+    "https://bookings.nimbuspop.com/assets/embed.js",
+    "https://www.zoho.com/privacy.html",
+    "https://www.zoho.com/privacy/zoho-group.html",
+    "https://www.zoho.com/know-your-datacenter.html",
+    "https://www.zoho.com/privacy/cookie-policy.html",
+    "https://github.com/pranavkethireddy/fintoit/blob/main/templates/demo.html",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

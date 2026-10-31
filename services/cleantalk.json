@@ -1,0 +1,172 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "cleantalk",
+  "version": 1,
+  "name": "CleanTalk Anti-Spam",
+  "provider": "CleanTalk Inc.",
+  "category": "essential",
+  "purpose": "Keeps spam out of forms and comments.",
+  "privacyUrl": "https://cleantalk.org/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework) and EU",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "fd.cleantalk.org",
+      "fd-api.cleantalk.org",
+      "cleantalk.org/pixel"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "apbct_cookies_test",
+      "lifetime": "Session",
+      "purpose": "Checks the other cookies were not faked."
+    },
+    {
+      "name": "apbct_headless",
+      "lifetime": "Session",
+      "purpose": "Visitor details for the spam check."
+    },
+    {
+      "name": "apbct_page_hits",
+      "lifetime": "Session",
+      "purpose": "Visitor details for the spam check."
+    },
+    {
+      "name": "apbct_pixel_url",
+      "lifetime": "Session",
+      "purpose": "Visitor details for the spam check."
+    },
+    {
+      "name": "apbct_prev_referer",
+      "lifetime": "Session",
+      "purpose": "Visitor details for the spam check."
+    },
+    {
+      "name": "apbct_site_landing_ts",
+      "lifetime": "Session",
+      "purpose": "Visitor details for the spam check."
+    },
+    {
+      "name": "apbct_site_referer",
+      "lifetime": "Session",
+      "purpose": "Visitor details for the spam check."
+    },
+    {
+      "name": "apbct_timestamp",
+      "lifetime": "Session",
+      "purpose": "Visitor details for the spam check."
+    },
+    {
+      "name": "ct_checked_emails",
+      "lifetime": "Session",
+      "purpose": "Browser details for the spam check."
+    },
+    {
+      "name": "ct_checkjs",
+      "lifetime": "Session",
+      "purpose": "Browser details for the spam check."
+    },
+    {
+      "name": "ct_fkp_timestamp",
+      "lifetime": "Session",
+      "purpose": "Browser details for the spam check."
+    },
+    {
+      "name": "ct_has_input_focused",
+      "lifetime": "Session",
+      "purpose": "Browser details for the spam check."
+    },
+    {
+      "name": "ct_has_key_up",
+      "lifetime": "Session",
+      "purpose": "Browser details for the spam check."
+    },
+    {
+      "name": "ct_has_scrolled",
+      "lifetime": "Session",
+      "purpose": "Browser details for the spam check."
+    },
+    {
+      "name": "ct_mouse_moved",
+      "lifetime": "Session",
+      "purpose": "Browser details for the spam check."
+    },
+    {
+      "name": "ct_pointer_data",
+      "lifetime": "Session",
+      "purpose": "Browser details for the spam check."
+    },
+    {
+      "name": "ct_ps_timestamp",
+      "lifetime": "Session",
+      "purpose": "Browser details for the spam check."
+    },
+    {
+      "name": "ct_screen_info",
+      "lifetime": "Session",
+      "purpose": "Browser details for the spam check."
+    },
+    {
+      "name": "ct_sfw_ip_wl",
+      "lifetime": "1 month",
+      "purpose": "Remembers the spam firewall check."
+    },
+    {
+      "name": "ct_sfw_pass_key",
+      "lifetime": "1 month",
+      "purpose": "Remembers the spam firewall check."
+    },
+    {
+      "name": "ct_timezone",
+      "lifetime": "Session",
+      "purpose": "Browser details for the spam check."
+    }
+  ],
+  "storage": [
+    "apbct_*",
+    "bot_detector_*",
+    "ct_bot_detector_*",
+    "ct_checkjs",
+    "ct_fkp_timestamp",
+    "ct_pointer_data",
+    "ct_ps_timestamp",
+    "ct_screen_info",
+    "ct_timezone"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "cleantalk-spam-protect/cleantalk.php"
+    ],
+    "handles": [
+      "ct_bot_detector",
+      "apbct-public-bundle.min-js",
+      "apbct-public-bundle_ext-protection.min-js",
+      "apbct-public-bundle_int-protection.min-js",
+      "apbct-public-bundle_full-protection.min-js",
+      "apbct-public-bundle_gathering.min-js",
+      "apbct-public-bundle_ext-protection_gathering.min-js",
+      "apbct-public-bundle_int-protection_gathering.min-js",
+      "apbct-public-bundle_full-protection_gathering.min-js"
+    ]
+  },
+  "sources": [
+    "https://cleantalk.org/privacy",
+    "https://cleantalk.org/help/cookies-description",
+    "https://cleantalk.org/help/set-cookies-option",
+    "https://cleantalk.org/help/cleantalk-gdpr-compliance",
+    "https://cleantalk.org/help/storage-location",
+    "https://fd.cleantalk.org/ct-bot-detector-wrapper.js",
+    "https://fd.cleantalk.org/2.1.9/ct-bot-detector.min.js",
+    "https://plugins.svn.wordpress.org/cleantalk-spam-protect/trunk/",
+    "https://wordpress.org/plugins/cleantalk-spam-protect/",
+    "https://wordpress.org/support/topic/cookies-and-personal-data/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
