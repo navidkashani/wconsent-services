@@ -1,0 +1,39 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "imgur",
+  "version": 1,
+  "name": "Imgur",
+  "provider": "Imgur, Inc.",
+  "category": "media",
+  "purpose": "Shows embedded Imgur posts and images.",
+  "privacyUrl": "https://imgurinc.com/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "imgur.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://s.imgur.com/min/embed.js",
+    "https://s.imgur.com/min/embed-controller.js",
+    "https://apidocs.imgur.com/",
+    "https://imgurinc.com/privacy",
+    "https://imgurinc.com/tos",
+    "https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/class-wp-oembed.php",
+    "https://raw.githubusercontent.com/WordPress/WordPress/6.8/wp-includes/class-wp-oembed.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

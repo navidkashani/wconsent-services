@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "issuu",
+  "version": 1,
+  "name": "Issuu",
+  "provider": "Bending Spoons S.p.A.",
+  "category": "media",
+  "purpose": "Shows embedded digital publications.",
+  "privacyUrl": "https://issuu.com/legal/privacy",
+  "dataCountry": "EU (Italy) and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "e.issuu.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "COOKIE_ID_pico_lsid",
+      "lifetime": "1 year",
+      "purpose": "Measures how visitors use the embedded publication."
+    }
+  ],
+  "storage": [
+    "LOCAL_STORAGE_ID_pico_lsid",
+    "SESSION_STORAGE_ID_pico_lsid",
+    "spidersense:user_id:v1_issuu_web"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://issuu.com/oembed_wp?url=https%3A%2F%2Fissuu.com%2Fissuu%2Fdocs%2Fissuu_brand_guidelines&format=json",
+    "https://help.issuu.com/hc/en-us/articles/5772744258843-iFrame-Embed-Code",
+    "https://e.issuu.com/embed.js",
+    "https://e.issuu.com/embed.html?u=issuu&d=issuu_brand_guidelines",
+    "https://issuu.com/legal/privacy",
+    "https://issuu.com/legal/cookies",
+    "https://issuu.com/legal/security",
+    "https://issuu.com/legal/dpa",
+    "https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/class-wp-oembed.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
