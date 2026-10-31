@@ -77,6 +77,13 @@
     "purpose": "Lit des podcasts et des épisodes embarqués.",
     "machine": true
   },
+  "audioboom": {
+    "purpose": "Lit des épisodes de podcast embarqués.",
+    "cookies": {
+      "_audioboo_session2": "Relie la visite et la connexion."
+    },
+    "machine": true
+  },
   "awin": {
     "purpose": "Suit les ventes issues de liens d’affiliation.",
     "cookies": {
@@ -337,6 +344,21 @@
     "purpose": "Charge les autres balises du site. Aucun cookie n’est défini ; chaque balise chargée attend son propre consentement.",
     "machine": true
   },
+  "google-translate": {
+    "purpose": "Traduit la page dans d’autres langues.",
+    "cookies": {
+      "googtrans": "Mémorise la langue choisie.",
+      "googtransopt": "Mémorise les réglages de la barre de traduction."
+    },
+    "machine": true
+  },
+  "google-trends": {
+    "purpose": "Affiche des graphiques de tendances de recherche embarqués.",
+    "cookies": {
+      "NID": "Mémorise les préférences."
+    },
+    "machine": true
+  },
   "gravatar": {
     "purpose": "Affiche les photos de profil à côté des commentaires.",
     "machine": true
@@ -471,6 +493,10 @@
     },
     "machine": true
   },
+  "libsyn": {
+    "purpose": "Lit des épisodes de podcast embarqués.",
+    "machine": true
+  },
   "linkedin-embed": {
     "purpose": "Affiche des publications et des badges LinkedIn embarqués.",
     "cookies": {
@@ -544,6 +570,10 @@
     "purpose": "Affiche des formulaires d’inscription à la lettre d’information.",
     "machine": true
   },
+  "mapbox": {
+    "purpose": "Affiche des cartes embarquées.",
+    "machine": true
+  },
   "matomo-cloud": {
     "purpose": "Mesure les visites et les conversions.",
     "cookies": {
@@ -571,6 +601,10 @@
       "mtm_cookie_consent": "Mémorise le consentement aux cookies de suivi.",
       "mtm_consent_removed": "Mémorise le refus du suivi."
     },
+    "machine": true
+  },
+  "matterport": {
+    "purpose": "Affiche des visites virtuelles 3D embarquées.",
     "machine": true
   },
   "meta-pixel": {
@@ -803,6 +837,13 @@
     },
     "machine": true
   },
+  "sketchfab": {
+    "purpose": "Affiche des modèles 3D embarqués.",
+    "cookies": {
+      "sb_csrftoken": "Protège contre les requêtes falsifiées."
+    },
+    "machine": true
+  },
   "smartlook": {
     "purpose": "Enregistrements de session et statistiques d’utilisation.",
     "cookies": {
@@ -835,6 +876,13 @@
     "cookies": {
       "sp_t": "Nécessaire au fonctionnement de l’intégration Spotify.",
       "sp_landing": "Nécessaire au fonctionnement de l’intégration Spotify."
+    },
+    "machine": true
+  },
+  "strava": {
+    "purpose": "Affiche des activités et des cartes d’itinéraires embarquées.",
+    "cookies": {
+      "_strava4_session": "Conserve la session Strava."
     },
     "machine": true
   },

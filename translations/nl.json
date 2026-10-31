@@ -77,6 +77,13 @@
     "purpose": "Speelt ingesloten podcasts en afleveringen af.",
     "machine": true
   },
+  "audioboom": {
+    "purpose": "Speelt ingesloten podcastafleveringen af.",
+    "cookies": {
+      "_audioboo_session2": "Houdt het bezoek en de aanmelding bij elkaar."
+    },
+    "machine": true
+  },
   "awin": {
     "purpose": "Volgt verkopen via affiliatelinks.",
     "cookies": {
@@ -337,6 +344,21 @@
     "purpose": "Laadt de andere tags van de site. Plaatst zelf geen cookies; elke geladen tag wacht op eigen toestemming.",
     "machine": true
   },
+  "google-translate": {
+    "purpose": "Vertaalt de pagina naar andere talen.",
+    "cookies": {
+      "googtrans": "Onthoudt de gekozen taal.",
+      "googtransopt": "Onthoudt de instellingen van de vertaalbalk."
+    },
+    "machine": true
+  },
+  "google-trends": {
+    "purpose": "Toont ingesloten grafieken van zoektrends.",
+    "cookies": {
+      "NID": "Onthoudt voorkeuren."
+    },
+    "machine": true
+  },
   "gravatar": {
     "purpose": "Toont profielfoto's naast reacties.",
     "machine": true
@@ -471,6 +493,10 @@
     },
     "machine": true
   },
+  "libsyn": {
+    "purpose": "Speelt ingesloten podcastafleveringen af.",
+    "machine": true
+  },
   "linkedin-embed": {
     "purpose": "Toont ingesloten LinkedIn-berichten en -badges.",
     "cookies": {
@@ -544,6 +570,10 @@
     "purpose": "Toont aanmeldformulieren voor nieuwsbrieven.",
     "machine": true
   },
+  "mapbox": {
+    "purpose": "Toont ingesloten kaarten.",
+    "machine": true
+  },
   "matomo-cloud": {
     "purpose": "Meet bezoeken en conversies.",
     "cookies": {
@@ -571,6 +601,10 @@
       "mtm_cookie_consent": "Onthoudt de toestemming voor trackingcookies.",
       "mtm_consent_removed": "Onthoudt de afmelding voor tracking."
     },
+    "machine": true
+  },
+  "matterport": {
+    "purpose": "Toont ingesloten virtuele 3D-rondleidingen.",
     "machine": true
   },
   "meta-pixel": {
@@ -803,6 +837,13 @@
     },
     "machine": true
   },
+  "sketchfab": {
+    "purpose": "Toont ingesloten 3D-modellen.",
+    "cookies": {
+      "sb_csrftoken": "Beschermt tegen vervalste verzoeken."
+    },
+    "machine": true
+  },
   "smartlook": {
     "purpose": "Sessieopnames en gebruiksanalyse.",
     "cookies": {
@@ -835,6 +876,13 @@
     "cookies": {
       "sp_t": "Nodig voor de werking van de ingesloten Spotify-speler.",
       "sp_landing": "Nodig voor de werking van de ingesloten Spotify-speler."
+    },
+    "machine": true
+  },
+  "strava": {
+    "purpose": "Toont ingesloten activiteiten en routekaarten.",
+    "cookies": {
+      "_strava4_session": "Bewaart de Strava-sessie."
     },
     "machine": true
   },

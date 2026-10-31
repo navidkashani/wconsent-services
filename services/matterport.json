@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "matterport",
+  "version": 1,
+  "name": "Matterport",
+  "provider": "CoStar Realty Information, Inc.",
+  "category": "media",
+  "purpose": "Shows embedded 3D virtual tours.",
+  "privacyUrl": "https://www.costar.com/about/privacy-notice",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "my.matterport.com",
+      "api.matterport.com/sdk",
+      "static.matterport.com/showcase-sdk"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "sc_anonymous_id",
+    "gpu_memory_heartbeat"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://my.matterport.com/api/v1/models/oembed/?url=https%3A%2F%2Fmy.matterport.com%2Fshow%2F%3Fm%3DSxQL3iGyoDo",
+    "https://my.matterport.com/show/?m=SxQL3iGyoDo",
+    "https://static.matterport.com/showcase/26.10.4_webgl-1728-g1cd7e0997a/js/init.js",
+    "https://static.matterport.com/showcase/26.10.4_webgl-1728-g1cd7e0997a/js/packages-cwf-util.js",
+    "https://matterport.github.io/developer-docs/embed-sdk/quickstart/",
+    "https://matterport.com/legal",
+    "https://www.costar.com/about/privacy-notice",
+    "https://www.costar.com/about/cookie-policy",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

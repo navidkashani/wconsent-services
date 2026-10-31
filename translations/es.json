@@ -77,6 +77,13 @@
     "purpose": "Reproduce pódcasts y episodios incrustados.",
     "machine": true
   },
+  "audioboom": {
+    "purpose": "Reproduce episodios de pódcast incrustados.",
+    "cookies": {
+      "_audioboo_session2": "Mantiene unidas la visita y la sesión iniciada."
+    },
+    "machine": true
+  },
   "awin": {
     "purpose": "Registra las ventas procedentes de enlaces de afiliados.",
     "cookies": {
@@ -337,6 +344,21 @@
     "purpose": "Carga las demás etiquetas del sitio. No establece cookies por sí mismo; cada etiqueta que carga espera su propio consentimiento.",
     "machine": true
   },
+  "google-translate": {
+    "purpose": "Traduce la página a otros idiomas.",
+    "cookies": {
+      "googtrans": "Recuerda el idioma elegido.",
+      "googtransopt": "Recuerda los ajustes de la barra de traducción."
+    },
+    "machine": true
+  },
+  "google-trends": {
+    "purpose": "Muestra gráficos de tendencias de búsqueda incrustados.",
+    "cookies": {
+      "NID": "Recuerda las preferencias."
+    },
+    "machine": true
+  },
   "gravatar": {
     "purpose": "Muestra fotos de perfil junto a los comentarios.",
     "machine": true
@@ -471,6 +493,10 @@
     },
     "machine": true
   },
+  "libsyn": {
+    "purpose": "Reproduce episodios de pódcast incrustados.",
+    "machine": true
+  },
   "linkedin-embed": {
     "purpose": "Muestra publicaciones e insignias de LinkedIn incrustadas.",
     "cookies": {
@@ -544,6 +570,10 @@
     "purpose": "Muestra formularios de suscripción al boletín.",
     "machine": true
   },
+  "mapbox": {
+    "purpose": "Muestra mapas incrustados.",
+    "machine": true
+  },
   "matomo-cloud": {
     "purpose": "Mide las visitas y las conversiones.",
     "cookies": {
@@ -571,6 +601,10 @@
       "mtm_cookie_consent": "Recuerda el consentimiento a las cookies de seguimiento.",
       "mtm_consent_removed": "Recuerda la exclusión del seguimiento."
     },
+    "machine": true
+  },
+  "matterport": {
+    "purpose": "Muestra visitas virtuales en 3D incrustadas.",
     "machine": true
   },
   "meta-pixel": {
@@ -803,6 +837,13 @@
     },
     "machine": true
   },
+  "sketchfab": {
+    "purpose": "Muestra modelos 3D incrustados.",
+    "cookies": {
+      "sb_csrftoken": "Protege frente a solicitudes falsificadas."
+    },
+    "machine": true
+  },
   "smartlook": {
     "purpose": "Grabaciones de sesiones y analítica de uso.",
     "cookies": {
@@ -835,6 +876,13 @@
     "cookies": {
       "sp_t": "Necesaria para que funcione el contenido incrustado de Spotify.",
       "sp_landing": "Necesaria para que funcione el contenido incrustado de Spotify."
+    },
+    "machine": true
+  },
+  "strava": {
+    "purpose": "Muestra actividades y mapas de rutas incrustados.",
+    "cookies": {
+      "_strava4_session": "Mantiene la sesión de Strava."
     },
     "machine": true
   },

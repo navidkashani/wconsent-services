@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "libsyn",
+  "version": 1,
+  "name": "Libsyn",
+  "provider": "Liberated Syndication Inc.",
+  "category": "media",
+  "purpose": "Plays embedded podcast episodes.",
+  "privacyUrl": "https://libsyn.com/tos-policies/privacy-policy/",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "play.libsyn.com",
+      "html5-player.libsyn.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://five.libsynsupport.com/hc/en-us/articles/4415852601627-Customize-and-Share-the-Libsyn-Media-Player-for-a-Specific-Episode",
+    "https://five.libsynsupport.com/hc/en-us/articles/4415860385179-Customize-and-Share-the-Libsyn-Media-Player-for-Your-Podcast",
+    "https://five.libsynsupport.com/hc/en-us/articles/22002989669531-Use-a-Third-Party-Media-Player",
+    "https://libsyn.com/tos-policies/privacy-policy/",
+    "https://libsyn.com/tos-policies/data-processing-addendum/",
+    "https://libsyn.com/tos-policies/gdpr-faq/",
+    "https://libsyn.com/blog/libsyns-new-html5-player-is-here/",
+    "https://play.libsyn.com/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/libsyn-podcasting/",
+    "https://plugins.svn.wordpress.org/libsyn-podcasting/trunk/"
+  ],
+  "checked": "2026-10-31"
+}
