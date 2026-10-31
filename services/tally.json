@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "tally",
+  "version": 1,
+  "name": "Tally",
+  "provider": "Tally BV",
+  "category": "functional",
+  "purpose": "Shows embedded forms.",
+  "privacyUrl": "https://tally.so/help/privacy-policy",
+  "dataCountry": "EU (Belgium)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "tally.so"
+    ],
+    "inline": [
+      "Tally.loadEmbeds(",
+      "Tally.openPopup(",
+      "iframe[data-tally-src]"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "Tally.showOnce_*",
+    "Tally.doNotShowAfterSubmit_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://developers.tally.so/widgets/introduction",
+    "https://developers.tally.so/widgets/embeds",
+    "https://developers.tally.so/widgets/popups",
+    "https://developers.tally.so/widgets/examples/react",
+    "https://tally.so/widgets/embed.js",
+    "https://tally.so/help/embed-your-form",
+    "https://tally.so/help/popup-forms",
+    "https://tally.so/help/privacy-policy",
+    "https://tally.so/help/cookie-policy",
+    "https://tally.so/help/gdpr",
+    "https://tally.so/help/data-processing-agreement",
+    "https://tally.so/help/how-to-embed-a-tally-form-on-wordpress"
+  ],
+  "checked": "2026-10-31"
+}

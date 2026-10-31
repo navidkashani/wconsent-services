@@ -1,0 +1,68 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "helpcrunch",
+  "version": 1,
+  "name": "HelpCrunch",
+  "provider": "HelpCrunch Corporation",
+  "category": "functional",
+  "purpose": "Live chat and help articles.",
+  "privacyUrl": "https://helpcrunch.com/privacy-policy.html",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.helpcrunch.com",
+      "embed.helpcrunch.com"
+    ],
+    "inline": [
+      "helpcrunchSettings",
+      ".widget.helpcrunch.com/",
+      "HelpCrunch('init'"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "device-source",
+      "lifetime": "1 year",
+      "purpose": "Remembers the page where the chat loaded."
+    },
+    {
+      "name": "device-referrer",
+      "lifetime": "1 year",
+      "purpose": "Remembers the page the visitor came from."
+    },
+    {
+      "name": "hc-visitor-hash",
+      "lifetime": "1 year",
+      "purpose": "Counts automatic chat messages and pop-ups."
+    }
+  ],
+  "storage": [
+    "hc-visitor-hash"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "helpcrunch-live-chat/helpcrunch.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://helpcrunch.com/privacy-policy.html",
+    "https://helpcrunch.com/cookie-policy.html",
+    "https://helpcrunch.com/blog/helpcrunch-becomes-gdpr-compliant/",
+    "https://docs.helpcrunch.com/en/developers/ways-to-init-chat",
+    "https://docs.helpcrunch.com/en/developers/methods",
+    "https://docs.helpcrunch.com/en/channels/install-the-chat-widget-on-a-single-page-app-spa",
+    "https://docs.helpcrunch.com/en/customer-support-faq/content-security-policy",
+    "https://embed.helpcrunch.com/sdk-code.js",
+    "https://wordpress.org/plugins/helpcrunch-live-chat/",
+    "https://plugins.svn.wordpress.org/helpcrunch-live-chat/trunk/helpcrunch.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

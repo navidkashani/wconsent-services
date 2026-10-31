@@ -89,6 +89,13 @@
     "purpose": "Muestra un calendario de reservas incrustado.",
     "machine": true
   },
+  "chatbase": {
+    "purpose": "Responde a las preguntas de los visitantes con un chatbot de IA.",
+    "cookies": {
+      "chatbase_anon_id": "Reconoce al visitante en el chat."
+    },
+    "machine": true
+  },
   "cleantalk": {
     "purpose": "Evita el spam en los formularios y comentarios.",
     "cookies": {
@@ -210,6 +217,13 @@
     "purpose": "Muestra GIF incrustados.",
     "machine": true
   },
+  "gohighlevel": {
+    "purpose": "Muestra formularios, calendarios de reservas y chat en directo.",
+    "cookies": {
+      "lc_session_*": "Mantiene la sesión de la visita."
+    },
+    "machine": true
+  },
   "google-ads": {
     "purpose": "Mide los anuncios y los muestra a visitantes anteriores.",
     "cookies": {
@@ -279,6 +293,19 @@
     },
     "machine": true
   },
+  "help-scout": {
+    "purpose": "Chat en directo y artículos de ayuda.",
+    "machine": true
+  },
+  "helpcrunch": {
+    "purpose": "Chat en directo y artículos de ayuda.",
+    "cookies": {
+      "device-source": "Recuerda la página en la que se cargó el chat.",
+      "device-referrer": "Recuerda la página de la que vino el visitante.",
+      "hc-visitor-hash": "Cuenta los mensajes automáticos del chat y las ventanas emergentes."
+    },
+    "machine": true
+  },
   "hotjar": {
     "purpose": "Mapas de calor y grabaciones de sesiones.",
     "cookies": {
@@ -317,6 +344,10 @@
   },
   "jetpack-stats": {
     "purpose": "Cuenta las visitas.",
+    "machine": true
+  },
+  "jotform": {
+    "purpose": "Muestra formularios incrustados.",
     "machine": true
   },
   "kit": {
@@ -539,6 +570,10 @@
     },
     "machine": true
   },
+  "pipedrive": {
+    "purpose": "Muestra un chat de ventas y formularios de contacto.",
+    "machine": true
+  },
   "piwik-pro": {
     "purpose": "Mide las visitas y las conversiones.",
     "cookies": {
@@ -580,6 +615,10 @@
     "purpose": "Mide los anuncios de Quora.",
     "machine": true
   },
+  "reamaze": {
+    "purpose": "Chat de atención al cliente.",
+    "machine": true
+  },
   "reddit-pixel": {
     "purpose": "Mide los anuncios de Reddit.",
     "cookies": {
@@ -600,6 +639,14 @@
     "purpose": "Grabaciones de sesiones y analítica de uso.",
     "cookies": {
       "SL_C_*": "Distingue a los visitantes entre sí y mantiene la sesión."
+    },
+    "machine": true
+  },
+  "smartsupp": {
+    "purpose": "Chat en vivo.",
+    "cookies": {
+      "ssupp.vid": "Mantiene la conversación del chat entre páginas.",
+      "ssupp.visits": "Cuenta las visitas para dirigir los mensajes del chat."
     },
     "machine": true
   },
@@ -640,6 +687,10 @@
       "trc_cookie_storage": "Distingue a los visitantes para los informes.",
       "taboola_session_id": "Evita mostrar dos veces el mismo contenido."
     },
+    "machine": true
+  },
+  "tally": {
+    "purpose": "Muestra formularios incrustados.",
     "machine": true
   },
   "tawk-to": {
@@ -792,6 +843,17 @@
   },
   "zoho-forms": {
     "purpose": "Muestra formularios incrustados.",
+    "machine": true
+  },
+  "zoho-salesiq": {
+    "purpose": "Chat en directo y seguimiento de visitantes.",
+    "cookies": {
+      "zld*": "Recuerda el estado y la posición de la ventana del chat.",
+      "ZLD*": "Mantiene los datos del chat y del visitante entre subdominios.",
+      "isiframeenabled": "Recuerda que el chat en directo se desactivó.",
+      "_zldvfp": "Reconoce a los visitantes que llegan de campañas de correo electrónico.",
+      "ZSIQ*": "Recuerda si la IP del visitante está bloqueada."
+    },
     "machine": true
   }
 }

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "jotform",
+  "version": 1,
+  "name": "Jotform",
+  "provider": "Jotform Inc.",
+  "category": "functional",
+  "purpose": "Shows embedded forms.",
+  "privacyUrl": "https://www.jotform.com/privacy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework); EU (Germany) for EU accounts",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "jotform.com",
+      "jotfor.ms",
+      "jotformeu.com",
+      "jotformpro.com",
+      "jotformz.com",
+      "myjotform.com",
+      "jotform.us",
+      "jotform.ca",
+      "jotform.me",
+      "jotform.co",
+      "jotform.net"
+    ],
+    "inline": [
+      "jotformEmbedHandler(",
+      "new JotformFeedback("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "embed-form/jotform-wp-embed.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.jotform.com/help/34-embedding-a-form-to-a-web-page/",
+    "https://www.jotform.com/help/148-getting-the-form-iframe-code/",
+    "https://www.jotform.com/help/378-auto-popup-lightbox-embed-form-with-cookies-using-javascript/",
+    "https://www.jotform.com/answers/40554231-wordpress-iframe-embed-code-issues-with-standard-jotform-code-and-request-for-simplified-version",
+    "https://www.jotform.com/answers/2863635-difference-between-eujotformcom-jotformeucom-and-formjotformcom",
+    "https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js",
+    "https://www.jotform.com/help/871-how-to-store-your-data-on-eu-servers/",
+    "https://www.jotform.com/security/",
+    "https://www.jotform.com/eu-safe-forms/",
+    "https://www.jotform.com/privacy/",
+    "https://www.jotform.com/cookie-policy/",
+    "https://www.jotform.com/cookie-policy/cookie-list/",
+    "https://plugins.svn.wordpress.org/embed-form/trunk/jotform-wp-embed.php",
+    "https://wordpress.org/plugins/embed-form/",
+    "https://plugins.svn.wordpress.org/jotform-oembed/trunk/jotform-oembed.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
