@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "facebook-embed",
-  "version": 1,
+  "version": 2,
   "name": "Facebook embeds",
   "provider": "Meta Platforms Ireland Limited",
   "category": "media",
@@ -21,7 +21,8 @@
       "connect.facebook.net/it_IT/sdk.js",
       "connect.facebook.net/nl_NL/sdk.js",
       "connect.facebook.net/pt_BR/sdk.js",
-      "connect.facebook.net/pl_PL/sdk.js"
+      "connect.facebook.net/pl_PL/sdk.js",
+      "fbcdn.net"
     ],
     "inline": [
       "connect.facebook.net/en_US/sdk.js",
@@ -44,14 +45,19 @@
   },
   "placeholder": "social",
   "wordpress": {
-    "plugins": [],
+    "plugins": [
+      "custom-facebook-feed/custom-facebook-feed.php",
+      "wp-social-reviews/wp-social-reviews.php"
+    ],
     "handles": []
   },
   "sources": [
     "https://www.facebook.com/privacy/policy/",
     "https://www.facebook.com/privacy/policies/data_privacy_framework/",
     "https://www.facebook.com/privacy/policies/cookies/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/custom-facebook-feed/trunk/custom-facebook-feed.php",
+    "https://plugins.svn.wordpress.org/wp-social-reviews/trunk/wp-social-reviews.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-31"
 }

@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "openstreetmap",
-  "version": 2,
+  "version": 3,
   "name": "OpenStreetMap",
   "provider": "OpenStreetMap Foundation",
   "category": "media",
@@ -11,7 +11,8 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "openstreetmap.org/export/embed.html"
+      "openstreetmap.org/export/embed.html",
+      "tile.openstreetmap.org"
     ]
   },
   "cookies": [],
@@ -22,11 +23,21 @@
   },
   "placeholder": "map",
   "wordpress": {
-    "plugins": [],
+    "plugins": [
+      "leaflet-map/leaflet-map.php",
+      "leaflet-maps-marker/leaflet-maps-marker.php",
+      "wp-store-locator/wp-store-locator.php",
+      "acf-openstreetmap-field/index.php"
+    ],
     "handles": []
   },
   "sources": [
-    "https://osmfoundation.org/wiki/Privacy_Policy"
+    "https://osmfoundation.org/wiki/Privacy_Policy",
+    "https://plugins.svn.wordpress.org/leaflet-map/trunk/",
+    "https://plugins.svn.wordpress.org/leaflet-maps-marker/trunk/",
+    "https://plugins.svn.wordpress.org/wp-store-locator/trunk/",
+    "https://plugins.svn.wordpress.org/acf-openstreetmap-field/trunk/",
+    "https://plugins.svn.wordpress.org/wp-google-maps/trunk/"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-31"
 }

@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "google-recaptcha",
-  "version": 2,
+  "version": 3,
   "name": "Google reCAPTCHA",
   "provider": "Google Ireland Limited",
   "category": "functional",
@@ -31,10 +31,21 @@
   "placeholder": "form",
   "wordpress": {
     "plugins": [
-      "contact-form-7/wp-contact-form-7.php"
+      "contact-form-7/wp-contact-form-7.php",
+      "advanced-google-recaptcha/advanced-google-recaptcha.php",
+      "google-captcha/google-captcha.php",
+      "wpcf7-recaptcha/wpcf7-recaptcha.php",
+      "contact-form-7-simple-recaptcha/contact-form-7-simple-recaptcha.php",
+      "advanced-nocaptcha-recaptcha/advanced-nocaptcha-recaptcha.php",
+      "invisible-recaptcha/invisible-recaptcha.php",
+      "login-recaptcha/login-nocaptcha.php",
+      "recaptcha-woo/recaptcha-woo.php",
+      "um-recaptcha/um-recaptcha.php"
     ],
     "handles": [
-      "wpcf7-recaptcha"
+      "wpcf7-recaptcha",
+      "gglcptch_script",
+      "um-recaptcha"
     ]
   },
   "sources": [
@@ -42,7 +53,17 @@
     "https://policies.google.com/privacy/frameworks",
     "https://policies.google.com/privacy",
     "https://github.com/jkwakman/Open-Cookie-Database",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/contact-form-7/trunk/",
+    "https://plugins.svn.wordpress.org/google-captcha/trunk/",
+    "https://plugins.svn.wordpress.org/um-recaptcha/trunk/",
+    "https://plugins.svn.wordpress.org/advanced-google-recaptcha/trunk/",
+    "https://plugins.svn.wordpress.org/wpcf7-recaptcha/trunk/",
+    "https://plugins.svn.wordpress.org/contact-form-7-simple-recaptcha/trunk/",
+    "https://plugins.svn.wordpress.org/advanced-nocaptcha-recaptcha/trunk/",
+    "https://plugins.svn.wordpress.org/invisible-recaptcha/trunk/",
+    "https://plugins.svn.wordpress.org/login-recaptcha/trunk/",
+    "https://plugins.svn.wordpress.org/recaptcha-woo/trunk/"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-31"
 }

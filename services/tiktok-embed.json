@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "tiktok-embed",
-  "version": 2,
+  "version": 3,
   "name": "TikTok embeds",
   "provider": "TikTok Technology Limited",
   "category": "media",
@@ -30,13 +30,16 @@
   },
   "placeholder": "video",
   "wordpress": {
-    "plugins": [],
+    "plugins": [
+      "feeds-for-tiktok/feeds-for-tiktok.php"
+    ],
     "handles": []
   },
   "sources": [
     "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
     "https://www.tiktok.com/legal/page/global/cookie-policy/en",
-    "https://developers.tiktok.com/doc/embed-videos"
+    "https://developers.tiktok.com/doc/embed-videos",
+    "https://plugins.svn.wordpress.org/feeds-for-tiktok/trunk/feeds-for-tiktok.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-31"
 }

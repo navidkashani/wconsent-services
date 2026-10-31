@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "meta-pixel",
-  "version": 2,
+  "version": 3,
   "name": "Meta Pixel",
   "provider": "Meta Platforms Ireland Limited",
   "category": "marketing",
@@ -47,9 +47,13 @@
   "wordpress": {
     "plugins": [
       "pixelyoursite/facebook-pixel-master.php",
-      "official-facebook-pixel/facebook-for-wordpress.php"
+      "official-facebook-pixel/facebook-for-wordpress.php",
+      "facebook-for-woocommerce/facebook-for-woocommerce.php"
     ],
-    "handles": []
+    "handles": [
+      "wc-facebook-pixel-events",
+      "facebook-capi-param-builder"
+    ]
   },
   "sources": [
     "https://www.facebook.com/privacy/policies/cookies/",
@@ -59,7 +63,8 @@
     "https://developers.facebook.com/docs/marketing-api/conversions-api/parameters/fbp-and-fbc",
     "https://wordpress.org/plugins/pixelyoursite/",
     "https://wordpress.org/plugins/official-facebook-pixel/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/facebook-for-woocommerce/trunk/facebook-for-woocommerce.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-31"
 }
