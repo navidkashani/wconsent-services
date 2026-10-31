@@ -70,9 +70,10 @@ pinterest-tag (`pinterest`), plausible (`plausibleanalytics`),
 posthog (`posthog`), quora-pixel (`quora`), reddit-pixel (`reddit`),
 snap-pixel (`snapchat`), soundcloud (`soundcloud`), spotify (`spotify`),
 stripe (`stripe`), tiktok-embed (`tiktok`), tiktok-pixel (`tiktok`),
-vimeo (`vimeo`), wistia (`wistia`), x-embed (`x`), x-pixel (`x`),
-youtube (`youtube`), zendesk-chat (`zendesk`), zoho-bookings (`zoho`),
-zoho-forms (`zoho`), zoho-salesiq (`zoho`)
+trusted-shops (`trustedshops`), trustpilot (`trustpilot`),
+trustpilot-invitations (`trustpilot`), vimeo (`vimeo`), wistia (`wistia`),
+x-embed (`x`), x-pixel (`x`), youtube (`youtube`), zendesk-chat (`zendesk`),
+zoho-bookings (`zoho`), zoho-forms (`zoho`), zoho-salesiq (`zoho`)
 
 ### gilbarbara/logos
 

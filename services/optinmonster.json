@@ -1,0 +1,140 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "optinmonster",
+  "version": 1,
+  "name": "OptinMonster",
+  "provider": "Retyp, LLC",
+  "category": "marketing",
+  "purpose": "Shows pop-ups and sign-up forms.",
+  "privacyUrl": "https://optinmonster.com/privacy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "a.omappapi.com",
+      "api.omappapi.com",
+      "z.omappapi.com"
+    ],
+    "inline": [
+      "a.omappapi.com/app/js/api.min.js"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_omappvp",
+      "lifetime": "11 years",
+      "purpose": "Tells new and returning visitors apart."
+    },
+    {
+      "name": "_omappvs",
+      "lifetime": "20 minutes of inactivity",
+      "purpose": "Marks when a visitor counts as returning."
+    },
+    {
+      "name": "om-global-cookie",
+      "lifetime": "Set in site settings",
+      "purpose": "Stops further campaigns from showing."
+    },
+    {
+      "name": "omGlobalSuccessCookie",
+      "lifetime": "Set in site settings",
+      "purpose": "Stops further campaigns from showing."
+    },
+    {
+      "name": "om-interaction-cookie",
+      "lifetime": "Set in site settings",
+      "purpose": "Remembers any campaign interaction."
+    },
+    {
+      "name": "omGlobalInteractionCookie",
+      "lifetime": "Set in site settings",
+      "purpose": "Remembers any campaign interaction."
+    },
+    {
+      "name": "om-*",
+      "lifetime": "30 days by default",
+      "purpose": "Remembers interaction with a campaign."
+    },
+    {
+      "name": "omSeen-*",
+      "lifetime": "30 days by default",
+      "purpose": "Remembers that a campaign was shown."
+    },
+    {
+      "name": "om-success-*",
+      "lifetime": "365 days by default",
+      "purpose": "Remembers a sign-up in a campaign."
+    },
+    {
+      "name": "omSuccess-*",
+      "lifetime": "365 days by default",
+      "purpose": "Remembers a sign-up in a campaign."
+    },
+    {
+      "name": "om-success-cookie",
+      "lifetime": "365 days by default",
+      "purpose": "Unlocks locked content after a sign-up."
+    },
+    {
+      "name": "omSuccessCookie",
+      "lifetime": "365 days by default",
+      "purpose": "Unlocks locked content after a sign-up."
+    },
+    {
+      "name": "omSlideClosed-*",
+      "lifetime": "30 days by default",
+      "purpose": "Remembers that a slide-in was closed."
+    },
+    {
+      "name": "omCountdown-*",
+      "lifetime": "Set by timer settings",
+      "purpose": "Keeps countdown timers in step."
+    },
+    {
+      "name": "_omra",
+      "lifetime": "1 year",
+      "purpose": "Links campaign views to sales."
+    }
+  ],
+  "storage": [
+    "omSessionStart",
+    "omSessionPageviews",
+    "omFoldersSeen",
+    "omFoldersOptin",
+    "omFoldersClosed",
+    "omLastSeen",
+    "omVisitsFirst",
+    "omVisits"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "optinmonster/optin-monster-wp-api.php"
+    ],
+    "handles": [
+      "optinmonster-wp-helper",
+      "optinmonster-wp-mailpoet"
+    ]
+  },
+  "sources": [
+    "https://optinmonster.com/gdpr/cookies/",
+    "https://optinmonster.com/privacy/",
+    "https://optinmonster.com/gdpr/",
+    "https://optinmonster.com/gdpr/dpa/",
+    "https://optinmonster.com/docs/how-to-use-optinmonster-with-cookie-consent-tools/",
+    "https://optinmonster.com/docs/using-the-optinmonster-api-with-single-page-applications/",
+    "https://optinmonster.com/docs/how-to-add-optinmonster-to-any-website/",
+    "https://a.omappapi.com/app/js/api.min.js",
+    "https://wordpress.org/plugins/optinmonster/",
+    "https://plugins.svn.wordpress.org/optinmonster/trunk/optin-monster-wp-api.php",
+    "https://plugins.svn.wordpress.org/optinmonster/trunk/OMAPI/Output.php",
+    "https://plugins.svn.wordpress.org/optinmonster/trunk/assets/dist/js/helper.min.js",
+    "https://plugins.svn.wordpress.org/optinmonster/trunk/assets/js/mailpoet.js",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

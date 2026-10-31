@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "trustpilot-invitations",
+  "version": 1,
+  "name": "Trustpilot review invitations",
+  "provider": "Trustpilot A/S",
+  "category": "marketing",
+  "purpose": "Asks customers to review their purchase.",
+  "privacyUrl": "https://corporate.trustpilot.com/legal/for-reviewers/privacy-policy-end-user/jun-2026",
+  "dataCountry": "EU and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "invitejs.trustpilot.com",
+      "simplicity.trustpilot.com"
+    ],
+    "inline": [
+      "w.TrustpilotObject=n",
+      "invitejs.trustpilot.com/tp.min.js",
+      "tp(\"createInvitation\"",
+      "tp('createInvitation'"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "TP.uuid",
+      "lifetime": "Until January 2038",
+      "purpose": "Recognises the browser."
+    }
+  ],
+  "storage": [
+    "tpinvid"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "trustpilot-reviews/wc_trustpilot.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://corporate.trustpilot.com/legal/for-reviewers/privacy-policy-end-user/jun-2026",
+    "https://corporate.trustpilot.com/legal/for-everyone/cookie-policy/may-2025",
+    "https://corporate.trustpilot.com/legal/for-businesses/subprocessors/may-2026",
+    "https://legal.trustpilot.com/for-businesses/update-to-trustpilot-subprocessor-list-faqs",
+    "https://help.trustpilot.com/s/article/TrustBox-widgets-FAQ?language=en_US",
+    "https://images-static.trustpilot.com/b2b/integrations/how-to-setup-javascript-integration.pdf",
+    "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js",
+    "https://widget.trustpilot.com/trustboxes/5419b6a8b0d04a076446a9ad/main.js",
+    "https://invitejs.trustpilot.com/tp.min.js",
+    "https://simplicity.trustpilot.com/embed",
+    "https://wordpress.org/plugins/trustpilot-reviews/",
+    "https://plugins.svn.wordpress.org/trustpilot-reviews/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
