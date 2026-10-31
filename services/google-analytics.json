@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "google-analytics",
-  "version": 2,
+  "version": 3,
   "name": "Google Analytics",
   "provider": "Google Ireland Limited",
   "category": "statistics",
@@ -56,9 +56,30 @@
   "wordpress": {
     "plugins": [
       "google-site-kit/google-site-kit.php",
-      "google-analytics-for-wordpress/googleanalytics.php"
+      "google-analytics-for-wordpress/googleanalytics.php",
+      "google-analytics-dashboard-for-wp/gadwp.php",
+      "wp-analytify/wp-analytify.php",
+      "ga-google-analytics/ga-google-analytics.php",
+      "woocommerce-google-analytics-integration/woocommerce-google-analytics-integration.php",
+      "seo-by-rank-math/rank-math.php"
     ],
-    "handles": []
+    "handles": [
+      "googlesitekit-events-provider-contact-form-7",
+      "googlesitekit-events-provider-content-events",
+      "googlesitekit-events-provider-easy-digital-downloads",
+      "googlesitekit-events-provider-mailchimp",
+      "googlesitekit-events-provider-ninja-forms",
+      "googlesitekit-events-provider-optin-monster",
+      "googlesitekit-events-provider-popup-maker",
+      "googlesitekit-events-provider-woocommerce",
+      "googlesitekit-events-provider-wpforms",
+      "monsterinsights-frontend-script",
+      "exactmetrics-frontend-script",
+      "wp-analytify-scrolldepth",
+      "wp-analytify-video-tracking",
+      "wp-analytify-miscellaneous-tracking",
+      "woocommerce-google-analytics-integration"
+    ]
   },
   "sources": [
     "https://business.safety.google/adscookies/",
@@ -66,7 +87,14 @@
     "https://policies.google.com/privacy/frameworks",
     "https://policies.google.com/privacy",
     "https://github.com/jkwakman/Open-Cookie-Database",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/google-site-kit/trunk/google-site-kit.php",
+    "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/trunk/googleanalytics.php",
+    "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/trunk/gadwp.php",
+    "https://plugins.svn.wordpress.org/wp-analytify/trunk/wp-analytify.php",
+    "https://plugins.svn.wordpress.org/ga-google-analytics/trunk/ga-google-analytics.php",
+    "https://plugins.svn.wordpress.org/woocommerce-google-analytics-integration/trunk/woocommerce-google-analytics-integration.php",
+    "https://plugins.svn.wordpress.org/seo-by-rank-math/trunk/rank-math.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-31"
 }

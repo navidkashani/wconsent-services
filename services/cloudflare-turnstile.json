@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "cloudflare-turnstile",
-  "version": 1,
+  "version": 2,
   "name": "Cloudflare Turnstile",
   "provider": "Cloudflare, Inc.",
   "category": "essential",
@@ -23,7 +23,9 @@
   "placeholder": null,
   "wordpress": {
     "plugins": [
-      "simple-cloudflare-turnstile/simple-cloudflare-turnstile.php"
+      "simple-cloudflare-turnstile/simple-cloudflare-turnstile.php",
+      "enable-turnstile-cloudflare-for-gravity-forms/ss88-gravity-forms-turnstile.php",
+      "wppool-turnstile-captcha-spam-filter/easy-cloudflare-turnstile.php"
     ],
     "handles": []
   },
@@ -32,7 +34,10 @@
     "https://developers.cloudflare.com/turnstile/",
     "https://developers.cloudflare.com/turnstile/get-started/client-side-rendering/",
     "https://wordpress.org/plugins/simple-cloudflare-turnstile/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/simple-cloudflare-turnstile/trunk/",
+    "https://plugins.svn.wordpress.org/enable-turnstile-cloudflare-for-gravity-forms/trunk/",
+    "https://plugins.svn.wordpress.org/wppool-turnstile-captcha-spam-filter/trunk/"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-31"
 }

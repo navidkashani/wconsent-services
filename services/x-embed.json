@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "x-embed",
-  "version": 1,
+  "version": 2,
   "name": "X (Twitter) embeds",
   "provider": "X Internet Unlimited Company",
   "category": "media",
@@ -13,7 +13,8 @@
     "hosts": [
       "platform.twitter.com",
       "syndication.twitter.com",
-      "cdn.syndication.twimg.com"
+      "cdn.syndication.twimg.com",
+      "pbs.twimg.com"
     ]
   },
   "cookies": [
@@ -35,13 +36,16 @@
   },
   "placeholder": "social",
   "wordpress": {
-    "plugins": [],
+    "plugins": [
+      "custom-twitter-feeds/custom-twitter-feed.php"
+    ],
     "handles": []
   },
   "sources": [
     "https://x.com/en/privacy",
     "https://github.com/jkwakman/Open-Cookie-Database",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/custom-twitter-feeds/trunk/custom-twitter-feed.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-31"
 }

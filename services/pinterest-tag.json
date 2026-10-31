@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "pinterest-tag",
-  "version": 1,
+  "version": 2,
   "name": "Pinterest Tag",
   "provider": "Pinterest Europe Limited",
   "category": "marketing",
@@ -44,14 +44,17 @@
   },
   "placeholder": null,
   "wordpress": {
-    "plugins": [],
+    "plugins": [
+      "pinterest-for-woocommerce/pinterest-for-woocommerce.php"
+    ],
     "handles": []
   },
   "sources": [
     "https://policy.pinterest.com/en/privacy-policy",
     "https://help.pinterest.com/en/business/article/pinterest-tag-parameters-and-cookies",
     "https://help.pinterest.com/en/business/article/install-the-base-code",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/pinterest-for-woocommerce/trunk/pinterest-for-woocommerce.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-10-31"
 }
