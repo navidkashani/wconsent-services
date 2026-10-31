@@ -1,0 +1,85 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "leadfeeder",
+  "version": 1,
+  "name": "Leadfeeder",
+  "provider": "Dealfront Group GmbH",
+  "category": "marketing",
+  "purpose": "Identifies companies visiting the site.",
+  "privacyUrl": "https://www.leadfeeder.com/privacy/privacy-notice/",
+  "dataCountry": "EU (Ireland)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "lfeeder.com",
+      "lftracker.leadfeeder.com"
+    ],
+    "inline": [
+      "sc.lfeeder.com/lftracker_v1_",
+      "window.ldfdr=window.ldfdr||"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_lfa",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "_lfa_consent",
+      "lifetime": "2 years",
+      "purpose": "Stores the visitor's consent status."
+    },
+    {
+      "name": "_lfa_test_cookie_stored",
+      "lifetime": "1 second",
+      "purpose": "Checks if cookies can be stored."
+    },
+    {
+      "name": "ldfdr_opt_out",
+      "lifetime": "10 years",
+      "purpose": "Remembers that the visitor opted out."
+    }
+  ],
+  "storage": [
+    "_lfa",
+    "_lfa_expiry",
+    "_lfa_consent",
+    "ldfdr_opt_out",
+    "ldfdr_opt_out_expiry"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "dealfront/dealfront.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://help.leadfeeder.com/en/articles/13922296-what-is-the-web-visitors-tracking-script",
+    "https://help.leadfeeder.com/en/articles/13922333-web-visitors-tracking-script-data-processing-roles",
+    "https://help.leadfeeder.com/en/articles/13922332-customize-your-site-tracking-with-javascript-api",
+    "https://help.leadfeeder.com/en/articles/13922292-configuring-the-web-visitors-tracking-script-with-your-consent-management-platform-cmp",
+    "https://help.leadfeeder.com/en/articles/13922307-frequently-asked-questions-about-the-web-visitors-tracking-script",
+    "https://help.leadfeeder.com/en/articles/3715216-why-is-the-leadfeeder-tracker-blocked-on-my-site",
+    "https://help.leadfeeder.com/en/articles/13921762-installing-the-web-visitors-tracking-script",
+    "https://help.leadfeeder.com/en/articles/13921650-installing-the-web-visitors-tracking-script-on-a-wordpress-website",
+    "https://sc.lfeeder.com/lftracker_v1_bElvO73Aw9qaZMqj.js",
+    "https://www.leadfeeder.com/cookies-and-tracking/",
+    "https://www.leadfeeder.com/privacy/privacy-notice/",
+    "https://www.leadfeeder.com/terms/terms-and-conditions/",
+    "https://www.leadfeeder.com/gdpr/",
+    "https://www.leadfeeder.com/security/",
+    "https://wordpress.org/plugins/dealfront/",
+    "https://plugins.svn.wordpress.org/dealfront/trunk/dealfront.php",
+    "https://plugins.svn.wordpress.org/dealfront/trunk/admin/includes/script-generator.php",
+    "https://support.pipedrive.com/en/article/leadbooster-cookies",
+    "https://www.pipedrive.com/en/subprocessors",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

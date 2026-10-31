@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "openai-ads",
+  "version": 1,
+  "name": "ChatGPT Ads",
+  "provider": "OpenAI Ireland Limited",
+  "category": "marketing",
+  "purpose": "Measures ChatGPT ads.",
+  "privacyUrl": "https://openai.com/policies/eu-privacy-policy/",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "bzrcdn.openai.com",
+      "bzr.openai.com"
+    ],
+    "inline": [
+      "oaiq(\"init\"",
+      "oaiq('init'"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "__oppref",
+      "lifetime": "30 days",
+      "purpose": "Links a visit to a ChatGPT ad click."
+    },
+    {
+      "name": "__obref",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "__oaiq_consent",
+      "lifetime": "30 days",
+      "purpose": "Stores the measurement consent choice."
+    }
+  ],
+  "storage": [
+    "oaiq_consent"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://developers.openai.com/ads/measurement-pixel",
+    "https://developers.openai.com/ads/image-tag",
+    "https://bzrcdn.openai.com/sdk/oaiq.min.js",
+    "https://openai.com/policies/conversion-terms/",
+    "https://openai.com/policies/conversion-dpa/",
+    "https://openai.com/policies/eu-privacy-policy/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

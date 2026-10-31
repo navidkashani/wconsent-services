@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "mailjet",
+  "version": 1,
+  "name": "Mailjet",
+  "provider": "Mailjet SAS",
+  "category": "marketing",
+  "purpose": "Shows newsletter sign-up forms.",
+  "privacyUrl": "https://www.mailjet.com/legal/privacy-policy/",
+  "dataCountry": "EU (Germany and Belgium) and USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "app.mailjet.com/pas-nc-",
+      "mjt.lu/wgt/",
+      "mj.am/wgt/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "mailjet-for-wordpress/wp-mailjet.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://documentation.mailjet.com/hc/en-us/articles/14434182223003-Subscription-Form-Builder",
+    "https://documentation.mailjet.com/hc/article_attachments/14506522465051",
+    "https://documentation.mailjet.com/hc/article_attachments/14506594276379",
+    "https://documentation.mailjet.com/hc/en-us/articles/360042750394-How-to-Customize-Your-Tracking-Links",
+    "https://app.mailjet.com/pas-nc-embedded-v1.js",
+    "https://app.mailjet.com/pas-nc-pop-in-v1.js",
+    "https://mjt.lu/",
+    "https://mj.am/",
+    "https://www.mailjet.com/legal/privacy-policy/",
+    "https://www.mailjet.com/legal/security-privacy/",
+    "https://www.mailjet.com/legal/terms/",
+    "https://www.mailjet.com/legal/cookie-statement/",
+    "https://sinch.com/legal/terms-and-conditions/other-sinch-terms-conditions/data-protection-agreement/",
+    "https://sinch.com/legal/data-protection-agreement-sub-processors/",
+    "https://wordpress.org/plugins/mailjet-for-wordpress/",
+    "https://plugins.svn.wordpress.org/mailjet-for-wordpress/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

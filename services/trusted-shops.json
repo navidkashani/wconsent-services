@@ -1,0 +1,79 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "trusted-shops",
+  "version": 1,
+  "name": "Trusted Shops",
+  "provider": "Trusted Shops SE",
+  "category": "media",
+  "purpose": "Shows a trust seal and shop reviews.",
+  "privacyUrl": "https://www.trustedshops.eu/imprint/",
+  "dataCountry": "EU (Germany), with transfers to USA and Israel",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widgets.trustedshops.com",
+      "integrations.etrusted.com"
+    ],
+    "inline": [
+      "consentSignallerScript",
+      "trustbadge.reInitialize()"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "TRSTD_ID_TOKEN",
+      "lifetime": "400 days",
+      "purpose": "Recognises a logged-in Trusted Shops user."
+    },
+    {
+      "name": "TRSTD_ID_TOKEN_METADATA",
+      "lifetime": "400 days",
+      "purpose": "Stores details about the login token."
+    },
+    {
+      "name": "TRSTD_CC",
+      "lifetime": "Session",
+      "purpose": "Adds a security check to the login."
+    },
+    {
+      "name": "TRSTD_CV",
+      "lifetime": "Session",
+      "purpose": "Adds a security check to the login."
+    }
+  ],
+  "storage": [
+    "TRSTD_ID_TOKEN",
+    "TRSTD_KC_*",
+    "trstd-*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "trusted-shops-easy-integration-for-woocommerce/trusted-shops-easy-integration-for-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://help.etrusted.com/hc/en-gb/articles/23970875894034-How-can-I-integrate-the-Trustbadge-in-my-website-without-a-plugin",
+    "https://help.etrusted.com/hc/en-gb/articles/28996215262226-Data-protection-guideline-Information-about-cookies",
+    "https://help.etrusted.com/hc/en-gb/articles/23970835518354-How-do-I-integrate-the-Trustbadge-into-my-Consent-Manager",
+    "https://help.etrusted.com/hc/en-gb/articles/23970862966546-Data-protection-guideline-recognition-of-registered-Trusted-Shops-customers",
+    "https://help.etrusted.com/hc/en-gb/articles/23970862396690-Data-protection-guideline-displaying-the-Trusted-Shops-Widgets",
+    "https://help.etrusted.com/hc/en-gb/articles/23970864218770-How-do-I-adjust-my-Content-Security-Policy-after-integrating-the-Trustbadge",
+    "https://help.etrusted.com/hc/en-gb/articles/23970857991570-Using-Trusted-Shops-with-the-Google-Tag-Manager",
+    "https://help.etrusted.com/hc/en-gb/articles/23970821026322-How-to-add-widgets-to-my-website",
+    "https://help.etrusted.com/hc/en-gb/articles/24469751471506-Using-Trusted-Shops-with-WooCommerce",
+    "https://developers.etrusted.com/docs/shopify",
+    "https://www.trustedshops.eu/imprint/",
+    "https://integrations.etrusted.com/applications/widget.js/v2",
+    "https://widgets.trustedshops.com/assets/trustbadge.js",
+    "https://wordpress.org/plugins/trusted-shops-easy-integration-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/trusted-shops-easy-integration-for-woocommerce/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

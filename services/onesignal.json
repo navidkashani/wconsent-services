@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "onesignal",
+  "version": 1,
+  "name": "OneSignal",
+  "provider": "OneSignal, Inc.",
+  "category": "marketing",
+  "purpose": "Sends web push notifications and in-app messages.",
+  "privacyUrl": "https://onesignal.com/privacy_policy",
+  "dataCountry": "Europe and USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.onesignal.com",
+      "onesignal.com/sdks/",
+      "api.onesignal.com"
+    ],
+    "inline": [
+      "window.OneSignalDeferred = window.OneSignalDeferred",
+      "OneSignalDeferred.push("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "os_pageViews",
+    "onesignal-pageview-count",
+    "ONESIGNAL_HTTP_PROMPT_SHOWN"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "onesignal-free-web-push-notifications/onesignal.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://onesignal.com/privacy_policy",
+    "https://documentation.onesignal.com/docs/en/web-sdk-setup",
+    "https://documentation.onesignal.com/docs/en/web-sdk-reference",
+    "https://documentation.onesignal.com/docs/en/data-collected-by-the-onesignal-sdk",
+    "https://documentation.onesignal.com/docs/en/handling-personal-data",
+    "https://documentation.onesignal.com/docs/en/eu-us-data-privacy-framework",
+    "https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js",
+    "https://github.com/OneSignal/OneSignal-Website-SDK",
+    "https://wordpress.org/plugins/onesignal-free-web-push-notifications/",
+    "https://plugins.svn.wordpress.org/onesignal-free-web-push-notifications/trunk/onesignal.php",
+    "https://plugins.svn.wordpress.org/onesignal-free-web-push-notifications/trunk/v3/onesignal-init.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

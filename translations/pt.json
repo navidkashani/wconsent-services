@@ -24,6 +24,14 @@
     },
     "machine": true
   },
+  "addtoany": {
+    "purpose": "Mostra botões para partilhar páginas nas redes sociais.",
+    "cookies": {
+      "page_services": "Lembra os serviços de partilha preferidos do visitante.",
+      "feed_services": "Lembra os serviços de feeds preferidos do visitante."
+    },
+    "machine": true
+  },
   "adobe-analytics": {
     "purpose": "Mede visitas e conversões.",
     "cookies": {
@@ -390,8 +398,26 @@
     },
     "machine": true
   },
+  "kliken": {
+    "purpose": "Acompanha as vendas dos anúncios e volta a impactar os visitantes.",
+    "cookies": {
+      "_swa_u": "Distingue os visitantes.",
+      "_ow_agid": "Lembra que anúncio Kliken trouxe o visitante."
+    },
+    "machine": true
+  },
   "komoot": {
     "purpose": "Mostra mapas de percursos incorporados.",
+    "machine": true
+  },
+  "leadfeeder": {
+    "purpose": "Identifica as empresas que visitam o site.",
+    "cookies": {
+      "_lfa": "Distingue os visitantes.",
+      "_lfa_consent": "Guarda o estado de consentimento do visitante.",
+      "_lfa_test_cookie_stored": "Verifica se é possível guardar cookies.",
+      "ldfdr_opt_out": "Lembra que o visitante recusou."
+    },
     "machine": true
   },
   "linkedin-insight": {
@@ -451,6 +477,10 @@
       "mailerlite_forms_shown_*": "Lembra que foi mostrado um formulário pop-up.",
       "mailerlite_forms_submitted_*": "Lembra que foi enviado um formulário."
     },
+    "machine": true
+  },
+  "mailjet": {
+    "purpose": "Mostra formulários de subscrição da newsletter.",
     "machine": true
   },
   "matomo-cloud": {
@@ -536,6 +566,19 @@
     },
     "machine": true
   },
+  "onesignal": {
+    "purpose": "Envia notificações push web e mensagens na aplicação.",
+    "machine": true
+  },
+  "openai-ads": {
+    "purpose": "Mede os anúncios do ChatGPT.",
+    "cookies": {
+      "__oppref": "Associa uma visita a um clique num anúncio do ChatGPT.",
+      "__obref": "Distingue os visitantes.",
+      "__oaiq_consent": "Guarda a escolha de consentimento para a medição."
+    },
+    "machine": true
+  },
   "openstreetmap": {
     "purpose": "Mostra mapas incorporados.",
     "machine": true
@@ -554,6 +597,27 @@
       "optimizelySession": "Distingue visitas novas e recorrentes.",
       "optimizelyRedirectData": "Transporta dados durante um redirecionamento de teste.",
       "optimizelyOptOut": "Lembra que o visitante recusou testes."
+    },
+    "machine": true
+  },
+  "optinmonster": {
+    "purpose": "Mostra pop-ups e formulários de subscrição.",
+    "cookies": {
+      "_omappvp": "Distingue visitantes novos e recorrentes.",
+      "_omappvs": "Marca quando um visitante conta como recorrente.",
+      "om-global-cookie": "Impede que sejam mostradas mais campanhas.",
+      "omGlobalSuccessCookie": "Impede que sejam mostradas mais campanhas.",
+      "om-interaction-cookie": "Lembra qualquer interação com uma campanha.",
+      "omGlobalInteractionCookie": "Lembra qualquer interação com uma campanha.",
+      "om-*": "Lembra a interação com uma campanha.",
+      "omSeen-*": "Lembra que foi mostrada uma campanha.",
+      "om-success-*": "Lembra uma subscrição numa campanha.",
+      "omSuccess-*": "Lembra uma subscrição numa campanha.",
+      "om-success-cookie": "Desbloqueia conteúdo bloqueado após uma subscrição.",
+      "omSuccessCookie": "Desbloqueia conteúdo bloqueado após uma subscrição.",
+      "omSlideClosed-*": "Lembra que um painel deslizante foi fechado.",
+      "omCountdown-*": "Mantém as contagens decrescentes sincronizadas.",
+      "_omra": "Associa visualizações de campanhas a vendas."
     },
     "machine": true
   },
@@ -757,8 +821,29 @@
     },
     "machine": true
   },
+  "trusted-shops": {
+    "purpose": "Mostra um selo de confiança e avaliações da loja.",
+    "cookies": {
+      "TRSTD_ID_TOKEN": "Reconhece um utilizador do Trusted Shops com sessão iniciada.",
+      "TRSTD_ID_TOKEN_METADATA": "Guarda dados sobre o token de início de sessão.",
+      "TRSTD_CC": "Adiciona uma verificação de segurança ao início de sessão.",
+      "TRSTD_CV": "Adiciona uma verificação de segurança ao início de sessão."
+    },
+    "machine": true
+  },
   "trustindex": {
     "purpose": "Mostra avaliações do Google e de outros sites.",
+    "machine": true
+  },
+  "trustpilot-invitations": {
+    "purpose": "Pede aos clientes que avaliem a sua compra.",
+    "cookies": {
+      "TP.uuid": "Reconhece o navegador."
+    },
+    "machine": true
+  },
+  "trustpilot": {
+    "purpose": "Mostra avaliações do Trustpilot.",
     "machine": true
   },
   "typeform": {
