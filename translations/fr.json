@@ -15,6 +15,15 @@
     },
     "machine": true
   },
+  "acuity-scheduling": {
+    "purpose": "Affiche un calendrier de réservation embarqué.",
+    "cookies": {
+      "client_username": "Mémorise l’identifiant d’un client connecté.",
+      "clientUser": "Garde un client connecté à son compte.",
+      "remember_client": "Mémorise les informations de connexion d’un client."
+    },
+    "machine": true
+  },
   "adobe-analytics": {
     "purpose": "Mesure les visites et les conversions.",
     "cookies": {
@@ -67,6 +76,10 @@
       "AWSESS": "Évite d’afficher à nouveau la même publicité.",
       "awpv*": "Enregistre qu’une publicité a été vue."
     },
+    "machine": true
+  },
+  "booking-com": {
+    "purpose": "Affiche des recherches, cartes et bannières Booking.com.",
     "machine": true
   },
   "brevo": {
@@ -248,6 +261,13 @@
       "_ga_*": "Conserve l’état de la session.",
       "_gid": "Distingue les visiteurs.",
       "_gat*": "Limite le débit des requêtes."
+    },
+    "machine": true
+  },
+  "google-calendar": {
+    "purpose": "Affiche un agenda ou une page de réservation embarqués.",
+    "cookies": {
+      "NID": "Mémorise les préférences."
     },
     "machine": true
   },
@@ -484,6 +504,10 @@
     },
     "machine": true
   },
+  "microsoft-bookings": {
+    "purpose": "Affiche un calendrier de réservation embarqué.",
+    "machine": true
+  },
   "microsoft-clarity": {
     "purpose": "Cartes de chaleur et enregistrements de session.",
     "cookies": {
@@ -514,6 +538,13 @@
   },
   "openstreetmap": {
     "purpose": "Affiche des cartes embarquées.",
+    "machine": true
+  },
+  "opentable": {
+    "purpose": "Permet aux visiteurs de réserver une table au restaurant.",
+    "cookies": {
+      "ot_widget_dtp_values": "Mémorise la date, l’heure et le nombre de personnes choisis."
+    },
     "machine": true
   },
   "optimizely": {
@@ -706,6 +737,10 @@
     "purpose": "Discussion en direct.",
     "machine": true
   },
+  "tidycal": {
+    "purpose": "Affiche un calendrier de réservation embarqué.",
+    "machine": true
+  },
   "tiktok-embed": {
     "purpose": "Affiche des vidéos embarquées.",
     "cookies": {
@@ -817,6 +852,10 @@
       "_ym_metrika_enabled": "Vérifie que les cookies fonctionnent.",
       "_ym_hostIndex": "Limite le nombre de requêtes."
     },
+    "machine": true
+  },
+  "youcanbookme": {
+    "purpose": "Affiche un calendrier de réservation embarqué.",
     "machine": true
   },
   "youtube": {

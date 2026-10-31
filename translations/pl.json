@@ -15,6 +15,15 @@
     },
     "machine": true
   },
+  "acuity-scheduling": {
+    "purpose": "Wyświetla osadzony kalendarz rezerwacji.",
+    "cookies": {
+      "client_username": "Zapamiętuje nazwę użytkownika zalogowanego klienta.",
+      "clientUser": "Utrzymuje klienta zalogowanego na koncie.",
+      "remember_client": "Zapamiętuje dane logowania klienta."
+    },
+    "machine": true
+  },
   "adobe-analytics": {
     "purpose": "Mierzy wizyty i konwersje.",
     "cookies": {
@@ -67,6 +76,10 @@
       "AWSESS": "Zapobiega ponownemu wyświetlaniu tej samej reklamy.",
       "awpv*": "Rejestruje, że reklama została zobaczona."
     },
+    "machine": true
+  },
+  "booking-com": {
+    "purpose": "Wyświetla wyszukiwarki, mapy i banery Booking.com.",
     "machine": true
   },
   "brevo": {
@@ -248,6 +261,13 @@
       "_ga_*": "Utrzymuje stan sesji.",
       "_gid": "Odróżnia odwiedzających.",
       "_gat*": "Ogranicza liczbę żądań."
+    },
+    "machine": true
+  },
+  "google-calendar": {
+    "purpose": "Wyświetla osadzony kalendarz lub stronę rezerwacji.",
+    "cookies": {
+      "NID": "Zapamiętuje preferencje."
     },
     "machine": true
   },
@@ -484,6 +504,10 @@
     },
     "machine": true
   },
+  "microsoft-bookings": {
+    "purpose": "Wyświetla osadzony kalendarz rezerwacji.",
+    "machine": true
+  },
   "microsoft-clarity": {
     "purpose": "Mapy cieplne i nagrania sesji.",
     "cookies": {
@@ -514,6 +538,13 @@
   },
   "openstreetmap": {
     "purpose": "Wyświetla osadzone mapy.",
+    "machine": true
+  },
+  "opentable": {
+    "purpose": "Pozwala odwiedzającym zarezerwować stolik w restauracji.",
+    "cookies": {
+      "ot_widget_dtp_values": "Zapamiętuje wybraną datę, godzinę i liczbę osób."
+    },
     "machine": true
   },
   "optimizely": {
@@ -706,6 +737,10 @@
     "purpose": "Czat na żywo.",
     "machine": true
   },
+  "tidycal": {
+    "purpose": "Wyświetla osadzony kalendarz rezerwacji.",
+    "machine": true
+  },
   "tiktok-embed": {
     "purpose": "Wyświetla osadzone filmy wideo.",
     "cookies": {
@@ -817,6 +852,10 @@
       "_ym_metrika_enabled": "Sprawdza, czy ciasteczka działają.",
       "_ym_hostIndex": "Ogranicza liczbę żądań."
     },
+    "machine": true
+  },
+  "youcanbookme": {
+    "purpose": "Wyświetla osadzony kalendarz rezerwacji.",
     "machine": true
   },
   "youtube": {

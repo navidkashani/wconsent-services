@@ -1,0 +1,40 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "tidycal",
+  "version": 1,
+  "name": "TidyCal",
+  "provider": "Sumo Group Inc.",
+  "category": "functional",
+  "purpose": "Shows an embedded booking calendar.",
+  "privacyUrl": "https://tidycal.com/privacy-policy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "asset-tidycal.b-cdn.net",
+      "tidycal.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://help.tidycal.com/article/141-embeding-tidycal-on-your-site",
+    "https://asset-tidycal.b-cdn.net/js/embed.js",
+    "https://tidycal.com/js/embed.js",
+    "https://help.tidycal.com/article/1000-custom-domains---use-your-own-domain-for-booking-pages",
+    "https://tidycal.com/privacy-policy",
+    "https://tidycal.com/dpa",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/freequency-booking-widget/"
+  ],
+  "checked": "2026-10-31"
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "google-calendar",
+  "version": 1,
+  "name": "Google Calendar",
+  "provider": "Google Ireland Limited",
+  "category": "media",
+  "purpose": "Shows an embedded calendar or booking page.",
+  "privacyUrl": "https://policies.google.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "calendar.google.com/calendar/embed",
+      "calendar.google.com/calendar/appointments",
+      "calendar.google.com/calendar/scheduling-button-script",
+      "google.com/calendar/embed",
+      "calendar.google.com/calendar/u/",
+      "calendar.google.com/calendar/b/",
+      "www.googleapis.com/calendar/v3"
+    ],
+    "inline": [
+      "calendar.schedulingButton.load("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "NID",
+      "lifetime": "6 months",
+      "purpose": "Remembers preferences.",
+      "httpOnly": true
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.google.com/calendar/answer/41207",
+    "https://support.google.com/calendar/answer/10733297",
+    "https://workspaceupdates.googleblog.com/2022/07/better-sharing-options-for-appointment-schedules-on-google-calendar.html",
+    "https://calendar.google.com/calendar/scheduling-button-script.js",
+    "https://policies.google.com/technologies/cookies",
+    "https://policies.google.com/privacy/frameworks",
+    "https://policies.google.com/privacy",
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/google-calendar-events/trunk/"
+  ],
+  "checked": "2026-10-31"
+}
