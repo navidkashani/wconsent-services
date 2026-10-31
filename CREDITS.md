@@ -48,24 +48,26 @@ https://github.com/simple-icons/simple-icons, version 16.36.0, CC0-1.0. For a
 product of a larger brand (Meta Pixel, Cloudflare Turnstile, Zendesk Chat),
 the brand's own icon.
 
-brevo (`brevo`), calendly (`calendly`), cloudflare-turnstile (`cloudflare`),
+brevo (`brevo`), bunny-fonts (`bunnydotnet`), cal-com (`caldotcom`),
+calendly (`calendly`), cloudflare-turnstile (`cloudflare`),
 cloudflare-web-analytics (`cloudflare`), dailymotion (`dailymotion`),
 disqus (`disqus`), facebook-embed (`facebook`), fathom (`fathom`),
-giphy (`giphy`), google-ads (`googleads`), google-adsense (`googleadsense`),
-google-analytics (`googleanalytics`), google-fonts (`googlefonts`),
-google-maps (`googlemaps`),
+font-awesome (`fontawesome`), giphy (`giphy`), google-ads (`googleads`),
+google-adsense (`googleadsense`), google-analytics (`googleanalytics`),
+google-fonts (`googlefonts`), google-maps (`googlemaps`),
 google-tag-manager (`googletagmanager`), gravatar (`gravatar`),
 hotjar (`hotjar`), hubspot (`hubspot`), instagram-embed (`instagram`),
-intercom (`intercom`), livechat (`livechat`), mailchimp (`mailchimp`),
-matomo (`matomo`), matomo-cloud (`matomo`),
+intercom (`intercom`), klarna (`klarna`), livechat (`livechat`),
+mailchimp (`mailchimp`), matomo (`matomo`), matomo-cloud (`matomo`),
 matomo-tag-manager (`matomo`), meta-pixel (`meta`), mixpanel (`mixpanel`),
-openstreetmap (`openstreetmap`), paypal (`paypal`),
-paypal-marketing (`paypal`), pinterest-tag (`pinterest`),
+openstreetmap (`openstreetmap`), paddle (`paddle`), paddle-retain (`paddle`),
+paypal (`paypal`), paypal-marketing (`paypal`), pinterest-tag (`pinterest`),
 plausible (`plausibleanalytics`), posthog (`posthog`), quora-pixel (`quora`),
 reddit-pixel (`reddit`), snap-pixel (`snapchat`), soundcloud (`soundcloud`),
 spotify (`spotify`), stripe (`stripe`), tiktok-embed (`tiktok`),
 tiktok-pixel (`tiktok`), vimeo (`vimeo`), wistia (`wistia`), x-embed (`x`),
-x-pixel (`x`), youtube (`youtube`), zendesk-chat (`zendesk`)
+x-pixel (`x`), youtube (`youtube`), zendesk-chat (`zendesk`),
+zoho-bookings (`zoho`), zoho-forms (`zoho`)
 
 ### gilbarbara/logos
 

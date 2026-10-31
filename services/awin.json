@@ -1,0 +1,112 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "awin",
+  "version": 1,
+  "name": "Awin",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Tracks sales from affiliate links.",
+  "privacyUrl": "https://www.awin.com/gb/privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "dwin1.com",
+      "awin1.com",
+      "zenaps.com"
+    ],
+    "inline": [
+      "AWIN.Tracking.Sale"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_aw_m_*",
+      "lifetime": "1 year",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "_aw_j_*",
+      "lifetime": "3 months",
+      "purpose": "Links the steps of one visitor journey."
+    },
+    {
+      "name": "_aw_sn_*",
+      "lifetime": "1 year",
+      "purpose": "Remembers a cashback or voucher click."
+    },
+    {
+      "name": "adv_awc",
+      "lifetime": "30 days",
+      "purpose": "Remembers the affiliate click to credit a sale.",
+      "httpOnly": true
+    },
+    {
+      "name": "awc",
+      "lifetime": "Up to 1 year",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "awin_awc",
+      "lifetime": "Up to 1 year",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "awin_source",
+      "lifetime": "Up to 1 year",
+      "purpose": "Remembers which channel sent the visitor."
+    },
+    {
+      "name": "AwinChannelCookie",
+      "lifetime": "Up to 1 year",
+      "purpose": "Remembers which channel sent the visitor."
+    },
+    {
+      "name": "ServerAwinChannelCookie",
+      "lifetime": "Up to 1 year",
+      "purpose": "Remembers which channel sent the visitor."
+    },
+    {
+      "name": "AWSESS",
+      "lifetime": "Session",
+      "purpose": "Avoids showing the same ad again."
+    },
+    {
+      "name": "awpv*",
+      "lifetime": "Usually 24 hours",
+      "purpose": "Records that an ad was seen."
+    }
+  ],
+  "storage": [
+    "xd_hash"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "awin-advertiser-tracking/awin-advertiser-tracking.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://help.awin.com/developers/docs/advertiser-mastertag",
+    "https://help.awin.com/developers/docs/conversion-tag",
+    "https://help.awin.com/developers/docs/fall-back-conversion-pixel",
+    "https://help.awin.com/developers/docs/implementing-awin-consent",
+    "https://help.awin.com/docs/awin-cookie-types-and-attribution-hierarchy",
+    "https://help.awin.com/docs/cookie-consent-settings",
+    "https://help.awin.com/developers/docs/wordpress-woocommerce",
+    "https://privacy.awin.com/",
+    "https://www.awin.com/gb/privacy",
+    "https://www.awin.com/gb/site-notice",
+    "https://www.awin.com/gb/legal/advertiser-dpa",
+    "https://www.dwin1.com/1001.js",
+    "https://wordpress.org/plugins/awin-advertiser-tracking/",
+    "https://plugins.svn.wordpress.org/awin-advertiser-tracking/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

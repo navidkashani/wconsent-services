@@ -1,0 +1,45 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "paddle-retain",
+  "version": 1,
+  "name": "Paddle Retain",
+  "provider": "Paddle.com Inc.",
+  "category": "marketing",
+  "purpose": "Shows billing offers and tracks usage.",
+  "privacyUrl": "https://www.paddle.com/legal/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "public.profitwell.com",
+      "retain-widgets.paddle.com"
+    ],
+    "inline": [
+      "profitwell('start'",
+      "data-pw-auth"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.paddle.com/help/profitwell-metrics/retain/install-engagement-snippet/how-to-install-the-profit-well-js-snippet",
+    "https://developer.paddle.com/build/retain/set-up-retain-profitwell",
+    "https://developer.paddle.com/build/retain.md",
+    "https://paddle.com/help/profitwell-metrics/setup/install-engagement/installing-the-profit-well-in-app-snippet-with-wordpress-and-memberpress",
+    "https://public.profitwell.com/js/profitwell.js",
+    "https://cdn.paddle.com/paddle/v2/paddle.js",
+    "https://www.paddle.com/legal/retain-metrics-terms-of-use",
+    "https://www.paddle.com/legal/privacy",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

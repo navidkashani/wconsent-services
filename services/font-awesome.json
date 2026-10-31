@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "font-awesome",
+  "version": 1,
+  "name": "Font Awesome",
+  "provider": "Fonticons, Inc.",
+  "category": "functional",
+  "purpose": "Loads the site's icons from Font Awesome.",
+  "privacyUrl": "https://fontawesome.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "kit.fontawesome.com",
+      "ka-f.fontawesome.com",
+      "ka-p.fontawesome.com",
+      "kit-uploads.fontawesome.com",
+      "use.fontawesome.com",
+      "pro.fontawesome.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "font-awesome/index.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.fontawesome.com/web/setup/use-kit",
+    "https://docs.fontawesome.com/web/setup/host-yourself",
+    "https://kit.fontawesome.com/d35adf6ebf.js",
+    "https://kit.fontawesome.com/d0514f1901.js",
+    "https://docs.fontawesome.com/web/use-with/wordpress/advanced-setup",
+    "https://fontawesome.com/privacy",
+    "https://plugins.svn.wordpress.org/font-awesome/trunk/",
+    "https://wordpress.org/plugins/font-awesome/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

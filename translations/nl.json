@@ -28,6 +28,10 @@
     },
     "machine": true
   },
+  "adobe-fonts": {
+    "purpose": "Laadt de lettertypen van de site van Adobe.",
+    "machine": true
+  },
   "amazon-ads": {
     "purpose": "Toont Amazon-advertenties en meet ze.",
     "cookies": {
@@ -44,12 +48,64 @@
     },
     "machine": true
   },
+  "awin": {
+    "purpose": "Volgt verkopen via affiliatelinks.",
+    "cookies": {
+      "_aw_m_*": "Onthoudt de klik op een affiliatelink om de verkoop toe te wijzen.",
+      "_aw_j_*": "Koppelt de stappen van het traject van een bezoeker.",
+      "_aw_sn_*": "Onthoudt een klik op cashback of een kortingsbon.",
+      "adv_awc": "Onthoudt de klik op een affiliatelink om de verkoop toe te wijzen.",
+      "awc": "Onthoudt de klik op een affiliatelink om de verkoop toe te wijzen.",
+      "awin_awc": "Onthoudt de klik op een affiliatelink om de verkoop toe te wijzen.",
+      "awin_source": "Onthoudt via welk kanaal de bezoeker kwam.",
+      "AwinChannelCookie": "Onthoudt via welk kanaal de bezoeker kwam.",
+      "ServerAwinChannelCookie": "Onthoudt via welk kanaal de bezoeker kwam.",
+      "AWSESS": "Voorkomt dat dezelfde advertentie opnieuw wordt getoond.",
+      "awpv*": "Registreert dat een advertentie is gezien."
+    },
+    "machine": true
+  },
   "brevo": {
     "purpose": "Volgt bezoeken en toont aanmeldformulieren en chat.",
     "machine": true
   },
+  "bunny-fonts": {
+    "purpose": "Laadt de lettertypen van de site van bunny.net.",
+    "machine": true
+  },
+  "cal-com": {
+    "purpose": "Toont een ingesloten boekingskalender.",
+    "machine": true
+  },
   "calendly": {
     "purpose": "Toont een ingesloten boekingskalender.",
+    "machine": true
+  },
+  "cleantalk": {
+    "purpose": "Houdt spam uit formulieren en reacties.",
+    "cookies": {
+      "apbct_cookies_test": "Controleert of de andere cookies niet zijn vervalst.",
+      "apbct_headless": "Bezoekersgegevens voor de spamcontrole.",
+      "apbct_page_hits": "Bezoekersgegevens voor de spamcontrole.",
+      "apbct_pixel_url": "Bezoekersgegevens voor de spamcontrole.",
+      "apbct_prev_referer": "Bezoekersgegevens voor de spamcontrole.",
+      "apbct_site_landing_ts": "Bezoekersgegevens voor de spamcontrole.",
+      "apbct_site_referer": "Bezoekersgegevens voor de spamcontrole.",
+      "apbct_timestamp": "Bezoekersgegevens voor de spamcontrole.",
+      "ct_checked_emails": "Browsergegevens voor de spamcontrole.",
+      "ct_checkjs": "Browsergegevens voor de spamcontrole.",
+      "ct_fkp_timestamp": "Browsergegevens voor de spamcontrole.",
+      "ct_has_input_focused": "Browsergegevens voor de spamcontrole.",
+      "ct_has_key_up": "Browsergegevens voor de spamcontrole.",
+      "ct_has_scrolled": "Browsergegevens voor de spamcontrole.",
+      "ct_mouse_moved": "Browsergegevens voor de spamcontrole.",
+      "ct_pointer_data": "Browsergegevens voor de spamcontrole.",
+      "ct_ps_timestamp": "Browsergegevens voor de spamcontrole.",
+      "ct_screen_info": "Browsergegevens voor de spamcontrole.",
+      "ct_sfw_ip_wl": "Onthoudt de controle door de spamfirewall.",
+      "ct_sfw_pass_key": "Onthoudt de controle door de spamfirewall.",
+      "ct_timezone": "Browsergegevens voor de spamcontrole."
+    },
     "machine": true
   },
   "cleverreach": {
@@ -116,6 +172,10 @@
   },
   "fathom": {
     "purpose": "Meet bezoeken zonder cookies.",
+    "machine": true
+  },
+  "font-awesome": {
+    "purpose": "Laadt de pictogrammen van de site van Font Awesome.",
     "machine": true
   },
   "freshchat": {
@@ -250,6 +310,10 @@
       "ck_subscriber_id_signature": "Controleert of de abonnee-ID niet is gewijzigd.",
       "ck_non_inline_form_displayed": "Toont maximaal één pop-upformulier per bezoek."
     },
+    "machine": true
+  },
+  "klarna": {
+    "purpose": "Verwerkt Klarna-betalingen en voorkomt fraude.",
     "machine": true
   },
   "klaviyo": {
@@ -416,6 +480,14 @@
     },
     "machine": true
   },
+  "paddle-retain": {
+    "purpose": "Toont factuuraanbiedingen en volgt het gebruik.",
+    "machine": true
+  },
+  "paddle": {
+    "purpose": "Verzorgt het afrekenen en verwerkt betalingen.",
+    "machine": true
+  },
   "paypal-marketing": {
     "purpose": "Meet winkelen op deze site voor de marketing van PayPal.",
     "machine": true
@@ -570,6 +642,13 @@
     },
     "machine": true
   },
+  "userlike": {
+    "purpose": "Livechat.",
+    "cookies": {
+      "uslk_umm_*": "Bewaart de chatstatus en herkent terugkerende chatcontacten."
+    },
+    "machine": true
+  },
   "vg-wort": {
     "purpose": "Telt hoe vaak teksten worden gelezen, zodat auteurs worden betaald.",
     "machine": true
@@ -665,6 +744,14 @@
       "__zlcprivacy": "Onthoudt de cookiekeuze van de bezoeker voor chat.",
       "zte2095": "Identificeert de site die de chatwidget host."
     },
+    "machine": true
+  },
+  "zoho-bookings": {
+    "purpose": "Toont een ingesloten boekingskalender.",
+    "machine": true
+  },
+  "zoho-forms": {
+    "purpose": "Toont ingesloten formulieren.",
     "machine": true
   }
 }

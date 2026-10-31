@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "userlike",
+  "version": 1,
+  "name": "Lime Connect (Userlike)",
+  "provider": "Lime Connect (Userlike) GmbH",
+  "category": "functional",
+  "purpose": "Live chat.",
+  "privacyUrl": "https://connect.lime-technologies.com/en/legal/privacy-policy/",
+  "dataCountry": "EU (Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "userlike-cdn-widgets.s3-eu-west-1.amazonaws.com",
+      "s3-eu-west-1.amazonaws.com/userlike-cdn-widgets/",
+      "userlike-cdn-umm.b-cdn.net",
+      "api.userlike.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "uslk_umm_*",
+      "lifetime": "Set by the site's account",
+      "purpose": "Keeps the chat state and recognises returning chat contacts."
+    }
+  ],
+  "storage": [
+    "uslk_umm_*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "userlike/userlike.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://faq.lime-connect.com/dc350a67a64640e5a1b3630c41ec780b",
+    "https://docs.lime-connect.com/d8ad3c369f004a18a7a61e0d4a09126c",
+    "https://docs.lime-connect.com/a51eb9ed95e84fa09b7ccc409757aa37",
+    "https://connect.lime-technologies.com/en/legal/privacy-policy/",
+    "https://connect.lime-technologies.com/en/legal/imprint/",
+    "https://faq.lime-connect.com/all-documents/how-does-lime-connect-handle-personal-data-where-are-these-stored-and-how-are-they-secured",
+    "https://faq.lime-connect.com/all-documents/what-are-you-using-aws-cloudfront-for",
+    "https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/umm-manifest.json",
+    "https://wordpress.org/plugins/userlike/",
+    "https://plugins.svn.wordpress.org/userlike/trunk/userlike.php"
+  ],
+  "checked": "2026-10-31"
+}

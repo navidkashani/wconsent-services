@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "cal-com",
+  "version": 1,
+  "name": "Cal.com",
+  "provider": "Cal.com, Inc.",
+  "category": "functional",
+  "purpose": "Shows an embedded booking calendar.",
+  "privacyUrl": "https://cal.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cal.com",
+      "cal.eu"
+    ],
+    "inline": [
+      "C.Cal = C.Cal || function",
+      "C.Cal=C.Cal || function",
+      "Cal(\"init\"",
+      "Cal.ns[\"",
+      "Cal.ns."
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "cal-com/cal.com.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://cal.com/help/embedding/adding-embed",
+    "https://cal.com/help/embedding/embed-instructions",
+    "https://cal.com/help/embedding/embed-snippet-generator",
+    "https://app.cal.com/embed/embed.js",
+    "https://app.cal.eu/embed/embed.js",
+    "https://github.com/calcom/cal.diy/blob/main/packages/features/embed/lib/EmbedTabs.tsx",
+    "https://github.com/calcom/cal.diy/blob/main/packages/features/embed/lib/getApiName.tsx",
+    "https://github.com/calcom/cal.diy/blob/main/packages/app-store/wordpress/plugin.php",
+    "https://cal.com/privacy",
+    "https://www.cal.eu/",
+    "https://www.dataprivacyframework.gov/list",
+    "https://wordpress.org/plugins/cal-com/",
+    "https://plugins.svn.wordpress.org/cal-com/trunk/"
+  ],
+  "checked": "2026-10-31"
+}
