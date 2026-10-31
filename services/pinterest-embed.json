@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "pinterest-embed",
+  "version": 1,
+  "name": "Pinterest",
+  "provider": "Pinterest Europe Limited",
+  "category": "media",
+  "purpose": "Shows embedded Pins and the Save button.",
+  "privacyUrl": "https://policy.pinterest.com/en/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "assets.pinterest.com/js/pinit.js",
+      "assets.pinterest.com/js/pinit_main.js",
+      "assets.pinterest.com/ext/embed.html",
+      "widgets.pinterest.com",
+      "log.pinterest.com"
+    ],
+    "inline": [
+      "assets.pinterest.com/js/pinit.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://developers.pinterest.com/docs/web-features/add-ons-overview/",
+    "https://developers.pinterest.com/docs/web-features/widgets/",
+    "https://assets.pinterest.com/js/pinit.js",
+    "https://assets.pinterest.com/js/pinit_main.js",
+    "https://assets.pinterest.com/ext/embed.html",
+    "https://github.com/pinterest/widgets",
+    "https://policy.pinterest.com/en/privacy-policy",
+    "https://policy.pinterest.com/en/cookies",
+    "https://help.pinterest.com/en/business/article/pinterest-tag-parameters-and-cookies",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

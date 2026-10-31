@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "provenexpert",
+  "version": 1,
+  "name": "ProvenExpert",
+  "provider": "Expert Systems AG",
+  "category": "media",
+  "purpose": "Shows customer reviews and a rating seal.",
+  "privacyUrl": "https://www.provenexpert.com/en-us/privacy-policy/",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "provenexpert.com/widget",
+      "images.provenexpert.com",
+      "s.provenexpert.net",
+      "d.provenexpert.net"
+    ],
+    "inline": [
+      "provenexpert.net/seals/proseal",
+      "provenExpert.proSeal("
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "PE_PRO_SEAL_CACHE"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "provenexpert/provenexpert.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.provenexpert.com/en-us/privacy-policy/",
+    "https://www.provenexpert.com/en-us/google-stars/",
+    "https://help.provenexpert.com/en/how-to-embed-the-pro-seal-into-my-website",
+    "https://help.provenexpert.com/en/how-to-integrate-the-rich-snippet-into-my-wordpress-page",
+    "https://blog.provenexpert.com/en/tutorial-seal-signature/",
+    "https://developer.provenexpert.com/index_en.html",
+    "https://s.provenexpert.net/seals/proseal-v2.js",
+    "https://wordpress.org/plugins/provenexpert/",
+    "https://plugins.svn.wordpress.org/provenexpert/trunk/"
+  ],
+  "checked": "2026-10-31"
+}

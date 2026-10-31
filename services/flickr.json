@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "flickr",
+  "version": 1,
+  "name": "Flickr",
+  "provider": "Flickr, Inc.",
+  "category": "media",
+  "purpose": "Shows embedded photos.",
+  "privacyUrl": "https://www.flickr.com/help/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "embedr.flickr.com",
+      "widgets.flickr.com/embedr/",
+      "flickr.com/photos/",
+      "staticflickr.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.flickr.com/services/oembed/?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fflickr%2F53296524931%2F&format=json",
+    "https://embedr.flickr.com/assets/client-code.js",
+    "https://embedr.flickr.com/assets/embedr-loader.js",
+    "https://widgets.flickr.com/embedr/embedr-47ad26da5deade67d472950b12c94b6c.js",
+    "https://www.flickr.com/help/privacy",
+    "https://www.flickr.com/help/cookies",
+    "https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/class-wp-oembed.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

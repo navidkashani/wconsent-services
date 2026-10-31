@@ -48,6 +48,10 @@
     },
     "machine": true
   },
+  "apple-music": {
+    "purpose": "Reproduz músicas, álbuns e listas de reprodução incorporados.",
+    "machine": true
+  },
   "awin": {
     "purpose": "Acompanha as vendas feitas através de links de afiliados.",
     "cookies": {
@@ -71,6 +75,10 @@
   },
   "bunny-fonts": {
     "purpose": "Carrega as fontes do site a partir da bunny.net.",
+    "machine": true
+  },
+  "bunny-stream": {
+    "purpose": "Mostra vídeos incorporados.",
     "machine": true
   },
   "cal-com": {
@@ -174,6 +182,10 @@
     "purpose": "Mede visitas sem cookies.",
     "machine": true
   },
+  "flickr": {
+    "purpose": "Mostra fotografias incorporadas.",
+    "machine": true
+  },
   "font-awesome": {
     "purpose": "Carrega os ícones do site a partir do Font Awesome.",
     "machine": true
@@ -188,6 +200,10 @@
   },
   "getresponse": {
     "purpose": "Mostra formulários de subscrição e acompanha as visitas.",
+    "machine": true
+  },
+  "getyourguide": {
+    "purpose": "Mostra passeios e atividades que se podem reservar.",
     "machine": true
   },
   "giphy": {
@@ -323,6 +339,10 @@
     },
     "machine": true
   },
+  "komoot": {
+    "purpose": "Mostra mapas de percursos incorporados.",
+    "machine": true
+  },
   "linkedin-insight": {
     "purpose": "Mede anúncios do LinkedIn.",
     "cookies": {
@@ -344,6 +364,10 @@
       "__lc2_cid": "Distingue os visitantes do chat.",
       "__lc2_cst": "Distingue os visitantes do chat."
     },
+    "machine": true
+  },
+  "loom": {
+    "purpose": "Mostra gravações de ecrã incorporadas.",
     "machine": true
   },
   "lucky-orange": {
@@ -502,6 +526,10 @@
     },
     "machine": true
   },
+  "pinterest-embed": {
+    "purpose": "Mostra Pins incorporados e o botão Guardar.",
+    "machine": true
+  },
   "pinterest-tag": {
     "purpose": "Mede anúncios do Pinterest.",
     "cookies": {
@@ -533,11 +561,19 @@
     "purpose": "Mede visitas sem cookies.",
     "machine": true
   },
+  "podigee": {
+    "purpose": "Reproduz episódios de podcast incorporados.",
+    "machine": true
+  },
   "posthog": {
     "purpose": "Mede como os visitantes usam o site.",
     "cookies": {
       "ph_phc_*": "Distingue os visitantes."
     },
+    "machine": true
+  },
+  "provenexpert": {
+    "purpose": "Mostra avaliações de clientes e um selo de classificação.",
     "machine": true
   },
   "quora-pixel": {
@@ -633,6 +669,10 @@
       "ttcsid*": "Medição de anúncios.",
       "ttclid": "Medição de anúncios."
     },
+    "machine": true
+  },
+  "trustindex": {
+    "purpose": "Mostra avaliações do Google e de outros sites.",
     "machine": true
   },
   "typeform": {

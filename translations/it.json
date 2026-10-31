@@ -48,6 +48,10 @@
     },
     "machine": true
   },
+  "apple-music": {
+    "purpose": "Riproduce brani, album e playlist incorporati.",
+    "machine": true
+  },
   "awin": {
     "purpose": "Traccia le vendite dai link di affiliazione.",
     "cookies": {
@@ -71,6 +75,10 @@
   },
   "bunny-fonts": {
     "purpose": "Carica i font del sito da bunny.net.",
+    "machine": true
+  },
+  "bunny-stream": {
+    "purpose": "Mostra video incorporati.",
     "machine": true
   },
   "cal-com": {
@@ -174,6 +182,10 @@
     "purpose": "Misura le visite senza cookie.",
     "machine": true
   },
+  "flickr": {
+    "purpose": "Mostra foto incorporate.",
+    "machine": true
+  },
   "font-awesome": {
     "purpose": "Carica le icone del sito da Font Awesome.",
     "machine": true
@@ -188,6 +200,10 @@
   },
   "getresponse": {
     "purpose": "Mostra moduli di iscrizione e traccia le visite.",
+    "machine": true
+  },
+  "getyourguide": {
+    "purpose": "Mostra tour e attività prenotabili.",
     "machine": true
   },
   "giphy": {
@@ -323,6 +339,10 @@
     },
     "machine": true
   },
+  "komoot": {
+    "purpose": "Mostra mappe di percorsi incorporate.",
+    "machine": true
+  },
   "linkedin-insight": {
     "purpose": "Misura gli annunci LinkedIn.",
     "cookies": {
@@ -344,6 +364,10 @@
       "__lc2_cid": "Distingue i visitatori della chat.",
       "__lc2_cst": "Distingue i visitatori della chat."
     },
+    "machine": true
+  },
+  "loom": {
+    "purpose": "Mostra registrazioni dello schermo incorporate.",
     "machine": true
   },
   "lucky-orange": {
@@ -502,6 +526,10 @@
     },
     "machine": true
   },
+  "pinterest-embed": {
+    "purpose": "Mostra Pin incorporati e il pulsante Salva.",
+    "machine": true
+  },
   "pinterest-tag": {
     "purpose": "Misura gli annunci Pinterest.",
     "cookies": {
@@ -533,11 +561,19 @@
     "purpose": "Misura le visite senza cookie.",
     "machine": true
   },
+  "podigee": {
+    "purpose": "Riproduce episodi di podcast incorporati.",
+    "machine": true
+  },
   "posthog": {
     "purpose": "Misura come i visitatori usano il sito.",
     "cookies": {
       "ph_phc_*": "Distingue i visitatori."
     },
+    "machine": true
+  },
+  "provenexpert": {
+    "purpose": "Mostra recensioni dei clienti e un sigillo di valutazione.",
     "machine": true
   },
   "quora-pixel": {
@@ -633,6 +669,10 @@
       "ttcsid*": "Misurazione degli annunci.",
       "ttclid": "Misurazione degli annunci."
     },
+    "machine": true
+  },
+  "trustindex": {
+    "purpose": "Mostra recensioni da Google e altri siti.",
     "machine": true
   },
   "typeform": {

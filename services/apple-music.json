@@ -1,0 +1,39 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "apple-music",
+  "version": 1,
+  "name": "Apple Music",
+  "provider": "Apple Distribution International Limited",
+  "category": "media",
+  "purpose": "Plays embedded songs, albums and playlists.",
+  "privacyUrl": "https://www.apple.com/legal/privacy/en-ww/",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "embed.music.apple.com",
+      "js-cdn.music.apple.com/musickit"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "audio",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.apple.com/legal/privacy/data/en/apple-music-web/",
+    "https://www.apple.com/legal/privacy/en-ww/",
+    "https://www.apple.com/legal/privacy/en-ww/cookies/",
+    "https://artists.apple.com/support/1117-apple-music-marketing-tools",
+    "https://support.apple.com/guide/music-web/share-music-apdm0783785d/web",
+    "https://js-cdn.music.apple.com/musickit/v3/docs/index.html",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
