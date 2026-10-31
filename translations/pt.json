@@ -77,6 +77,13 @@
     "purpose": "Reproduz podcasts e episódios incorporados.",
     "machine": true
   },
+  "audioboom": {
+    "purpose": "Reproduz episódios de podcast incorporados.",
+    "cookies": {
+      "_audioboo_session2": "Mantém a visita e a sessão iniciada juntas."
+    },
+    "machine": true
+  },
   "awin": {
     "purpose": "Acompanha as vendas feitas através de links de afiliados.",
     "cookies": {
@@ -337,6 +344,21 @@
     "purpose": "Carrega as outras tags do site. Não define cookies por si só; cada tag carregada aguarda o seu próprio consentimento.",
     "machine": true
   },
+  "google-translate": {
+    "purpose": "Traduz a página para outros idiomas.",
+    "cookies": {
+      "googtrans": "Lembra o idioma escolhido.",
+      "googtransopt": "Lembra as definições da barra de tradução."
+    },
+    "machine": true
+  },
+  "google-trends": {
+    "purpose": "Mostra gráficos de tendências de pesquisa incorporados.",
+    "cookies": {
+      "NID": "Lembra as preferências."
+    },
+    "machine": true
+  },
   "gravatar": {
     "purpose": "Mostra fotos de perfil junto aos comentários.",
     "machine": true
@@ -471,6 +493,10 @@
     },
     "machine": true
   },
+  "libsyn": {
+    "purpose": "Reproduz episódios de podcast incorporados.",
+    "machine": true
+  },
   "linkedin-embed": {
     "purpose": "Mostra publicações e emblemas do LinkedIn incorporados.",
     "cookies": {
@@ -544,6 +570,10 @@
     "purpose": "Mostra formulários de subscrição da newsletter.",
     "machine": true
   },
+  "mapbox": {
+    "purpose": "Mostra mapas incorporados.",
+    "machine": true
+  },
   "matomo-cloud": {
     "purpose": "Mede visitas e conversões.",
     "cookies": {
@@ -571,6 +601,10 @@
       "mtm_cookie_consent": "Lembra o consentimento para cookies de rastreio.",
       "mtm_consent_removed": "Lembra a recusa do rastreio."
     },
+    "machine": true
+  },
+  "matterport": {
+    "purpose": "Mostra visitas virtuais 3D incorporadas.",
     "machine": true
   },
   "meta-pixel": {
@@ -803,6 +837,13 @@
     },
     "machine": true
   },
+  "sketchfab": {
+    "purpose": "Mostra modelos 3D incorporados.",
+    "cookies": {
+      "sb_csrftoken": "Protege contra pedidos falsificados."
+    },
+    "machine": true
+  },
   "smartlook": {
     "purpose": "Gravações de sessão e análise de uso.",
     "cookies": {
@@ -835,6 +876,13 @@
     "cookies": {
       "sp_t": "Necessário para o funcionamento do conteúdo incorporado do Spotify.",
       "sp_landing": "Necessário para o funcionamento do conteúdo incorporado do Spotify."
+    },
+    "machine": true
+  },
+  "strava": {
+    "purpose": "Mostra atividades e mapas de percursos incorporados.",
+    "cookies": {
+      "_strava4_session": "Mantém a sessão do Strava."
     },
     "machine": true
   },

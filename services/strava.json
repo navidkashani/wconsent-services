@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "strava",
+  "version": 1,
+  "name": "Strava",
+  "provider": "Strava Ireland Limited",
+  "category": "media",
+  "purpose": "Shows embedded activities and route maps.",
+  "privacyUrl": "https://www.strava.com/legal/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "strava-embeds.com",
+      "strava.com/athletes/",
+      "strava.com/clubs/",
+      "strava.com/activities/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_strava4_session",
+      "lifetime": "Session",
+      "purpose": "Keeps the Strava session."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "map",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.strava.com/en-us/articles/15402053-sharing-your-activities-and-routes-with-a-strava-embed",
+    "https://partners.strava.com/resources/how-to-embed-a-strava-activity",
+    "https://partners.strava.com/resources/how-to-embed-a-strava-route",
+    "https://strava-embeds.com/embed.js",
+    "https://www.strava.com/legal/privacy",
+    "https://www.strava.com/legal/cookie_policy",
+    "https://www.dataprivacyframework.gov/list",
+    "https://cycleblaze.com/forum/291"
+  ],
+  "checked": "2026-10-31"
+}
