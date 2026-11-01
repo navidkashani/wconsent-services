@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "myfonts",
+  "version": 1,
+  "name": "MyFonts",
+  "provider": "Monotype Imaging Holdings Inc.",
+  "category": "functional",
+  "purpose": "Loads licensed fonts and counts page views.",
+  "privacyUrl": "https://www.monotype.com/legal/privacy-policy/web-font-tracking-privacy-policy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "hello.myfonts.net",
+      "cdn.fonts.net"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.monotype.com/legal/privacy-policy/web-font-tracking-privacy-policy",
+    "https://www.myfonts.com/a/font/legal/website-use-privacy-policy",
+    "https://www.monotype.com/legal/privacy-policy",
+    "https://www.myfonts.com/pages/faq",
+    "https://support.monotype.com/en/articles/7859123-hosting-web-fonts-and-reporting",
+    "https://support.monotype.com/en/articles/10335189-style-linking",
+    "https://support.monotype.com/en/articles/7859297-legacy-web-projects-and-digital-ads",
+    "https://www.monotype.com/sri-generator",
+    "https://www.nlm.nih.gov/exhibition/fonts/MyFontsWebfontsKit/StartHere.html",
+    "https://webassets.nationalacademies.org/assistivedevices/fonts/WebfontsKit.css",
+    "https://archive.geosociety.org/App_Themes/GSA_20_2_19/MyFontsWebfontsKit.css",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

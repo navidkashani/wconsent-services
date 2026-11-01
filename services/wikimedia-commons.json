@@ -1,0 +1,59 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "wikimedia-commons",
+  "version": 1,
+  "name": "Wikimedia Commons",
+  "provider": "Wikimedia Foundation, Inc.",
+  "category": "media",
+  "purpose": "Shows images and media from Wikimedia Commons.",
+  "privacyUrl": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "upload.wikimedia.org",
+      "thumb.wikimedia.org",
+      "commons.wikimedia.org/wiki/Special:FilePath/",
+      "commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "WMF-Uniq",
+      "lifetime": "1 year",
+      "purpose": "Counts visitors and helps block attacks."
+    },
+    {
+      "name": "WMF-Last-Access",
+      "lifetime": "30 days",
+      "purpose": "Counts unique devices."
+    },
+    {
+      "name": "NetworkProbeLimit",
+      "lifetime": "1 hour",
+      "purpose": "Limits network performance checks."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia/technical",
+    "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+    "https://www.mediawiki.org/wiki/Help:Extension:Media_Viewer",
+    "https://commons.wikimedia.org/w/api.php?action=query&titles=File:Sample.png&prop=imageinfo&iiprop=url&iiurlwidth=330&format=json",
+    "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy",
+    "https://foundation.wikimedia.org/wiki/Policy:Cookie_statement",
+    "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+    "https://www.dataprivacyframework.gov/list",
+    "https://github.com/jkwakman/Open-Cookie-Database"
+  ],
+  "checked": "2026-10-31"
+}

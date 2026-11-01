@@ -1,8 +1,8 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "pinterest-embed",
-  "version": 1,
-  "name": "Pinterest",
+  "version": 2,
+  "name": "Pinterest embeds",
   "provider": "Pinterest Europe Limited",
   "category": "media",
   "purpose": "Shows embedded Pins and the Save button.",
@@ -44,5 +44,5 @@
     "https://help.pinterest.com/en/business/article/pinterest-tag-parameters-and-cookies",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-01"
 }

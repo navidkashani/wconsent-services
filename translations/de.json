@@ -324,6 +324,10 @@
     "purpose": "Lädt die Symbole der Website von Font Awesome.",
     "machine": true
   },
+  "found-ee": {
+    "purpose": "Bildet Werbezielgruppen aus den Besuchern der Website.",
+    "machine": true
+  },
   "fraud-blocker": {
     "purpose": "Erkennt gefälschte Klicks auf die Anzeigen der Website.",
     "machine": true
@@ -578,6 +582,10 @@
     "purpose": "Zeigt eingebettete Tourenkarten an.",
     "machine": true
   },
+  "kustom": {
+    "purpose": "Führt den Bezahlvorgang aus und wickelt Zahlungen ab.",
+    "machine": true
+  },
   "kuula": {
     "purpose": "Zeigt eingebettete virtuelle 360°-Rundgänge an.",
     "machine": true
@@ -589,13 +597,6 @@
       "_lfa_consent": "Speichert den Einwilligungsstatus des Besuchers.",
       "_lfa_test_cookie_stored": "Prüft, ob Cookies gespeichert werden können.",
       "ldfdr_opt_out": "Merkt sich, dass der Besucher widersprochen hat."
-    },
-    "machine": true
-  },
-  "lets-connect": {
-    "purpose": "Live-Chat und Videoanrufe.",
-    "cookies": {
-      "pa_bsid": "Erkennt die Chat-Sitzung des Besuchers."
     },
     "machine": true
   },
@@ -775,6 +776,17 @@
     },
     "machine": true
   },
+  "mux": {
+    "purpose": "Zeigt eingebettete Videos an.",
+    "cookies": {
+      "muxData": "Unterscheidet Zuschauer und Wiedergabesitzungen."
+    },
+    "machine": true
+  },
+  "myfonts": {
+    "purpose": "Lädt lizenzierte Schriftarten und zählt Seitenaufrufe.",
+    "machine": true
+  },
   "onesignal": {
     "purpose": "Sendet Web-Push-Benachrichtigungen und In-App-Nachrichten.",
     "machine": true
@@ -938,6 +950,10 @@
     "purpose": "Kundensupport-Chat.",
     "machine": true
   },
+  "reddit-embed": {
+    "purpose": "Zeigt eingebettete Reddit-Beiträge und -Kommentare an.",
+    "machine": true
+  },
   "reddit-pixel": {
     "purpose": "Misst Reddit-Werbung.",
     "cookies": {
@@ -972,6 +988,10 @@
       "_shopify_y": "Unterscheidet Besucher.",
       "_shopify_s": "Fasst Seitenaufrufe zu einem Besuch zusammen."
     },
+    "machine": true
+  },
+  "shortpixel-cdn": {
+    "purpose": "Liefert die Bilder der Website schneller aus.",
     "machine": true
   },
   "sketchfab": {
@@ -1171,6 +1191,13 @@
     "purpose": "Fügt der Website ein Menü für Barrierefreiheit hinzu.",
     "machine": true
   },
+  "vega": {
+    "purpose": "Bewertet das Besucherverhalten, zeigt Chat und Pop-ups an.",
+    "cookies": {
+      "pa_bsid": "Erkennt die Browser-Sitzung des Besuchers."
+    },
+    "machine": true
+  },
   "vg-wort": {
     "purpose": "Zählt Textaufrufe, damit Autoren vergütet werden.",
     "machine": true
@@ -1208,6 +1235,15 @@
     },
     "machine": true
   },
+  "wikimedia-commons": {
+    "purpose": "Zeigt Bilder und Medien von Wikimedia Commons an.",
+    "cookies": {
+      "WMF-Uniq": "Zählt Besucher und hilft, Angriffe abzuwehren.",
+      "WMF-Last-Access": "Zählt eindeutige Geräte.",
+      "NetworkProbeLimit": "Begrenzt Prüfungen der Netzwerkleistung."
+    },
+    "machine": true
+  },
   "wistia": {
     "purpose": "Zeigt eingebettete Videos an.",
     "cookies": {
@@ -1215,6 +1251,10 @@
       "_simplex": "Speichert Referrer und Einstiegsseite.",
       "wistia": "Erforderlich, damit der Video-Player funktioniert."
     },
+    "machine": true
+  },
+  "wix-media": {
+    "purpose": "Zeigt Bilder und Videos an, die bei Wix gehostet werden.",
     "machine": true
   },
   "wlw": {
@@ -1248,6 +1288,10 @@
   },
   "wordpress-org": {
     "purpose": "Stellt WordPress-Emojis und -Bilder bereit.",
+    "machine": true
+  },
+  "wpmudev-cdn": {
+    "purpose": "Liefert Bilder und Dateien der Website schneller aus.",
     "machine": true
   },
   "x-embed": {
@@ -1311,6 +1355,17 @@
   },
   "zoho-bookings": {
     "purpose": "Zeigt einen eingebetteten Buchungskalender an.",
+    "machine": true
+  },
+  "zoho-campaigns": {
+    "purpose": "Zeigt Anmeldeformulare für E-Mails an.",
+    "cookies": {
+      "zc_dis": "Merkt sich, wann ein Pop-up-Formular erscheinen soll.",
+      "zc_cmp": "Ordnet einen Formularbesuch einer E-Mail-Kampagne zu.",
+      "ZCAMPAIGN_CSRF_TOKEN": "Schützt Formularübermittlungen vor Fälschung.",
+      "zmpncc": "Hält den Formulardienst sicher.",
+      "zfccn": "Hält den Formulardienst sicher."
+    },
     "machine": true
   },
   "zoho-forms": {

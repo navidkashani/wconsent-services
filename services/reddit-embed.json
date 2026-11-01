@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "reddit-embed",
+  "version": 1,
+  "name": "Reddit embeds",
+  "provider": "Reddit Netherlands B.V.",
+  "category": "media",
+  "purpose": "Shows embedded Reddit posts and comments.",
+  "privacyUrl": "https://www.reddit.com/policies/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "embed.reddit.com",
+      "reddit.com/embed",
+      "embed.redditmedia.com",
+      "www.redditmedia.com/r/"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.reddit.com/policies/privacy-policy",
+    "https://www.reddit.com/policies/cookies",
+    "https://www.redditinc.com/policies/embeds-terms",
+    "https://www.reddit.com/oembed",
+    "https://embed.reddit.com/widgets.js",
+    "https://web.archive.org/web/20261101014450/https://www.reddit.com/policies/privacy-policy",
+    "https://web.archive.org/web/20261009142438/https://www.reddit.com/policies/cookies",
+    "https://www.dataprivacyframework.gov/list",
+    "https://core.svn.wordpress.org/trunk/wp-includes/class-wp-oembed.php",
+    "https://github.com/jkwakman/Open-Cookie-Database"
+  ],
+  "checked": "2026-10-31"
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "kustom",
+  "version": 1,
+  "name": "Kustom Checkout",
+  "provider": "Kustom AB",
+  "category": "essential",
+  "purpose": "Runs the checkout and processes payments.",
+  "privacyUrl": "https://cdn.kustom.co/679b363bfe3c2f0a4c7c184f/679b9498863a71cbb0b78060_kustom_privacy_notice_sv_se.pdf",
+  "dataCountry": "EEA, USA and UK",
+  "legalBasis": "contract",
+  "match": {
+    "hosts": [
+      "js.live.kustom.co",
+      "js.playground.kustom.co",
+      "kustomcdn.co"
+    ],
+    "inline": [
+      "'_klarnaCheckout','klarna-checkout-container'",
+      "kustom.co/kco/checkout/orders/",
+      "window.kustomElements._internal"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "_kustom_*",
+    "_klarna_sdid_ch"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "klarna-checkout-for-woocommerce/klarna-checkout-for-woocommerce.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.kustom.co/checkout/integrate/render-checkout-snippet.md",
+    "https://docs.kustom.co/checkout/client-side-events.md",
+    "https://docs.kustom.co/checkout/surfaces/elements.md",
+    "https://docs.kustom.co/llms.txt",
+    "https://cdn.kustom.co/679b363bfe3c2f0a4c7c184f/679b9498863a71cbb0b78060_kustom_privacy_notice_sv_se.pdf",
+    "https://www.kustom.co/legal",
+    "https://www.kustom.co/legal/privacy-policy",
+    "https://demo.kustom.co/",
+    "https://js.playground.kustom.co/kcoc/261029-861145d/checkout.bootstrap.js",
+    "https://js.live.kustom.co/kustom-elements/v1/pre-load.js",
+    "https://wordpress.org/plugins/klarna-checkout-for-woocommerce/",
+    "https://plugins.svn.wordpress.org/klarna-checkout-for-woocommerce/trunk/"
+  ],
+  "checked": "2026-10-31"
+}

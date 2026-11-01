@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "found-ee",
+  "version": 1,
+  "name": "Found.ee",
+  "provider": "",
+  "category": "marketing",
+  "purpose": "Builds ad audiences from site visitors.",
+  "privacyUrl": "https://console.found.ee/super/usersgdpr",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "found.ee/dmp",
+      "api.found.ee/modal"
+    ],
+    "inline": [
+      "found.ee/dmp/pixel.js",
+      "FoundeePixelDispatched"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://found.ee/dmp/pixel.js",
+    "https://console.found.ee/",
+    "https://console.found.ee/super/static/js/main.3d22a35d.chunk.js",
+    "https://intercom.help/foundee-help/en/articles/4199839-how-to-build-audiences",
+    "https://intercom.help/foundee-help/en/articles/5611387-ios-14-found-ee",
+    "https://intercom.help/foundee-help/en/articles/4216916-ccpa-here-s-how-we-can-help",
+    "https://console.found.ee/super/usersgdpr",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

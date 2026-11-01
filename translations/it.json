@@ -324,6 +324,10 @@
     "purpose": "Carica le icone del sito da Font Awesome.",
     "machine": true
   },
+  "found-ee": {
+    "purpose": "Crea pubblici pubblicitari dai visitatori del sito.",
+    "machine": true
+  },
   "fraud-blocker": {
     "purpose": "Rileva i clic falsi sugli annunci del sito.",
     "machine": true
@@ -578,6 +582,10 @@
     "purpose": "Mostra mappe di percorsi incorporate.",
     "machine": true
   },
+  "kustom": {
+    "purpose": "Gestisce il checkout ed elabora i pagamenti.",
+    "machine": true
+  },
   "kuula": {
     "purpose": "Mostra tour virtuali a 360° incorporati.",
     "machine": true
@@ -589,13 +597,6 @@
       "_lfa_consent": "Memorizza lo stato del consenso del visitatore.",
       "_lfa_test_cookie_stored": "Verifica se è possibile salvare cookie.",
       "ldfdr_opt_out": "Ricorda che il visitatore ha rinunciato."
-    },
-    "machine": true
-  },
-  "lets-connect": {
-    "purpose": "Chat dal vivo e videochiamate.",
-    "cookies": {
-      "pa_bsid": "Riconosce la sessione di chat del visitatore."
     },
     "machine": true
   },
@@ -775,6 +776,17 @@
     },
     "machine": true
   },
+  "mux": {
+    "purpose": "Mostra video incorporati.",
+    "cookies": {
+      "muxData": "Distingue gli spettatori e le sessioni di visione."
+    },
+    "machine": true
+  },
+  "myfonts": {
+    "purpose": "Carica font con licenza e conta le visualizzazioni di pagina.",
+    "machine": true
+  },
   "onesignal": {
     "purpose": "Invia notifiche push web e messaggi in-app.",
     "machine": true
@@ -938,6 +950,10 @@
     "purpose": "Chat di assistenza clienti.",
     "machine": true
   },
+  "reddit-embed": {
+    "purpose": "Mostra post e commenti di Reddit incorporati.",
+    "machine": true
+  },
   "reddit-pixel": {
     "purpose": "Misura gli annunci Reddit.",
     "cookies": {
@@ -972,6 +988,10 @@
       "_shopify_y": "Distingue i visitatori.",
       "_shopify_s": "Raggruppa le visualizzazioni di pagina in una visita."
     },
+    "machine": true
+  },
+  "shortpixel-cdn": {
+    "purpose": "Fornisce più velocemente le immagini del sito.",
     "machine": true
   },
   "sketchfab": {
@@ -1171,6 +1191,13 @@
     "purpose": "Aggiunge un menu di accessibilità al sito.",
     "machine": true
   },
+  "vega": {
+    "purpose": "Valuta il comportamento dei visitatori, mostra chat e pop-up.",
+    "cookies": {
+      "pa_bsid": "Riconosce la sessione del browser del visitatore."
+    },
+    "machine": true
+  },
   "vg-wort": {
     "purpose": "Conta le letture dei testi per retribuire gli autori.",
     "machine": true
@@ -1208,6 +1235,15 @@
     },
     "machine": true
   },
+  "wikimedia-commons": {
+    "purpose": "Mostra immagini e media da Wikimedia Commons.",
+    "cookies": {
+      "WMF-Uniq": "Conta i visitatori e aiuta a bloccare gli attacchi.",
+      "WMF-Last-Access": "Conta i dispositivi unici.",
+      "NetworkProbeLimit": "Limita i controlli sulle prestazioni della rete."
+    },
+    "machine": true
+  },
   "wistia": {
     "purpose": "Mostra video incorporati.",
     "cookies": {
@@ -1215,6 +1251,10 @@
       "_simplex": "Memorizza il referrer e la pagina di destinazione.",
       "wistia": "Necessario al funzionamento del lettore video."
     },
+    "machine": true
+  },
+  "wix-media": {
+    "purpose": "Mostra immagini e video ospitati da Wix.",
     "machine": true
   },
   "wlw": {
@@ -1248,6 +1288,10 @@
   },
   "wordpress-org": {
     "purpose": "Fornisce emoji e immagini di WordPress.",
+    "machine": true
+  },
+  "wpmudev-cdn": {
+    "purpose": "Fornisce più velocemente immagini e file del sito.",
     "machine": true
   },
   "x-embed": {
@@ -1311,6 +1355,17 @@
   },
   "zoho-bookings": {
     "purpose": "Mostra un calendario di prenotazione incorporato.",
+    "machine": true
+  },
+  "zoho-campaigns": {
+    "purpose": "Mostra moduli di iscrizione via email.",
+    "cookies": {
+      "zc_dis": "Ricorda quando mostrare un modulo pop-up.",
+      "zc_cmp": "Collega una visita al modulo a una campagna email.",
+      "ZCAMPAIGN_CSRF_TOKEN": "Protegge gli invii dei moduli dalla contraffazione.",
+      "zmpncc": "Mantiene sicuro il servizio dei moduli.",
+      "zfccn": "Mantiene sicuro il servizio dei moduli."
+    },
     "machine": true
   },
   "zoho-forms": {
