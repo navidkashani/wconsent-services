@@ -1,0 +1,40 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "bookeo",
+  "version": 1,
+  "name": "Bookeo",
+  "provider": "Bookeo Pty Ltd",
+  "category": "functional",
+  "purpose": "Shows an embedded booking calendar.",
+  "privacyUrl": "https://www.bookeo.com/privacy/",
+  "dataCountry": "EU (for EEA, UK and Swiss businesses), else North America or Europe",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "bookeo.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.bookeo.com/hc/en-us/articles/360017919772-Website-integration",
+    "https://support.bookeo.com/hc/en-us/articles/360017919432-Integration-in-a-WordPress-website",
+    "https://support.bookeo.com/hc/en-us/articles/360018197831-Is-Bookeo-translated-into-languages-other-than-English-How-can-I-embed-the-Bookeo-widget-in-a-specific-language",
+    "https://bookeo.com/widget.js?a=296P7RMP312EDB8F36FB&waitMobile=true",
+    "https://www.bookeo.com/scheduling-plugin-wordpress/",
+    "https://www.bookeo.com/privacy/",
+    "https://www.bookeo.com/gdpr/",
+    "https://www.bookeo.com/hosting-security/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

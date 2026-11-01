@@ -1,0 +1,39 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "instatus",
+  "version": 1,
+  "name": "Instatus",
+  "provider": "Instatus, Inc.",
+  "category": "functional",
+  "purpose": "Shows service status and outage notices.",
+  "privacyUrl": "https://instatus.com/policies/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "instatus.com/widget/script.js",
+      "instatus.com/embed-status/"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "instatus-widget-dismissed"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://instatus.com/help/status-page/widgets",
+    "https://instatus.com/help/widget-badge-1.png",
+    "https://instatus.instatus.com/widget/script.js",
+    "https://instatus.com/policies/privacy",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

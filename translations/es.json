@@ -101,8 +101,19 @@
     },
     "machine": true
   },
+  "bookeo": {
+    "purpose": "Muestra un calendario de reservas incrustado.",
+    "machine": true
+  },
   "booking-com": {
     "purpose": "Muestra buscadores, mapas y banners de Booking.com.",
+    "machine": true
+  },
+  "bookingkit": {
+    "purpose": "Muestra un widget de reservas de tours y actividades.",
+    "cookies": {
+      "BkOpSession": "Mantiene la sesión de reserva y el carrito."
+    },
     "machine": true
   },
   "bootstrapcdn": {
@@ -177,6 +188,10 @@
   },
   "cloudflare-web-analytics": {
     "purpose": "Mide las visitas sin cookies.",
+    "machine": true
+  },
+  "cloudpano": {
+    "purpose": "Muestra visitas virtuales de 360° incrustadas.",
     "machine": true
   },
   "contentsquare": {
@@ -261,6 +276,21 @@
       "et_allow_cookies": "Guarda si etracker puede establecer cookies.",
       "et_oi_v2": "Guarda la exclusión del seguimiento del visitante.",
       "isSdEnabled": "Indica si se mide la profundidad de desplazamiento."
+    },
+    "machine": true
+  },
+  "eventfrog": {
+    "purpose": "Muestra un calendario de eventos y una tienda de entradas incrustados.",
+    "cookies": {
+      "efrg_v1_tracking_limited": "Recuerda la elección del visitante sobre cookies de análisis.",
+      "efrg_v1_tracking_full": "Recuerda la elección del visitante sobre cookies de marketing."
+    },
+    "machine": true
+  },
+  "eversports": {
+    "purpose": "Muestra un horario de clases y un widget de reservas.",
+    "cookies": {
+      "et-legacy": "Mantiene la sesión iniciada de un cliente."
     },
     "machine": true
   },
@@ -437,6 +467,10 @@
     },
     "machine": true
   },
+  "heyflow": {
+    "purpose": "Muestra formularios y embudos incrustados.",
+    "machine": true
+  },
   "hotjar": {
     "purpose": "Mapas de calor y grabaciones de sesiones.",
     "cookies": {
@@ -466,6 +500,10 @@
   },
   "instagram-embed": {
     "purpose": "Muestra publicaciones incrustadas.",
+    "machine": true
+  },
+  "instatus": {
+    "purpose": "Muestra el estado del servicio y avisos de incidencias.",
     "machine": true
   },
   "intercom": {
@@ -538,6 +576,10 @@
   },
   "komoot": {
     "purpose": "Muestra mapas de rutas incrustados.",
+    "machine": true
+  },
+  "kuula": {
+    "purpose": "Muestra visitas virtuales de 360° incrustadas.",
     "machine": true
   },
   "leadfeeder": {
@@ -721,6 +763,10 @@
     },
     "machine": true
   },
+  "momoyoga": {
+    "purpose": "Muestra un horario de clases con enlaces de reserva.",
+    "machine": true
+  },
   "mouseflow": {
     "purpose": "Mapas de calor y grabaciones de sesiones.",
     "cookies": {
@@ -815,6 +861,10 @@
     },
     "machine": true
   },
+  "phorest": {
+    "purpose": "Permite a los visitantes reservar citas en el salón en línea.",
+    "machine": true
+  },
   "pinterest-embed": {
     "purpose": "Muestra Pines incrustados y el botón Guardar.",
     "machine": true
@@ -848,6 +898,10 @@
       "stg_externalReferrer": "Guarda de dónde llegó el visitante.",
       "_stg_optout": "Recuerda una exclusión del seguimiento."
     },
+    "machine": true
+  },
+  "planity": {
+    "purpose": "Permite a los visitantes reservar citas en el salón.",
     "machine": true
   },
   "plausible": {
@@ -906,6 +960,10 @@
       "ajs_user_id": "Guarda al usuario conectado.",
       "ajs_group_id": "Guarda el grupo al que pertenece el visitante."
     },
+    "machine": true
+  },
+  "senja": {
+    "purpose": "Muestra testimonios de clientes y opiniones en vídeo.",
     "machine": true
   },
   "shopify-buy-button": {
@@ -978,6 +1036,10 @@
       "__stripe_mid": "Prevención del fraude.",
       "__stripe_sid": "Prevención del fraude."
     },
+    "machine": true
+  },
+  "superchat": {
+    "purpose": "Chat en directo y enlaces a aplicaciones de mensajería.",
     "machine": true
   },
   "taboola": {
@@ -1203,6 +1265,10 @@
       "guest_id_ads": "Entrega de anuncios.",
       "personalization_id": "Entrega de anuncios."
     },
+    "machine": true
+  },
+  "xing": {
+    "purpose": "Muestra botones para compartir páginas en XING.",
     "machine": true
   },
   "yandex-metrica": {

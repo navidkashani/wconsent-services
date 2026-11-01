@@ -101,8 +101,19 @@
     },
     "machine": true
   },
+  "bookeo": {
+    "purpose": "Affiche un calendrier de réservation embarqué.",
+    "machine": true
+  },
   "booking-com": {
     "purpose": "Affiche des recherches, cartes et bannières Booking.com.",
+    "machine": true
+  },
+  "bookingkit": {
+    "purpose": "Affiche un module de réservation de visites et d’activités.",
+    "cookies": {
+      "BkOpSession": "Conserve la session de réservation et le panier."
+    },
     "machine": true
   },
   "bootstrapcdn": {
@@ -177,6 +188,10 @@
   },
   "cloudflare-web-analytics": {
     "purpose": "Mesure les visites sans cookies.",
+    "machine": true
+  },
+  "cloudpano": {
+    "purpose": "Affiche des visites virtuelles à 360° embarquées.",
     "machine": true
   },
   "contentsquare": {
@@ -261,6 +276,21 @@
       "et_allow_cookies": "Mémorise si etracker peut définir des cookies.",
       "et_oi_v2": "Mémorise le refus du suivi par le visiteur.",
       "isSdEnabled": "Indique si la profondeur de défilement est mesurée."
+    },
+    "machine": true
+  },
+  "eventfrog": {
+    "purpose": "Affiche un agenda d’événements et une billetterie embarqués.",
+    "cookies": {
+      "efrg_v1_tracking_limited": "Mémorise le choix du visiteur sur les cookies d’analyse.",
+      "efrg_v1_tracking_full": "Mémorise le choix du visiteur sur les cookies marketing."
+    },
+    "machine": true
+  },
+  "eversports": {
+    "purpose": "Affiche un planning des cours et un module de réservation.",
+    "cookies": {
+      "et-legacy": "Garde un client connecté."
     },
     "machine": true
   },
@@ -437,6 +467,10 @@
     },
     "machine": true
   },
+  "heyflow": {
+    "purpose": "Affiche des formulaires et des tunnels embarqués.",
+    "machine": true
+  },
   "hotjar": {
     "purpose": "Cartes de chaleur et enregistrements de session.",
     "cookies": {
@@ -466,6 +500,10 @@
   },
   "instagram-embed": {
     "purpose": "Affiche des publications embarquées.",
+    "machine": true
+  },
+  "instatus": {
+    "purpose": "Affiche l’état du service et les avis de panne.",
     "machine": true
   },
   "intercom": {
@@ -538,6 +576,10 @@
   },
   "komoot": {
     "purpose": "Affiche des cartes d’itinéraires embarquées.",
+    "machine": true
+  },
+  "kuula": {
+    "purpose": "Affiche des visites virtuelles à 360° embarquées.",
     "machine": true
   },
   "leadfeeder": {
@@ -721,6 +763,10 @@
     },
     "machine": true
   },
+  "momoyoga": {
+    "purpose": "Affiche un planning des cours avec des liens de réservation.",
+    "machine": true
+  },
   "mouseflow": {
     "purpose": "Cartes de chaleur et enregistrements de session.",
     "cookies": {
@@ -815,6 +861,10 @@
     },
     "machine": true
   },
+  "phorest": {
+    "purpose": "Permet aux visiteurs de réserver en ligne un rendez-vous au salon.",
+    "machine": true
+  },
   "pinterest-embed": {
     "purpose": "Affiche des Épingles embarquées et le bouton Enregistrer.",
     "machine": true
@@ -848,6 +898,10 @@
       "stg_externalReferrer": "Mémorise la provenance du visiteur.",
       "_stg_optout": "Mémorise un refus du suivi."
     },
+    "machine": true
+  },
+  "planity": {
+    "purpose": "Permet aux visiteurs de réserver un rendez-vous au salon.",
     "machine": true
   },
   "plausible": {
@@ -906,6 +960,10 @@
       "ajs_user_id": "Mémorise l’utilisateur connecté.",
       "ajs_group_id": "Mémorise le groupe auquel appartient le visiteur."
     },
+    "machine": true
+  },
+  "senja": {
+    "purpose": "Affiche des témoignages clients et des avis vidéo.",
     "machine": true
   },
   "shopify-buy-button": {
@@ -978,6 +1036,10 @@
       "__stripe_mid": "Prévention de la fraude.",
       "__stripe_sid": "Prévention de la fraude."
     },
+    "machine": true
+  },
+  "superchat": {
+    "purpose": "Discussion en direct et liens vers des messageries.",
     "machine": true
   },
   "taboola": {
@@ -1203,6 +1265,10 @@
       "guest_id_ads": "Diffusion des publicités.",
       "personalization_id": "Diffusion des publicités."
     },
+    "machine": true
+  },
+  "xing": {
+    "purpose": "Affiche des boutons pour partager les pages sur XING.",
     "machine": true
   },
   "yandex-metrica": {

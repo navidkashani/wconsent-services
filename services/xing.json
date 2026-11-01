@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "xing",
+  "version": 1,
+  "name": "XING",
+  "provider": "XING SE & Co. KG",
+  "category": "marketing",
+  "purpose": "Shows buttons to share pages on XING.",
+  "privacyUrl": "https://privacy.xing.com/en/privacy-policy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "xing-share.com/plugins/share.js",
+      "xing-share.com/spi/message_proxy",
+      "xing-share.com/js/external/share.js"
+    ],
+    "inline": [
+      "xing-share.com/plugins/share.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "social",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://dev.xing.com/plugins",
+    "https://dev.xing.com/plugins/share_button",
+    "https://dev.xing.com/plugins/share_button/docs",
+    "https://www.xing-share.com/plugins/share.js",
+    "https://dev.xing.com/plugins/login_with",
+    "https://privacy.xing.com/en/privacy-policy",
+    "https://privacy.xing.com/en/privacy-policy/printable-version",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

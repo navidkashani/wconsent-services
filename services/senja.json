@@ -1,0 +1,52 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "senja",
+  "version": 1,
+  "name": "Senja",
+  "provider": "Senja Proof Ltd",
+  "category": "media",
+  "purpose": "Shows customer testimonials and video reviews.",
+  "privacyUrl": "https://senja.io/legal/privacy-policy",
+  "dataCountry": "UK and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.senja.io",
+      "static.senja.io",
+      "cdn.senja.io",
+      "analytics.senja.io",
+      "senja-assets.b-cdn.net",
+      "senja-lh3.b-cdn.net",
+      "ik.imagekit.io/senja/"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "sj_v_id"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [
+      "senja/senja.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://senja.io/legal/privacy-policy",
+    "https://support.senja.io/how-to-share-or-embed-my-widget-in1cl",
+    "https://support.senja.io/add-senja-testimonials-to-your-app-byv55",
+    "https://support.senja.io/how-to-add-testimonials-to-svelte-j5ayi",
+    "https://senja.io",
+    "https://static.senja.io/dist/platform.js",
+    "https://widget.senja.io/widget/0e1c647a-368d-493d-9348-0cd91738e068/platform.js",
+    "https://widget.senja.io/api/widget-config/0e1c647a-368d-493d-9348-0cd91738e068",
+    "https://wordpress.org/plugins/senja/",
+    "https://plugins.svn.wordpress.org/senja/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

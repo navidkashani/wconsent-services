@@ -101,8 +101,19 @@
     },
     "machine": true
   },
+  "bookeo": {
+    "purpose": "Wyświetla osadzony kalendarz rezerwacji.",
+    "machine": true
+  },
   "booking-com": {
     "purpose": "Wyświetla wyszukiwarki, mapy i banery Booking.com.",
+    "machine": true
+  },
+  "bookingkit": {
+    "purpose": "Wyświetla widżet rezerwacji wycieczek i atrakcji.",
+    "cookies": {
+      "BkOpSession": "Utrzymuje sesję rezerwacji i koszyk."
+    },
     "machine": true
   },
   "bootstrapcdn": {
@@ -177,6 +188,10 @@
   },
   "cloudflare-web-analytics": {
     "purpose": "Mierzy wizyty bez ciasteczek.",
+    "machine": true
+  },
+  "cloudpano": {
+    "purpose": "Wyświetla osadzone wirtualne wycieczki 360°.",
     "machine": true
   },
   "contentsquare": {
@@ -261,6 +276,21 @@
       "et_allow_cookies": "Zapisuje, czy etracker może ustawiać ciasteczka.",
       "et_oi_v2": "Zapisuje rezygnację odwiedzającego ze śledzenia.",
       "isSdEnabled": "Oznacza, czy mierzona jest głębokość przewijania."
+    },
+    "machine": true
+  },
+  "eventfrog": {
+    "purpose": "Wyświetla osadzony kalendarz wydarzeń i sklep z biletami.",
+    "cookies": {
+      "efrg_v1_tracking_limited": "Zapamiętuje wybór odwiedzającego dotyczący ciasteczek analitycznych.",
+      "efrg_v1_tracking_full": "Zapamiętuje wybór odwiedzającego dotyczący ciasteczek marketingowych."
+    },
+    "machine": true
+  },
+  "eversports": {
+    "purpose": "Wyświetla grafik zajęć i widżet rezerwacji.",
+    "cookies": {
+      "et-legacy": "Utrzymuje zalogowanego klienta."
     },
     "machine": true
   },
@@ -437,6 +467,10 @@
     },
     "machine": true
   },
+  "heyflow": {
+    "purpose": "Wyświetla osadzone formularze i lejki.",
+    "machine": true
+  },
   "hotjar": {
     "purpose": "Mapy cieplne i nagrania sesji.",
     "cookies": {
@@ -466,6 +500,10 @@
   },
   "instagram-embed": {
     "purpose": "Wyświetla osadzone wpisy.",
+    "machine": true
+  },
+  "instatus": {
+    "purpose": "Wyświetla stan usługi i komunikaty o awariach.",
     "machine": true
   },
   "intercom": {
@@ -538,6 +576,10 @@
   },
   "komoot": {
     "purpose": "Wyświetla osadzone mapy tras.",
+    "machine": true
+  },
+  "kuula": {
+    "purpose": "Wyświetla osadzone wirtualne wycieczki 360°.",
     "machine": true
   },
   "leadfeeder": {
@@ -721,6 +763,10 @@
     },
     "machine": true
   },
+  "momoyoga": {
+    "purpose": "Wyświetla grafik zajęć z linkami do rezerwacji.",
+    "machine": true
+  },
   "mouseflow": {
     "purpose": "Mapy cieplne i nagrania sesji.",
     "cookies": {
@@ -815,6 +861,10 @@
     },
     "machine": true
   },
+  "phorest": {
+    "purpose": "Pozwala odwiedzającym rezerwować online wizyty w salonie.",
+    "machine": true
+  },
   "pinterest-embed": {
     "purpose": "Wyświetla osadzone Piny i przycisk Zapisz.",
     "machine": true
@@ -848,6 +898,10 @@
       "stg_externalReferrer": "Zapisuje, skąd przyszedł odwiedzający.",
       "_stg_optout": "Zapamiętuje rezygnację ze śledzenia."
     },
+    "machine": true
+  },
+  "planity": {
+    "purpose": "Pozwala odwiedzającym rezerwować wizyty w salonie.",
     "machine": true
   },
   "plausible": {
@@ -906,6 +960,10 @@
       "ajs_user_id": "Zapisuje zalogowanego użytkownika.",
       "ajs_group_id": "Zapisuje grupę, do której należy odwiedzający."
     },
+    "machine": true
+  },
+  "senja": {
+    "purpose": "Wyświetla opinie klientów i recenzje wideo.",
     "machine": true
   },
   "shopify-buy-button": {
@@ -978,6 +1036,10 @@
       "__stripe_mid": "Zapobieganie nadużyciom.",
       "__stripe_sid": "Zapobieganie nadużyciom."
     },
+    "machine": true
+  },
+  "superchat": {
+    "purpose": "Czat na żywo i linki do komunikatorów.",
     "machine": true
   },
   "taboola": {
@@ -1203,6 +1265,10 @@
       "guest_id_ads": "Dostarczanie reklam.",
       "personalization_id": "Dostarczanie reklam."
     },
+    "machine": true
+  },
+  "xing": {
+    "purpose": "Wyświetla przyciski udostępniania stron w XING.",
     "machine": true
   },
   "yandex-metrica": {

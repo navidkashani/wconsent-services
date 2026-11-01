@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "cloudpano",
+  "version": 1,
+  "name": "CloudPano",
+  "provider": "",
+  "category": "media",
+  "purpose": "Shows embedded 360° virtual tours.",
+  "privacyUrl": "https://docs.google.com/document/u/1/d/e/2PACX-1vQsA_vntjttu1c8A0k3vZ4VQEtm6gMGuCuqhtcPvMa2xDzWB8q1yUtM4HRAyQnNaAR2AgOi6oiM2L3t/pub",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "app.cloudpano.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "cp_lang"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://help.cloudpano.com/en/articles/6139556-my-embedded-tour-is-not-working",
+    "https://help.cloudpano.com/en/articles/5757671-how-to-embed-a-tour-on-your-website",
+    "https://www.cloudpano.com/feature/embed-on-your-website",
+    "https://app.cloudpano.com/public/shareScript.js",
+    "https://app.cloudpano.com/tours/TQl4SzPOaX",
+    "https://storage.googleapis.com/bigdatahomes/frontend-static/main.5353c19fd1f92c58.js",
+    "https://docs.google.com/document/u/1/d/e/2PACX-1vQsA_vntjttu1c8A0k3vZ4VQEtm6gMGuCuqhtcPvMa2xDzWB8q1yUtM4HRAyQnNaAR2AgOi6oiM2L3t/pub",
+    "https://docs.google.com/document/u/1/d/e/2PACX-1vSEASdG1Rm8xFM7DqA-UKS6XAXn_K4s4NGUp5aFOtIGOmYGBHFBc_4fELmP8IlsLwGfbW5JZ9dXBnpm/pub",
+    "https://posthog.com/docs/libraries/js/persistence",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

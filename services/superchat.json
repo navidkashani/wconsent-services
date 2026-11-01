@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "superchat",
+  "version": 1,
+  "name": "Superchat",
+  "provider": "SuperX GmbH",
+  "category": "functional",
+  "purpose": "Live chat and messenger links.",
+  "privacyUrl": "https://www.superchat.com/privacy",
+  "dataCountry": "EU (Germany)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "widget.superchat.de"
+    ],
+    "inline": [
+      "widget.superchat.de/snippet.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "superchat_livechat_*",
+    "v3:superchat-session-*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://help.superchat.com/en/articles/14973-how-to-install-your-webchat-on-your-website",
+    "https://help.superchat.com/en/articles/14975-best-practice-integrate-your-web-widget-into-google-tag-manager",
+    "https://widget.superchat.de/snippet.js",
+    "https://widget.superchat.de/sdk.js",
+    "https://www.superchat.com/privacy",
+    "https://www.superchat.com/imprint",
+    "https://www.superchat.com/security"
+  ],
+  "checked": "2026-10-31"
+}

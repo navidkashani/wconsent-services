@@ -1,0 +1,43 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "phorest",
+  "version": 1,
+  "name": "Phorest",
+  "provider": "nDevor Systems Ltd",
+  "category": "functional",
+  "purpose": "Lets visitors book salon appointments online.",
+  "privacyUrl": "https://www.phorest.com/privacy/",
+  "dataCountry": "EU",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "booking-widget.phorestcdn.com",
+      "phorest.me",
+      "phorest.com/salon/",
+      "phorest.com/book/"
+    ],
+    "inline": [
+      "new OBWidget("
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.phorest.com/hc/en-us/articles/360016246960",
+    "https://support.phorest.com/hc/en-us/articles/360017444299",
+    "https://support.phorest.com/hc/en-us/articles/360016287019",
+    "https://booking-widget.phorestcdn.com/obwidget.bundle.js",
+    "https://www.phorest.com/privacy/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

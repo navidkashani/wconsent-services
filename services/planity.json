@@ -1,0 +1,46 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "planity",
+  "version": 1,
+  "name": "Planity",
+  "provider": "Planity SAS",
+  "category": "functional",
+  "purpose": "Lets visitors book salon appointments.",
+  "privacyUrl": "https://www.planity.com/politique-de-confidentialite",
+  "dataCountry": "EU",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "d2skjte8udjqxw.cloudfront.net"
+    ],
+    "inline": [
+      "window.planity"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://planity.gitbook.io/white-label",
+    "https://planity.gitbook.io/white-label/css-class-names",
+    "https://planity.gitbook.io/white-label/les-options-que-lon-peut-ajouter",
+    "https://planity.gitbook.io/white-label/integration-a-wordpress-1/integration-a-wordpress",
+    "https://d2skjte8udjqxw.cloudfront.net/widget/production/2/app.latest.js",
+    "https://www.planity.com/politique-de-confidentialite",
+    "https://drive.google.com/file/d/1DkG-nhV_oRQ2M76AAPeagxs3Okg4HF7W/preview",
+    "https://www.planity.com/mentionslegales",
+    "https://drive.google.com/file/d/1_Uilx0sNqV7hinqcn0LsLDg3t1OQ-J54/preview",
+    "https://www.planity.com/cookies",
+    "https://docs.google.com/document/d/1LphcqKBfQMSsP6SZDEJcL0GG9kKO09oa/preview",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
