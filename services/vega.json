@@ -1,0 +1,73 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "vega",
+  "version": 1,
+  "name": "VEGA",
+  "provider": "PATHADVICE International GmbH",
+  "category": "marketing",
+  "purpose": "Scores visitor behaviour, shows chat and pop-ups.",
+  "privacyUrl": "https://vega.company/en/datenschutz.html",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "app.vega.company",
+      "app.letsconnect.at",
+      "app.pathadvice.at",
+      "pathadvice-app-next.web.app",
+      "vega-ai-ae6a4.web.app",
+      "api.vega-ai.eu"
+    ],
+    "inline": [
+      "app.vega.company/embed.js",
+      "app.letsconnect.at/embed.js",
+      "app.pathadvice.at/embed.js",
+      "pathadvice-app-next.web.app/embed.js"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "pa_bsid",
+      "lifetime": "1 year",
+      "purpose": "Recognises the visitor's browser session."
+    }
+  ],
+  "storage": [
+    "pa-visitorId",
+    "pa-browser-session-id",
+    "pa-json",
+    "lc-closed-for-session",
+    "lc-display-delay-complete:*",
+    "lc-vega-cb",
+    "vpid",
+    "vpdt",
+    "__vega*"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://vega.company/",
+    "https://vega.company/en/b2b/",
+    "https://vega.company/en/b2c/",
+    "https://vega.company/en/leistungen.html",
+    "https://vega.company/en/blog-vega-revolutioniert-den-vertrieb.html",
+    "https://vega.company/en/datenschutz.html",
+    "https://vega.company/en/impressum.html",
+    "https://app.vega.company/embed.js",
+    "https://app.vega.company/embed-next",
+    "https://app.vega.company/embed-next/assets/index-DryxrFDH.js",
+    "https://vega-ai-ae6a4.web.app/vegaai.js",
+    "https://app.letsconnect.at/embed.js",
+    "https://app.pathadvice.at/embed.js",
+    "https://pathadvice-app-next.web.app/embed.js",
+    "https://www.letsconnect.at/data-privacy"
+  ],
+  "checked": "2026-10-31"
+}

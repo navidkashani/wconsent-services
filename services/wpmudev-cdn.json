@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "wpmudev-cdn",
+  "version": 1,
+  "name": "WPMU DEV CDN",
+  "provider": "Incsub, LLC",
+  "category": "essential",
+  "purpose": "Serves the site's images and files faster.",
+  "privacyUrl": "https://wpmudev.com/privacy-policy/",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "assetcdn.net",
+      "smushcdn.com",
+      "hb.wpmucdn.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "wp-smushit/wp-smush.php",
+      "hummingbird-performance/wp-hummingbird.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://wpmudev.com/docs/getting-started/content-delivery-network-cdn/",
+    "https://wpmudev.com/docs/wpmu-dev-plugins/smush/",
+    "https://wpmudev.com/docs/wpmu-dev-plugins/hummingbird/",
+    "https://wpmudev.com/privacy-policy/",
+    "https://plugins.svn.wordpress.org/wp-smushit/trunk/wp-smush.php",
+    "https://plugins.svn.wordpress.org/wp-smushit/trunk/readme.txt",
+    "https://plugins.svn.wordpress.org/wp-smushit/trunk/_src/js/frontend/lazy-load/auto-resizing.js",
+    "https://plugins.svn.wordpress.org/hummingbird-performance/trunk/wp-hummingbird.php",
+    "https://plugins.svn.wordpress.org/hummingbird-performance/trunk/core/modules/class-minify.php",
+    "https://wordpress.org/plugins/wp-smushit/",
+    "https://wordpress.org/plugins/hummingbird-performance/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

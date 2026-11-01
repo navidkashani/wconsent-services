@@ -1,0 +1,39 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "wix-media",
+  "version": 1,
+  "name": "Wix Media",
+  "provider": "Wix.com Ltd.",
+  "category": "media",
+  "purpose": "Shows images and videos hosted by Wix.",
+  "privacyUrl": "https://www.wix.com/about/privacy",
+  "dataCountry": "Israel and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "wixstatic.com"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "generic",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://support.wix.com/en/article/wix-media-request-replacing-the-staticwixstaticcommedia-part-of-an-image-url-with-your-domain-name",
+    "https://support.wix.com/en/article/wix-media-retrieving-the-url-of-a-file-in-the-media-manager",
+    "https://support.wix.com/en/article/wix-media-request-editing-the-url-of-a-media-file",
+    "https://dev.wix.com/docs/api-reference/assets/media/media-manager/url-image-transformation",
+    "https://www.wix.com/about/cookie-policy",
+    "https://www.wix.com/about/privacy",
+    "https://www.dataprivacyframework.gov/list",
+    "https://www.wpbeginner.com/wp-tutorials/how-to-properly-switch-from-wix-to-wordpress-step-by-step/"
+  ],
+  "checked": "2026-10-31"
+}

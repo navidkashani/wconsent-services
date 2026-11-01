@@ -1,0 +1,48 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "shortpixel-cdn",
+  "version": 1,
+  "name": "ShortPixel CDN",
+  "provider": "ID SCOUT SRL",
+  "category": "essential",
+  "purpose": "Serves the site's images faster.",
+  "privacyUrl": "https://shortpixel.com/privacy",
+  "dataCountry": "EU (Germany and Romania), served from a global CDN",
+  "legalBasis": "legitimate-interest",
+  "match": {
+    "hosts": [
+      "cdn.shortpixel.ai",
+      "spcdn.shortpixel.ai"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "shortpixel-adaptive-images/short-pixel-ai.php",
+      "shortpixel-image-optimiser/wp-shortpixel.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://shortpixel.com/knowledge-base/article/how-to-serve-the-images-from-a-custom-domain/",
+    "https://shortpixel.com/knowledge-base/article/deliver-webp-avif-images-using-the-shortpixel-cdn-in-spio/",
+    "https://shortpixel.com/privacy",
+    "https://shortpixel.com/sub-processor-list",
+    "https://shortpixel.com/cookie-policy",
+    "https://plugins.svn.wordpress.org/shortpixel-adaptive-images/trunk/short-pixel-ai.php",
+    "https://plugins.svn.wordpress.org/shortpixel-adaptive-images/trunk/includes/controllers/short-pixel-ai.class.php",
+    "https://plugins.svn.wordpress.org/shortpixel-adaptive-images/trunk/includes/front/vanilla-js-loader.class.php",
+    "https://plugins.svn.wordpress.org/shortpixel-image-optimiser/trunk/wp-shortpixel.php",
+    "https://plugins.svn.wordpress.org/shortpixel-image-optimiser/trunk/class/Model/SettingsModel.php",
+    "https://plugins.svn.wordpress.org/shortpixel-image-optimiser/trunk/class/Controller/Front/CDNController.php",
+    "https://wordpress.org/plugins/shortpixel-adaptive-images/",
+    "https://wordpress.org/plugins/shortpixel-image-optimiser/"
+  ],
+  "checked": "2026-10-31"
+}

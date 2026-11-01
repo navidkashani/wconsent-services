@@ -324,6 +324,10 @@
     "purpose": "Laadt de pictogrammen van de site van Font Awesome.",
     "machine": true
   },
+  "found-ee": {
+    "purpose": "Bouwt advertentiedoelgroepen uit bezoekers van de site.",
+    "machine": true
+  },
   "fraud-blocker": {
     "purpose": "Detecteert nepklikken op de advertenties van de site.",
     "machine": true
@@ -578,6 +582,10 @@
     "purpose": "Toont ingesloten routekaarten.",
     "machine": true
   },
+  "kustom": {
+    "purpose": "Verzorgt het afrekenen en verwerkt betalingen.",
+    "machine": true
+  },
   "kuula": {
     "purpose": "Toont ingesloten virtuele 360°-rondleidingen.",
     "machine": true
@@ -589,13 +597,6 @@
       "_lfa_consent": "Bewaart de toestemmingsstatus van de bezoeker.",
       "_lfa_test_cookie_stored": "Controleert of cookies kunnen worden opgeslagen.",
       "ldfdr_opt_out": "Onthoudt dat de bezoeker zich heeft afgemeld."
-    },
-    "machine": true
-  },
-  "lets-connect": {
-    "purpose": "Livechat en videogesprekken.",
-    "cookies": {
-      "pa_bsid": "Herkent de chatsessie van de bezoeker."
     },
     "machine": true
   },
@@ -775,6 +776,17 @@
     },
     "machine": true
   },
+  "mux": {
+    "purpose": "Toont ingesloten video's.",
+    "cookies": {
+      "muxData": "Onderscheidt kijkers en kijksessies."
+    },
+    "machine": true
+  },
+  "myfonts": {
+    "purpose": "Laadt gelicentieerde lettertypen en telt paginaweergaven.",
+    "machine": true
+  },
   "onesignal": {
     "purpose": "Stuurt webpushmeldingen en in-app-berichten.",
     "machine": true
@@ -938,6 +950,10 @@
     "purpose": "Chat met de klantenservice.",
     "machine": true
   },
+  "reddit-embed": {
+    "purpose": "Toont ingesloten Reddit-berichten en -reacties.",
+    "machine": true
+  },
   "reddit-pixel": {
     "purpose": "Meet Reddit-advertenties.",
     "cookies": {
@@ -972,6 +988,10 @@
       "_shopify_y": "Onderscheidt bezoekers van elkaar.",
       "_shopify_s": "Groepeert paginaweergaven tot één bezoek."
     },
+    "machine": true
+  },
+  "shortpixel-cdn": {
+    "purpose": "Levert de afbeeldingen van de site sneller.",
     "machine": true
   },
   "sketchfab": {
@@ -1171,6 +1191,13 @@
     "purpose": "Voegt een toegankelijkheidsmenu toe aan de site.",
     "machine": true
   },
+  "vega": {
+    "purpose": "Beoordeelt bezoekersgedrag en toont chat en pop-ups.",
+    "cookies": {
+      "pa_bsid": "Herkent de browsersessie van de bezoeker."
+    },
+    "machine": true
+  },
   "vg-wort": {
     "purpose": "Telt hoe vaak teksten worden gelezen, zodat auteurs worden betaald.",
     "machine": true
@@ -1208,6 +1235,15 @@
     },
     "machine": true
   },
+  "wikimedia-commons": {
+    "purpose": "Toont afbeeldingen en media van Wikimedia Commons.",
+    "cookies": {
+      "WMF-Uniq": "Telt bezoekers en helpt aanvallen te blokkeren.",
+      "WMF-Last-Access": "Telt unieke apparaten.",
+      "NetworkProbeLimit": "Beperkt controles van de netwerkprestaties."
+    },
+    "machine": true
+  },
   "wistia": {
     "purpose": "Toont ingesloten video's.",
     "cookies": {
@@ -1215,6 +1251,10 @@
       "_simplex": "Bewaart verwijzer en landingspagina.",
       "wistia": "Nodig voor de werking van de videospeler."
     },
+    "machine": true
+  },
+  "wix-media": {
+    "purpose": "Toont afbeeldingen en video's die bij Wix worden gehost.",
     "machine": true
   },
   "wlw": {
@@ -1248,6 +1288,10 @@
   },
   "wordpress-org": {
     "purpose": "Levert WordPress-emoji en -afbeeldingen.",
+    "machine": true
+  },
+  "wpmudev-cdn": {
+    "purpose": "Levert de afbeeldingen en bestanden van de site sneller.",
     "machine": true
   },
   "x-embed": {
@@ -1311,6 +1355,17 @@
   },
   "zoho-bookings": {
     "purpose": "Toont een ingesloten boekingskalender.",
+    "machine": true
+  },
+  "zoho-campaigns": {
+    "purpose": "Toont aanmeldformulieren voor e-mails.",
+    "cookies": {
+      "zc_dis": "Onthoudt wanneer een pop-upformulier moet verschijnen.",
+      "zc_cmp": "Koppelt een formulierbezoek aan een e-mailcampagne.",
+      "ZCAMPAIGN_CSRF_TOKEN": "Beschermt formulierinzendingen tegen vervalsing.",
+      "zmpncc": "Houdt de formulierdienst veilig.",
+      "zfccn": "Houdt de formulierdienst veilig."
+    },
     "machine": true
   },
   "zoho-forms": {

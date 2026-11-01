@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
   "id": "linkedin-insight",
-  "version": 2,
+  "version": 3,
   "name": "LinkedIn Insight Tag",
   "provider": "LinkedIn Ireland Unlimited Company",
   "category": "marketing",
@@ -28,8 +28,7 @@
     {
       "name": "bcookie",
       "lifetime": "1 year",
-      "purpose": "Tells browsers apart.",
-      "httpOnly": true
+      "purpose": "Tells browsers apart."
     },
     {
       "name": "UserMatchHistory",
@@ -73,5 +72,5 @@
     "https://www.linkedin.com/help/linkedin/answer/a1343190/",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-01"
 }

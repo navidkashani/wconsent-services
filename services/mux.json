@@ -1,0 +1,61 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "mux",
+  "version": 1,
+  "name": "Mux",
+  "provider": "Mux, Inc.",
+  "category": "media",
+  "purpose": "Shows embedded videos.",
+  "privacyUrl": "https://www.mux.com/privacy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "player.mux.com",
+      "stream.mux.com",
+      "image.mux.com",
+      "license.mux.com",
+      "litix.io",
+      "cdn.jsdelivr.net/npm/@mux/"
+    ],
+    "inline": [
+      "mux.monitor("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "muxData",
+      "lifetime": "1 year",
+      "purpose": "Tells viewers and viewing sessions apart."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "video",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://www.mux.com/privacy",
+    "https://www.mux.com/docs/guides/ensure-data-privacy-compliance.md",
+    "https://www.mux.com/docs/guides/mux-player-web.md",
+    "https://www.mux.com/docs/guides/player-integrate-in-your-webapp.md",
+    "https://www.mux.com/docs/guides/play-your-videos.md",
+    "https://www.mux.com/docs/guides/get-images-from-a-video.md",
+    "https://www.mux.com/docs/guides/protect-videos-with-drm.md",
+    "https://www.mux.com/docs/guides/monitor-html5-video-element.md",
+    "https://www.mux.com/docs/guides/integrate-a-data-custom-domain.md",
+    "https://www.mux.com/docs/guides/use-a-custom-domain-for-streaming.md",
+    "https://www.mux.com/docs/integrations/wordpress.md",
+    "https://raw.githubusercontent.com/muxinc/elements/refs/heads/main/packages/mux-player/REFERENCE.md",
+    "https://src.litix.io/core/4/mux.js",
+    "https://cdn.jsdelivr.net/npm/@mux/mux-player@3.14.1/dist/mux-player.min.js",
+    "https://player.mux.com/EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

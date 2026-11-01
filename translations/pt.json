@@ -324,6 +324,10 @@
     "purpose": "Carrega os ícones do site a partir do Font Awesome.",
     "machine": true
   },
+  "found-ee": {
+    "purpose": "Cria públicos de anúncios a partir dos visitantes do site.",
+    "machine": true
+  },
   "fraud-blocker": {
     "purpose": "Identifica cliques falsos nos anúncios do site.",
     "machine": true
@@ -578,6 +582,10 @@
     "purpose": "Mostra mapas de percursos incorporados.",
     "machine": true
   },
+  "kustom": {
+    "purpose": "Gere o checkout e processa os pagamentos.",
+    "machine": true
+  },
   "kuula": {
     "purpose": "Mostra visitas virtuais 360° incorporadas.",
     "machine": true
@@ -589,13 +597,6 @@
       "_lfa_consent": "Guarda o estado de consentimento do visitante.",
       "_lfa_test_cookie_stored": "Verifica se é possível guardar cookies.",
       "ldfdr_opt_out": "Lembra que o visitante recusou."
-    },
-    "machine": true
-  },
-  "lets-connect": {
-    "purpose": "Chat ao vivo e videochamadas.",
-    "cookies": {
-      "pa_bsid": "Reconhece a sessão de chat do visitante."
     },
     "machine": true
   },
@@ -775,6 +776,17 @@
     },
     "machine": true
   },
+  "mux": {
+    "purpose": "Mostra vídeos incorporados.",
+    "cookies": {
+      "muxData": "Distingue espectadores e sessões de visualização."
+    },
+    "machine": true
+  },
+  "myfonts": {
+    "purpose": "Carrega fontes licenciadas e conta as visualizações de página.",
+    "machine": true
+  },
   "onesignal": {
     "purpose": "Envia notificações push web e mensagens na aplicação.",
     "machine": true
@@ -938,6 +950,10 @@
     "purpose": "Chat de apoio ao cliente.",
     "machine": true
   },
+  "reddit-embed": {
+    "purpose": "Mostra publicações e comentários do Reddit incorporados.",
+    "machine": true
+  },
   "reddit-pixel": {
     "purpose": "Mede anúncios do Reddit.",
     "cookies": {
@@ -972,6 +988,10 @@
       "_shopify_y": "Distingue os visitantes.",
       "_shopify_s": "Agrupa as visualizações de página numa visita."
     },
+    "machine": true
+  },
+  "shortpixel-cdn": {
+    "purpose": "Fornece mais depressa as imagens do site.",
     "machine": true
   },
   "sketchfab": {
@@ -1171,6 +1191,13 @@
     "purpose": "Adiciona um menu de acessibilidade ao site.",
     "machine": true
   },
+  "vega": {
+    "purpose": "Avalia o comportamento dos visitantes e mostra chat e pop-ups.",
+    "cookies": {
+      "pa_bsid": "Reconhece a sessão do visitante no navegador."
+    },
+    "machine": true
+  },
   "vg-wort": {
     "purpose": "Conta as leituras dos textos para que os autores sejam pagos.",
     "machine": true
@@ -1208,6 +1235,15 @@
     },
     "machine": true
   },
+  "wikimedia-commons": {
+    "purpose": "Mostra imagens e multimédia do Wikimedia Commons.",
+    "cookies": {
+      "WMF-Uniq": "Conta visitantes e ajuda a bloquear ataques.",
+      "WMF-Last-Access": "Conta dispositivos únicos.",
+      "NetworkProbeLimit": "Limita as verificações de desempenho da rede."
+    },
+    "machine": true
+  },
   "wistia": {
     "purpose": "Mostra vídeos incorporados.",
     "cookies": {
@@ -1215,6 +1251,10 @@
       "_simplex": "Guarda a origem e a página de destino.",
       "wistia": "Necessário para o funcionamento do player de vídeo."
     },
+    "machine": true
+  },
+  "wix-media": {
+    "purpose": "Mostra imagens e vídeos alojados no Wix.",
     "machine": true
   },
   "wlw": {
@@ -1248,6 +1288,10 @@
   },
   "wordpress-org": {
     "purpose": "Fornece emojis e imagens do WordPress.",
+    "machine": true
+  },
+  "wpmudev-cdn": {
+    "purpose": "Fornece mais depressa as imagens e ficheiros do site.",
     "machine": true
   },
   "x-embed": {
@@ -1311,6 +1355,17 @@
   },
   "zoho-bookings": {
     "purpose": "Mostra um calendário de agendamento incorporado.",
+    "machine": true
+  },
+  "zoho-campaigns": {
+    "purpose": "Mostra formulários de subscrição por e-mail.",
+    "cookies": {
+      "zc_dis": "Lembra quando mostrar um formulário pop-up.",
+      "zc_cmp": "Associa uma visita ao formulário a uma campanha de e-mail.",
+      "ZCAMPAIGN_CSRF_TOKEN": "Protege os envios de formulários contra falsificação.",
+      "zmpncc": "Mantém seguro o serviço de formulários.",
+      "zfccn": "Mantém seguro o serviço de formulários."
+    },
     "machine": true
   },
   "zoho-forms": {

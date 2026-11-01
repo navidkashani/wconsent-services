@@ -1,0 +1,97 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "zoho-campaigns",
+  "version": 1,
+  "name": "Zoho Campaigns",
+  "provider": "Zoho Corporation B.V.",
+  "category": "marketing",
+  "purpose": "Shows email sign-up forms.",
+  "privacyUrl": "https://www.zoho.com/privacy.html",
+  "dataCountry": "EU for EU accounts; otherwise USA, India or another Zoho region",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "campaigns.zoho.com",
+      "campaigns.zoho.eu",
+      "campaigns.zoho.in",
+      "campaigns.zoho.com.au",
+      "campaigns.zoho.jp",
+      "campaigns.zohocloud.ca",
+      "campaigns.zoho.com.cn",
+      "campaigns.zoho.sa",
+      "campaigns.zoho.uk",
+      "campaigns.zoho.ae",
+      "maillist-manage.com",
+      "maillist-manage.eu",
+      "maillist-manage.in",
+      "maillist-manage.net",
+      "maillist-manage.com.au",
+      "maillist-manage.jp",
+      "maillist-manage.ca",
+      "maillist-manage.com.cn",
+      "maillist-manage.sa",
+      "maillist-manage.uk",
+      "maillist-manage.ae"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "zc_dis",
+      "lifetime": "12 months",
+      "purpose": "Remembers when to show a pop-up form."
+    },
+    {
+      "name": "zc_cmp",
+      "lifetime": "1 minute",
+      "purpose": "Links a form visit to an email campaign."
+    },
+    {
+      "name": "ZCAMPAIGN_CSRF_TOKEN",
+      "lifetime": "Session",
+      "purpose": "Protects form submissions from forgery."
+    },
+    {
+      "name": "zmpncc",
+      "lifetime": "Session",
+      "purpose": "Keeps the form service secure."
+    },
+    {
+      "name": "zfccn",
+      "lifetime": "Session",
+      "purpose": "Keeps the form service secure."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "zoho-campaigns/index.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://www.zoho.com/campaigns/cookie-policy.html",
+    "https://help.zoho.com/portal/en/kb/campaigns/user-guide/signup-forms/creating-a-signup-form/articles/how-to-publish-signup-form",
+    "https://help.zoho.com/portal/en/community/topic/tip-of-the-week-91-managing-your-signup-forms-using-iframe-code",
+    "https://maillist-manage.com/js/optin.min.js",
+    "https://campaigns.zoho.com/js/optin.min.js",
+    "https://campaigns.zoho.com/js/zc.iframe.js",
+    "https://www.zoho.com/privacy.html",
+    "https://www.zoho.com/privacy/privacy-faq.html",
+    "https://www.zoho.com/privacy/zoho-group.html",
+    "https://www.zoho.com/legal/zoho-contracting-entities.html",
+    "https://wordpress.org/plugins/zoho-campaigns/",
+    "https://plugins.svn.wordpress.org/zoho-campaigns/trunk/index.php",
+    "https://plugins.svn.wordpress.org/zoho-campaigns/trunk/includes/class.zcwc.php",
+    "https://github.com/fynelabs/fysion.app/blob/main/signup.html",
+    "https://github.com/0xMacro/library/blob/master/client/learn_evm/_newsletter-signup.html",
+    "https://github.com/LSchlierf/sevenheaven-next/blob/main/components/NewsletterSignup.tsx",
+    "https://github.com/Git-Commit-Show/landing-page/blob/master/index.html",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
