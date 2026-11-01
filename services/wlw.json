@@ -1,0 +1,47 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "wlw",
+  "version": 1,
+  "name": "Visable Website Leads",
+  "provider": "Visable GmbH",
+  "category": "marketing",
+  "purpose": "Shows the site owner which companies visit.",
+  "privacyUrl": "https://www.visable.com/en_int/data-privacy",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "visableleads.com"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "VISABLELEADS_DONT_TRACK_*",
+      "lifetime": "10 years",
+      "purpose": "Remembers that the visitor opted out."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://hilfe.wlw.de/en/anbieter/website-leads",
+    "https://hilfe.wlw.de/en/anbieter/website-leads-installation",
+    "https://hilfe.wlw.de/en/anbieter/website-leads-integration-into-the-html-code",
+    "https://hilfe.wlw.de/en/anbieter/website-leads-integration-in-google-tag-manager",
+    "https://hilfe.wlw.de/en/anbieter/adapt-privacy-statement",
+    "https://www.visable.com/en_int/contact-us-1/website-leads-wlw",
+    "https://www.visable.com/en_int/data-privacy",
+    "https://github.com/marbinkaraus/visable-tag-template",
+    "https://www.visableleads.com/v1/cp/eecfb001f9dc0ebd9a1097f401d3684a",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

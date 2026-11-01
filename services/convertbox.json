@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "convertbox",
+  "version": 1,
+  "name": "ConvertBox",
+  "provider": "ThriveCart LLC",
+  "category": "marketing",
+  "purpose": "Shows pop-ups, forms and personalised messages.",
+  "privacyUrl": "https://convertbox.com/privacy-policy/",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "app.convertbox.com",
+      "cdn.convertbox.com",
+      "images.convertbox.com"
+    ],
+    "inline": [
+      "cdn.convertbox.com/convertbox/js/embed.js",
+      "app-convertbox-script"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "__storejs_convertbox_*",
+    "cbox_last_user_check"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "convertbox-auto-embed/convert-box-plugin.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://support.convertbox.com/knowledge-base/how-to-install-convertbox-on-your-site/",
+    "https://support.convertbox.com/knowledge-base/how-to-find-the-embed-code-for-your-site/",
+    "https://support.convertbox.com/knowledge-base/how-to-embed-convertbox/",
+    "https://convertbox.com/privacy-policy/",
+    "https://convertbox.com/cookie-policy/",
+    "https://convertbox.com/gdpr/",
+    "https://convertbox.com/data-processing-agreement/",
+    "https://convertbox.com/terms-conditions/",
+    "https://cdn.convertbox.com/convertbox/js/embed.js",
+    "https://cdn.convertbox.com/convertbox/js/embed-core.js",
+    "https://wordpress.org/plugins/convertbox-auto-embed/",
+    "https://plugins.svn.wordpress.org/convertbox-auto-embed/trunk/convert-box-plugin.php",
+    "https://plugins.svn.wordpress.org/convertbox-auto-embed/trunk/embed-code.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

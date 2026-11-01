@@ -1,0 +1,75 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "tradetracker",
+  "version": 1,
+  "name": "TradeTracker",
+  "provider": "TradeTracker International B.V.",
+  "category": "marketing",
+  "purpose": "Tracks sales from affiliate links.",
+  "privacyUrl": "https://tradetracker.com/privacy-policy/",
+  "dataCountry": "EU (Ireland)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "tradetracker.net"
+    ],
+    "inline": [
+      "ttConversionOptions"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "TT2_*",
+      "lifetime": "1 year",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "TTS_*",
+      "lifetime": "Session",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "__tgdat*",
+      "lifetime": "Up to 365 days",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "__tdat*",
+      "lifetime": "Up to 365 days",
+      "purpose": "Remembers the affiliate click to credit a sale."
+    },
+    {
+      "name": "__bctdat",
+      "lifetime": "Session",
+      "purpose": "Stores details of a click."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "tradetracker-connect/tradetracker-connect.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://sc.tradetracker.net/implementation/overview",
+    "https://sc.tradetracker.net/implementation/overview?f[id]=1",
+    "https://sc.tradetracker.net/implementation/overview?f[id]=27",
+    "https://sc.tradetracker.net/implementation/overview?f[id]=38",
+    "https://sc.tradetracker.net/implementation/download/?filePath=%2Fexample_codes%2Fredirect%2Fphp%2Findex.php",
+    "https://tm.tradetracker.net/conversion?s=27&t=m",
+    "https://tradetracker.com/privacy-policy/",
+    "https://tradetracker.com/gb/privacy-policy/",
+    "https://tradetracker.com/gb/privacy-policy/how-we-use-cookies/",
+    "https://tradetracker.com/llms.txt",
+    "https://wordpress.org/plugins/tradetracker-connect/",
+    "https://plugins.svn.wordpress.org/tradetracker-connect/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "microanalytics",
+  "version": 1,
+  "name": "Microanalytics",
+  "provider": "",
+  "category": "statistics",
+  "purpose": "Measures visits without cookies.",
+  "privacyUrl": "https://app.microanalytics.io/pages/privacy",
+  "dataCountry": "EU (France)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "microanalytics.io/js/script.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://app.microanalytics.io/pages/about",
+    "https://app.microanalytics.io/pages/privacy",
+    "https://app.microanalytics.io/pages/terms",
+    "https://microanalytics.io/",
+    "https://microanalytics.io/js/script.js",
+    "https://wordpress.org/plugins/search/microanalytics/"
+  ],
+  "checked": "2026-10-31"
+}

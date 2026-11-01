@@ -196,6 +196,10 @@
     },
     "machine": true
   },
+  "convertbox": {
+    "purpose": "Toont pop-ups, formulieren en gepersonaliseerde berichten.",
+    "machine": true
+  },
   "crazy-egg": {
     "purpose": "Heatmaps en sessieopnames.",
     "cookies": {
@@ -243,6 +247,13 @@
     },
     "machine": true
   },
+  "encharge": {
+    "purpose": "Volgt bezoeken en toont aanmeldformulieren.",
+    "cookies": {
+      "encheventsnippet": "Onderscheidt bezoekers van elkaar."
+    },
+    "machine": true
+  },
   "etracker": {
     "purpose": "Meet bezoeken en conversies.",
     "cookies": {
@@ -261,12 +272,30 @@
     "purpose": "Meet bezoeken zonder cookies.",
     "machine": true
   },
+  "firstpromoter": {
+    "purpose": "Volgt aanmeldingen en verkopen via affiliatelinks.",
+    "cookies": {
+      "_fprom_tid": "Bewaart de ID van een affiliatebezoek.",
+      "_fprom_ref": "Onthoudt welke affiliate de bezoeker heeft doorgestuurd.",
+      "_fprom_details": "Bewaart de aanbiedingsgegevens van de affiliate.",
+      "_fprom_ref_fallback": "Onthoudt welke affiliate de bezoeker heeft doorgestuurd.",
+      "_fprom_track": "Bewaart de ID van een affiliatebezoek.",
+      "_fprom_code": "Onthoudt welke affiliate de bezoeker heeft doorgestuurd.",
+      "_fprom_signup": "Registreert dat een doorverwezen bezoeker zich heeft aangemeld.",
+      "_fprom_sale": "Registreert dat een doorverwezen bezoeker iets heeft gekocht."
+    },
+    "machine": true
+  },
   "flickr": {
     "purpose": "Toont ingesloten foto's.",
     "machine": true
   },
   "font-awesome": {
     "purpose": "Laadt de pictogrammen van de site van Font Awesome.",
+    "machine": true
+  },
+  "fraud-blocker": {
+    "purpose": "Detecteert nepklikken op de advertenties van de site.",
     "machine": true
   },
   "freshchat": {
@@ -373,6 +402,10 @@
   },
   "gravatar": {
     "purpose": "Toont profielfoto's naast reacties.",
+    "machine": true
+  },
+  "gtranslate": {
+    "purpose": "Vertaalt de pagina naar andere talen.",
     "machine": true
   },
   "hcaptcha": {
@@ -499,6 +532,10 @@
     },
     "machine": true
   },
+  "klook": {
+    "purpose": "Toont boekbare tours en activiteiten.",
+    "machine": true
+  },
   "komoot": {
     "purpose": "Toont ingesloten routekaarten.",
     "machine": true
@@ -510,6 +547,13 @@
       "_lfa_consent": "Bewaart de toestemmingsstatus van de bezoeker.",
       "_lfa_test_cookie_stored": "Controleert of cookies kunnen worden opgeslagen.",
       "ldfdr_opt_out": "Onthoudt dat de bezoeker zich heeft afgemeld."
+    },
+    "machine": true
+  },
+  "lets-connect": {
+    "purpose": "Livechat en videogesprekken.",
+    "cookies": {
+      "pa_bsid": "Herkent de chatsessie van de bezoeker."
     },
     "machine": true
   },
@@ -638,6 +682,10 @@
   },
   "metricool": {
     "purpose": "Telt bezoeken en bekeken pagina's.",
+    "machine": true
+  },
+  "microanalytics": {
+    "purpose": "Meet bezoeken zonder cookies.",
     "machine": true
   },
   "microsoft-advertising": {
@@ -847,6 +895,10 @@
     "purpose": "Meet bezoeken zonder cookies.",
     "machine": true
   },
+  "salesviewer": {
+    "purpose": "Identificeert bedrijven die de site bezoeken.",
+    "machine": true
+  },
   "segment": {
     "purpose": "Verzamelt bezoekgegevens voor de andere tools van de site.",
     "cookies": {
@@ -903,6 +955,13 @@
     "cookies": {
       "sp_t": "Nodig voor de werking van de ingesloten Spotify-speler.",
       "sp_landing": "Nodig voor de werking van de ingesloten Spotify-speler."
+    },
+    "machine": true
+  },
+  "stay22": {
+    "purpose": "Toont hotelkaarten en volgt affiliatelinks.",
+    "cookies": {
+      "session22": "Identificeert de sessie van de bezoeker."
     },
     "machine": true
   },
@@ -981,6 +1040,17 @@
     },
     "machine": true
   },
+  "tradetracker": {
+    "purpose": "Volgt verkopen via affiliatelinks.",
+    "cookies": {
+      "TT2_*": "Onthoudt de klik op een affiliatelink om de verkoop toe te wijzen.",
+      "TTS_*": "Onthoudt de klik op een affiliatelink om de verkoop toe te wijzen.",
+      "__tgdat*": "Onthoudt de klik op een affiliatelink om de verkoop toe te wijzen.",
+      "__tdat*": "Onthoudt de klik op een affiliatelink om de verkoop toe te wijzen.",
+      "__bctdat": "Bewaart gegevens van een klik."
+    },
+    "machine": true
+  },
   "trusted-shops": {
     "purpose": "Toont een keurmerk en winkelbeoordelingen.",
     "cookies": {
@@ -1054,6 +1124,10 @@
     },
     "machine": true
   },
+  "visitortracking": {
+    "purpose": "Identificeert bedrijven die de site bezoeken.",
+    "machine": true
+  },
   "vwo": {
     "purpose": "Voert A/B-tests uit en meet de resultaten.",
     "cookies": {
@@ -1078,6 +1152,13 @@
       "_distillery": "Hervat een video op de plek waar de bezoeker bleef.",
       "_simplex": "Bewaart verwijzer en landingspagina.",
       "wistia": "Nodig voor de werking van de videospeler."
+    },
+    "machine": true
+  },
+  "wlw": {
+    "purpose": "Toont de site-eigenaar welke bedrijven de site bezoeken.",
+    "cookies": {
+      "VISABLELEADS_DONT_TRACK_*": "Onthoudt dat de bezoeker zich heeft afgemeld."
     },
     "machine": true
   },
@@ -1168,6 +1249,25 @@
   },
   "zoho-forms": {
     "purpose": "Toont ingesloten formulieren.",
+    "machine": true
+  },
+  "zoho-marketing-automation": {
+    "purpose": "Volgt bezoeken en toont aanmeldformulieren.",
+    "cookies": {
+      "zc_consent": "Onthoudt of tracking is geaccepteerd.",
+      "zc_show": "Onthoudt of de privacybanner getoond moet worden.",
+      "zpc*": "Voorkomt dat de privacybanner opnieuw verschijnt.",
+      "zc_loc": "Controleert of locatiegegevens zijn verzonden.",
+      "zpsPopupBucket": "Onthoudt welke pop-uptest getoond moet worden.",
+      "zpspb*": "Voert een pop-uptest uit.",
+      "zc_cu": "Onderscheidt bezoekers van elkaar.",
+      "zc_cu_exp": "Herkent terugkerende bezoekers.",
+      "zc_tp": "Registreert waar de bezoeker vandaan kwam.",
+      "zabUserId": "Onderscheidt nieuwe van terugkerende bezoekers.",
+      "zsc*": "Identificeert het huidige bezoek.",
+      "zft-sdc": "Bewaart hoe het bezoek is begonnen.",
+      "zps-tgr-dts": "Start acties zodra aan hun trigger is voldaan."
+    },
     "machine": true
   },
   "zoho-pagesense": {

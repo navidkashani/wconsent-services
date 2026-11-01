@@ -1,0 +1,53 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "encharge",
+  "version": 1,
+  "name": "Encharge",
+  "provider": "PXCH Holding I, LLC",
+  "category": "marketing",
+  "purpose": "Tracks visits and shows sign-up forms.",
+  "privacyUrl": "https://encharge.io/privacy-policy/",
+  "dataCountry": "EU (Ireland)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "resources-app.encharge.io",
+      "forms.encharge.io"
+    ],
+    "inline": [
+      "window.EncTracking"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "encheventsnippet",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [],
+    "handles": []
+  },
+  "sources": [
+    "https://help.encharge.io/article/209-set-up-site-tracking",
+    "https://help.encharge.io/en/article/step-8-set-up-site-tracking-uid2uj/",
+    "https://help.encharge.io/en/article/native-forms-sd5ief/",
+    "https://help.encharge.io/en/article/anonymous-people-and-identified-people-sba4tw/",
+    "https://docs.encharge.io/getting-started/connecting-your-app-to-encharge/javascript-event-tracking",
+    "https://resources-app.encharge.io/encharge-tracking.min.js",
+    "https://resources-app.encharge.io/embed-production.min.js",
+    "https://encharge.io/privacy-policy/",
+    "https://web.archive.org/web/20261007230824/https://encharge.io/privacy-policy/",
+    "https://gdpr.encharge.io/",
+    "https://plugins.svn.wordpress.org/wp-fusion-lite/trunk/includes/crms/encharge/class-encharge.php",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

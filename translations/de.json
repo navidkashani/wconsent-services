@@ -196,6 +196,10 @@
     },
     "machine": true
   },
+  "convertbox": {
+    "purpose": "Zeigt Pop-ups, Formulare und personalisierte Nachrichten an.",
+    "machine": true
+  },
   "crazy-egg": {
     "purpose": "Heatmaps und Sitzungsaufzeichnungen.",
     "cookies": {
@@ -243,6 +247,13 @@
     },
     "machine": true
   },
+  "encharge": {
+    "purpose": "Erfasst Besuche und zeigt Anmeldeformulare an.",
+    "cookies": {
+      "encheventsnippet": "Unterscheidet Besucher."
+    },
+    "machine": true
+  },
   "etracker": {
     "purpose": "Misst Besuche und Conversions.",
     "cookies": {
@@ -261,12 +272,30 @@
     "purpose": "Misst Besuche ohne Cookies.",
     "machine": true
   },
+  "firstpromoter": {
+    "purpose": "Erfasst Anmeldungen und Verkäufe über Partnerlinks.",
+    "cookies": {
+      "_fprom_tid": "Speichert die ID eines Besuchs über einen Partnerlink.",
+      "_fprom_ref": "Merkt sich, welcher Partner den Besucher geschickt hat.",
+      "_fprom_details": "Speichert die Angebotsdetails des Partners.",
+      "_fprom_ref_fallback": "Merkt sich, welcher Partner den Besucher geschickt hat.",
+      "_fprom_track": "Speichert die ID eines Besuchs über einen Partnerlink.",
+      "_fprom_code": "Merkt sich, welcher Partner den Besucher geschickt hat.",
+      "_fprom_signup": "Hält fest, dass sich ein vermittelter Besucher angemeldet hat.",
+      "_fprom_sale": "Hält fest, dass ein vermittelter Besucher gekauft hat."
+    },
+    "machine": true
+  },
   "flickr": {
     "purpose": "Zeigt eingebettete Fotos an.",
     "machine": true
   },
   "font-awesome": {
     "purpose": "Lädt die Symbole der Website von Font Awesome.",
+    "machine": true
+  },
+  "fraud-blocker": {
+    "purpose": "Erkennt gefälschte Klicks auf die Anzeigen der Website.",
     "machine": true
   },
   "freshchat": {
@@ -373,6 +402,10 @@
   },
   "gravatar": {
     "purpose": "Zeigt Profilbilder neben Kommentaren an.",
+    "machine": true
+  },
+  "gtranslate": {
+    "purpose": "Übersetzt die Seite in andere Sprachen.",
     "machine": true
   },
   "hcaptcha": {
@@ -499,6 +532,10 @@
     },
     "machine": true
   },
+  "klook": {
+    "purpose": "Zeigt buchbare Touren und Aktivitäten an.",
+    "machine": true
+  },
   "komoot": {
     "purpose": "Zeigt eingebettete Tourenkarten an.",
     "machine": true
@@ -510,6 +547,13 @@
       "_lfa_consent": "Speichert den Einwilligungsstatus des Besuchers.",
       "_lfa_test_cookie_stored": "Prüft, ob Cookies gespeichert werden können.",
       "ldfdr_opt_out": "Merkt sich, dass der Besucher widersprochen hat."
+    },
+    "machine": true
+  },
+  "lets-connect": {
+    "purpose": "Live-Chat und Videoanrufe.",
+    "cookies": {
+      "pa_bsid": "Erkennt die Chat-Sitzung des Besuchers."
     },
     "machine": true
   },
@@ -638,6 +682,10 @@
   },
   "metricool": {
     "purpose": "Zählt Besuche und aufgerufene Seiten.",
+    "machine": true
+  },
+  "microanalytics": {
+    "purpose": "Misst Besuche ohne Cookies.",
     "machine": true
   },
   "microsoft-advertising": {
@@ -847,6 +895,10 @@
     "purpose": "Misst Besuche ohne Cookies.",
     "machine": true
   },
+  "salesviewer": {
+    "purpose": "Erkennt Unternehmen, die die Website besuchen.",
+    "machine": true
+  },
   "segment": {
     "purpose": "Erfasst Besuchsdaten für die anderen Tools der Website.",
     "cookies": {
@@ -903,6 +955,13 @@
     "cookies": {
       "sp_t": "Erforderlich, damit die Spotify-Einbettung funktioniert.",
       "sp_landing": "Erforderlich, damit die Spotify-Einbettung funktioniert."
+    },
+    "machine": true
+  },
+  "stay22": {
+    "purpose": "Zeigt Hotelkarten an und erfasst Partnerlinks.",
+    "cookies": {
+      "session22": "Identifiziert die Sitzung des Besuchers."
     },
     "machine": true
   },
@@ -981,6 +1040,17 @@
     },
     "machine": true
   },
+  "tradetracker": {
+    "purpose": "Erfasst Verkäufe über Partnerlinks.",
+    "cookies": {
+      "TT2_*": "Merkt sich den Klick auf einen Partnerlink, um den Verkauf zuzuordnen.",
+      "TTS_*": "Merkt sich den Klick auf einen Partnerlink, um den Verkauf zuzuordnen.",
+      "__tgdat*": "Merkt sich den Klick auf einen Partnerlink, um den Verkauf zuzuordnen.",
+      "__tdat*": "Merkt sich den Klick auf einen Partnerlink, um den Verkauf zuzuordnen.",
+      "__bctdat": "Speichert Details zu einem Klick."
+    },
+    "machine": true
+  },
   "trusted-shops": {
     "purpose": "Zeigt ein Gütesiegel und Shopbewertungen an.",
     "cookies": {
@@ -1054,6 +1124,10 @@
     },
     "machine": true
   },
+  "visitortracking": {
+    "purpose": "Erkennt Unternehmen, die die Website besuchen.",
+    "machine": true
+  },
   "vwo": {
     "purpose": "Führt A/B-Tests durch und misst die Ergebnisse.",
     "cookies": {
@@ -1078,6 +1152,13 @@
       "_distillery": "Setzt ein Video dort fort, wo die Wiedergabe unterbrochen wurde.",
       "_simplex": "Speichert Referrer und Einstiegsseite.",
       "wistia": "Erforderlich, damit der Video-Player funktioniert."
+    },
+    "machine": true
+  },
+  "wlw": {
+    "purpose": "Zeigt dem Website-Betreiber, welche Firmen die Website besuchen.",
+    "cookies": {
+      "VISABLELEADS_DONT_TRACK_*": "Merkt sich, dass der Besucher widersprochen hat."
     },
     "machine": true
   },
@@ -1168,6 +1249,25 @@
   },
   "zoho-forms": {
     "purpose": "Zeigt eingebettete Formulare an.",
+    "machine": true
+  },
+  "zoho-marketing-automation": {
+    "purpose": "Erfasst Besuche und zeigt Anmeldeformulare an.",
+    "cookies": {
+      "zc_consent": "Merkt sich, ob Tracking akzeptiert wurde.",
+      "zc_show": "Merkt sich, ob der Datenschutzhinweis angezeigt werden soll.",
+      "zpc*": "Verhindert, dass der Datenschutzhinweis erneut erscheint.",
+      "zc_loc": "Prüft, ob Standortdaten gesendet wurden.",
+      "zpsPopupBucket": "Merkt sich, welcher Pop-up-Test angezeigt werden soll.",
+      "zpspb*": "Führt einen Pop-up-Test durch.",
+      "zc_cu": "Unterscheidet Besucher.",
+      "zc_cu_exp": "Erkennt wiederkehrende Besucher.",
+      "zc_tp": "Hält fest, woher der Besucher kam.",
+      "zabUserId": "Unterscheidet neue und wiederkehrende Besucher.",
+      "zsc*": "Identifiziert den aktuellen Besuch.",
+      "zft-sdc": "Speichert, wie der Besuch begonnen hat.",
+      "zps-tgr-dts": "Startet Aktionen, sobald ihr Auslöser eintritt."
+    },
     "machine": true
   },
   "zoho-pagesense": {

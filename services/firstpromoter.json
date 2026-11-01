@@ -1,0 +1,99 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "firstpromoter",
+  "version": 1,
+  "name": "FirstPromoter",
+  "provider": "Igil Webs SRL",
+  "category": "marketing",
+  "purpose": "Tracks sign-ups and sales from affiliate links.",
+  "privacyUrl": "https://firstpromoter.com/privacy",
+  "dataCountry": "EU (Romania) and USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "cdn.firstpromoter.com",
+      "t.firstpromoter.com"
+    ],
+    "inline": [
+      "w.fpr=w.fpr||function",
+      "w.fpr = w.fpr || function",
+      "fpr(\"init\"",
+      "fpr(\"referral\"",
+      "fpr('referral'"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_fprom_tid",
+      "lifetime": "60 days by default",
+      "purpose": "Stores the ID of an affiliate visit."
+    },
+    {
+      "name": "_fprom_ref",
+      "lifetime": "60 days by default",
+      "purpose": "Remembers which affiliate sent the visitor."
+    },
+    {
+      "name": "_fprom_details",
+      "lifetime": "1 day",
+      "purpose": "Stores the affiliate's offer details."
+    },
+    {
+      "name": "_fprom_ref_fallback",
+      "lifetime": "30 days",
+      "purpose": "Remembers which affiliate sent the visitor.",
+      "httpOnly": true
+    },
+    {
+      "name": "_fprom_track",
+      "lifetime": "60 days by default",
+      "purpose": "Stores the ID of an affiliate visit."
+    },
+    {
+      "name": "_fprom_code",
+      "lifetime": "60 days by default",
+      "purpose": "Remembers which affiliate sent the visitor."
+    },
+    {
+      "name": "_fprom_signup",
+      "lifetime": "60 days by default",
+      "purpose": "Records that a referred visitor signed up."
+    },
+    {
+      "name": "_fprom_sale",
+      "lifetime": "60 days by default",
+      "purpose": "Records that a referred visitor bought."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "firstpromoter/firstpromoter.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://docs.firstpromoter.com/script-docs/fpr-js-docs",
+    "https://docs.firstpromoter.com/script-docs/advanced",
+    "https://docs.firstpromoter.com/script-docs/concepts",
+    "https://docs.firstpromoter.com/guides/tracking-with-fprjs",
+    "https://docs.firstpromoter.com/guides/integrate-your-website",
+    "https://docs.firstpromoter.com/guides/proxy-setup",
+    "https://docs.firstpromoter.com/integrations/tracking/platform/wordpress",
+    "https://help.firstpromoter.com/en/articles/8971305-how-to-set-up-and-configure-a-campaign",
+    "https://firstpromoter.com/gdpr",
+    "https://firstpromoter.com/privacy",
+    "https://www.iubenda.com/privacy-policy/45807771/legal",
+    "https://cdn.firstpromoter.com/fpr.js",
+    "https://cdn.firstpromoter.com/fprom.js",
+    "https://wordpress.org/plugins/firstpromoter/",
+    "https://plugins.svn.wordpress.org/firstpromoter/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}

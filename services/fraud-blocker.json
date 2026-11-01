@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "id": "fraud-blocker",
+  "version": 1,
+  "name": "Fraud Blocker",
+  "provider": "Fraud Blocker, LLC",
+  "category": "marketing",
+  "purpose": "Detects fake clicks on the site's ads.",
+  "privacyUrl": "https://fraudblocker.com/privacy",
+  "dataCountry": "USA",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "monitor.fraudblocker.com"
+    ],
+    "inline": [
+      "monitor.fraudblocker.com/fbt.js"
+    ]
+  },
+  "cookies": [],
+  "storage": [
+    "fbt_session_id"
+  ],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "fraud-blocker-click-fraud-protection/fraud-blocker.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://fraudblocker.com/help/en/articles/3110893-how-do-i-install-fraud-blocker-s-tracking-code",
+    "https://fraudblocker.com/help/en/articles/6222892-how-to-install-fraud-blocker-s-tracking-code-with-google-tag-manager-gtm",
+    "https://fraudblocker.com/help/en/articles/15190724-how-to-install-fraud-blocker-s-tracking-code-on-wordpress-with-the-official-plugin",
+    "https://fraudblocker.com/help/en/articles/8272607-does-fraud-blocker-use-cookies",
+    "https://fraudblocker.com/help/en/articles/8118305-is-fraud-blocker-gdpr-compliant",
+    "https://fraudblocker.com/privacy",
+    "https://fraudblocker.com/cookies",
+    "https://fraudblocker.com/terms",
+    "https://monitor.fraudblocker.com/fbt.js",
+    "https://wordpress.org/plugins/fraud-blocker-click-fraud-protection/",
+    "https://plugins.svn.wordpress.org/fraud-blocker-click-fraud-protection/trunk/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-10-31"
+}
